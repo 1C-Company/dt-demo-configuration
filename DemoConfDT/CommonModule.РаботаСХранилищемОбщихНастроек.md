@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d99fb645-3365-4e2e-ae17-097e0979905f" name="РаботаСХранилищемОбщихНастроек" server="true" serverCall="true">
+  <synonym key="ru" value="Работа с хранилищем общих настроек"/>
+</mdclass:CommonModule>

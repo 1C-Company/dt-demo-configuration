@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form:Form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:form="http://g5.1c.ru/v8/dt/form" windowOpeningMode="LockWholeInterface" autoTitle="false">
+  <items xsi:type="form:Button" name="ОсуществлениеВыбора" id="13" commandName="Form.Command.ОсуществлениеВыбора">
+    <userVisible common="true"/>
+    <parameter/>
+    <extendedTooltip name="ОсуществлениеВыбораExtendedTooltip" id="14">
+      <userVisible common="true"/>
+      <extInfo xsi:type="form:LabelDecorationExtInfo"/>
+    </extendedTooltip>
+  </items>
+  <items xsi:type="form:Table" name="ТаблицаДляВыбора" id="1" representation="List" changeRowSet="false" changeRowOrder="false" autoInsertNewRow="true" enableStartDrag="true" enableDrag="true" searchStringLocation="None" viewStatusLocation="None" searchControlLocation="None">
+    <userVisible common="true"/>
+    <dataPath xsi:type="form:DataPath">
+      <segments>ТаблицаДляВыбора</segments>
+    </dataPath>
+    <items xsi:type="form:FormField" name="ТаблицаДляВыбораВыбран" id="4" titleLocation="None" type="CheckBoxField">
+      <userVisible common="true"/>
+      <dataPath xsi:type="form:DataPath">
+        <segments>ТаблицаДляВыбора</segments>
+        <segments>Выбран</segments>
+      </dataPath>
+      <extInfo xsi:type="form:CheckBoxFieldExtInfo"/>
+      <contextMenu name="ТаблицаДляВыбораВыбранКонтекстноеМеню" id="5">
+        <userVisible common="true"/>
+      </contextMenu>
+      <extendedTooltip name="ТаблицаДляВыбораВыбранExtendedTooltip" id="16">
+        <userVisible common="true"/>
+        <extInfo xsi:type="form:LabelDecorationExtInfo"/>
+      </extendedTooltip>
+    </items>
+    <items xsi:type="form:FormField" name="ТаблицаДляВыбораСертификатПредставление" id="6" readOnly="true">
+      <userVisible common="true"/>
+      <dataPath xsi:type="form:DataPath">
+        <segments>ТаблицаДляВыбора</segments>
+        <segments>СертификатПредставление</segments>
+      </dataPath>
+      <extInfo xsi:type="form:InputFieldExtInfo"/>
+      <contextMenu name="ТаблицаДляВыбораСертификатПредставлениеКонтекстноеМеню" id="7">
+        <userVisible common="true"/>
+      </contextMenu>
+      <extendedTooltip name="ТаблицаДляВыбораСертификатПредставлениеExtendedTooltip" id="17">
+        <userVisible common="true"/>
+        <extInfo xsi:type="form:LabelDecorationExtInfo"/>
+      </extendedTooltip>
+    </items>
+    <items xsi:type="form:FormField" name="ТаблицаДляВыбораТипХранилища" id="8" readOnly="true">
+      <userVisible common="true"/>
+      <dataPath xsi:type="form:DataPath">
+        <segments>ТаблицаДляВыбора</segments>
+        <segments>ТипХранилища</segments>
+      </dataPath>
+      <extInfo xsi:type="form:InputFieldExtInfo"/>
+      <contextMenu name="ТаблицаДляВыбораТипХранилищаКонтекстноеМеню" id="9">
+        <userVisible common="true"/>
+      </contextMenu>
+      <extendedTooltip name="ТаблицаДляВыбораТипХранилищаExtendedTooltip" id="18">
+        <userVisible common="true"/>
+        <extInfo xsi:type="form:LabelDecorationExtInfo"/>
+      </extendedTooltip>
+    </items>
+    <autoCommandBar name="ТаблицаДляВыбораКоманднаяПанель" id="3" autoFill="false">
+      <userVisible common="true"/>
+    </autoCommandBar>
+    <events key="Selection" value="ТаблицаДляВыбораВыбор"/>
+    <searchStringAddition name="ТаблицаДляВыбораSearchString" id="24" source="ТаблицаДляВыбораSearchString">
+      <userVisible common="true"/>
+      <extInfo xsi:type="form:SearchStringAdditionExtInfo"/>
+      <contextMenu name="ТаблицаДляВыбораSearchStringContextMenu" id="25">
+        <userVisible common="true"/>
+      </contextMenu>
+      <extendedTooltip name="ТаблицаДляВыбораSearchStringExtendedTooltip" id="26">
+        <userVisible common="true"/>
+        <extInfo xsi:type="form:LabelDecorationExtInfo"/>
+      </extendedTooltip>
+    </searchStringAddition>
+    <viewStatusAddition name="ТаблицаДляВыбораViewStatus" id="27" type="ViewStatusAddition" source="ТаблицаДляВыбораViewStatus">
+      <userVisible common="true"/>
+      <extInfo xsi:type="form:ViewStatusAdditionExtInfo"/>
+      <contextMenu name="ТаблицаДляВыбораViewStatusContextMenu" id="28">
+        <userVisible common="true"/>
+      </contextMenu>
+      <extendedTooltip name="ТаблицаДляВыбораViewStatusExtendedTooltip" id="29">
+        <userVisible common="true"/>
+        <extInfo xsi:type="form:LabelDecorationExtInfo"/>
+      </extendedTooltip>
+    </viewStatusAddition>
+    <searchControlAddition name="ТаблицаДляВыбораSearchControl" id="30" type="SearchControlAddition" source="ТаблицаДляВыбораSearchControl">
+      <userVisible common="true"/>
+      <extInfo xsi:type="form:SearchControlAdditionExtInfo"/>
+      <contextMenu name="ТаблицаДляВыбораSearchControlContextMenu" id="31">
+        <userVisible common="true"/>
+      </contextMenu>
+      <extendedTooltip name="ТаблицаДляВыбораSearchControlExtendedTooltip" id="32">
+        <userVisible common="true"/>
+        <extInfo xsi:type="form:LabelDecorationExtInfo"/>
+      </extendedTooltip>
+    </searchControlAddition>
+    <contextMenu name="ТаблицаДляВыбораКонтекстноеМеню" id="2">
+      <userVisible common="true"/>
+    </contextMenu>
+    <extendedTooltip name="ТаблицаДляВыбораExtendedTooltip" id="15">
+      <userVisible common="true"/>
+      <extInfo xsi:type="form:LabelDecorationExtInfo"/>
+    </extendedTooltip>
+  </items>
+  <items xsi:type="form:FormGroup" name="КнопкиФормы" id="10" type="CommandBar">
+    <items xsi:type="form:Button" name="КнопкаOK" id="22" defaultItem="true" type="CommandBarButton" commandName="Form.Command.OK">
+      <title key="ru" value="ОК"/>
+      <userVisible common="true"/>
+      <parameter/>
+      <extendedTooltip name="КнопкаOKРасширеннаяПодсказка" id="23">
+        <userVisible common="true"/>
+        <extInfo xsi:type="form:LabelDecorationExtInfo"/>
+      </extendedTooltip>
+    </items>
+    <items xsi:type="form:Button" name="Отмена" id="12" type="CommandBarButton" commandName="Form.StandardCommand.Cancel">
+      <userVisible common="true"/>
+      <parameter/>
+      <extendedTooltip name="ОтменаExtendedTooltip" id="21">
+        <userVisible common="true"/>
+        <extInfo xsi:type="form:LabelDecorationExtInfo"/>
+      </extendedTooltip>
+    </items>
+    <userVisible common="true"/>
+    <title key="ru" value="Кнопки формы"/>
+    <toolTip key="ru" value="Кнопки формы"/>
+    <extendedTooltip name="КнопкиФормыExtendedTooltip" id="19">
+      <userVisible common="true"/>
+      <extInfo xsi:type="form:LabelDecorationExtInfo"/>
+    </extendedTooltip>
+    <extInfo xsi:type="form:CommandBarExtInfo" horizontalAlign="Right"/>
+  </items>
+  <autoCommandBar name="ФормаКоманднаяПанель" id="-1" autoFill="false">
+    <userVisible common="true"/>
+  </autoCommandBar>
+  <events key="OnOpen" value="ПриОткрытии"/>
+  <events key="OnCreateAtServer" value="ПриСозданииНаСервере"/>
+  <attributes name="ВыбранныеСертификаты" id="3">
+    <title key="ru" value="Выбранные сертификаты"/>
+    <valueType/>
+    <view common="true"/>
+    <edit common="true"/>
+  </attributes>
+  <attributes name="ТаблицаДляВыбора" id="4">
+    <title key="ru" value="Таблица для выбора"/>
+    <valueType>
+      <types>ValueTable</types>
+    </valueType>
+    <view common="true"/>
+    <edit common="true"/>
+    <columns name="Выбран" id="1">
+      <valueType>
+        <types>Boolean</types>
+      </valueType>
+      <view common="true"/>
+      <edit common="true"/>
+    </columns>
+    <columns name="СертификатПредставление" id="2">
+      <title key="ru" value="Сертификат"/>
+      <valueType>
+        <types>String</types>
+        <stringQualifiers/>
+      </valueType>
+      <view common="true"/>
+      <edit common="true"/>
+    </columns>
+    <columns name="ТипХранилища" id="4">
+      <title key="ru" value="Хранилище сертификатов"/>
+      <valueType>
+        <types>String</types>
+        <stringQualifiers/>
+      </valueType>
+      <view common="true"/>
+      <edit common="true"/>
+    </columns>
+  </attributes>
+  <formCommands name="ОсуществлениеВыбора" id="1" action="ОсуществлениеВыбораНажатие" representation="TextPicture">
+    <title key="ru" value="Выбрать"/>
+    <toolTip key="ru" value="Осуществление выбора"/>
+    <use common="true"/>
+    <picture xsi:type="core:PictureRef" picture="StdPicture.ChooseValue"/>
+  </formCommands>
+  <formCommands name="OK" id="2" action="OK">
+    <title key="ru" value="OK"/>
+    <toolTip key="ru" value="OK"/>
+    <use common="true"/>
+  </formCommands>
+  <parameters name="МножественныйВыбор" keyParameter="true">
+    <valueType>
+      <types>Boolean</types>
+    </valueType>
+  </parameters>
+  <commandInterface>
+    <navigationPanel/>
+    <commandBar/>
+  </commandInterface>
+</form:Form>

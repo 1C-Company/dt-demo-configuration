@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<spwa:StartPageWorkingArea xmlns:spwa="http://g5.1c.ru/v8/dt/spwa" workingAreaTemplate="TwoColumnsVariableWidth">
+  <columns>
+    <items form="Document.ПриходТовара.Form.ФормаСписка" height="10">
+      <visibility>
+        <for value="true" role="Role.МенеджерПоЗакупкам"/>
+      </visibility>
+    </items>
+    <items form="Document.РасходТовара.Form.ФормаСписка" height="10">
+      <visibility>
+        <for value="true" role="Role.МенеджерПоПродажам"/>
+        <for value="true" role="Role.Продавец"/>
+      </visibility>
+    </items>
+    <items form="DataProcessor.ЭлектроннаяПочта.Form.Форма" height="10">
+      <visibility common="true">
+        <for role="Role.Продавец"/>
+      </visibility>
+    </items>
+  </columns>
+  <columns>
+    <items form="AccumulationRegister.Взаиморасчеты.Form.ТекущиеВзаиморасчеты" height="10">
+      <visibility common="true">
+        <for role="Role.Администратор"/>
+        <for role="Role.Продавец"/>
+      </visibility>
+    </items>
+    <items form="InformationRegister.КурсыВалют.Form.ТекущиеКурсыВалют" height="5">
+      <visibility common="true">
+        <for role="Role.Администратор"/>
+      </visibility>
+    </items>
+    <items form="6fe57ea6-fe5e-48b1-bb31-5d42e4c2c6c7" height="10">
+      <visibility>
+        <for value="true" role="Role.Администратор"/>
+      </visibility>
+    </items>
+  </columns>
+</spwa:StartPageWorkingArea>

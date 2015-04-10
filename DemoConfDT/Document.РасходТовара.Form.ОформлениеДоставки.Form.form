@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form:Form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:form="http://g5.1c.ru/v8/dt/form" commandBarLocation="None" verticalScroll="UseIfNecessary">
+  <items xsi:type="form:FormGroup" name="КомандыФормыДоставки" id="4" type="CommandBar">
+    <items xsi:type="form:Button" name="Печать" id="6" type="CommandBarButton" commandName="Form.Item.ТабличныйДокумент.StandardCommand.Print">
+      <userVisible common="true"/>
+      <parameter/>
+      <extendedTooltip name="ПечатьExtendedTooltip" id="10">
+        <userVisible common="true"/>
+        <extInfo xsi:type="form:LabelDecorationExtInfo"/>
+      </extendedTooltip>
+    </items>
+    <items xsi:type="form:Button" name="ПечатьСразу" id="5" type="CommandBarButton" commandName="Form.Item.ТабличныйДокумент.StandardCommand.PrintImmediately" onlyInAllActions="true">
+      <userVisible common="true"/>
+      <parameter/>
+      <extendedTooltip name="ПечатьСразуExtendedTooltip" id="11">
+        <userVisible common="true"/>
+        <extInfo xsi:type="form:LabelDecorationExtInfo"/>
+      </extendedTooltip>
+    </items>
+    <items xsi:type="form:Button" name="ПредварительныйПросмотр" id="7" type="CommandBarButton" commandName="Form.Item.ТабличныйДокумент.StandardCommand.Preview" onlyInAllActions="true">
+      <userVisible common="true"/>
+      <parameter/>
+      <extendedTooltip name="ПредварительныйПросмотрExtendedTooltip" id="12">
+        <userVisible common="true"/>
+        <extInfo xsi:type="form:LabelDecorationExtInfo"/>
+      </extendedTooltip>
+    </items>
+    <items xsi:type="form:Button" name="ПараметрыСтраницы" id="8" type="CommandBarButton" commandName="Form.Item.ТабличныйДокумент.StandardCommand.PageSetup">
+      <userVisible common="true"/>
+      <parameter/>
+      <extendedTooltip name="ПараметрыСтраницыExtendedTooltip" id="13">
+        <userVisible common="true"/>
+        <extInfo xsi:type="form:LabelDecorationExtInfo"/>
+      </extendedTooltip>
+    </items>
+    <items xsi:type="form:Button" name="ПечатьПакетаДокументов" id="15" type="CommandBarButton" commandName="Form.Command.ПечатьПакетаДокументов">
+      <userVisible common="true"/>
+      <parameter/>
+      <extendedTooltip name="ПечатьПакетаДокументовРасширеннаяПодсказка" id="16">
+        <userVisible common="true"/>
+        <extInfo xsi:type="form:LabelDecorationExtInfo"/>
+      </extendedTooltip>
+    </items>
+    <userVisible common="true"/>
+    <title key="ru" value="Команды формы доставки"/>
+    <toolTip key="ru" value="Команды формы доставки"/>
+    <extendedTooltip name="КомандыФормыДоставкиExtendedTooltip" id="9">
+      <userVisible common="true"/>
+      <extInfo xsi:type="form:LabelDecorationExtInfo"/>
+    </extendedTooltip>
+    <extInfo xsi:type="form:CommandBarExtInfo"/>
+  </items>
+  <items xsi:type="form:FormField" name="ТабличныйДокумент" id="1" titleLocation="None" type="SpreadsheetDocumentField" editMode="Enter">
+    <excludedCommands>ExpandAllGroups</excludedCommands>
+    <excludedCommands>ShowGroups</excludedCommands>
+    <excludedCommands>CollapseAllGroups</excludedCommands>
+    <title key="ru" value="Заявка на доставку"/>
+    <userVisible common="true"/>
+    <dataPath xsi:type="form:DataPath">
+      <segments>ТабличныйДокумент</segments>
+    </dataPath>
+    <extInfo xsi:type="form:SpreadSheetDocFieldExtInfo" width="80" height="20" selectionShowMode="WhenActive" enableStartDrag="false" enableDrag="false">
+      <events key="OnChangeAreaContent" value="ТабличныйДокументПриИзмененииСодержимогоОбласти"/>
+    </extInfo>
+    <contextMenu name="ТабличныйДокументКонтекстноеМеню" id="2">
+      <userVisible common="true"/>
+    </contextMenu>
+    <extendedTooltip name="ТабличныйДокументExtendedTooltip" id="14">
+      <userVisible common="true"/>
+      <extInfo xsi:type="form:LabelDecorationExtInfo"/>
+    </extendedTooltip>
+  </items>
+  <autoCommandBar name="ФормаКоманднаяПанель" id="-1">
+    <userVisible common="true"/>
+  </autoCommandBar>
+  <events key="OnOpen" value="ПриОткрытии"/>
+  <events key="OnCreateAtServer" value="ПриСозданииНаСервере"/>
+  <attributes name="ТабличныйДокумент" id="1">
+    <title key="ru" value="Документ"/>
+    <valueType>
+      <types>SpreadsheetDocument</types>
+    </valueType>
+    <view common="true"/>
+    <edit common="true"/>
+  </attributes>
+  <attributes name="ДатаДокумента" id="2">
+    <title key="ru" value="Дата документа"/>
+    <valueType>
+      <types>Date</types>
+      <dateQualifiers dateFractions="Date"/>
+    </valueType>
+    <view common="true"/>
+    <edit common="true"/>
+  </attributes>
+  <attributes name="Документ" id="3">
+    <title key="ru" value="Документ"/>
+    <valueType>
+      <types>DocumentRef.РасходТовара</types>
+    </valueType>
+    <view common="true"/>
+    <edit common="true"/>
+  </attributes>
+  <formCommands name="ПечатьПакетаДокументов" id="1" action="ПечатьПакетаДокументов">
+    <title key="ru" value="Печать пакета документов"/>
+    <toolTip key="ru" value="Печать пакета документов"/>
+    <use common="true"/>
+  </formCommands>
+  <parameters name="ДатаДокумента">
+    <valueType>
+      <types>Date</types>
+      <dateQualifiers dateFractions="Date"/>
+    </valueType>
+  </parameters>
+  <parameters name="Документ">
+    <valueType>
+      <types>DocumentRef.РасходТовара</types>
+    </valueType>
+  </parameters>
+  <commandInterface>
+    <navigationPanel/>
+    <commandBar/>
+  </commandInterface>
+</form:Form>

@@ -1,0 +1,516 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form:Form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:form="http://g5.1c.ru/v8/dt/form" commandBarLocation="Bottom" windowOpeningMode="LockOwnerWindow" autoTitle="false">
+  <title key="ru" value="Подбор товара"/>
+  <items xsi:type="form:FormGroup" name="Шапка" id="18" type="UsualGroup">
+    <items xsi:type="form:FormField" name="ВидЦенИСклад" id="80" titleLocation="None" type="LabelField" editMode="Enter">
+      <userVisible common="true"/>
+      <dataPath xsi:type="form:DataPath">
+        <segments>ВидЦенИСклад</segments>
+      </dataPath>
+      <extInfo xsi:type="form:LabelFieldExtInfo" horizontalStretch="true" verticalStretch="false"/>
+      <contextMenu name="ВидЦенИСкладКонтекстноеМеню" id="81">
+        <userVisible common="true"/>
+      </contextMenu>
+      <extendedTooltip name="ВидЦенИСкладРасширеннаяПодсказка" id="82">
+        <userVisible common="true"/>
+        <extInfo xsi:type="form:LabelDecorationExtInfo"/>
+      </extendedTooltip>
+    </items>
+    <userVisible common="true"/>
+    <title key="ru" value="Параметры"/>
+    <toolTip key="ru" value="Шапка"/>
+    <extendedTooltip name="ШапкаExtendedTooltip" id="56">
+      <userVisible common="true"/>
+      <extInfo xsi:type="form:LabelDecorationExtInfo"/>
+    </extendedTooltip>
+    <extInfo xsi:type="form:UsualGroupExtInfo" representation="None" showTitle="false">
+      <format key="ru" value="Параметры"/>
+    </extInfo>
+  </items>
+  <items xsi:type="form:FormGroup" name="ГруппаСпискаТоваров" id="3" type="UsualGroup">
+    <items xsi:type="form:Addition" name="Дополнение1" id="110" source="СписокТоваровСтрокаПоиска">
+      <title key="ru" value="Найти"/>
+      <userVisible common="true"/>
+      <extInfo xsi:type="form:SearchStringAdditionExtInfo"/>
+      <contextMenu name="Дополнение1КонтекстноеМеню" id="111">
+        <userVisible common="true"/>
+      </contextMenu>
+      <extendedTooltip name="Дополнение1РасширеннаяПодсказка" id="112">
+        <userVisible common="true"/>
+        <extInfo xsi:type="form:LabelDecorationExtInfo"/>
+      </extendedTooltip>
+    </items>
+    <items xsi:type="form:FormGroup" name="Группа1" id="50" type="UsualGroup">
+      <items xsi:type="form:Table" name="ДеревоТоваров" id="4" skipOnInput="false" commandBarLocation="None" representation="Tree" width="25" heightInTableRows="5" selectionMode="SingleRow" useAlternationRowColor="true" autoInsertNewRow="true" enableStartDrag="true" enableDrag="true" searchStringLocation="None" viewStatusLocation="None" searchControlLocation="None">
+        <userVisible common="true"/>
+        <dataPath xsi:type="form:DataPath">
+          <segments>ДеревоТоваров</segments>
+        </dataPath>
+        <items xsi:type="form:FormField" name="ДеревоТоваровНаименование" id="40" type="LabelField" warningOnEditRepresentation="DontShow" editMode="Enter">
+          <userVisible common="true"/>
+          <dataPath xsi:type="form:DataPath">
+            <segments>ДеревоТоваров</segments>
+            <segments>Description</segments>
+          </dataPath>
+          <extInfo xsi:type="form:LabelFieldExtInfo"/>
+          <contextMenu name="ДеревоТоваровНаименованиеКонтекстноеМеню" id="41">
+            <userVisible common="true"/>
+          </contextMenu>
+          <extendedTooltip name="ДеревоТоваровНаименованиеExtendedTooltip" id="68">
+            <userVisible common="true"/>
+            <extInfo xsi:type="form:LabelDecorationExtInfo"/>
+          </extendedTooltip>
+        </items>
+        <autoCommandBar name="ДеревоТоваровКоманднаяПанель" id="31">
+          <userVisible common="true"/>
+        </autoCommandBar>
+        <events key="OnActivateRow" value="ДеревоТоваровПриАктивизацииСтроки"/>
+        <searchStringAddition name="ДеревоТоваровСтрокаПоиска" id="83" source="ДеревоТоваровСтрокаПоиска">
+          <userVisible common="true"/>
+          <extInfo xsi:type="form:SearchStringAdditionExtInfo"/>
+          <contextMenu name="ДеревоТоваровСтрокаПоискаКонтекстноеМеню" id="84">
+            <userVisible common="true"/>
+          </contextMenu>
+          <extendedTooltip name="ДеревоТоваровСтрокаПоискаРасширеннаяПодсказка" id="85">
+            <userVisible common="true"/>
+            <extInfo xsi:type="form:LabelDecorationExtInfo"/>
+          </extendedTooltip>
+        </searchStringAddition>
+        <viewStatusAddition name="ДеревоТоваровСостояниеПросмотра" id="86" type="ViewStatusAddition" source="ДеревоТоваровСостояниеПросмотра">
+          <userVisible common="true"/>
+          <extInfo xsi:type="form:ViewStatusAdditionExtInfo"/>
+          <contextMenu name="ДеревоТоваровСостояниеПросмотраКонтекстноеМеню" id="87">
+            <userVisible common="true"/>
+          </contextMenu>
+          <extendedTooltip name="ДеревоТоваровСостояниеПросмотраРасширеннаяПодсказка" id="88">
+            <userVisible common="true"/>
+            <extInfo xsi:type="form:LabelDecorationExtInfo"/>
+          </extendedTooltip>
+        </viewStatusAddition>
+        <searchControlAddition name="ДеревоТоваровУправлениеПоиском" id="89" type="SearchControlAddition" source="ДеревоТоваровУправлениеПоиском">
+          <userVisible common="true"/>
+          <extInfo xsi:type="form:SearchControlAdditionExtInfo"/>
+          <contextMenu name="ДеревоТоваровУправлениеПоискомКонтекстноеМеню" id="90">
+            <userVisible common="true"/>
+          </contextMenu>
+          <extendedTooltip name="ДеревоТоваровУправлениеПоискомРасширеннаяПодсказка" id="91">
+            <userVisible common="true"/>
+            <extInfo xsi:type="form:LabelDecorationExtInfo"/>
+          </extendedTooltip>
+        </searchControlAddition>
+        <rowPictureDataPath xsi:type="form:DataPath">
+          <segments>ДеревоТоваров</segments>
+          <segments>DefaultPicture</segments>
+        </rowPictureDataPath>
+        <borderColor xsi:type="core:ColorRef" color="Style.BorderColor"/>
+        <extInfo xsi:type="form:DynamicListTableExtInfo" autoRefreshPeriod="60"/>
+        <contextMenu name="ДеревоТоваровКонтекстноеМеню" id="23">
+          <userVisible common="true"/>
+        </contextMenu>
+        <extendedTooltip name="ДеревоТоваровExtendedTooltip" id="67">
+          <userVisible common="true"/>
+          <extInfo xsi:type="form:LabelDecorationExtInfo"/>
+        </extendedTooltip>
+      </items>
+      <items xsi:type="form:Table" name="СписокТоваров" id="2" defaultItem="true" skipOnInput="false" commandBarLocation="None" width="50" heightInTableRows="8" choiceMode="true" selectionMode="SingleRow" useAlternationRowColor="true" autoInsertNewRow="true" enableStartDrag="true" enableDrag="true" searchStringLocation="None" viewStatusLocation="None" searchControlLocation="None">
+        <userVisible common="true"/>
+        <dataPath xsi:type="form:DataPath">
+          <segments>СписокТоваров</segments>
+        </dataPath>
+        <items xsi:type="form:FormField" name="Наименование" id="10" type="LabelField" warningOnEditRepresentation="DontShow" editMode="Enter" footerHorizontalAlign="Left">
+          <userVisible common="true"/>
+          <dataPath xsi:type="form:DataPath">
+            <segments>СписокТоваров</segments>
+            <segments>Наименование</segments>
+          </dataPath>
+          <extInfo xsi:type="form:LabelFieldExtInfo"/>
+          <contextMenu name="НаименованиеКонтекстноеМеню" id="27">
+            <userVisible common="true"/>
+          </contextMenu>
+          <extendedTooltip name="НаименованиеExtendedTooltip" id="70">
+            <userVisible common="true"/>
+            <extInfo xsi:type="form:LabelDecorationExtInfo"/>
+          </extendedTooltip>
+        </items>
+        <items xsi:type="form:FormField" name="Код" id="9" type="LabelField" warningOnEditRepresentation="DontShow" editMode="Enter" footerHorizontalAlign="Left">
+          <userVisible common="true"/>
+          <dataPath xsi:type="form:DataPath">
+            <segments>СписокТоваров</segments>
+            <segments>Код</segments>
+          </dataPath>
+          <extInfo xsi:type="form:LabelFieldExtInfo"/>
+          <contextMenu name="КодКонтекстноеМеню" id="26">
+            <userVisible common="true"/>
+          </contextMenu>
+          <extendedTooltip name="КодExtendedTooltip" id="71">
+            <userVisible common="true"/>
+            <extInfo xsi:type="form:LabelDecorationExtInfo"/>
+          </extendedTooltip>
+        </items>
+        <items xsi:type="form:FormField" name="Цена" id="12" type="LabelField" warningOnEditRepresentation="DontShow" editMode="Enter" footerHorizontalAlign="Left">
+          <userVisible common="true"/>
+          <dataPath xsi:type="form:DataPath">
+            <segments>СписокТоваров</segments>
+            <segments>Цена</segments>
+          </dataPath>
+          <extInfo xsi:type="form:LabelFieldExtInfo" width="10"/>
+          <contextMenu name="ЦенаКонтекстноеМеню" id="28">
+            <userVisible common="true"/>
+          </contextMenu>
+          <extendedTooltip name="ЦенаExtendedTooltip" id="72">
+            <userVisible common="true"/>
+            <extInfo xsi:type="form:LabelDecorationExtInfo"/>
+          </extendedTooltip>
+        </items>
+        <items xsi:type="form:FormField" name="Количество" id="13" type="LabelField" warningOnEditRepresentation="DontShow" editMode="Enter" footerHorizontalAlign="Left">
+          <userVisible common="true"/>
+          <dataPath xsi:type="form:DataPath">
+            <segments>СписокТоваров</segments>
+            <segments>Количество</segments>
+          </dataPath>
+          <extInfo xsi:type="form:LabelFieldExtInfo" width="14"/>
+          <contextMenu name="КоличествоКонтекстноеМеню" id="29">
+            <userVisible common="true"/>
+          </contextMenu>
+          <extendedTooltip name="КоличествоExtendedTooltip" id="73">
+            <userVisible common="true"/>
+            <extInfo xsi:type="form:LabelDecorationExtInfo"/>
+          </extendedTooltip>
+        </items>
+        <autoCommandBar name="СписокТоваровКоманднаяПанель" id="32">
+          <userVisible common="true"/>
+        </autoCommandBar>
+        <events key="ValueChoice" value="СписокТоваровВыборЗначения"/>
+        <events key="DragStart" value="СписокТоваровНачалоПеретаскивания"/>
+        <searchStringAddition name="СписокТоваровСтрокаПоиска" id="92" source="СписокТоваровСтрокаПоиска">
+          <userVisible common="true"/>
+          <extInfo xsi:type="form:SearchStringAdditionExtInfo"/>
+          <contextMenu name="СписокТоваровСтрокаПоискаКонтекстноеМеню" id="93">
+            <userVisible common="true"/>
+          </contextMenu>
+          <extendedTooltip name="СписокТоваровСтрокаПоискаРасширеннаяПодсказка" id="94">
+            <userVisible common="true"/>
+            <extInfo xsi:type="form:LabelDecorationExtInfo"/>
+          </extendedTooltip>
+        </searchStringAddition>
+        <viewStatusAddition name="СписокТоваровСостояниеПросмотра" id="95" type="ViewStatusAddition" source="СписокТоваровСостояниеПросмотра">
+          <userVisible common="true"/>
+          <extInfo xsi:type="form:ViewStatusAdditionExtInfo"/>
+          <contextMenu name="СписокТоваровСостояниеПросмотраКонтекстноеМеню" id="96">
+            <userVisible common="true"/>
+          </contextMenu>
+          <extendedTooltip name="СписокТоваровСостояниеПросмотраРасширеннаяПодсказка" id="97">
+            <userVisible common="true"/>
+            <extInfo xsi:type="form:LabelDecorationExtInfo"/>
+          </extendedTooltip>
+        </viewStatusAddition>
+        <searchControlAddition name="СписокТоваровУправлениеПоиском" id="98" type="SearchControlAddition" source="СписокТоваровУправлениеПоиском">
+          <userVisible common="true"/>
+          <extInfo xsi:type="form:SearchControlAdditionExtInfo"/>
+          <contextMenu name="СписокТоваровУправлениеПоискомКонтекстноеМеню" id="99">
+            <userVisible common="true"/>
+          </contextMenu>
+          <extendedTooltip name="СписокТоваровУправлениеПоискомРасширеннаяПодсказка" id="100">
+            <userVisible common="true"/>
+            <extInfo xsi:type="form:LabelDecorationExtInfo"/>
+          </extendedTooltip>
+        </searchControlAddition>
+        <rowPictureDataPath xsi:type="form:DataPath">
+          <segments>СписокТоваров</segments>
+          <segments>DefaultPicture</segments>
+        </rowPictureDataPath>
+        <borderColor xsi:type="core:ColorRef" color="Style.BorderColor"/>
+        <extInfo xsi:type="form:DynamicListTableExtInfo" autoRefreshPeriod="60" showRoot="false"/>
+        <contextMenu name="СписокТоваровКонтекстноеМеню" id="24">
+          <userVisible common="true"/>
+        </contextMenu>
+        <extendedTooltip name="СписокТоваровExtendedTooltip" id="69">
+          <userVisible common="true"/>
+          <extInfo xsi:type="form:LabelDecorationExtInfo"/>
+        </extendedTooltip>
+      </items>
+      <userVisible common="true"/>
+      <extendedTooltip name="Группа1ExtendedTooltip" id="66">
+        <userVisible common="true"/>
+        <extInfo xsi:type="form:LabelDecorationExtInfo"/>
+      </extendedTooltip>
+      <extInfo xsi:type="form:UsualGroupExtInfo" group="Horizontal" representation="None" showTitle="false"/>
+    </items>
+    <userVisible common="true"/>
+    <extendedTooltip name="ГруппаСпискаТоваровExtendedTooltip" id="64">
+      <userVisible common="true"/>
+      <extInfo xsi:type="form:LabelDecorationExtInfo"/>
+    </extendedTooltip>
+    <extInfo xsi:type="form:UsualGroupExtInfo" representation="None" showTitle="false">
+      <format key="ru" value="Список товаров"/>
+    </extInfo>
+  </items>
+  <items xsi:type="form:FormGroup" name="ГруппаОтобранныеТовары" id="19" type="UsualGroup">
+    <items xsi:type="form:Table" name="Товары" id="5" skipOnInput="false" commandBarLocation="None" representation="List" width="40" heightInTableRows="4" selectionMode="SingleRow" useAlternationRowColor="true" autoInsertNewRow="true" enableDrag="true" searchStringLocation="None" viewStatusLocation="None" searchControlLocation="None">
+      <userVisible common="true"/>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Товары</segments>
+      </dataPath>
+      <items xsi:type="form:FormField" name="ТоварыТовар" id="34" warningOnEditRepresentation="DontShow">
+        <userVisible common="true"/>
+        <dataPath xsi:type="form:DataPath">
+          <segments>Товары</segments>
+          <segments>Товар</segments>
+        </dataPath>
+        <extInfo xsi:type="form:InputFieldExtInfo" wrap="false">
+          <borderColor xsi:type="core:ColorRef" color="Style.BorderColor"/>
+        </extInfo>
+        <contextMenu name="ТоварыТоварКонтекстноеМеню" id="35">
+          <userVisible common="true"/>
+        </contextMenu>
+        <extendedTooltip name="ТоварыТоварExtendedTooltip" id="77">
+          <userVisible common="true"/>
+          <extInfo xsi:type="form:LabelDecorationExtInfo"/>
+        </extendedTooltip>
+      </items>
+      <items xsi:type="form:FormField" name="ТоварыКоличество" id="36" warningOnEditRepresentation="DontShow">
+        <userVisible common="true"/>
+        <dataPath xsi:type="form:DataPath">
+          <segments>Товары</segments>
+          <segments>Количество</segments>
+        </dataPath>
+        <extInfo xsi:type="form:InputFieldExtInfo" wrap="false">
+          <borderColor xsi:type="core:ColorRef" color="Style.BorderColor"/>
+        </extInfo>
+        <contextMenu name="ТоварыКоличествоКонтекстноеМеню" id="37">
+          <userVisible common="true"/>
+        </contextMenu>
+        <extendedTooltip name="ТоварыКоличествоExtendedTooltip" id="78">
+          <userVisible common="true"/>
+          <extInfo xsi:type="form:LabelDecorationExtInfo"/>
+        </extendedTooltip>
+      </items>
+      <autoCommandBar name="ТоварыКоманднаяПанель" id="33">
+        <userVisible common="true"/>
+      </autoCommandBar>
+      <events key="DragCheck" value="ТоварыПроверкаПеретаскивания"/>
+      <events key="Drag" value="ТоварыПеретаскивание"/>
+      <searchStringAddition name="ТоварыСтрокаПоиска" id="101" source="ТоварыСтрокаПоиска">
+        <userVisible common="true"/>
+        <extInfo xsi:type="form:SearchStringAdditionExtInfo"/>
+        <contextMenu name="ТоварыСтрокаПоискаКонтекстноеМеню" id="102">
+          <userVisible common="true"/>
+        </contextMenu>
+        <extendedTooltip name="ТоварыСтрокаПоискаРасширеннаяПодсказка" id="103">
+          <userVisible common="true"/>
+          <extInfo xsi:type="form:LabelDecorationExtInfo"/>
+        </extendedTooltip>
+      </searchStringAddition>
+      <viewStatusAddition name="ТоварыСостояниеПросмотра" id="104" type="ViewStatusAddition" source="ТоварыСостояниеПросмотра">
+        <userVisible common="true"/>
+        <extInfo xsi:type="form:ViewStatusAdditionExtInfo"/>
+        <contextMenu name="ТоварыСостояниеПросмотраКонтекстноеМеню" id="105">
+          <userVisible common="true"/>
+        </contextMenu>
+        <extendedTooltip name="ТоварыСостояниеПросмотраРасширеннаяПодсказка" id="106">
+          <userVisible common="true"/>
+          <extInfo xsi:type="form:LabelDecorationExtInfo"/>
+        </extendedTooltip>
+      </viewStatusAddition>
+      <searchControlAddition name="ТоварыУправлениеПоиском" id="107" type="SearchControlAddition" source="ТоварыУправлениеПоиском">
+        <userVisible common="true"/>
+        <extInfo xsi:type="form:SearchControlAdditionExtInfo"/>
+        <contextMenu name="ТоварыУправлениеПоискомКонтекстноеМеню" id="108">
+          <userVisible common="true"/>
+        </contextMenu>
+        <extendedTooltip name="ТоварыУправлениеПоискомРасширеннаяПодсказка" id="109">
+          <userVisible common="true"/>
+          <extInfo xsi:type="form:LabelDecorationExtInfo"/>
+        </extendedTooltip>
+      </searchControlAddition>
+      <borderColor xsi:type="core:ColorRef" color="Style.BorderColor"/>
+      <contextMenu name="ТоварыКонтекстноеМеню" id="30">
+        <items xsi:type="form:Button" name="Удалить" id="44" skipOnInput="false" type="CommandBarButton" commandName="5:ec576e13-1e76-4c33-98aa-a33204514227">
+          <userVisible common="true"/>
+          <parameter/>
+          <textColor xsi:type="core:ColorRef" color="Style.ButtonTextColor"/>
+          <backColor xsi:type="core:ColorRef" color="Style.ButtonBackColor"/>
+          <borderColor xsi:type="core:ColorRef" color="Style.BorderColor"/>
+          <extendedTooltip name="УдалитьExtendedTooltip" id="75">
+            <userVisible common="true"/>
+            <extInfo xsi:type="form:LabelDecorationExtInfo"/>
+          </extendedTooltip>
+        </items>
+        <userVisible common="true"/>
+      </contextMenu>
+      <extendedTooltip name="ТоварыExtendedTooltip" id="76">
+        <userVisible common="true"/>
+        <extInfo xsi:type="form:LabelDecorationExtInfo"/>
+      </extendedTooltip>
+    </items>
+    <userVisible common="true"/>
+    <title key="ru" value="Отобранные товары"/>
+    <extendedTooltip name="ГруппаОтобранныеТоварыExtendedTooltip" id="74">
+      <userVisible common="true"/>
+      <extInfo xsi:type="form:LabelDecorationExtInfo"/>
+    </extendedTooltip>
+    <extInfo xsi:type="form:UsualGroupExtInfo">
+      <format key="ru" value="Отобранные товары"/>
+    </extInfo>
+  </items>
+  <items xsi:type="form:FormGroup" name="ДействияФормыОсновные" id="1" type="CommandBar">
+    <userVisible common="true"/>
+    <extendedTooltip name="ДействияФормыОсновныеExtendedTooltip" id="79">
+      <userVisible common="true"/>
+      <extInfo xsi:type="form:LabelDecorationExtInfo"/>
+    </extendedTooltip>
+    <extInfo xsi:type="form:CommandBarExtInfo" horizontalAlign="Right"/>
+  </items>
+  <autoCommandBar name="ФормаКоманднаяПанель" id="-1" horizontalAlign="Right" autoFill="false">
+    <items xsi:type="form:Button" name="ОК" id="42" skipOnInput="false" type="CommandBarButton" commandName="Form.Command.ОК" defaultButton="true">
+      <userVisible common="true"/>
+      <parameter/>
+      <textColor xsi:type="core:ColorRef" color="Style.ButtonTextColor"/>
+      <backColor xsi:type="core:ColorRef" color="Style.ButtonBackColor"/>
+      <borderColor xsi:type="core:ColorRef" color="Style.BorderColor"/>
+      <extendedTooltip name="ОКExtendedTooltip" id="53">
+        <userVisible common="true"/>
+        <extInfo xsi:type="form:LabelDecorationExtInfo"/>
+      </extendedTooltip>
+    </items>
+    <items xsi:type="form:Button" name="Отмена" id="8" skipOnInput="false" type="CommandBarButton" commandName="Form.StandardCommand.Cancel">
+      <userVisible common="true"/>
+      <parameter/>
+      <textColor xsi:type="core:ColorRef" color="Style.ButtonTextColor"/>
+      <backColor xsi:type="core:ColorRef" color="Style.ButtonBackColor"/>
+      <borderColor xsi:type="core:ColorRef" color="Style.BorderColor"/>
+      <extendedTooltip name="ОтменаExtendedTooltip" id="54">
+        <userVisible common="true"/>
+        <extInfo xsi:type="form:LabelDecorationExtInfo"/>
+      </extendedTooltip>
+    </items>
+    <items xsi:type="form:Button" name="Справка" id="43" skipOnInput="false" type="CommandBarButton" commandName="Form.StandardCommand.Help">
+      <userVisible common="true"/>
+      <parameter/>
+      <textColor xsi:type="core:ColorRef" color="Style.ButtonTextColor"/>
+      <backColor xsi:type="core:ColorRef" color="Style.ButtonBackColor"/>
+      <borderColor xsi:type="core:ColorRef" color="Style.BorderColor"/>
+      <extendedTooltip name="СправкаExtendedTooltip" id="55">
+        <userVisible common="true"/>
+        <extInfo xsi:type="form:LabelDecorationExtInfo"/>
+      </extendedTooltip>
+    </items>
+    <userVisible common="true"/>
+  </autoCommandBar>
+  <events key="OnCreateAtServer" value="ПриСозданииНаСервере"/>
+  <attributes name="Товары" id="1">
+    <title key="ru" value="Товары"/>
+    <valueType>
+      <types>ValueTable</types>
+    </valueType>
+    <view common="true"/>
+    <edit common="true"/>
+    <columns name="Товар" id="1">
+      <title key="ru" value="Товар"/>
+      <valueType>
+        <types>CatalogRef.Товары</types>
+      </valueType>
+      <view common="true"/>
+      <edit common="true"/>
+    </columns>
+    <columns name="Количество" id="2">
+      <title key="ru" value="Количество"/>
+      <valueType>
+        <types>Number</types>
+        <numberQualifiers precision="10" scale="2"/>
+      </valueType>
+      <view common="true"/>
+      <edit common="true"/>
+    </columns>
+    <columns name="Цена" id="3">
+      <title key="ru" value="Цена"/>
+      <valueType>
+        <types>Number</types>
+        <numberQualifiers precision="10" scale="2"/>
+      </valueType>
+      <view common="true"/>
+      <edit common="true"/>
+    </columns>
+  </attributes>
+  <attributes name="СписокТоваров" id="2" main="true">
+    <title key="ru" value="Список товаров"/>
+    <valueType>
+      <types>DynamicList</types>
+    </valueType>
+    <view common="true"/>
+    <edit common="true"/>
+    <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
+      <segments>СписокТоваров</segments>
+      <segments>IsFolder</segments>
+    </notDefaultUseAlwaysAttributes>
+    <extInfo xsi:type="form:DynamicListExtInfo" queryText="ВЫБРАТЬ&#xA;&#x9;Товары.Код КАК Код,&#xA;&#x9;Товары.Наименование КАК Наименование,&#xA;&#x9;Товары.Артикул КАК Артикул,&#xA;&#x9;ТоварныеЗапасыОстатки.КоличествоОстаток КАК Количество,&#xA;&#x9;ЦеныТоваровСрезПоследних.Цена КАК Цена,&#xA;&#x9;Товары.ЭтоГруппа&#xA;ИЗ&#xA;&#x9;Справочник.Товары КАК Товары&#xA;&#x9;&#x9;ЛЕВОЕ СОЕДИНЕНИЕ РегистрНакопления.ТоварныеЗапасы.Остатки(, Склад = &amp;Склад) КАК ТоварныеЗапасыОстатки&#xA;&#x9;&#x9;ПО (ТоварныеЗапасыОстатки.Товар = Товары.Ссылка)&#xA;&#x9;&#x9;ЛЕВОЕ СОЕДИНЕНИЕ РегистрСведений.ЦеныТоваров.СрезПоследних(, ВидЦен = &amp;ВидЦен) КАК ЦеныТоваровСрезПоследних&#xA;&#x9;&#x9;ПО Товары.Ссылка = ЦеныТоваровСрезПоследних.Товар" mainTable="Catalog.Товары" customQuery="true" listSettings="CommonForm.ФормаПодбора.Form.Attributes.СписокТоваров.ExtInfo.ListSettings"/>
+  </attributes>
+  <attributes name="ДеревоТоваров" id="3">
+    <title key="ru" value="Дерево товаров"/>
+    <valueType>
+      <types>DynamicList</types>
+    </valueType>
+    <view common="true"/>
+    <edit common="true"/>
+    <extInfo xsi:type="form:DynamicListExtInfo" queryText="ВЫБРАТЬ&#xA;&#x9;Товары.Наименование&#xA;ИЗ&#xA;&#x9;Справочник.Товары КАК Товары&#xA;ГДЕ&#xA;&#x9;Товары.ЭтоГруппа" mainTable="Catalog.Товары" listSettings="CommonForm.ФормаПодбора.Form.Attributes.ДеревоТоваров.ExtInfo.ListSettings"/>
+  </attributes>
+  <attributes name="Склад" id="5">
+    <title key="ru" value="Склад"/>
+    <valueType>
+      <types>CatalogRef.Склады</types>
+    </valueType>
+    <view common="true"/>
+    <edit common="true"/>
+  </attributes>
+  <attributes name="АдресТоваровДокумента" id="6">
+    <title key="ru" value="Адрес товаров документа"/>
+    <valueType>
+      <types>String</types>
+      <stringQualifiers/>
+    </valueType>
+    <view common="true"/>
+    <edit common="true"/>
+  </attributes>
+  <attributes name="СтрокаПоиска" id="7">
+    <title key="ru" value="Найти"/>
+    <valueType>
+      <types>String</types>
+      <stringQualifiers/>
+    </valueType>
+    <view common="true"/>
+    <edit common="true"/>
+  </attributes>
+  <attributes name="ВидЦенИСклад" id="4">
+    <title key="ru" value="Вид цен и склад"/>
+    <valueType>
+      <types>FormattedString</types>
+    </valueType>
+    <view common="true"/>
+    <edit common="true"/>
+  </attributes>
+  <formCommands name="ОК" id="1" action="ОКВыполнить">
+    <title key="ru" value="ОК"/>
+    <toolTip key="ru" value="ОК"/>
+    <use common="true"/>
+  </formCommands>
+  <parameters name="Склад">
+    <valueType>
+      <types>CatalogRef.Склады</types>
+    </valueType>
+  </parameters>
+  <parameters name="ВидЦен">
+    <valueType>
+      <types>CatalogRef.ВидыЦен</types>
+    </valueType>
+  </parameters>
+  <parameters name="АдресТоваровДокумента">
+    <valueType>
+      <types>String</types>
+      <stringQualifiers/>
+    </valueType>
+  </parameters>
+  <commandInterface>
+    <navigationPanel/>
+    <commandBar/>
+  </commandInterface>
+</form:Form>

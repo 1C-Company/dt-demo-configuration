@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form:Form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:form="http://g5.1c.ru/v8/dt/form" commandBarLocation="Bottom" windowOpeningMode="LockWholeInterface" autoTitle="false">
+  <title key="ru" value="Введите пароль"/>
+  <items xsi:type="form:FormField" name="Пароль" id="1" editMode="Enter">
+    <userVisible common="true"/>
+    <dataPath xsi:type="form:DataPath">
+      <segments>Пароль</segments>
+    </dataPath>
+    <extInfo xsi:type="form:InputFieldExtInfo" passwordMode="true"/>
+    <contextMenu name="ПарольКонтекстноеМеню" id="2">
+      <userVisible common="true"/>
+    </contextMenu>
+    <extendedTooltip name="ПарольExtendedTooltip" id="7">
+      <userVisible common="true"/>
+      <extInfo xsi:type="form:LabelDecorationExtInfo"/>
+    </extendedTooltip>
+  </items>
+  <autoCommandBar name="ФормаКоманднаяПанель" id="-1" horizontalAlign="Right" autoFill="false">
+    <items xsi:type="form:Button" name="ФормаОК" id="8" type="CommandBarButton" commandName="Form.Command.ОК" defaultButton="true">
+      <userVisible common="true"/>
+      <parameter/>
+      <extendedTooltip name="ФормаОКРасширеннаяПодсказка" id="9">
+        <userVisible common="true"/>
+        <extInfo xsi:type="form:LabelDecorationExtInfo"/>
+      </extendedTooltip>
+    </items>
+    <items xsi:type="form:Button" name="Отмена" id="4" type="CommandBarButton" commandName="Form.StandardCommand.Cancel">
+      <userVisible common="true"/>
+      <parameter/>
+      <extendedTooltip name="ОтменаExtendedTooltip" id="6">
+        <userVisible common="true"/>
+        <extInfo xsi:type="form:LabelDecorationExtInfo"/>
+      </extendedTooltip>
+    </items>
+    <userVisible common="true"/>
+  </autoCommandBar>
+  <events key="OnOpen" value="ПриОткрытии"/>
+  <attributes name="Пароль" id="1">
+    <title key="ru" value="Пароль доступа к закрытому ключу"/>
+    <valueType>
+      <types>String</types>
+      <stringQualifiers/>
+    </valueType>
+    <view common="true"/>
+    <edit common="true"/>
+  </attributes>
+  <formCommands name="ОК" id="1" action="ОК">
+    <title key="ru" value="ОК"/>
+    <toolTip key="ru" value="ОК"/>
+    <use common="true"/>
+  </formCommands>
+  <commandInterface>
+    <navigationPanel/>
+    <commandBar/>
+  </commandInterface>
+</form:Form>

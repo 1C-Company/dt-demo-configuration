@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form:Form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:form="http://g5.1c.ru/v8/dt/form" verticalScroll="UseIfNecessary">
+  <items xsi:type="form:Table" name="ТаблицаОстатков" id="6" skipOnInput="false" commandBarLocation="None" representation="List" readOnly="true" changeRowSet="false" changeRowOrder="false" width="40" heightInTableRows="4" selectionMode="SingleRow" useAlternationRowColor="true" searchStringLocation="None" viewStatusLocation="None" searchControlLocation="None">
+    <userVisible common="true"/>
+    <dataPath xsi:type="form:DataPath">
+      <segments>ТаблицаОстатков</segments>
+    </dataPath>
+    <items xsi:type="form:FormField" name="ТаблицаОстатковКонтрагент" id="7" type="LabelField" editMode="Enter" footerHorizontalAlign="Left">
+      <userVisible common="true"/>
+      <dataPath xsi:type="form:DataPath">
+        <segments>ТаблицаОстатков</segments>
+        <segments>Контрагент</segments>
+      </dataPath>
+      <extInfo xsi:type="form:LabelFieldExtInfo" width="8"/>
+      <contextMenu name="ТаблицаОстатковКонтрагентКонтекстноеМеню" id="12">
+        <userVisible common="true"/>
+      </contextMenu>
+      <extendedTooltip name="ТаблицаОстатковКонтрагентExtendedTooltip" id="20">
+        <userVisible common="true"/>
+        <extInfo xsi:type="form:LabelDecorationExtInfo"/>
+      </extendedTooltip>
+    </items>
+    <items xsi:type="form:FormField" name="ТаблицаОстатковВалюта" id="8" type="LabelField" editMode="Enter" footerHorizontalAlign="Left">
+      <userVisible common="true"/>
+      <dataPath xsi:type="form:DataPath">
+        <segments>ТаблицаОстатков</segments>
+        <segments>Валюта</segments>
+      </dataPath>
+      <extInfo xsi:type="form:LabelFieldExtInfo" width="5"/>
+      <contextMenu name="ТаблицаОстатковВалютаКонтекстноеМеню" id="13">
+        <userVisible common="true"/>
+      </contextMenu>
+      <extendedTooltip name="ТаблицаОстатковВалютаExtendedTooltip" id="21">
+        <userVisible common="true"/>
+        <extInfo xsi:type="form:LabelDecorationExtInfo"/>
+      </extendedTooltip>
+    </items>
+    <items xsi:type="form:FormField" name="ТаблицаОстатковНашДолг" id="2" type="LabelField" editMode="Enter" footerHorizontalAlign="Left">
+      <userVisible common="true"/>
+      <dataPath xsi:type="form:DataPath">
+        <segments>ТаблицаОстатков</segments>
+        <segments>НашДолг</segments>
+      </dataPath>
+      <extInfo xsi:type="form:LabelFieldExtInfo" width="6"/>
+      <contextMenu name="ТаблицаОстатковНашДолгКонтекстноеМеню" id="14">
+        <userVisible common="true"/>
+      </contextMenu>
+      <extendedTooltip name="ТаблицаОстатковНашДолгExtendedTooltip" id="22">
+        <userVisible common="true"/>
+        <extInfo xsi:type="form:LabelDecorationExtInfo"/>
+      </extendedTooltip>
+    </items>
+    <items xsi:type="form:FormField" name="ТаблицаОстатковДолгНам" id="3" type="LabelField" editMode="Enter" footerHorizontalAlign="Left">
+      <userVisible common="true"/>
+      <dataPath xsi:type="form:DataPath">
+        <segments>ТаблицаОстатков</segments>
+        <segments>ДолгНам</segments>
+      </dataPath>
+      <extInfo xsi:type="form:LabelFieldExtInfo" width="6"/>
+      <contextMenu name="ТаблицаОстатковДолгНамКонтекстноеМеню" id="15">
+        <userVisible common="true"/>
+      </contextMenu>
+      <extendedTooltip name="ТаблицаОстатковДолгНамExtendedTooltip" id="23">
+        <userVisible common="true"/>
+        <extInfo xsi:type="form:LabelDecorationExtInfo"/>
+      </extendedTooltip>
+    </items>
+    <autoCommandBar name="ТаблицаОстатковКоманднаяПанель" id="11">
+      <userVisible common="true"/>
+    </autoCommandBar>
+    <events key="Selection" value="ТаблицаОстатковВыбор"/>
+    <searchStringAddition name="ТаблицаОстатковСтрокаПоиска" id="24" source="ТаблицаОстатковСтрокаПоиска">
+      <userVisible common="true"/>
+      <extInfo xsi:type="form:SearchStringAdditionExtInfo"/>
+      <contextMenu name="ТаблицаОстатковСтрокаПоискаКонтекстноеМеню" id="25">
+        <userVisible common="true"/>
+      </contextMenu>
+      <extendedTooltip name="ТаблицаОстатковСтрокаПоискаРасширеннаяПодсказка" id="26">
+        <userVisible common="true"/>
+        <extInfo xsi:type="form:LabelDecorationExtInfo"/>
+      </extendedTooltip>
+    </searchStringAddition>
+    <viewStatusAddition name="ТаблицаОстатковСостояниеПросмотра" id="27" type="ViewStatusAddition" source="ТаблицаОстатковСостояниеПросмотра">
+      <userVisible common="true"/>
+      <extInfo xsi:type="form:ViewStatusAdditionExtInfo"/>
+      <contextMenu name="ТаблицаОстатковСостояниеПросмотраКонтекстноеМеню" id="28">
+        <userVisible common="true"/>
+      </contextMenu>
+      <extendedTooltip name="ТаблицаОстатковСостояниеПросмотраРасширеннаяПодсказка" id="29">
+        <userVisible common="true"/>
+        <extInfo xsi:type="form:LabelDecorationExtInfo"/>
+      </extendedTooltip>
+    </viewStatusAddition>
+    <searchControlAddition name="ТаблицаОстатковУправлениеПоиском" id="30" type="SearchControlAddition" source="ТаблицаОстатковУправлениеПоиском">
+      <userVisible common="true"/>
+      <extInfo xsi:type="form:SearchControlAdditionExtInfo"/>
+      <contextMenu name="ТаблицаОстатковУправлениеПоискомКонтекстноеМеню" id="31">
+        <userVisible common="true"/>
+      </contextMenu>
+      <extendedTooltip name="ТаблицаОстатковУправлениеПоискомРасширеннаяПодсказка" id="32">
+        <userVisible common="true"/>
+        <extInfo xsi:type="form:LabelDecorationExtInfo"/>
+      </extendedTooltip>
+    </searchControlAddition>
+    <borderColor xsi:type="core:ColorRef" color="Style.BorderColor"/>
+    <contextMenu name="ТаблицаОстатковКонтекстноеМеню" id="10">
+      <userVisible common="true"/>
+    </contextMenu>
+    <extendedTooltip name="ТаблицаОстатковExtendedTooltip" id="19">
+      <userVisible common="true"/>
+      <extInfo xsi:type="form:LabelDecorationExtInfo"/>
+    </extendedTooltip>
+  </items>
+  <autoCommandBar name="ФормаКоманднаяПанель" id="-1">
+    <items xsi:type="form:Button" name="Обновить" id="4" skipOnInput="false" type="CommandBarButton" commandName="Form.Command.Обновить" representation="PictureAndText">
+      <userVisible common="true"/>
+      <parameter/>
+      <textColor xsi:type="core:ColorRef" color="Style.ButtonTextColor"/>
+      <backColor xsi:type="core:ColorRef" color="Style.ButtonBackColor"/>
+      <borderColor xsi:type="core:ColorRef" color="Style.BorderColor"/>
+      <extendedTooltip name="ОбновитьExtendedTooltip" id="16">
+        <userVisible common="true"/>
+        <extInfo xsi:type="form:LabelDecorationExtInfo"/>
+      </extendedTooltip>
+    </items>
+    <items xsi:type="form:Button" name="Справка" id="5" skipOnInput="false" type="CommandBarButton" commandName="Form.StandardCommand.Help">
+      <userVisible common="true"/>
+      <parameter/>
+      <textColor xsi:type="core:ColorRef" color="Style.ButtonTextColor"/>
+      <backColor xsi:type="core:ColorRef" color="Style.ButtonBackColor"/>
+      <borderColor xsi:type="core:ColorRef" color="Style.BorderColor"/>
+      <extendedTooltip name="СправкаExtendedTooltip" id="17">
+        <userVisible common="true"/>
+        <extInfo xsi:type="form:LabelDecorationExtInfo"/>
+      </extendedTooltip>
+    </items>
+    <items xsi:type="form:Button" name="Настроить" id="9" skipOnInput="false" type="CommandBarButton" commandName="Form.StandardCommand.CustomizeForm">
+      <userVisible common="true"/>
+      <parameter/>
+      <textColor xsi:type="core:ColorRef" color="Style.ButtonTextColor"/>
+      <backColor xsi:type="core:ColorRef" color="Style.ButtonBackColor"/>
+      <borderColor xsi:type="core:ColorRef" color="Style.BorderColor"/>
+      <extendedTooltip name="НастроитьExtendedTooltip" id="18">
+        <userVisible common="true"/>
+        <extInfo xsi:type="form:LabelDecorationExtInfo"/>
+      </extendedTooltip>
+    </items>
+    <userVisible common="true"/>
+  </autoCommandBar>
+  <events key="OnCreateAtServer" value="ПриСозданииНаСервере"/>
+  <attributes name="ТаблицаОстатков" id="2">
+    <title key="ru" value="Таблица остатков"/>
+    <valueType>
+      <types>ValueTable</types>
+    </valueType>
+    <view common="true"/>
+    <edit common="true"/>
+    <columns name="Контрагент" id="1">
+      <title key="ru" value="Контрагент"/>
+      <valueType>
+        <types>CatalogRef.Контрагенты</types>
+      </valueType>
+      <view common="true"/>
+      <edit common="true"/>
+    </columns>
+    <columns name="Валюта" id="2">
+      <functionalOptions>5ddb9715-14fa-4aec-9388-0d0778a6aed3</functionalOptions>
+      <title key="ru" value="Валюта"/>
+      <valueType>
+        <types>CatalogRef.Валюты</types>
+      </valueType>
+      <view common="true"/>
+      <edit common="true"/>
+    </columns>
+    <columns name="НашДолг" id="3">
+      <title key="ru" value="Наш долг"/>
+      <valueType>
+        <types>Number</types>
+        <numberQualifiers precision="10" scale="2"/>
+      </valueType>
+      <view common="true"/>
+      <edit common="true"/>
+    </columns>
+    <columns name="ДолгНам" id="4">
+      <title key="ru" value="Долг нам"/>
+      <valueType>
+        <types>Number</types>
+        <numberQualifiers precision="10" scale="2"/>
+      </valueType>
+      <view common="true"/>
+      <edit common="true"/>
+    </columns>
+  </attributes>
+  <formCommands name="Обновить" id="1" action="ОбновитьВыполнить">
+    <title key="ru" value="Обновить"/>
+    <toolTip key="ru" value="Обновить"/>
+    <use common="true"/>
+    <picture xsi:type="core:PictureRef" picture="StdPicture.Refresh"/>
+  </formCommands>
+  <commandInterface>
+    <navigationPanel>
+      <cmiFragmentRecord command="Catalog.РасчетныеСчетаКонтрагентов.StandardCommand.OpenByValue">
+        <userVisible/>
+      </cmiFragmentRecord>
+    </navigationPanel>
+    <commandBar>
+      <cmiFragmentRecord command="Document.Оплата.StandardCommand.CreateBasedOn">
+        <userVisible/>
+      </cmiFragmentRecord>
+      <cmiFragmentRecord command="Document.ПоступлениеДенег.StandardCommand.CreateBasedOn">
+        <userVisible/>
+      </cmiFragmentRecord>
+      <cmiFragmentRecord command="Document.ПриходТовара.StandardCommand.CreateBasedOn">
+        <userVisible/>
+      </cmiFragmentRecord>
+      <cmiFragmentRecord command="Document.РасходТовара.StandardCommand.CreateBasedOn">
+        <userVisible/>
+      </cmiFragmentRecord>
+    </commandBar>
+  </commandInterface>
+</form:Form>

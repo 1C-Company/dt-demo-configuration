@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form:Form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:form="http://g5.1c.ru/v8/dt/form">
+  <items xsi:type="form:FormField" name="Код" id="1">
+    <userVisible common="true"/>
+    <dataPath xsi:type="form:DataPath">
+      <segments>Объект</segments>
+      <segments>Code</segments>
+    </dataPath>
+    <extInfo xsi:type="form:InputFieldExtInfo"/>
+    <contextMenu name="КодКонтекстноеМеню" id="2">
+      <userVisible common="true"/>
+    </contextMenu>
+    <extendedTooltip name="КодРасширеннаяПодсказка" id="3">
+      <userVisible common="true"/>
+      <extInfo xsi:type="form:LabelDecorationExtInfo"/>
+    </extendedTooltip>
+  </items>
+  <items xsi:type="form:FormField" name="Наименование" id="4">
+    <userVisible common="true"/>
+    <dataPath xsi:type="form:DataPath">
+      <segments>Объект</segments>
+      <segments>Description</segments>
+    </dataPath>
+    <extInfo xsi:type="form:InputFieldExtInfo"/>
+    <contextMenu name="НаименованиеКонтекстноеМеню" id="5">
+      <userVisible common="true"/>
+    </contextMenu>
+    <extendedTooltip name="НаименованиеРасширеннаяПодсказка" id="6">
+      <userVisible common="true"/>
+      <extInfo xsi:type="form:LabelDecorationExtInfo"/>
+    </extendedTooltip>
+  </items>
+  <autoCommandBar name="ФормаКоманднаяПанель" id="-1">
+    <userVisible common="true"/>
+  </autoCommandBar>
+  <attributes name="Объект" id="1" main="true" savedData="true">
+    <valueType>
+      <types>CatalogObject.Валюты</types>
+    </valueType>
+    <view common="true"/>
+    <edit common="true"/>
+  </attributes>
+  <commandInterface>
+    <navigationPanel/>
+    <commandBar/>
+  </commandInterface>
+  <extInfo xsi:type="form:CatalogFormExtInfo"/>
+</form:Form>

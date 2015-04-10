@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="491c2b0a-1586-4bc1-b144-4cfa2e053dd6" name="ВыделитьВажное">
+  <synonym key="ru" value="Выделить важное"/>
+</mdclass:CommonPicture>

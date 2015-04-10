@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3ebfb6a0-ffaa-4cd5-88ad-bfc25b3d555a" name="ХранилищеВариантовОтчетов" useStandardCommands="true" fullTextSearchOnInputByString="DontUse" createOnInput="Use" includeHelpInContents="true" dataLockControlMode="Managed" levelCount="2" foldersOnTop="true" codeLength="9" descriptionLength="64" codeType="String" codeAllowedLength="Variable" checkUnique="true" autonumbering="true" defaultPresentation="AsDescription" editType="InDialog" choiceMode="BothWays" defaultListForm="Catalog.ХранилищеВариантовОтчетов.Form.ФормаСписка">
+    <inputByString>Catalog.ХранилищеВариантовОтчетов.StandardAttribute.Description</inputByString>
+    <inputByString>Catalog.ХранилищеВариантовОтчетов.StandardAttribute.Code</inputByString>
+  <synonym key="ru" value="Варианты отчетов"/>
+  <standardAttributes name="PredefinedDataName" fullTextSearch="Use">
+    <fillValue xsi:type="core:NullValue"/>
+    <minValue xsi:type="core:NullValue"/>
+    <maxValue xsi:type="core:NullValue"/>
+  </standardAttributes>
+  <standardAttributes name="Predefined" fullTextSearch="Use">
+    <fillValue xsi:type="core:BooleanValue"/>
+    <minValue xsi:type="core:NullValue"/>
+    <maxValue xsi:type="core:NullValue"/>
+  </standardAttributes>
+  <standardAttributes name="Ref" fullTextSearch="Use">
+    <fillValue xsi:type="core:ReferenceValue" value="Catalog.ХранилищеВариантовОтчетов.EmptyRef"/>
+    <minValue xsi:type="core:NullValue"/>
+    <maxValue xsi:type="core:NullValue"/>
+  </standardAttributes>
+  <standardAttributes name="DeletionMark" fullTextSearch="Use">
+    <fillValue xsi:type="core:BooleanValue"/>
+    <minValue xsi:type="core:NullValue"/>
+    <maxValue xsi:type="core:NullValue"/>
+  </standardAttributes>
+  <standardAttributes name="IsFolder" fullTextSearch="Use">
+    <fillValue xsi:type="core:NullValue"/>
+    <minValue xsi:type="core:NullValue"/>
+    <maxValue xsi:type="core:NullValue"/>
+  </standardAttributes>
+  <standardAttributes name="Owner" fillFromFillingValue="true" fillChecking="ShowError" fullTextSearch="Use">
+    <fillValue xsi:type="core:NullValue"/>
+    <minValue xsi:type="core:NullValue"/>
+    <maxValue xsi:type="core:NullValue"/>
+  </standardAttributes>
+  <standardAttributes name="Parent" fillFromFillingValue="true" fullTextSearch="Use">
+    <fillValue xsi:type="core:ReferenceValue" value="Catalog.ХранилищеВариантовОтчетов.EmptyRef"/>
+    <minValue xsi:type="core:NullValue"/>
+    <maxValue xsi:type="core:NullValue"/>
+  </standardAttributes>
+  <standardAttributes name="Description" fillChecking="ShowError" fullTextSearch="Use">
+    <fillValue xsi:type="core:StringValue" value=""/>
+    <minValue xsi:type="core:NullValue"/>
+    <maxValue xsi:type="core:NullValue"/>
+  </standardAttributes>
+  <standardAttributes name="Code" fullTextSearch="Use">
+    <fillValue xsi:type="core:StringValue" value=""/>
+    <minValue xsi:type="core:NullValue"/>
+    <maxValue xsi:type="core:NullValue"/>
+  </standardAttributes>
+  <help>
+    <pages lang="ru"/>
+  </help>
+  <objectPresentation key="ru" value="Вариант отчета"/>
+  <listPresentation key="ru" value="Варианты отчетов"/>
+  <producedTypes>
+    <objectType typeId="500e41b7-4666-49e5-b90f-4d5574214c9f" valueTypeId="3ee1c10c-82b8-4bf0-a268-d6b7fb2a797c"/>
+    <refType typeId="80d0f261-3d69-4d1a-aac4-c061ca442efc" valueTypeId="b070d6f5-0d16-48e3-9cf6-fc38d8f8722e"/>
+    <selectionType typeId="6f8895c8-a75a-4721-93e3-3690c393fec9" valueTypeId="e2e5a3b5-1f59-447a-a745-8a6bc91f920b"/>
+    <listType typeId="91d60315-dc21-4eab-9f39-c0f1b9da7554" valueTypeId="e6fea6cc-e408-4c9e-a9ad-5ebbce7c5e23"/>
+    <managerType typeId="f428de57-dfff-4f0e-b24b-791ddcbbe27d" valueTypeId="d0822c15-10f6-420e-8416-18cbabbe2f89"/>
+  </producedTypes>
+  <attributes uuid="be6c2184-6fc7-4fac-85bc-bb9473f58ca1" name="ВариантОтчета">
+    <synonym key="ru" value="Вариант отчета"/>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <minValue xsi:type="core:NullValue"/>
+    <maxValue xsi:type="core:NullValue"/>
+    <fillValue xsi:type="core:NullValue"/>
+  </attributes>
+  <attributes uuid="d20d1043-b6d0-4fbb-9276-e74510c0e6af" name="КлючОбъекта" quickChoice="DontUse" createOnInput="Use" indexing="Index">
+    <synonym key="ru" value="Ключ объекта"/>
+    <type>
+      <types>String</types>
+      <stringQualifiers length="255"/>
+    </type>
+    <minValue xsi:type="core:NullValue"/>
+    <maxValue xsi:type="core:NullValue"/>
+    <fillValue xsi:type="core:StringValue" value=""/>
+  </attributes>
+  <forms uuid="8e7cd28e-5fa9-44b6-a5e3-eaf060fc1725" name="ФормаСписка">
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+    <synonym key="ru" value="Форма списка"/>
+  </forms>
+  <commands uuid="7ff744ae-f7d3-409a-bc66-c6db612b1047" name="ОткрытьОтчет" group="FormCommandBarImportant" representation="Auto">
+    <synonym key="ru" value="Открыть отчет"/>
+    <commandParameterType>
+      <types>CatalogRef.ХранилищеВариантовОтчетов</types>
+    </commandParameterType>
+  </commands>
+</mdclass:Catalog>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form:Form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:form="http://g5.1c.ru/v8/dt/form" commandBarLocation="None">
+  <items xsi:type="form:Button" name="УправлениеНастройкамиФорм" id="3" skipOnInput="false" type="Hyperlink" commandName="DataProcessor.УправлениеНастройкамиФорм.StandardCommand.Open">
+    <userVisible common="true"/>
+    <parameter/>
+    <textColor xsi:type="core:ColorRef" color="Style.ButtonTextColor"/>
+    <backColor xsi:type="core:ColorRef" color="Style.ButtonBackColor"/>
+    <borderColor xsi:type="core:ColorRef" color="Style.BorderColor"/>
+    <extendedTooltip name="УправлениеНастройкамиФормExtendedTooltip" id="7">
+      <userVisible common="true"/>
+      <extInfo xsi:type="form:LabelDecorationExtInfo"/>
+    </extendedTooltip>
+  </items>
+  <items xsi:type="form:Button" name="УправлениеПолнотекстовымПоиском" id="4" skipOnInput="false" type="Hyperlink" commandName="DataProcessor.УправлениеПолнотекстовымПоиском.StandardCommand.Open">
+    <userVisible common="true"/>
+    <parameter/>
+    <textColor xsi:type="core:ColorRef" color="Style.ButtonTextColor"/>
+    <backColor xsi:type="core:ColorRef" color="Style.ButtonBackColor"/>
+    <borderColor xsi:type="core:ColorRef" color="Style.BorderColor"/>
+    <extendedTooltip name="УправлениеПолнотекстовымПоискомExtendedTooltip" id="8">
+      <userVisible common="true"/>
+      <extInfo xsi:type="form:LabelDecorationExtInfo"/>
+    </extendedTooltip>
+  </items>
+  <items xsi:type="form:Button" name="УдалениеПомеченныхОбъектов" id="5" skipOnInput="false" type="Hyperlink" commandName="DataProcessor.УдалениеПомеченныхОбъектов.StandardCommand.Open">
+    <userVisible common="true"/>
+    <parameter/>
+    <textColor xsi:type="core:ColorRef" color="Style.ButtonTextColor"/>
+    <backColor xsi:type="core:ColorRef" color="Style.ButtonBackColor"/>
+    <borderColor xsi:type="core:ColorRef" color="Style.BorderColor"/>
+    <extendedTooltip name="УдалениеПомеченныхОбъектовExtendedTooltip" id="9">
+      <userVisible common="true"/>
+      <extInfo xsi:type="form:LabelDecorationExtInfo"/>
+    </extendedTooltip>
+  </items>
+  <items xsi:type="form:Button" name="УправлениеАгрегатамиПродаж" id="6" skipOnInput="false" type="Hyperlink" commandName="DataProcessor.УправлениеАгрегатамиПродаж.StandardCommand.Open">
+    <userVisible common="true"/>
+    <parameter/>
+    <extendedTooltip name="УправлениеАгрегатамиПродажExtendedTooltip" id="10">
+      <userVisible common="true"/>
+      <extInfo xsi:type="form:LabelDecorationExtInfo"/>
+    </extendedTooltip>
+  </items>
+  <items xsi:type="form:Button" name="ОчиститьИсторию" id="1" skipOnInput="false" commandName="Form.Command.ОчиститьИсторию">
+    <userVisible common="true"/>
+    <parameter/>
+    <textColor xsi:type="core:ColorRef" color="Style.ButtonTextColor"/>
+    <backColor xsi:type="core:ColorRef" color="Style.ButtonBackColor"/>
+    <borderColor xsi:type="core:ColorRef" color="Style.BorderColor"/>
+    <extendedTooltip name="ОчиститьИсториюExtendedTooltip" id="11">
+      <userVisible common="true"/>
+      <extInfo xsi:type="form:LabelDecorationExtInfo"/>
+    </extendedTooltip>
+  </items>
+  <autoCommandBar name="Форма_КоманднаяПанель" id="-1">
+    <userVisible common="true"/>
+  </autoCommandBar>
+  <attributes name="Объект" id="1" main="true">
+    <valueType>
+      <types>DataProcessorObject.АдминистративныйСервис</types>
+    </valueType>
+    <view common="true"/>
+    <edit common="true"/>
+  </attributes>
+  <formCommands name="ОчиститьИсторию" id="1" action="ОчиститьИсториюВыполнить">
+    <title key="ru" value="Очистить историю работы пользователей"/>
+    <toolTip key="ru" value="Очистить историю"/>
+    <use common="true"/>
+  </formCommands>
+  <commandInterface>
+    <navigationPanel/>
+    <commandBar/>
+  </commandInterface>
+</form:Form>

@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form:Form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:form="http://g5.1c.ru/v8/dt/form">
+  <items xsi:type="form:FormField" name="Организация" id="16" editMode="Enter">
+    <userVisible common="true"/>
+    <dataPath xsi:type="form:DataPath">
+      <segments>Объект</segments>
+      <segments>Организация</segments>
+    </dataPath>
+    <events key="OnChange" value="ОрганизацияПриИзменении"/>
+    <extInfo xsi:type="form:InputFieldExtInfo" wrap="false">
+      <borderColor xsi:type="core:ColorRef" color="Style.BorderColor"/>
+    </extInfo>
+    <contextMenu name="ОрганизацияКонтекстноеМеню" id="17">
+      <userVisible common="true"/>
+    </contextMenu>
+    <extendedTooltip name="ОрганизацияExtendedTooltip" id="18">
+      <userVisible common="true"/>
+      <extInfo xsi:type="form:LabelDecorationExtInfo"/>
+    </extendedTooltip>
+  </items>
+  <items xsi:type="form:FormField" name="Номер" id="2" editMode="Enter" footerHorizontalAlign="Left">
+    <userVisible common="true"/>
+    <dataPath xsi:type="form:DataPath">
+      <segments>Объект</segments>
+      <segments>Number</segments>
+    </dataPath>
+    <extInfo xsi:type="form:InputFieldExtInfo" wrap="false"/>
+    <contextMenu name="НомерКонтекстноеМеню" id="9">
+      <userVisible common="true"/>
+    </contextMenu>
+    <extendedTooltip name="НомерExtendedTooltip" id="19">
+      <userVisible common="true"/>
+      <extInfo xsi:type="form:LabelDecorationExtInfo"/>
+    </extendedTooltip>
+  </items>
+  <items xsi:type="form:FormField" name="Дата" id="3" editMode="Enter" footerHorizontalAlign="Left">
+    <userVisible common="true"/>
+    <dataPath xsi:type="form:DataPath">
+      <segments>Объект</segments>
+      <segments>Date</segments>
+    </dataPath>
+    <extInfo xsi:type="form:InputFieldExtInfo" wrap="false"/>
+    <contextMenu name="ДатаКонтекстноеМеню" id="10">
+      <userVisible common="true"/>
+    </contextMenu>
+    <extendedTooltip name="ДатаExtendedTooltip" id="20">
+      <userVisible common="true"/>
+      <extInfo xsi:type="form:LabelDecorationExtInfo"/>
+    </extendedTooltip>
+  </items>
+  <items xsi:type="form:FormField" name="Поставщик" id="4" editMode="Enter" footerHorizontalAlign="Left">
+    <userVisible common="true"/>
+    <dataPath xsi:type="form:DataPath">
+      <segments>Объект</segments>
+      <segments>Поставщик</segments>
+    </dataPath>
+    <extInfo xsi:type="form:InputFieldExtInfo" wrap="false"/>
+    <contextMenu name="ПоставщикКонтекстноеМеню" id="11">
+      <userVisible common="true"/>
+    </contextMenu>
+    <extendedTooltip name="ПоставщикExtendedTooltip" id="21">
+      <userVisible common="true"/>
+      <extInfo xsi:type="form:LabelDecorationExtInfo"/>
+    </extendedTooltip>
+  </items>
+  <items xsi:type="form:FormField" name="РасчетныйСчетПоставщика" id="5" editMode="Enter" footerHorizontalAlign="Left">
+    <userVisible common="true"/>
+    <dataPath xsi:type="form:DataPath">
+      <segments>Объект</segments>
+      <segments>РасчетныйСчетПоставщика</segments>
+    </dataPath>
+    <extInfo xsi:type="form:InputFieldExtInfo" wrap="false" createButton="false" quickChoice="true">
+      <choiceParameterLinks name="Владелец">
+        <datapath xsi:type="form:DataPath">
+          <segments>Объект</segments>
+          <segments>Поставщик</segments>
+        </datapath>
+      </choiceParameterLinks>
+      <borderColor xsi:type="core:ColorRef" color="Style.BorderColor"/>
+    </extInfo>
+    <contextMenu name="РасчетныйСчетПоставщикаКонтекстноеМеню" id="12">
+      <userVisible common="true"/>
+    </contextMenu>
+    <extendedTooltip name="РасчетныйСчетПоставщикаExtendedTooltip" id="22">
+      <userVisible common="true"/>
+      <extInfo xsi:type="form:LabelDecorationExtInfo"/>
+    </extendedTooltip>
+  </items>
+  <items xsi:type="form:FormField" name="РасчетныйСчет" id="6" editMode="Enter" footerHorizontalAlign="Left">
+    <userVisible common="true"/>
+    <dataPath xsi:type="form:DataPath">
+      <segments>Объект</segments>
+      <segments>РасчетныйСчет</segments>
+    </dataPath>
+    <extInfo xsi:type="form:InputFieldExtInfo" wrap="false" createButton="false" quickChoice="true">
+      <choiceParameterLinks name="Владелец">
+        <datapath xsi:type="form:DataPath">
+          <segments>Объект</segments>
+          <segments>Организация</segments>
+        </datapath>
+      </choiceParameterLinks>
+      <borderColor xsi:type="core:ColorRef" color="Style.BorderColor"/>
+    </extInfo>
+    <contextMenu name="РасчетныйСчетКонтекстноеМеню" id="13">
+      <userVisible common="true"/>
+    </contextMenu>
+    <extendedTooltip name="РасчетныйСчетExtendedTooltip" id="23">
+      <userVisible common="true"/>
+      <extInfo xsi:type="form:LabelDecorationExtInfo"/>
+    </extendedTooltip>
+  </items>
+  <items xsi:type="form:FormField" name="Валюта" id="7" editMode="Enter" footerHorizontalAlign="Left">
+    <userVisible common="true"/>
+    <dataPath xsi:type="form:DataPath">
+      <segments>Объект</segments>
+      <segments>Валюта</segments>
+    </dataPath>
+    <extInfo xsi:type="form:InputFieldExtInfo" wrap="false"/>
+    <contextMenu name="ВалютаКонтекстноеМеню" id="14">
+      <userVisible common="true"/>
+    </contextMenu>
+    <extendedTooltip name="ВалютаExtendedTooltip" id="24">
+      <userVisible common="true"/>
+      <extInfo xsi:type="form:LabelDecorationExtInfo"/>
+    </extendedTooltip>
+  </items>
+  <items xsi:type="form:FormField" name="Сумма" id="8" editMode="Enter" footerHorizontalAlign="Left">
+    <userVisible common="true"/>
+    <dataPath xsi:type="form:DataPath">
+      <segments>Объект</segments>
+      <segments>Сумма</segments>
+    </dataPath>
+    <extInfo xsi:type="form:InputFieldExtInfo" wrap="false"/>
+    <contextMenu name="СуммаКонтекстноеМеню" id="15">
+      <userVisible common="true"/>
+    </contextMenu>
+    <extendedTooltip name="СуммаExtendedTooltip" id="25">
+      <userVisible common="true"/>
+      <extInfo xsi:type="form:LabelDecorationExtInfo"/>
+    </extendedTooltip>
+  </items>
+  <autoCommandBar name="ФормаКоманднаяПанель" id="-1">
+    <userVisible common="true"/>
+  </autoCommandBar>
+  <events key="OnCreateAtServer" value="ПриСозданииНаСервере"/>
+  <attributes name="Объект" id="1" main="true" savedData="true">
+    <valueType>
+      <types>DocumentObject.Оплата</types>
+    </valueType>
+    <view common="true"/>
+    <edit common="true"/>
+    <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
+      <segments>Объект</segments>
+      <segments>RegisterRecords</segments>
+    </notDefaultUseAlwaysAttributes>
+  </attributes>
+  <commandInterface>
+    <navigationPanel>
+      <cmiFragmentRecord command="AccumulationRegister.Взаиморасчеты.StandardCommand.OpenByRecorder"/>
+    </navigationPanel>
+    <commandBar/>
+  </commandInterface>
+  <extInfo xsi:type="form:DocumentFormExtInfo">
+    <events key="AfterWriteAtServer" value="ПослеЗаписиНаСервере"/>
+    <events key="OnReadAtServer" value="ПриЧтенииНаСервере"/>
+  </extInfo>
+</form:Form>

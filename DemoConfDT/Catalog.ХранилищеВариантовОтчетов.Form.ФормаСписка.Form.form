@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form:Form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:form="http://g5.1c.ru/v8/dt/form">
+  <items xsi:type="form:Table" name="Список" id="1" defaultItem="true" skipOnInput="false" commandBarLocation="None" representation="Tree" width="40" heightInTableRows="10" enableStartDrag="true" searchStringLocation="None" viewStatusLocation="None" searchControlLocation="None">
+    <excludedCommands>Copy</excludedCommands>
+    <userVisible common="true"/>
+    <dataPath xsi:type="form:DataPath">
+      <segments>Список</segments>
+    </dataPath>
+    <items xsi:type="form:FormField" name="НазваниеВарианта" id="14" type="LabelField" editMode="Enter">
+      <title key="ru" value="Название варианта"/>
+      <userVisible common="true"/>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Список</segments>
+        <segments>НазваниеВарианта</segments>
+      </dataPath>
+      <extInfo xsi:type="form:LabelFieldExtInfo"/>
+      <contextMenu name="НазваниеВарианта_КонтекстноеМеню" id="15">
+        <userVisible common="true"/>
+      </contextMenu>
+      <extendedTooltip name="НазваниеВариантаExtendedTooltip" id="17">
+        <userVisible common="true"/>
+        <extInfo xsi:type="form:LabelDecorationExtInfo"/>
+      </extendedTooltip>
+    </items>
+    <autoCommandBar name="Список_КоманднаяПанель" id="3">
+      <userVisible common="true"/>
+    </autoCommandBar>
+    <searchStringAddition name="СписокСтрокаПоиска" id="18" source="СписокСтрокаПоиска">
+      <userVisible common="true"/>
+      <extInfo xsi:type="form:SearchStringAdditionExtInfo"/>
+      <contextMenu name="СписокСтрокаПоискаКонтекстноеМеню" id="19">
+        <userVisible common="true"/>
+      </contextMenu>
+      <extendedTooltip name="СписокСтрокаПоискаРасширеннаяПодсказка" id="20">
+        <userVisible common="true"/>
+        <extInfo xsi:type="form:LabelDecorationExtInfo"/>
+      </extendedTooltip>
+    </searchStringAddition>
+    <viewStatusAddition name="СписокСостояниеПросмотра" id="21" type="ViewStatusAddition" source="СписокСостояниеПросмотра">
+      <userVisible common="true"/>
+      <extInfo xsi:type="form:ViewStatusAdditionExtInfo"/>
+      <contextMenu name="СписокСостояниеПросмотраКонтекстноеМеню" id="22">
+        <userVisible common="true"/>
+      </contextMenu>
+      <extendedTooltip name="СписокСостояниеПросмотраРасширеннаяПодсказка" id="23">
+        <userVisible common="true"/>
+        <extInfo xsi:type="form:LabelDecorationExtInfo"/>
+      </extendedTooltip>
+    </viewStatusAddition>
+    <searchControlAddition name="СписокУправлениеПоиском" id="24" type="SearchControlAddition" source="СписокУправлениеПоиском">
+      <userVisible common="true"/>
+      <extInfo xsi:type="form:SearchControlAdditionExtInfo"/>
+      <contextMenu name="СписокУправлениеПоискомКонтекстноеМеню" id="25">
+        <userVisible common="true"/>
+      </contextMenu>
+      <extendedTooltip name="СписокУправлениеПоискомРасширеннаяПодсказка" id="26">
+        <userVisible common="true"/>
+        <extInfo xsi:type="form:LabelDecorationExtInfo"/>
+      </extendedTooltip>
+    </searchControlAddition>
+    <rowPictureDataPath xsi:type="form:DataPath">
+      <segments>Список</segments>
+      <segments>DefaultPicture</segments>
+    </rowPictureDataPath>
+    <borderColor xsi:type="core:ColorRef" color="Style.BorderColor"/>
+    <extInfo xsi:type="form:DynamicListTableExtInfo" autoRefreshPeriod="60" showRoot="false"/>
+    <contextMenu name="Список_КонтекстноеМеню" id="2">
+      <userVisible common="true"/>
+    </contextMenu>
+    <extendedTooltip name="СписокExtendedTooltip" id="16">
+      <userVisible common="true"/>
+      <extInfo xsi:type="form:LabelDecorationExtInfo"/>
+    </extendedTooltip>
+  </items>
+  <autoCommandBar name="Форма_КоманднаяПанель" id="-1">
+    <userVisible common="true"/>
+  </autoCommandBar>
+  <attributes name="Список" id="1" main="true">
+    <valueType>
+      <types>DynamicList</types>
+    </valueType>
+    <view common="true"/>
+    <edit common="true"/>
+    <extInfo xsi:type="form:DynamicListExtInfo" queryText="ВЫБРАТЬ&#xA;&#x9;Ссылка,&#xA;&#x9;ПометкаУдаления,&#xA;&#x9;Предопределенный,&#xA;&#x9;Код,&#xA;&#x9;Наименование НазваниеВарианта,&#xA;&#x9;КлючОбъекта Отчет,&#xA;&#x9;Представление&#xA;&#x9;ИЗ&#xA;&#x9;Справочник.ХранилищеВариантовОтчетов" mainTable="Catalog.ХранилищеВариантовОтчетов" customQuery="true" listSettings="Catalog.ХранилищеВариантовОтчетов.Form.ФормаСписка.Form.Attributes.Список.ExtInfo.ListSettings"/>
+  </attributes>
+  <commandInterface>
+    <navigationPanel/>
+    <commandBar/>
+  </commandInterface>
+</form:Form>

@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form:Form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:form="http://g5.1c.ru/v8/dt/form">
+  <items xsi:type="form:FormGroup" name="GCM" id="16" type="UsualGroup">
+    <items xsi:type="form:FormField" name="НомерПриложения" id="4" editMode="Enter">
+      <title key="ru" value="Номер приложения"/>
+      <userVisible common="true"/>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Объект</segments>
+        <segments>НомерПриложенияGoogleCloud</segments>
+      </dataPath>
+      <extInfo xsi:type="form:InputFieldExtInfo"/>
+      <contextMenu name="НомерПриложенияКонтекстноеМеню" id="5">
+        <userVisible common="true"/>
+      </contextMenu>
+      <extendedTooltip name="НомерПриложенияРасширеннаяПодсказка" id="6">
+        <userVisible common="true"/>
+        <extInfo xsi:type="form:LabelDecorationExtInfo"/>
+      </extendedTooltip>
+    </items>
+    <items xsi:type="form:FormField" name="КлючОтправителя" id="7" editMode="Enter">
+      <title key="ru" value="Ключ отправителя"/>
+      <userVisible common="true"/>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Объект</segments>
+        <segments>КлючCервераОтправителяGCM</segments>
+      </dataPath>
+      <extInfo xsi:type="form:InputFieldExtInfo"/>
+      <contextMenu name="КлючОтправителяКонтекстноеМеню" id="8">
+        <userVisible common="true"/>
+      </contextMenu>
+      <extendedTooltip name="КлючОтправителяРасширеннаяПодсказка" id="9">
+        <userVisible common="true"/>
+        <extInfo xsi:type="form:LabelDecorationExtInfo"/>
+      </extendedTooltip>
+    </items>
+    <userVisible common="true"/>
+    <title key="ru" value="GCM"/>
+    <toolTip key="ru" value="GCM"/>
+    <extendedTooltip name="GCMРасширеннаяПодсказка" id="17">
+      <userVisible common="true"/>
+      <extInfo xsi:type="form:LabelDecorationExtInfo"/>
+    </extendedTooltip>
+    <extInfo xsi:type="form:UsualGroupExtInfo"/>
+  </items>
+  <items xsi:type="form:FormGroup" name="APNS" id="18" type="UsualGroup">
+    <items xsi:type="form:FormGroup" name="Группа1" id="25" type="UsualGroup">
+      <items xsi:type="form:Button" name="ЗагрузитьСертификат" id="20" commandName="Form.Command.ЗагрузитьСертификат">
+        <userVisible common="true"/>
+        <parameter/>
+        <extendedTooltip name="ЗагрузитьСертификатРасширеннаяПодсказка" id="21">
+          <userVisible common="true"/>
+          <extInfo xsi:type="form:LabelDecorationExtInfo"/>
+        </extendedTooltip>
+      </items>
+      <items xsi:type="form:FormField" name="СертификатЗагружен" id="22" type="LabelField" editMode="Enter">
+        <userVisible common="true"/>
+        <dataPath xsi:type="form:DataPath">
+          <segments>СертификатЗагружен</segments>
+        </dataPath>
+        <extInfo xsi:type="form:LabelFieldExtInfo"/>
+        <contextMenu name="СертификатЗагруженКонтекстноеМеню" id="23">
+          <userVisible common="true"/>
+        </contextMenu>
+        <extendedTooltip name="СертификатЗагруженРасширеннаяПодсказка" id="24">
+          <userVisible common="true"/>
+          <extInfo xsi:type="form:LabelDecorationExtInfo"/>
+        </extendedTooltip>
+      </items>
+      <userVisible common="true"/>
+      <extendedTooltip name="Группа1РасширеннаяПодсказка" id="26">
+        <userVisible common="true"/>
+        <extInfo xsi:type="form:LabelDecorationExtInfo"/>
+      </extendedTooltip>
+      <extInfo xsi:type="form:UsualGroupExtInfo" group="Horizontal" showTitle="false"/>
+    </items>
+    <userVisible common="true"/>
+    <title key="ru" value="APNS"/>
+    <toolTip key="ru" value="APNS"/>
+    <extendedTooltip name="APNSРасширеннаяПодсказка" id="19">
+      <userVisible common="true"/>
+      <extInfo xsi:type="form:LabelDecorationExtInfo"/>
+    </extendedTooltip>
+    <extInfo xsi:type="form:UsualGroupExtInfo"/>
+  </items>
+  <items xsi:type="form:FormGroup" name="ПромежуточныйСервис" id="27" type="UsualGroup">
+    <items xsi:type="form:FormField" name="ЛогинСервиса" id="13" editMode="Enter">
+      <userVisible common="true"/>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Объект</segments>
+        <segments>ЛогинСервисаПередачиPushУведомлений</segments>
+      </dataPath>
+      <extInfo xsi:type="form:InputFieldExtInfo"/>
+      <contextMenu name="ЛогинСервисаКонтекстноеМеню" id="14">
+        <userVisible common="true"/>
+      </contextMenu>
+      <extendedTooltip name="ЛогинСервисаРасширеннаяПодсказка" id="15">
+        <userVisible common="true"/>
+        <extInfo xsi:type="form:LabelDecorationExtInfo"/>
+      </extendedTooltip>
+    </items>
+    <items xsi:type="form:FormField" name="ИспользоватьСервисОтправкиУведомлений" id="10" type="CheckBoxField" editMode="Enter">
+      <userVisible common="true"/>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Объект</segments>
+        <segments>ИспользоватьПромежуточныйСервисПередачиPushУведомлений</segments>
+      </dataPath>
+      <extInfo xsi:type="form:CheckBoxFieldExtInfo"/>
+      <contextMenu name="ИспользоватьСервисОтправкиУведомленийКонтекстноеМеню" id="11">
+        <userVisible common="true"/>
+      </contextMenu>
+      <extendedTooltip name="ИспользоватьСервисОтправкиУведомленийРасширеннаяПодсказка" id="12">
+        <userVisible common="true"/>
+        <extInfo xsi:type="form:LabelDecorationExtInfo"/>
+      </extendedTooltip>
+    </items>
+    <userVisible common="true"/>
+    <title key="ru" value="Промежуточный сервис"/>
+    <toolTip key="ru" value="Промежуточный сервис"/>
+    <extendedTooltip name="ПромежуточныйСервисРасширеннаяПодсказка" id="28">
+      <userVisible common="true"/>
+      <extInfo xsi:type="form:LabelDecorationExtInfo"/>
+    </extendedTooltip>
+    <extInfo xsi:type="form:UsualGroupExtInfo"/>
+  </items>
+  <autoCommandBar name="ФормаКоманднаяПанель" id="-1">
+    <userVisible common="true"/>
+  </autoCommandBar>
+  <events key="OnCreateAtServer" value="ПриСозданииНаСервере"/>
+  <attributes name="Объект" id="1" main="true">
+    <title key="ru" value="Объект"/>
+    <valueType>
+      <types>ConstantsSet</types>
+    </valueType>
+    <view common="true"/>
+    <edit common="true"/>
+    <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
+      <segments>Объект</segments>
+      <segments>СертификатМобильногоПриложенияIOS</segments>
+    </notDefaultUseAlwaysAttributes>
+    <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
+      <segments>Объект</segments>
+      <segments>ЛогинСервисаПередачиPushУведомлений</segments>
+    </notDefaultUseAlwaysAttributes>
+    <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
+      <segments>Объект</segments>
+      <segments>ИспользоватьПромежуточныйСервисПередачиPushУведомлений</segments>
+    </notDefaultUseAlwaysAttributes>
+    <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
+      <segments>Объект</segments>
+      <segments>КлючCервераОтправителяGCM</segments>
+    </notDefaultUseAlwaysAttributes>
+    <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
+      <segments>Объект</segments>
+      <segments>НомерПриложенияGoogleCloud</segments>
+    </notDefaultUseAlwaysAttributes>
+  </attributes>
+  <attributes name="АдресСертификата" id="2">
+    <title key="ru" value="Адрес сертификата"/>
+    <valueType>
+      <types>String</types>
+      <stringQualifiers/>
+    </valueType>
+    <view common="true"/>
+    <edit common="true"/>
+  </attributes>
+  <attributes name="СертификатЗагружен" id="3">
+    <title key="ru" value="Сертификат загружен"/>
+    <valueType>
+      <types>Boolean</types>
+    </valueType>
+    <view common="true"/>
+    <edit common="true"/>
+  </attributes>
+  <formCommands name="ЗагрузитьСертификат" id="1" action="ЗагрузитьСертификат">
+    <title key="ru" value="Загрузить сертификат"/>
+    <toolTip key="ru" value="Загрузить сертификат"/>
+    <use common="true"/>
+  </formCommands>
+  <commandInterface>
+    <navigationPanel/>
+    <commandBar/>
+  </commandInterface>
+  <extInfo xsi:type="form:ConstantsFormExtInfo">
+    <events key="OnWriteAtServer" value="ПриЗаписиНаСервере"/>
+  </extInfo>
+</form:Form>

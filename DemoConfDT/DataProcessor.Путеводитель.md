@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="74dbb7bf-0757-456d-9b0c-68fe8fec7f67" name="Путеводитель" useStandardCommands="true" defaultForm="DataProcessor.Путеводитель.Form.ФормаПутеводителя">
+  <synonym key="ru" value="Путеводитель по конфигурации"/>
+  <producedTypes>
+    <objectType typeId="121fb6da-90d6-49b1-b52a-d2816f290be0" valueTypeId="26f6b7d7-7bb5-4320-91bc-1335fda65b80"/>
+    <managerType typeId="f0d07e33-20bd-45a6-aff7-55eff897ae46" valueTypeId="75c83e49-d27d-4906-98de-27f174bf6bec"/>
+  </producedTypes>
+  <forms uuid="e178e84d-9392-4c20-9460-7c4cc7de937c" name="ФормаПутеводителя">
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+    <synonym key="ru" value="Форма путеводителя"/>
+  </forms>
+  <templates uuid="09299f02-68f4-439b-810d-ed097d9b0487" name="ГлавнаяСтраница" templateType="HTMLDocument">
+    <synonym key="ru" value="Макет"/>
+  </templates>
+  <templates uuid="710e84df-7050-44c8-8169-bfe741539ca2" name="ДемонстрационнаяКонфигурация" templateType="HTMLDocument">
+    <synonym key="ru" value="Демонстрационная конфигурация"/>
+  </templates>
+  <templates uuid="a73b5750-3506-475e-b847-22e446a421bf" name="КомандныйИнтерфейс" templateType="HTMLDocument">
+    <synonym key="ru" value="Командный интерфейс"/>
+  </templates>
+  <templates uuid="edc10528-0567-47b8-bbe3-031fdce1cc72" name="УправляемаяФорма" templateType="HTMLDocument">
+    <synonym key="ru" value="Управляемая форма"/>
+  </templates>
+  <templates uuid="74db706f-e7eb-4db7-ac63-67408299e6a9" name="ДинамическийСписок" templateType="HTMLDocument">
+    <synonym key="ru" value="Динамический список"/>
+  </templates>
+  <templates uuid="a5ff6253-dfcb-4135-9935-eb562db2cc88" name="ИнтерфейсныеСвойстваМетаданных" templateType="HTMLDocument">
+    <synonym key="ru" value="Интерфейсные свойства метаданных"/>
+  </templates>
+  <templates uuid="c9426e03-3e73-4743-9c0f-6f238a30d7a2" name="ОписаниеСтандартныхРеквизитовВМетаданных" templateType="HTMLDocument">
+    <synonym key="ru" value="Описание стандартных реквизитов в метаданных"/>
+  </templates>
+  <templates uuid="3f773e15-c7b7-42b8-a530-dc302bdfc8b4" name="Отчеты" templateType="HTMLDocument">
+    <synonym key="ru" value="Отчеты"/>
+  </templates>
+  <templates uuid="10d5a9ef-49eb-45f0-b99a-b4d0058562c1" name="Агрегаты" templateType="HTMLDocument">
+    <synonym key="ru" value="Агрегаты"/>
+  </templates>
+  <templates uuid="928f7897-c3e1-4cdc-85d6-9b786f3f7a5d" name="КомандыОбъектовМетаданных" templateType="HTMLDocument">
+    <synonym key="ru" value="Команды объектов метаданных"/>
+  </templates>
+  <templates uuid="d413cbfc-614a-4804-9b02-2406bb4b3abc" name="ПроверкаЗаполнения" templateType="HTMLDocument">
+    <synonym key="ru" value="Проверка заполнения"/>
+  </templates>
+  <templates uuid="f531491c-d194-4b69-8bed-352fddd62a68" name="ЗаполнениеНачальнымиДанными" templateType="HTMLDocument">
+    <synonym key="ru" value="Заполнение начальными данными"/>
+  </templates>
+  <templates uuid="8ea40443-2832-4adb-9139-1188df626b95" name="СообщенияИСостояние" templateType="HTMLDocument">
+    <synonym key="ru" value="Сообщения и состояние"/>
+  </templates>
+  <templates uuid="66023532-f284-47a0-a108-9efa3f48b47b" name="ПечатьДокумента" templateType="HTMLDocument">
+    <synonym key="ru" value="Печать документа"/>
+  </templates>
+  <templates uuid="b107cdee-5985-4599-aa21-7a7d9ccfefae" name="КартинкиВТабличномДокументе" templateType="HTMLDocument">
+    <synonym key="ru" value="Отображение картинок в ячейках табличного документа"/>
+  </templates>
+  <templates uuid="7005347a-cbfa-4514-91cb-7252ff282170" name="БыстрыйВыборИВводПоСтроке" templateType="HTMLDocument">
+    <synonym key="ru" value="Быстрый выбор и ввод по строке"/>
+  </templates>
+  <templates uuid="b4c67ebe-33a9-433d-94db-7f3a4bacb3d8" name="Подбор" templateType="HTMLDocument">
+    <synonym key="ru" value="Подбор"/>
+  </templates>
+  <templates uuid="58dd67d2-f37c-4720-9a92-abc56d41f334" name="ПрограммноеИзменениеОписанияФормы" templateType="HTMLDocument">
+    <synonym key="ru" value="Программное изменение описания формы"/>
+  </templates>
+  <templates uuid="ff531690-5958-4a2c-bb4d-d5167b93cace" name="ФункциональныеОпции" templateType="HTMLDocument">
+    <synonym key="ru" value="Функциональные опции"/>
+  </templates>
+  <templates uuid="8052f7a2-090e-4210-9dd0-c6206b457f50" name="РаботаСФайламиИКартинками" templateType="HTMLDocument">
+    <synonym key="ru" value="Работа с файлами и картинками"/>
+  </templates>
+  <templates uuid="3eba9ea6-5532-460c-b6e4-bac60c20a250" name="ПраваДоступа" templateType="HTMLDocument">
+    <synonym key="ru" value="Права доступа"/>
+  </templates>
+  <templates uuid="d1fef266-4712-4f8b-814e-c5f2f114b815" name="НачальнаяСтраница" templateType="HTMLDocument">
+    <synonym key="ru" value="Начальная страница"/>
+  </templates>
+  <templates uuid="1f8d7927-15fd-404e-ab7d-2f4ee064b171" name="ИнтерфейсПриложения" templateType="HTMLDocument">
+    <synonym key="ru" value="Интерфейс приложения"/>
+  </templates>
+  <templates uuid="221e4936-98b2-482a-a930-20480d8b1ea8" name="ХранилищеНастроекПользователей" templateType="HTMLDocument">
+    <synonym key="ru" value="Хранилище настроек пользователей"/>
+  </templates>
+  <templates uuid="b9525a38-a0be-46da-a349-fb23985817e7" name="ПроведениеДокументов" templateType="HTMLDocument">
+    <synonym key="ru" value="Проведение документов"/>
+  </templates>
+  <templates uuid="79a4c805-81e5-461b-a384-9dc5a573fe6b" name="ВнешниеКомпоненты" templateType="HTMLDocument">
+    <synonym key="ru" value="Внешние компоненты"/>
+  </templates>
+  <templates uuid="cd62861a-43ef-4ded-b19d-2bbb61289ef4" name="МеханизмХарактеристик" templateType="HTMLDocument">
+    <synonym key="ru" value="Механизм характеристик"/>
+  </templates>
+  <templates uuid="32bf16cd-a023-4648-8efe-a75b849380b7" name="ФорматированныйДокумент" templateType="HTMLDocument">
+    <synonym key="ru" value="Форматированный документ"/>
+  </templates>
+  <templates uuid="18fe2456-2974-4280-802f-ca33ce593484" name="Криптография" templateType="HTMLDocument">
+    <synonym key="ru" value="Криптография"/>
+  </templates>
+  <templates uuid="b28c653d-0926-4394-a649-d8baad20666c" name="ПроизвольныеПредставленияОбъектов" templateType="HTMLDocument">
+    <synonym key="ru" value="Произвольные представления объектов"/>
+  </templates>
+  <templates uuid="75669fa6-0899-4d0d-9269-90857ec72a4e" name="МобильноеПриложение" templateType="HTMLDocument">
+    <synonym key="ru" value="Мобильное приложение"/>
+  </templates>
+  <templates uuid="9db21765-8f96-4169-b33c-14b44527f82f" name="ТиповыеПриемыРазработки" templateType="HTMLDocument">
+    <synonym key="ru" value="Типовые приемы разработки"/>
+  </templates>
+  <commands uuid="96ef0e75-a210-425d-86d1-beb68cdcf5b1" name="ПутеводительПоКонфигурации" group="CommandGroup.Информация" representation="Auto">
+    <synonym key="ru" value="Путеводитель по конфигурации"/>
+    <commandParameterType/>
+  </commands>
+</mdclass:DataProcessor>

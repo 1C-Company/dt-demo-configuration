@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmi:CommandInterface xmlns:cmi="http://g5.1c.ru/v8/dt/cmi">
+  <commandsVisibility>
+    <visibilityFragments command="Catalog.РасчетныеСчета.StandardCommand.OpenList">
+      <visible common="true">
+        <for role="Role.Продавец"/>
+      </visible>
+    </visibilityFragments>
+    <visibilityFragments command="Catalog.РасчетныеСчета.StandardCommand.Create">
+      <visible>
+        <for role="Role.Продавец"/>
+      </visible>
+    </visibilityFragments>
+  </commandsVisibility>
+</cmi:CommandInterface>

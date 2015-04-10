@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form:Form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:form="http://g5.1c.ru/v8/dt/form" windowOpeningMode="LockOwnerWindow">
+  <items xsi:type="form:FormField" name="Код" id="1">
+    <userVisible common="true"/>
+    <dataPath xsi:type="form:DataPath">
+      <segments>Объект</segments>
+      <segments>Code</segments>
+    </dataPath>
+    <extInfo xsi:type="form:InputFieldExtInfo" wrap="false"/>
+    <contextMenu name="Код_КонтекстноеМеню" id="2">
+      <userVisible common="true"/>
+    </contextMenu>
+    <extendedTooltip name="КодExtendedTooltip" id="7">
+      <userVisible common="true"/>
+      <extInfo xsi:type="form:LabelDecorationExtInfo"/>
+    </extendedTooltip>
+  </items>
+  <items xsi:type="form:FormField" name="Наименование" id="3">
+    <userVisible common="true"/>
+    <dataPath xsi:type="form:DataPath">
+      <segments>Объект</segments>
+      <segments>Description</segments>
+    </dataPath>
+    <extInfo xsi:type="form:InputFieldExtInfo" wrap="false"/>
+    <contextMenu name="Наименование_КонтекстноеМеню" id="4">
+      <userVisible common="true"/>
+    </contextMenu>
+    <extendedTooltip name="НаименованиеExtendedTooltip" id="8">
+      <userVisible common="true"/>
+      <extInfo xsi:type="form:LabelDecorationExtInfo"/>
+    </extendedTooltip>
+  </items>
+  <items xsi:type="form:FormField" name="ВалютныйУчет" id="5" type="CheckBoxField">
+    <userVisible common="true"/>
+    <dataPath xsi:type="form:DataPath">
+      <segments>Объект</segments>
+      <segments>ВалютныйУчет</segments>
+    </dataPath>
+    <extInfo xsi:type="form:CheckBoxFieldExtInfo"/>
+    <contextMenu name="ВалютныйУчет_КонтекстноеМеню" id="6">
+      <userVisible common="true"/>
+    </contextMenu>
+    <extendedTooltip name="ВалютныйУчетExtendedTooltip" id="9">
+      <userVisible common="true"/>
+      <extInfo xsi:type="form:LabelDecorationExtInfo"/>
+    </extendedTooltip>
+  </items>
+  <autoCommandBar name="Форма_КоманднаяПанель" id="-1">
+    <userVisible common="true"/>
+  </autoCommandBar>
+  <attributes name="Объект" id="1" main="true" savedData="true">
+    <valueType>
+      <types>CatalogObject.Организации</types>
+    </valueType>
+    <view common="true"/>
+    <edit common="true"/>
+  </attributes>
+  <commandInterface>
+    <navigationPanel/>
+    <commandBar/>
+  </commandInterface>
+  <extInfo xsi:type="form:CatalogFormExtInfo">
+    <events key="AfterWrite" value="ПослеЗаписи"/>
+  </extInfo>
+</form:Form>

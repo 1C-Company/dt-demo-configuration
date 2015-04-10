@@ -1,0 +1,423 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form:Form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:form="http://g5.1c.ru/v8/dt/form" commandBarLocation="None" autoTitle="false" verticalScroll="UseIfNecessary">
+    <excludedCommands>No</excludedCommands>
+    <excludedCommands>Abort</excludedCommands>
+    <excludedCommands>Retry</excludedCommands>
+    <excludedCommands>Yes</excludedCommands>
+    <excludedCommands>Cancel</excludedCommands>
+    <excludedCommands>Ignore</excludedCommands>
+    <excludedCommands>OK</excludedCommands>
+  <title key="ru" value="Активные пользователи"/>
+  <items xsi:type="form:FormGroup" name="ОсновнаяКоманднаяПанель" id="1" type="CommandBar">
+    <items xsi:type="form:Button" name="ЖурналРегистрации" id="16" skipOnInput="false" type="CommandBarButton" commandName="Form.Command.ЖурналРегистрации">
+      <userVisible common="true"/>
+      <parameter/>
+      <textColor xsi:type="core:ColorRef" color="Style.ButtonTextColor"/>
+      <backColor xsi:type="core:ColorRef" color="Style.ButtonBackColor"/>
+      <borderColor xsi:type="core:ColorRef" color="Style.BorderColor"/>
+      <extendedTooltip name="ЖурналРегистрацииРасширеннаяПодсказка" id="29">
+        <userVisible common="true"/>
+        <extInfo xsi:type="form:LabelDecorationExtInfo"/>
+      </extendedTooltip>
+    </items>
+    <items xsi:type="form:Button" name="РаботаПользователя" id="17" skipOnInput="false" type="CommandBarButton" commandName="Form.Command.РаботаПользователя">
+      <userVisible common="true"/>
+      <parameter/>
+      <textColor xsi:type="core:ColorRef" color="Style.ButtonTextColor"/>
+      <backColor xsi:type="core:ColorRef" color="Style.ButtonBackColor"/>
+      <borderColor xsi:type="core:ColorRef" color="Style.BorderColor"/>
+      <extendedTooltip name="РаботаПользователяРасширеннаяПодсказка" id="30">
+        <userVisible common="true"/>
+        <extInfo xsi:type="form:LabelDecorationExtInfo"/>
+      </extendedTooltip>
+    </items>
+    <items xsi:type="form:Button" name="Обновить" id="18" skipOnInput="false" type="CommandBarButton" commandName="Form.Command.Обновить">
+      <userVisible common="true"/>
+      <parameter/>
+      <textColor xsi:type="core:ColorRef" color="Style.ButtonTextColor"/>
+      <backColor xsi:type="core:ColorRef" color="Style.ButtonBackColor"/>
+      <borderColor xsi:type="core:ColorRef" color="Style.BorderColor"/>
+      <extendedTooltip name="ОбновитьРасширеннаяПодсказка" id="31">
+        <userVisible common="true"/>
+        <extInfo xsi:type="form:LabelDecorationExtInfo"/>
+      </extendedTooltip>
+    </items>
+    <items xsi:type="form:Button" name="СортировкаПоВозрастанию1" id="26" skipOnInput="false" type="CommandBarButton" commandName="Form.Command.СортировкаПоВозрастанию">
+      <userVisible common="true"/>
+      <parameter/>
+      <textColor xsi:type="core:ColorRef" color="Style.ButtonTextColor"/>
+      <backColor xsi:type="core:ColorRef" color="Style.ButtonBackColor"/>
+      <borderColor xsi:type="core:ColorRef" color="Style.BorderColor"/>
+      <extendedTooltip name="СортировкаПоВозрастанию1РасширеннаяПодсказка" id="32">
+        <userVisible common="true"/>
+        <extInfo xsi:type="form:LabelDecorationExtInfo"/>
+      </extendedTooltip>
+    </items>
+    <items xsi:type="form:Button" name="СортировкаПоУбыванию1" id="27" skipOnInput="false" type="CommandBarButton" commandName="Form.Command.СортировкаПоУбыванию">
+      <userVisible common="true"/>
+      <parameter/>
+      <textColor xsi:type="core:ColorRef" color="Style.ButtonTextColor"/>
+      <backColor xsi:type="core:ColorRef" color="Style.ButtonBackColor"/>
+      <borderColor xsi:type="core:ColorRef" color="Style.BorderColor"/>
+      <extendedTooltip name="СортировкаПоУбыванию1РасширеннаяПодсказка" id="33">
+        <userVisible common="true"/>
+        <extInfo xsi:type="form:LabelDecorationExtInfo"/>
+      </extendedTooltip>
+    </items>
+    <userVisible common="true"/>
+    <extendedTooltip name="ОсновнаяКоманднаяПанельРасширеннаяПодсказка" id="28">
+      <userVisible common="true"/>
+      <extInfo xsi:type="form:LabelDecorationExtInfo"/>
+    </extendedTooltip>
+    <extInfo xsi:type="form:CommandBarExtInfo" commandSource="Form"/>
+  </items>
+  <items xsi:type="form:Table" name="СписокПользователей" id="2" skipOnInput="false" commandBarLocation="None" representation="List" width="80" heightInTableRows="4" selectionMode="SingleRow" searchStringLocation="None" viewStatusLocation="None" searchControlLocation="None">
+    <excludedCommands>Copy</excludedCommands>
+    <excludedCommands>SortListAsc</excludedCommands>
+    <excludedCommands>MoveUp</excludedCommands>
+    <excludedCommands>SortListDesc</excludedCommands>
+    <excludedCommands>EndEdit</excludedCommands>
+    <excludedCommands>Add</excludedCommands>
+    <excludedCommands>Change</excludedCommands>
+    <excludedCommands>MoveDown</excludedCommands>
+    <userVisible common="true"/>
+    <dataPath xsi:type="form:DataPath">
+      <segments>СписокПользователей</segments>
+    </dataPath>
+    <items xsi:type="form:FormField" name="Пользователь" id="4" readOnly="true" editMode="Enter" footerHorizontalAlign="Left">
+      <userVisible common="true"/>
+      <dataPath xsi:type="form:DataPath">
+        <segments>СписокПользователей</segments>
+        <segments>ИмяПользователя</segments>
+      </dataPath>
+      <extInfo xsi:type="form:InputFieldExtInfo" wrap="false">
+        <borderColor xsi:type="core:ColorRef" color="Style.BorderColor"/>
+      </extInfo>
+      <contextMenu name="ПользовательКонтекстноеМеню" id="5">
+        <userVisible common="true"/>
+      </contextMenu>
+      <extendedTooltip name="ПользовательРасширеннаяПодсказка" id="48">
+        <userVisible common="true"/>
+        <extInfo xsi:type="form:LabelDecorationExtInfo"/>
+      </extendedTooltip>
+    </items>
+    <items xsi:type="form:FormField" name="Приложение" id="8" readOnly="true" editMode="Enter" footerHorizontalAlign="Left">
+      <userVisible common="true"/>
+      <dataPath xsi:type="form:DataPath">
+        <segments>СписокПользователей</segments>
+        <segments>Приложение</segments>
+      </dataPath>
+      <extInfo xsi:type="form:InputFieldExtInfo" wrap="false">
+        <borderColor xsi:type="core:ColorRef" color="Style.BorderColor"/>
+      </extInfo>
+      <contextMenu name="ПриложениеКонтекстноеМеню" id="9">
+        <userVisible common="true"/>
+      </contextMenu>
+      <extendedTooltip name="ПриложениеРасширеннаяПодсказка" id="49">
+        <userVisible common="true"/>
+        <extInfo xsi:type="form:LabelDecorationExtInfo"/>
+      </extendedTooltip>
+    </items>
+    <items xsi:type="form:FormField" name="НачалоРаботы" id="10" readOnly="true" editMode="Enter" footerHorizontalAlign="Left">
+      <userVisible common="true"/>
+      <dataPath xsi:type="form:DataPath">
+        <segments>СписокПользователей</segments>
+        <segments>НачалоРаботы</segments>
+      </dataPath>
+      <extInfo xsi:type="form:InputFieldExtInfo" wrap="false">
+        <borderColor xsi:type="core:ColorRef" color="Style.BorderColor"/>
+      </extInfo>
+      <contextMenu name="НачалоРаботыКонтекстноеМеню" id="11">
+        <userVisible common="true"/>
+      </contextMenu>
+      <extendedTooltip name="НачалоРаботыРасширеннаяПодсказка" id="50">
+        <userVisible common="true"/>
+        <extInfo xsi:type="form:LabelDecorationExtInfo"/>
+      </extendedTooltip>
+    </items>
+    <items xsi:type="form:FormField" name="Компьютер" id="12" readOnly="true" editMode="Enter" footerHorizontalAlign="Left">
+      <userVisible common="true"/>
+      <dataPath xsi:type="form:DataPath">
+        <segments>СписокПользователей</segments>
+        <segments>Компьютер</segments>
+      </dataPath>
+      <extInfo xsi:type="form:InputFieldExtInfo" wrap="false">
+        <borderColor xsi:type="core:ColorRef" color="Style.BorderColor"/>
+      </extInfo>
+      <contextMenu name="КомпьютерКонтекстноеМеню" id="13">
+        <userVisible common="true"/>
+      </contextMenu>
+      <extendedTooltip name="КомпьютерРасширеннаяПодсказка" id="51">
+        <userVisible common="true"/>
+        <extInfo xsi:type="form:LabelDecorationExtInfo"/>
+      </extendedTooltip>
+    </items>
+    <items xsi:type="form:FormField" name="Сеанс" id="14" readOnly="true" editMode="Enter" footerHorizontalAlign="Left">
+      <userVisible common="true"/>
+      <dataPath xsi:type="form:DataPath">
+        <segments>СписокПользователей</segments>
+        <segments>Сеанс</segments>
+      </dataPath>
+      <extInfo xsi:type="form:InputFieldExtInfo" wrap="false">
+        <borderColor xsi:type="core:ColorRef" color="Style.BorderColor"/>
+      </extInfo>
+      <contextMenu name="СеансКонтекстноеМеню" id="15">
+        <userVisible common="true"/>
+      </contextMenu>
+      <extendedTooltip name="СеансРасширеннаяПодсказка" id="52">
+        <userVisible common="true"/>
+        <extInfo xsi:type="form:LabelDecorationExtInfo"/>
+      </extendedTooltip>
+    </items>
+    <autoCommandBar name="СписокПользователейКоманднаяПанель" id="23">
+      <userVisible common="true"/>
+    </autoCommandBar>
+    <searchStringAddition name="СписокПользователейСтрокаПоиска" id="39" source="СписокПользователейСтрокаПоиска">
+      <userVisible common="true"/>
+      <extInfo xsi:type="form:SearchStringAdditionExtInfo"/>
+      <contextMenu name="СписокПользователейСтрокаПоискаКонтекстноеМеню" id="40">
+        <userVisible common="true"/>
+      </contextMenu>
+      <extendedTooltip name="СписокПользователейСтрокаПоискаРасширеннаяПодсказка" id="41">
+        <userVisible common="true"/>
+        <extInfo xsi:type="form:LabelDecorationExtInfo"/>
+      </extendedTooltip>
+    </searchStringAddition>
+    <viewStatusAddition name="СписокПользователейСостояниеПросмотра" id="42" type="ViewStatusAddition" source="СписокПользователейСостояниеПросмотра">
+      <userVisible common="true"/>
+      <extInfo xsi:type="form:ViewStatusAdditionExtInfo"/>
+      <contextMenu name="СписокПользователейСостояниеПросмотраКонтекстноеМеню" id="43">
+        <userVisible common="true"/>
+      </contextMenu>
+      <extendedTooltip name="СписокПользователейСостояниеПросмотраРасширеннаяПодсказка" id="44">
+        <userVisible common="true"/>
+        <extInfo xsi:type="form:LabelDecorationExtInfo"/>
+      </extendedTooltip>
+    </viewStatusAddition>
+    <searchControlAddition name="СписокПользователейУправлениеПоиском" id="45" type="SearchControlAddition" source="СписокПользователейУправлениеПоиском">
+      <userVisible common="true"/>
+      <extInfo xsi:type="form:SearchControlAdditionExtInfo"/>
+      <contextMenu name="СписокПользователейУправлениеПоискомКонтекстноеМеню" id="46">
+        <userVisible common="true"/>
+      </contextMenu>
+      <extendedTooltip name="СписокПользователейУправлениеПоискомРасширеннаяПодсказка" id="47">
+        <userVisible common="true"/>
+        <extInfo xsi:type="form:LabelDecorationExtInfo"/>
+      </extendedTooltip>
+    </searchControlAddition>
+    <rowPictureDataPath xsi:type="form:DataPath">
+      <segments>СписокПользователей</segments>
+      <segments>НомерРисункаПользователя</segments>
+    </rowPictureDataPath>
+    <rowsPicture xsi:type="core:PictureRef" picture="CommonPicture.КоллекцияВидыАктивныхПользователей"/>
+    <borderColor xsi:type="core:ColorRef" color="Style.BorderColor"/>
+    <contextMenu name="СписокПользователейКонтекстноеМеню" id="3">
+      <items xsi:type="form:Button" name="РаботаПользователя1" id="20" skipOnInput="false" type="CommandBarButton" commandName="Form.Command.РаботаПользователя">
+        <userVisible common="true"/>
+        <parameter/>
+        <textColor xsi:type="core:ColorRef" color="Style.ButtonTextColor"/>
+        <backColor xsi:type="core:ColorRef" color="Style.ButtonBackColor"/>
+        <borderColor xsi:type="core:ColorRef" color="Style.BorderColor"/>
+        <extendedTooltip name="РаботаПользователя1РасширеннаяПодсказка" id="34">
+          <userVisible common="true"/>
+          <extInfo xsi:type="form:LabelDecorationExtInfo"/>
+        </extendedTooltip>
+      </items>
+      <items xsi:type="form:Button" name="Обновить1" id="21" skipOnInput="false" type="CommandBarButton" commandName="Form.Command.Обновить">
+        <userVisible common="true"/>
+        <parameter/>
+        <textColor xsi:type="core:ColorRef" color="Style.ButtonTextColor"/>
+        <backColor xsi:type="core:ColorRef" color="Style.ButtonBackColor"/>
+        <borderColor xsi:type="core:ColorRef" color="Style.BorderColor"/>
+        <extendedTooltip name="Обновить1РасширеннаяПодсказка" id="35">
+          <userVisible common="true"/>
+          <extInfo xsi:type="form:LabelDecorationExtInfo"/>
+        </extendedTooltip>
+      </items>
+      <items xsi:type="form:Button" name="СортировкаПоВозрастанию" id="24" skipOnInput="false" type="CommandBarButton" commandName="Form.Command.СортировкаПоВозрастанию">
+        <userVisible common="true"/>
+        <parameter/>
+        <textColor xsi:type="core:ColorRef" color="Style.ButtonTextColor"/>
+        <backColor xsi:type="core:ColorRef" color="Style.ButtonBackColor"/>
+        <borderColor xsi:type="core:ColorRef" color="Style.BorderColor"/>
+        <extendedTooltip name="СортировкаПоВозрастаниюРасширеннаяПодсказка" id="36">
+          <userVisible common="true"/>
+          <extInfo xsi:type="form:LabelDecorationExtInfo"/>
+        </extendedTooltip>
+      </items>
+      <items xsi:type="form:Button" name="СортировкаПоУбыванию" id="25" skipOnInput="false" type="CommandBarButton" commandName="Form.Command.СортировкаПоУбыванию">
+        <userVisible common="true"/>
+        <parameter/>
+        <textColor xsi:type="core:ColorRef" color="Style.ButtonTextColor"/>
+        <backColor xsi:type="core:ColorRef" color="Style.ButtonBackColor"/>
+        <borderColor xsi:type="core:ColorRef" color="Style.BorderColor"/>
+        <extendedTooltip name="СортировкаПоУбываниюРасширеннаяПодсказка" id="37">
+          <userVisible common="true"/>
+          <extInfo xsi:type="form:LabelDecorationExtInfo"/>
+        </extendedTooltip>
+      </items>
+      <userVisible common="true"/>
+    </contextMenu>
+    <extendedTooltip name="СписокПользователейРасширеннаяПодсказка" id="38">
+      <userVisible common="true"/>
+      <extInfo xsi:type="form:LabelDecorationExtInfo"/>
+    </extendedTooltip>
+  </items>
+  <items xsi:type="form:FormField" name="КоличествоАктивныхПользователей" id="6" type="LabelField" horizontalAlign="Left" editMode="Enter" footerHorizontalAlign="Left">
+    <userVisible common="true"/>
+    <dataPath xsi:type="form:DataPath">
+      <segments>КоличествоАктивныхПользователей</segments>
+    </dataPath>
+    <extInfo xsi:type="form:LabelFieldExtInfo"/>
+    <contextMenu name="КоличествоАктивныхПользователейКонтекстноеМеню" id="7">
+      <userVisible common="true"/>
+    </contextMenu>
+    <extendedTooltip name="КоличествоАктивныхПользователейРасширеннаяПодсказка" id="53">
+      <userVisible common="true"/>
+      <extInfo xsi:type="form:LabelDecorationExtInfo"/>
+    </extendedTooltip>
+  </items>
+  <autoCommandBar name="ФормаКоманднаяПанель" id="-1">
+    <userVisible common="true"/>
+  </autoCommandBar>
+  <events key="OnCreateAtServer" value="ПриСозданииНаСервере"/>
+  <attributes name="Объект" id="1" main="true">
+    <valueType>
+      <types>DataProcessorObject.СписокАктивныхПользователей</types>
+    </valueType>
+    <view common="true"/>
+    <edit common="true"/>
+  </attributes>
+  <attributes name="СписокПользователей" id="2">
+    <title key="ru" value="Список пользователей"/>
+    <valueType>
+      <types>ValueTable</types>
+    </valueType>
+    <view common="true"/>
+    <edit common="true"/>
+    <columns name="НомерРисункаПользователя" id="1">
+      <title key="ru" value="Номер рисунка пользователя"/>
+      <valueType>
+        <types>Number</types>
+        <numberQualifiers precision="1"/>
+      </valueType>
+      <view common="true"/>
+      <edit common="true"/>
+    </columns>
+    <columns name="Пользователь" id="2">
+      <title key="ru" value="Пользователь"/>
+      <valueType>
+        <types>String</types>
+        <stringQualifiers/>
+      </valueType>
+      <view common="true"/>
+      <edit common="true"/>
+    </columns>
+    <columns name="Приложение" id="3">
+      <title key="ru" value="Приложение"/>
+      <valueType>
+        <types>String</types>
+        <stringQualifiers/>
+      </valueType>
+      <view common="true"/>
+      <edit common="true"/>
+    </columns>
+    <columns name="НачалоРаботы" id="4">
+      <title key="ru" value="Начало работы"/>
+      <valueType>
+        <types>Date</types>
+        <dateQualifiers/>
+      </valueType>
+      <view common="true"/>
+      <edit common="true"/>
+    </columns>
+    <columns name="Компьютер" id="5">
+      <title key="ru" value="Компьютер"/>
+      <valueType>
+        <types>String</types>
+        <stringQualifiers/>
+      </valueType>
+      <view common="true"/>
+      <edit common="true"/>
+    </columns>
+    <columns name="Сеанс" id="6">
+      <title key="ru" value="Сеанс"/>
+      <valueType>
+        <types>Number</types>
+        <numberQualifiers precision="7" nonNegative="true"/>
+      </valueType>
+      <view common="true"/>
+      <edit common="true"/>
+    </columns>
+    <columns name="ИмяПользователя" id="7">
+      <title key="ru" value="Имя пользователя"/>
+      <valueType>
+        <types>String</types>
+        <stringQualifiers/>
+      </valueType>
+      <view common="true"/>
+      <edit common="true"/>
+    </columns>
+  </attributes>
+  <attributes name="КоличествоАктивныхПользователей" id="3">
+    <title key="ru" value="Количество"/>
+    <valueType>
+      <types>Number</types>
+      <numberQualifiers precision="10"/>
+    </valueType>
+    <view common="true"/>
+    <edit common="true"/>
+  </attributes>
+  <attributes name="ИмяКолонкиСортировки" id="4">
+    <title key="ru" value="Имя колонки сортировки"/>
+    <valueType>
+      <types>String</types>
+      <stringQualifiers/>
+    </valueType>
+    <view common="true"/>
+    <edit common="true"/>
+  </attributes>
+  <attributes name="НаправлениеСортировки" id="5">
+    <title key="ru" value="Направление сортировки"/>
+    <valueType>
+      <types>String</types>
+      <stringQualifiers length="5"/>
+    </valueType>
+    <view common="true"/>
+    <edit common="true"/>
+  </attributes>
+  <formCommands name="ЖурналРегистрации" id="1" action="ОткрытьЖурналРегистрации">
+    <title key="ru" value="Журнал регистрации"/>
+    <toolTip key="ru" value="Открыть журнал регистрации событий"/>
+    <use common="true"/>
+    <picture xsi:type="core:PictureRef" picture="StdPicture.EventLog"/>
+  </formCommands>
+  <formCommands name="РаботаПользователя" id="2" action="ОткрытьЖурналРегистрацииПоПользователю">
+    <title key="ru" value="Работа пользователя"/>
+    <toolTip key="ru" value="Работа пользователя"/>
+    <use common="true"/>
+    <picture xsi:type="core:PictureRef" picture="StdPicture.EventLogByUser"/>
+  </formCommands>
+  <formCommands name="Обновить" id="3" shortcut="Ctrl+Shift+R" action="ОбновитьВыполнить">
+    <title key="ru" value="Обновить"/>
+    <toolTip key="ru" value="Обновить"/>
+    <use common="true"/>
+    <picture xsi:type="core:PictureRef" picture="StdPicture.Refresh"/>
+  </formCommands>
+  <formCommands name="СортировкаПоВозрастанию" id="5" action="СортироватьПоВозрастанию">
+    <title key="ru" value="Сортировка по возрастанию"/>
+    <toolTip key="ru" value="Сортировка по возрастанию"/>
+    <use common="true"/>
+    <picture xsi:type="core:PictureRef" picture="StdPicture.SortListAsc"/>
+  </formCommands>
+  <formCommands name="СортировкаПоУбыванию" id="6" action="СортироватьПоУбыванию">
+    <title key="ru" value="Сортировка по убыванию"/>
+    <toolTip key="ru" value="Сортировка по убыванию"/>
+    <use common="true"/>
+    <picture xsi:type="core:PictureRef" picture="StdPicture.SortListDesc"/>
+  </formCommands>
+  <commandInterface>
+    <navigationPanel/>
+    <commandBar/>
+  </commandInterface>
+</form:Form>

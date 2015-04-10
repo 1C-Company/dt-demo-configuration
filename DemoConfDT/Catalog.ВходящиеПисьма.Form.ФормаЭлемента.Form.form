@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form:Form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:form="http://g5.1c.ru/v8/dt/form">
+  <items xsi:type="form:FormField" name="Дата" id="3">
+    <userVisible common="true"/>
+    <dataPath xsi:type="form:DataPath">
+      <segments>Объект</segments>
+      <segments>Дата</segments>
+    </dataPath>
+    <extInfo xsi:type="form:InputFieldExtInfo"/>
+    <contextMenu name="ДатаКонтекстноеМеню" id="4">
+      <userVisible common="true"/>
+    </contextMenu>
+    <extendedTooltip name="ДатаExtendedTooltip" id="30">
+      <userVisible common="true"/>
+      <extInfo xsi:type="form:LabelDecorationExtInfo"/>
+    </extendedTooltip>
+  </items>
+  <items xsi:type="form:FormField" name="Наименование" id="1" defaultItem="true">
+    <userVisible common="true"/>
+    <dataPath xsi:type="form:DataPath">
+      <segments>Объект</segments>
+      <segments>Description</segments>
+    </dataPath>
+    <extInfo xsi:type="form:InputFieldExtInfo"/>
+    <contextMenu name="НаименованиеКонтекстноеМеню" id="2">
+      <userVisible common="true"/>
+    </contextMenu>
+    <extendedTooltip name="НаименованиеExtendedTooltip" id="31">
+      <userVisible common="true"/>
+      <extInfo xsi:type="form:LabelDecorationExtInfo"/>
+    </extendedTooltip>
+  </items>
+  <items xsi:type="form:FormField" name="Адресат" id="5">
+    <userVisible common="true"/>
+    <dataPath xsi:type="form:DataPath">
+      <segments>Объект</segments>
+      <segments>Отправитель</segments>
+    </dataPath>
+    <extInfo xsi:type="form:InputFieldExtInfo"/>
+    <contextMenu name="АдресатКонтекстноеМеню" id="6">
+      <userVisible common="true"/>
+    </contextMenu>
+    <extendedTooltip name="АдресатExtendedTooltip" id="32">
+      <userVisible common="true"/>
+      <extInfo xsi:type="form:LabelDecorationExtInfo"/>
+    </extendedTooltip>
+  </items>
+  <items xsi:type="form:FormGroup" name="Группа" id="21" type="Pages">
+    <items xsi:type="form:FormGroup" name="ГруппаHTML" id="22" type="Page">
+      <items xsi:type="form:FormField" name="HTML" id="24" titleLocation="None" type="HTMLDocumentField" editMode="Enter">
+        <userVisible common="true"/>
+        <dataPath xsi:type="form:DataPath">
+          <segments>HTML</segments>
+        </dataPath>
+        <extInfo xsi:type="form:HtmlFieldExtInfo"/>
+        <contextMenu name="HTMLКонтекстноеМеню" id="25">
+          <userVisible common="true"/>
+        </contextMenu>
+        <extendedTooltip name="HTMLExtendedTooltip" id="35">
+          <userVisible common="true"/>
+          <extInfo xsi:type="form:LabelDecorationExtInfo"/>
+        </extendedTooltip>
+      </items>
+      <userVisible common="true"/>
+      <title key="ru" value="Группа HTML"/>
+      <toolTip key="ru" value="Группа HTML"/>
+      <extendedTooltip name="ГруппаHTMLExtendedTooltip" id="34">
+        <userVisible common="true"/>
+        <extInfo xsi:type="form:LabelDecorationExtInfo"/>
+      </extendedTooltip>
+      <extInfo xsi:type="form:PageGroupExtInfo"/>
+    </items>
+    <items xsi:type="form:FormGroup" name="ГруппаТекст" id="23" type="Page">
+      <items xsi:type="form:FormField" name="Текст" id="26" titleLocation="None" editMode="Enter">
+        <userVisible common="true"/>
+        <dataPath xsi:type="form:DataPath">
+          <segments>Текст</segments>
+        </dataPath>
+        <extInfo xsi:type="form:InputFieldExtInfo" multiLine="true"/>
+        <contextMenu name="ТекстКонтекстноеМеню" id="27">
+          <userVisible common="true"/>
+        </contextMenu>
+        <extendedTooltip name="ТекстExtendedTooltip" id="37">
+          <userVisible common="true"/>
+          <extInfo xsi:type="form:LabelDecorationExtInfo"/>
+        </extendedTooltip>
+      </items>
+      <userVisible common="true"/>
+      <title key="ru" value="Группа текст"/>
+      <toolTip key="ru" value="Группа текст"/>
+      <extendedTooltip name="ГруппаТекстExtendedTooltip" id="36">
+        <userVisible common="true"/>
+        <extInfo xsi:type="form:LabelDecorationExtInfo"/>
+      </extendedTooltip>
+      <extInfo xsi:type="form:PageGroupExtInfo"/>
+    </items>
+    <userVisible common="true"/>
+    <title key="ru" value="Группа"/>
+    <toolTip key="ru" value="Группа"/>
+    <extendedTooltip name="ГруппаExtendedTooltip" id="33">
+      <userVisible common="true"/>
+      <extInfo xsi:type="form:LabelDecorationExtInfo"/>
+    </extendedTooltip>
+    <extInfo xsi:type="form:PagesGroupExtInfo" pagesRepresentation="None"/>
+  </items>
+  <autoCommandBar name="ФормаКоманднаяПанель" id="-1" autoFill="false">
+    <items xsi:type="form:Button" name="Ответить" id="20" type="CommandBarButton" commandName="Form.Command.Ответить">
+      <userVisible common="true"/>
+      <parameter/>
+      <extendedTooltip name="ОтветитьExtendedTooltip" id="28">
+        <userVisible common="true"/>
+        <extInfo xsi:type="form:LabelDecorationExtInfo"/>
+      </extendedTooltip>
+    </items>
+    <items xsi:type="form:Button" name="Справка" id="14" type="CommandBarButton" commandName="Form.StandardCommand.Help">
+      <userVisible common="true"/>
+      <parameter/>
+      <extendedTooltip name="СправкаExtendedTooltip" id="29">
+        <userVisible common="true"/>
+        <extInfo xsi:type="form:LabelDecorationExtInfo"/>
+      </extendedTooltip>
+    </items>
+    <userVisible common="true"/>
+  </autoCommandBar>
+  <events key="OnOpen" value="ПриОткрытии"/>
+  <events key="OnCreateAtServer" value="ПриСозданииНаСервере"/>
+  <attributes name="Объект" id="1" main="true" savedData="true">
+    <valueType>
+      <types>CatalogObject.ВходящиеПисьма</types>
+    </valueType>
+    <view common="true"/>
+    <edit common="true"/>
+  </attributes>
+  <attributes name="БылоПрочитано" id="2">
+    <title key="ru" value="Было прочитано"/>
+    <valueType>
+      <types>Boolean</types>
+    </valueType>
+    <view common="true"/>
+    <edit common="true"/>
+  </attributes>
+  <attributes name="HTML" id="3">
+    <title key="ru" value="HTML"/>
+    <valueType>
+      <types>String</types>
+      <stringQualifiers/>
+    </valueType>
+    <view common="true"/>
+    <edit common="true"/>
+  </attributes>
+  <attributes name="Текст" id="4">
+    <title key="ru" value="Текст"/>
+    <valueType>
+      <types>String</types>
+      <stringQualifiers/>
+    </valueType>
+    <view common="true"/>
+    <edit common="true"/>
+  </attributes>
+  <formCommands name="Ответить" id="1" action="Ответить">
+    <title key="ru" value="Ответить"/>
+    <toolTip key="ru" value="Ответить"/>
+    <use common="true"/>
+  </formCommands>
+  <parameters name="ВходящееПисьмо">
+    <valueType>
+      <types>CatalogRef.ВходящиеПисьма</types>
+    </valueType>
+  </parameters>
+  <commandInterface>
+    <navigationPanel/>
+    <commandBar/>
+  </commandInterface>
+  <extInfo xsi:type="form:CatalogFormExtInfo"/>
+</form:Form>

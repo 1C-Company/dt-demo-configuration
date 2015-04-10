@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5e0642d7-9ca5-45b9-82ea-f6d2379597a1" name="НазначениеХарактеристик" quickChoice="true" choiceMode="BothWays">
+  <synonym key="ru" value="Назначение характеристик"/>
+  <producedTypes>
+    <refType typeId="a3d2b24f-a181-47f4-ae8a-0f965b0c188b" valueTypeId="ceb74606-c7fb-4c80-932c-bbbe0fe82682"/>
+    <listType typeId="5dd3e6a3-169d-43e1-a841-980a8839fafc" valueTypeId="bdcdf54a-4114-4c29-b1b2-e262d9eb9d05"/>
+    <managerType typeId="1b6fa0f0-5749-430b-8f05-fd5f6757f3c8" valueTypeId="62eaa1c4-6cd4-471a-afc7-2a469f5edc6d"/>
+  </producedTypes>
+  <standardAttributes name="Order" fullTextSearch="Use">
+    <fillValue xsi:type="core:NullValue"/>
+    <minValue xsi:type="core:NullValue"/>
+    <maxValue xsi:type="core:NullValue"/>
+  </standardAttributes>
+  <standardAttributes name="Ref" fullTextSearch="Use">
+    <fillValue xsi:type="core:NullValue"/>
+    <minValue xsi:type="core:NullValue"/>
+    <maxValue xsi:type="core:NullValue"/>
+  </standardAttributes>
+  <enumValues uuid="5fed0a26-8a1b-4475-8ee7-fe5d9e838946" name="Товары">
+    <synonym key="ru" value="Товары"/>
+  </enumValues>
+  <enumValues uuid="b5f73bf7-66c7-4f34-8751-60640e45cbee" name="Контрагенты">
+    <synonym key="ru" value="Контрагенты"/>
+  </enumValues>
+</mdclass:Enum>

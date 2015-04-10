@@ -1,0 +1,714 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rights:RoleDescription xmlns:rights="http://g5.1c.ru/v8/dt/rights" setForAttributesByDefault="true" independentRightsOfChildObjects="true">
+  <rights object="Subsystem.Финансы">
+    <rights right="View" value="true"/>
+  </rights>
+  <rights object="Catalog.РасчетныеСчета">
+    <rights right="Read" value="true"/>
+    <rights right="Insert" value="true"/>
+    <rights right="Update" value="true"/>
+    <rights right="Delete" value="true"/>
+    <rights right="View" value="true"/>
+    <rights right="InteractiveInsert" value="true"/>
+    <rights right="Edit" value="true"/>
+    <rights right="InteractiveDelete" value="true"/>
+    <rights right="InteractiveSetDeletionMark" value="true"/>
+    <rights right="InteractiveClearDeletionMark" value="true"/>
+    <rights right="InteractiveDeleteMarked" value="true"/>
+    <rights right="InputByString" value="true"/>
+    <rights right="InteractiveDeletePredefinedData" value="true"/>
+    <rights right="InteractiveSetDeletionMarkPredefinedData" value="true"/>
+    <rights right="InteractiveClearDeletionMarkPredefinedData" value="true"/>
+    <rights right="InteractiveDeleteMarkedPredefinedData" value="true"/>
+  </rights>
+  <rights object="Document.ПриходТовара.TabularSection.Товары.Attribute.Товар">
+    <rights right="Edit"/>
+  </rights>
+  <rights object="Catalog.Контрагенты">
+    <rights right="Read" value="true"/>
+    <rights right="Insert" value="true"/>
+    <rights right="Update" value="true"/>
+    <rights right="Delete" value="true"/>
+    <rights right="View" value="true"/>
+    <rights right="InteractiveInsert" value="true"/>
+    <rights right="Edit" value="true"/>
+    <rights right="InteractiveDelete" value="true"/>
+    <rights right="InteractiveSetDeletionMark" value="true"/>
+    <rights right="InteractiveClearDeletionMark" value="true"/>
+    <rights right="InteractiveDeleteMarked" value="true"/>
+    <rights right="InputByString" value="true"/>
+    <rights right="InteractiveDeletePredefinedData" value="true"/>
+    <rights right="InteractiveSetDeletionMarkPredefinedData" value="true"/>
+    <rights right="InteractiveClearDeletionMarkPredefinedData" value="true"/>
+    <rights right="InteractiveDeleteMarkedPredefinedData" value="true"/>
+  </rights>
+  <rights object="Document.ПриходТовара.TabularSection.Товары.Attribute.Количество">
+    <rights right="Edit"/>
+  </rights>
+  <rights object="Constant.ТолькоЗащищеннаяАутентификацияSMTP">
+    <rights right="Read" value="true"/>
+    <rights right="Update" value="true"/>
+    <rights right="View" value="true"/>
+    <rights right="Edit" value="true"/>
+  </rights>
+  <rights object="Subsystem.Предприятие">
+    <rights right="View" value="true"/>
+  </rights>
+  <rights object="DataProcessor.ЭлектроннаяПочта">
+    <rights right="Use" value="true"/>
+    <rights right="View" value="true"/>
+  </rights>
+  <rights object="Constant.ТаймаутИнтернетПочты">
+    <rights right="Read" value="true"/>
+    <rights right="Update" value="true"/>
+    <rights right="View" value="true"/>
+    <rights right="Edit" value="true"/>
+  </rights>
+  <rights object="Constant.ПортSMTP">
+    <rights right="Read" value="true"/>
+    <rights right="Update" value="true"/>
+    <rights right="View" value="true"/>
+    <rights right="Edit" value="true"/>
+  </rights>
+  <rights object="Catalog.Пользователи">
+    <rights right="Read" value="true"/>
+    <rights right="Insert" value="true"/>
+    <rights right="Update" value="true"/>
+    <rights right="Delete" value="true"/>
+    <rights right="View" value="true"/>
+    <rights right="Edit" value="true"/>
+    <rights right="InteractiveDelete" value="true"/>
+    <rights right="InteractiveSetDeletionMark" value="true"/>
+    <rights right="InteractiveClearDeletionMark" value="true"/>
+    <rights right="InteractiveDeleteMarked" value="true"/>
+    <rights right="InteractiveDeletePredefinedData" value="true"/>
+    <rights right="InteractiveSetDeletionMarkPredefinedData" value="true"/>
+    <rights right="InteractiveClearDeletionMarkPredefinedData" value="true"/>
+    <rights right="InteractiveDeleteMarkedPredefinedData" value="true"/>
+  </rights>
+  <rights object="AccumulationRegister.Продажи">
+    <rights right="Read" value="true"/>
+    <rights right="Update" value="true"/>
+    <rights right="View" value="true"/>
+    <rights right="Edit" value="true"/>
+    <rights right="TotalsControl" value="true"/>
+  </rights>
+  <rights object="Document.Оплата.Attribute.Поставщик">
+    <rights right="Edit"/>
+  </rights>
+  <rights object="Catalog.ПочтовыеВложения">
+    <rights right="Read" value="true"/>
+    <rights right="Insert" value="true"/>
+    <rights right="Update" value="true"/>
+    <rights right="Delete" value="true"/>
+    <rights right="View" value="true"/>
+    <rights right="InteractiveInsert" value="true"/>
+    <rights right="Edit" value="true"/>
+    <rights right="InteractiveDelete" value="true"/>
+    <rights right="InteractiveSetDeletionMark" value="true"/>
+    <rights right="InteractiveClearDeletionMark" value="true"/>
+    <rights right="InteractiveDeleteMarked" value="true"/>
+    <rights right="InputByString" value="true"/>
+    <rights right="InteractiveDeletePredefinedData" value="true"/>
+    <rights right="InteractiveSetDeletionMarkPredefinedData" value="true"/>
+    <rights right="InteractiveClearDeletionMarkPredefinedData" value="true"/>
+    <rights right="InteractiveDeleteMarkedPredefinedData" value="true"/>
+  </rights>
+  <rights object="Catalog.Регионы">
+    <rights right="Read" value="true"/>
+    <rights right="Insert" value="true"/>
+    <rights right="Update" value="true"/>
+    <rights right="Delete" value="true"/>
+    <rights right="View" value="true"/>
+    <rights right="InteractiveInsert" value="true"/>
+    <rights right="Edit" value="true"/>
+    <rights right="InteractiveDelete" value="true"/>
+    <rights right="InteractiveSetDeletionMark" value="true"/>
+    <rights right="InteractiveClearDeletionMark" value="true"/>
+    <rights right="InteractiveDeleteMarked" value="true"/>
+    <rights right="InputByString" value="true"/>
+    <rights right="InteractiveDeletePredefinedData" value="true"/>
+    <rights right="InteractiveSetDeletionMarkPredefinedData" value="true"/>
+    <rights right="InteractiveClearDeletionMarkPredefinedData" value="true"/>
+    <rights right="InteractiveDeleteMarkedPredefinedData" value="true"/>
+  </rights>
+  <rights object="Constant.ПортIMAP">
+    <rights right="Read" value="true"/>
+    <rights right="Update" value="true"/>
+    <rights right="View" value="true"/>
+    <rights right="Edit" value="true"/>
+  </rights>
+  <rights object="CommonForm.ФормаПодбора">
+    <rights right="View" value="true"/>
+  </rights>
+  <rights object="Report.ОтчетПоВзаиморасчетам">
+    <rights right="Use" value="true"/>
+    <rights right="View" value="true"/>
+  </rights>
+  <rights object="Constant.СертификатМобильногоПриложенияIOS">
+    <rights right="Read" value="true"/>
+    <rights right="Update" value="true"/>
+    <rights right="View" value="true"/>
+    <rights right="Edit" value="true"/>
+  </rights>
+  <rights object="Subsystem.ТоварныеЗапасы.Subsystem.Цены">
+    <rights right="View" value="true"/>
+  </rights>
+  <rights object="AccumulationRegister.ТоварныеЗапасы">
+    <rights right="Read" value="true"/>
+    <rights right="Update" value="true"/>
+    <rights right="View" value="true"/>
+    <rights right="Edit" value="true"/>
+    <rights right="TotalsControl" value="true"/>
+  </rights>
+  <rights object="Constant.ПользовательSMTP">
+    <rights right="Read" value="true"/>
+    <rights right="Update" value="true"/>
+    <rights right="View" value="true"/>
+    <rights right="Edit" value="true"/>
+  </rights>
+  <rights object="Catalog.ХранилищеВариантовОтчетов">
+    <rights right="Read" value="true"/>
+    <rights right="Update" value="true"/>
+    <rights right="Delete" value="true"/>
+    <rights right="View" value="true"/>
+    <rights right="Edit" value="true"/>
+    <rights right="InteractiveDelete" value="true"/>
+    <rights right="InteractiveSetDeletionMark" value="true"/>
+    <rights right="InteractiveClearDeletionMark" value="true"/>
+    <rights right="InteractiveDeleteMarked" value="true"/>
+    <rights right="InteractiveDeletePredefinedData" value="true"/>
+    <rights right="InteractiveSetDeletionMarkPredefinedData" value="true"/>
+    <rights right="InteractiveClearDeletionMarkPredefinedData" value="true"/>
+    <rights right="InteractiveDeleteMarkedPredefinedData" value="true"/>
+  </rights>
+  <rights object="DocumentJournal.ДокументыПродаж">
+    <rights right="Read" value="true"/>
+    <rights right="View" value="true"/>
+  </rights>
+  <rights object="Constant.ТолькоЗащищеннаяАутентификацияIMAP">
+    <rights right="Read" value="true"/>
+    <rights right="Update" value="true"/>
+    <rights right="View" value="true"/>
+    <rights right="Edit" value="true"/>
+  </rights>
+  <rights object="CommonCommand.УстановитьРасширениеРаботыСФайлами">
+    <rights right="View" value="true"/>
+  </rights>
+  <rights object="InformationRegister.КурсыВалют">
+    <rights right="Read" value="true"/>
+    <rights right="Update" value="true"/>
+    <rights right="View" value="true"/>
+    <rights right="Edit" value="true"/>
+  </rights>
+  <rights object="Document.Заказ">
+    <rights right="Read" value="true"/>
+    <rights right="Insert" value="true"/>
+    <rights right="Update" value="true"/>
+    <rights right="Delete" value="true"/>
+    <rights right="Posting" value="true"/>
+    <rights right="UndoPosting" value="true"/>
+    <rights right="View" value="true"/>
+    <rights right="InteractiveInsert" value="true"/>
+    <rights right="Edit" value="true"/>
+    <rights right="InteractiveSetDeletionMark" value="true"/>
+    <rights right="InteractiveClearDeletionMark" value="true"/>
+    <rights right="InteractiveDeleteMarked" value="true"/>
+    <rights right="InteractivePosting" value="true"/>
+    <rights right="InteractivePostingRegular" value="true"/>
+    <rights right="InteractiveUndoPosting" value="true"/>
+    <rights right="InteractiveChangeOfPosted" value="true"/>
+    <rights right="InputByString" value="true"/>
+  </rights>
+  <rights object="Document.ПриходТовара">
+    <rights right="Read" value="true"/>
+    <rights right="Insert" value="true"/>
+    <rights right="Update" value="true"/>
+    <rights right="Delete" value="true"/>
+    <rights right="Posting" value="true"/>
+    <rights right="UndoPosting" value="true"/>
+    <rights right="View" value="true"/>
+  </rights>
+  <rights object="Constant.SSLSMTP">
+    <rights right="Read" value="true"/>
+    <rights right="Update" value="true"/>
+    <rights right="View" value="true"/>
+    <rights right="Edit" value="true"/>
+  </rights>
+  <rights object="Document.Оплата.Attribute.Валюта">
+    <rights right="Edit"/>
+  </rights>
+  <rights object="Catalog.ИсходящиеПисьма">
+    <rights right="Read" value="true"/>
+    <rights right="Insert" value="true"/>
+    <rights right="Update" value="true"/>
+    <rights right="Delete" value="true"/>
+    <rights right="View" value="true"/>
+    <rights right="InteractiveInsert" value="true"/>
+    <rights right="Edit" value="true"/>
+    <rights right="InteractiveDelete" value="true"/>
+    <rights right="InteractiveSetDeletionMark" value="true"/>
+    <rights right="InteractiveClearDeletionMark" value="true"/>
+    <rights right="InteractiveDeleteMarked" value="true"/>
+    <rights right="InputByString" value="true"/>
+    <rights right="InteractiveDeletePredefinedData" value="true"/>
+    <rights right="InteractiveSetDeletionMarkPredefinedData" value="true"/>
+    <rights right="InteractiveClearDeletionMarkPredefinedData" value="true"/>
+    <rights right="InteractiveDeleteMarkedPredefinedData" value="true"/>
+  </rights>
+  <rights object="Constant.SSLIMAP">
+    <rights right="Read" value="true"/>
+    <rights right="Update" value="true"/>
+    <rights right="View" value="true"/>
+    <rights right="Edit" value="true"/>
+  </rights>
+  <rights object="Document.ПриходТовара.Attribute.Склад">
+    <rights right="Edit"/>
+  </rights>
+  <rights object="Catalog.Банки">
+    <rights right="Read" value="true"/>
+    <rights right="Insert" value="true"/>
+    <rights right="Update" value="true"/>
+    <rights right="Delete" value="true"/>
+    <rights right="View" value="true"/>
+    <rights right="InteractiveInsert" value="true"/>
+    <rights right="Edit" value="true"/>
+    <rights right="InteractiveDelete" value="true"/>
+    <rights right="InteractiveSetDeletionMark" value="true"/>
+    <rights right="InteractiveClearDeletionMark" value="true"/>
+    <rights right="InteractiveDeleteMarked" value="true"/>
+    <rights right="InputByString" value="true"/>
+    <rights right="InteractiveDeletePredefinedData" value="true"/>
+    <rights right="InteractiveSetDeletionMarkPredefinedData" value="true"/>
+    <rights right="InteractiveClearDeletionMarkPredefinedData" value="true"/>
+    <rights right="InteractiveDeleteMarkedPredefinedData" value="true"/>
+  </rights>
+  <rights object="Catalog.ХранимыеФайлы">
+    <rights right="Read" value="true"/>
+    <rights right="Insert" value="true"/>
+    <rights right="Update" value="true"/>
+    <rights right="Delete" value="true"/>
+    <rights right="View" value="true"/>
+    <rights right="InteractiveInsert" value="true"/>
+    <rights right="Edit" value="true"/>
+    <rights right="InteractiveDelete" value="true"/>
+    <rights right="InteractiveSetDeletionMark" value="true"/>
+    <rights right="InteractiveClearDeletionMark" value="true"/>
+    <rights right="InteractiveDeleteMarked" value="true"/>
+    <rights right="InputByString" value="true"/>
+    <rights right="InteractiveDeletePredefinedData" value="true"/>
+    <rights right="InteractiveSetDeletionMarkPredefinedData" value="true"/>
+    <rights right="InteractiveClearDeletionMarkPredefinedData" value="true"/>
+    <rights right="InteractiveDeleteMarkedPredefinedData" value="true"/>
+  </rights>
+  <rights object="Document.РасходТовара.Command.ПечатьРасходнойНакладной">
+    <rights right="View" value="true"/>
+  </rights>
+  <rights object="Constant.КодНовогоУзлаПланаОбмена">
+    <rights right="Read" value="true"/>
+    <rights right="Update" value="true"/>
+    <rights right="View" value="true"/>
+    <rights right="Edit" value="true"/>
+  </rights>
+  <rights object="Catalog.Товары">
+    <rights right="Read" value="true"/>
+    <rights right="Insert" value="true"/>
+    <rights right="Update" value="true"/>
+    <rights right="Delete" value="true"/>
+    <rights right="View" value="true"/>
+    <rights right="InteractiveInsert" value="true"/>
+    <rights right="Edit" value="true"/>
+    <rights right="InteractiveDelete" value="true"/>
+    <rights right="InteractiveSetDeletionMark" value="true"/>
+    <rights right="InteractiveClearDeletionMark" value="true"/>
+    <rights right="InteractiveDeleteMarked" value="true"/>
+    <rights right="InputByString" value="true"/>
+    <rights right="InteractiveDeletePredefinedData" value="true"/>
+    <rights right="InteractiveSetDeletionMarkPredefinedData" value="true"/>
+    <rights right="InteractiveClearDeletionMarkPredefinedData" value="true"/>
+    <rights right="InteractiveDeleteMarkedPredefinedData" value="true"/>
+  </rights>
+  <rights object="Constant.SSLPOP3">
+    <rights right="Read" value="true"/>
+    <rights right="Update" value="true"/>
+    <rights right="View" value="true"/>
+    <rights right="Edit" value="true"/>
+  </rights>
+  <rights object="Document.ПриходТовара.Attribute.Поставщик">
+    <rights right="Edit"/>
+  </rights>
+  <rights object="Constant.ПользовательPOP3">
+    <rights right="Read" value="true"/>
+    <rights right="Update" value="true"/>
+    <rights right="View" value="true"/>
+    <rights right="Edit" value="true"/>
+  </rights>
+  <rights object="Catalog.Склады">
+    <rights right="Read" value="true"/>
+    <rights right="Insert" value="true"/>
+    <rights right="Update" value="true"/>
+    <rights right="Delete" value="true"/>
+    <rights right="View" value="true"/>
+    <rights right="InteractiveInsert" value="true"/>
+    <rights right="Edit" value="true"/>
+    <rights right="InteractiveDelete" value="true"/>
+    <rights right="InteractiveSetDeletionMark" value="true"/>
+    <rights right="InteractiveClearDeletionMark" value="true"/>
+    <rights right="InteractiveDeleteMarked" value="true"/>
+    <rights right="InputByString" value="true"/>
+    <rights right="InteractiveDeletePredefinedData" value="true"/>
+    <rights right="InteractiveSetDeletionMarkPredefinedData" value="true"/>
+    <rights right="InteractiveClearDeletionMarkPredefinedData" value="true"/>
+    <rights right="InteractiveDeleteMarkedPredefinedData" value="true"/>
+  </rights>
+  <rights object="Constant.ИспользоватьIMAP">
+    <rights right="Read" value="true"/>
+    <rights right="Update" value="true"/>
+    <rights right="View" value="true"/>
+    <rights right="Edit" value="true"/>
+  </rights>
+  <rights object="Constant.АдресSMTPСервера">
+    <rights right="Read" value="true"/>
+    <rights right="Update" value="true"/>
+    <rights right="View" value="true"/>
+    <rights right="Edit" value="true"/>
+  </rights>
+  <rights object="Subsystem.ТоварныеЗапасы">
+    <rights right="View" value="true"/>
+  </rights>
+  <rights object="Document.Оплата">
+    <rights right="Read" value="true"/>
+    <rights right="Insert" value="true"/>
+    <rights right="Update" value="true"/>
+    <rights right="Delete" value="true"/>
+    <rights right="Posting" value="true"/>
+    <rights right="UndoPosting" value="true"/>
+    <rights right="View" value="true"/>
+  </rights>
+  <rights object="Constant.УчетПоСкладам">
+    <rights right="Read" value="true"/>
+    <rights right="Update" value="true"/>
+    <rights right="View" value="true"/>
+    <rights right="Edit" value="true"/>
+  </rights>
+  <rights object="CommonForm.НастройкаПочты">
+    <rights right="View" value="true"/>
+  </rights>
+  <rights object="Constant.ТолькоЗащищеннаяАутентификацияPOP3">
+    <rights right="Read" value="true"/>
+    <rights right="Update" value="true"/>
+    <rights right="View" value="true"/>
+    <rights right="Edit" value="true"/>
+  </rights>
+  <rights object="Constant.ИмяОтправителяПочтовогоСообщения">
+    <rights right="Read" value="true"/>
+    <rights right="Update" value="true"/>
+    <rights right="View" value="true"/>
+    <rights right="Edit" value="true"/>
+  </rights>
+  <rights object="DataProcessor.Путеводитель">
+    <rights right="Use" value="true"/>
+    <rights right="View" value="true"/>
+  </rights>
+  <rights object="Catalog.ХранилищеВариантовОтчетов.Command.ОткрытьОтчет">
+    <rights right="View" value="true"/>
+  </rights>
+  <rights object="Subsystem.Продажи">
+    <rights right="View" value="true"/>
+  </rights>
+  <rights object="Document.ПриходТовара.TabularSection.Товары.Attribute.Сумма">
+    <rights right="Edit"/>
+  </rights>
+  <rights object="Constant.ПарольPOP3">
+    <rights right="Read" value="true"/>
+    <rights right="Update" value="true"/>
+    <rights right="View" value="true"/>
+    <rights right="Edit" value="true"/>
+  </rights>
+  <rights object="Report.ДинамикаПродаж">
+    <rights right="Use" value="true"/>
+    <rights right="View" value="true"/>
+  </rights>
+  <rights object="Document.Оплата.Attribute.Сумма">
+    <rights right="Edit"/>
+  </rights>
+  <rights object="Catalog.Организации">
+    <rights right="Read" value="true"/>
+    <rights right="Insert" value="true"/>
+    <rights right="Update" value="true"/>
+    <rights right="Delete" value="true"/>
+    <rights right="View" value="true"/>
+    <rights right="InteractiveInsert" value="true"/>
+    <rights right="Edit" value="true"/>
+    <rights right="InteractiveDelete" value="true"/>
+    <rights right="InteractiveSetDeletionMark" value="true"/>
+    <rights right="InteractiveClearDeletionMark" value="true"/>
+    <rights right="InteractiveDeleteMarked" value="true"/>
+    <rights right="InputByString" value="true"/>
+    <rights right="InteractiveDeletePredefinedData" value="true"/>
+    <rights right="InteractiveSetDeletionMarkPredefinedData" value="true"/>
+    <rights right="InteractiveClearDeletionMarkPredefinedData" value="true"/>
+    <rights right="InteractiveDeleteMarkedPredefinedData" value="true"/>
+  </rights>
+  <rights object="Catalog.ВидыЦен">
+    <rights right="Read" value="true"/>
+    <rights right="Insert" value="true"/>
+    <rights right="Update" value="true"/>
+    <rights right="Delete" value="true"/>
+    <rights right="View" value="true"/>
+    <rights right="InteractiveInsert" value="true"/>
+    <rights right="Edit" value="true"/>
+    <rights right="InteractiveDelete" value="true"/>
+    <rights right="InteractiveSetDeletionMark" value="true"/>
+    <rights right="InteractiveClearDeletionMark" value="true"/>
+    <rights right="InteractiveDeleteMarked" value="true"/>
+    <rights right="InputByString" value="true"/>
+    <rights right="InteractiveDeletePredefinedData" value="true"/>
+    <rights right="InteractiveSetDeletionMarkPredefinedData" value="true"/>
+    <rights right="InteractiveClearDeletionMarkPredefinedData" value="true"/>
+    <rights right="InteractiveDeleteMarkedPredefinedData" value="true"/>
+  </rights>
+  <rights object="SessionParameter.ТекущийПользователь">
+    <rights right="Get" value="true"/>
+  </rights>
+  <rights object="DataProcessor.Путеводитель.Command.ПутеводительПоКонфигурации">
+    <rights right="View" value="true"/>
+  </rights>
+  <rights object="Constant.ЛогинСервисаПередачиPushУведомлений">
+    <rights right="Read" value="true"/>
+    <rights right="Update" value="true"/>
+    <rights right="View" value="true"/>
+    <rights right="Edit" value="true"/>
+  </rights>
+  <rights object="Constant.ПарольIMAP">
+    <rights right="Read" value="true"/>
+    <rights right="Update" value="true"/>
+    <rights right="View" value="true"/>
+    <rights right="Edit" value="true"/>
+  </rights>
+  <rights object="InformationRegister.ЦеныТоваров">
+    <rights right="Read" value="true"/>
+    <rights right="Update" value="true"/>
+    <rights right="View" value="true"/>
+    <rights right="Edit" value="true"/>
+  </rights>
+  <rights object="Catalog.ВходящиеПисьма">
+    <rights right="Read" value="true"/>
+    <rights right="Insert" value="true"/>
+    <rights right="Update" value="true"/>
+    <rights right="Delete" value="true"/>
+    <rights right="View" value="true"/>
+    <rights right="InteractiveInsert" value="true"/>
+    <rights right="Edit" value="true"/>
+    <rights right="InteractiveDelete" value="true"/>
+    <rights right="InteractiveSetDeletionMark" value="true"/>
+    <rights right="InteractiveClearDeletionMark" value="true"/>
+    <rights right="InteractiveDeleteMarked" value="true"/>
+    <rights right="InputByString" value="true"/>
+    <rights right="InteractiveDeletePredefinedData" value="true"/>
+    <rights right="InteractiveSetDeletionMarkPredefinedData" value="true"/>
+    <rights right="InteractiveClearDeletionMarkPredefinedData" value="true"/>
+    <rights right="InteractiveDeleteMarkedPredefinedData" value="true"/>
+  </rights>
+  <rights object="Document.ПриходТовара.TabularSection.Товары.Attribute.Цена">
+    <rights right="Edit"/>
+  </rights>
+  <rights object="Constant.ИспользоватьПромежуточныйСервисПередачиPushУведомлений">
+    <rights right="Read" value="true"/>
+    <rights right="Update" value="true"/>
+    <rights right="View" value="true"/>
+    <rights right="Edit" value="true"/>
+  </rights>
+  <rights object="Configuration.ДемонстрационнаяКонфигурацияУправляемоеПриложение">
+    <rights right="UpdateDataBaseConfiguration" value="true"/>
+    <rights right="ExclusiveMode" value="true"/>
+    <rights right="ActiveUsers" value="true"/>
+    <rights right="EventLog" value="true"/>
+    <rights right="ThinClient" value="true"/>
+    <rights right="WebClient" value="true"/>
+    <rights right="ThickClient" value="true"/>
+    <rights right="ExternalConnection" value="true"/>
+    <rights right="Automation" value="true"/>
+    <rights right="SaveUserData" value="true"/>
+    <rights right="InteractiveOpenExtDataProcessors" value="true"/>
+    <rights right="InteractiveOpenExtReports" value="true"/>
+    <rights right="Output" value="true"/>
+  </rights>
+  <rights object="Constant.КлючCервераОтправителяGCM">
+    <rights right="Read" value="true"/>
+    <rights right="Update" value="true"/>
+    <rights right="View" value="true"/>
+    <rights right="Edit" value="true"/>
+  </rights>
+  <rights object="AccumulationRegister.Взаиморасчеты">
+    <rights right="Read" value="true"/>
+    <rights right="Update" value="true"/>
+    <rights right="View" value="true"/>
+    <rights right="Edit" value="true"/>
+    <rights right="TotalsControl" value="true"/>
+  </rights>
+  <rights object="Catalog.Товары.Attribute.Поставщик">
+    <rights right="Edit"/>
+  </rights>
+  <rights object="Document.РасходТовара">
+    <rights right="Read" value="true"/>
+    <rights right="Insert" value="true"/>
+    <rights right="Update" value="true"/>
+    <rights right="Delete" value="true"/>
+    <rights right="Posting" value="true"/>
+    <rights right="UndoPosting" value="true"/>
+    <rights right="View" value="true"/>
+    <rights right="InteractiveInsert" value="true"/>
+    <rights right="Edit" value="true"/>
+    <rights right="InteractiveSetDeletionMark" value="true"/>
+    <rights right="InteractiveClearDeletionMark" value="true"/>
+    <rights right="InteractiveDeleteMarked" value="true"/>
+    <rights right="InteractivePosting" value="true"/>
+    <rights right="InteractivePostingRegular" value="true"/>
+    <rights right="InteractiveUndoPosting" value="true"/>
+    <rights right="InteractiveChangeOfPosted" value="true"/>
+    <rights right="InputByString" value="true"/>
+  </rights>
+  <rights object="Document.ОперацияПоУчетуТоваров">
+    <rights right="Read" value="true"/>
+    <rights right="Insert" value="true"/>
+    <rights right="Update" value="true"/>
+    <rights right="Delete" value="true"/>
+    <rights right="Posting" value="true"/>
+    <rights right="UndoPosting" value="true"/>
+    <rights right="View" value="true"/>
+    <rights right="InteractiveInsert" value="true"/>
+    <rights right="Edit" value="true"/>
+    <rights right="InteractiveSetDeletionMark" value="true"/>
+    <rights right="InteractiveClearDeletionMark" value="true"/>
+    <rights right="InteractiveDeleteMarked" value="true"/>
+    <rights right="InteractivePosting" value="true"/>
+    <rights right="InteractivePostingRegular" value="true"/>
+    <rights right="InteractiveUndoPosting" value="true"/>
+    <rights right="InteractiveChangeOfPosted" value="true"/>
+    <rights right="InputByString" value="true"/>
+  </rights>
+  <rights object="Document.Оплата.Attribute.РасчетныйСчетПоставщика">
+    <rights right="Edit"/>
+  </rights>
+  <rights object="Constant.АдресPOP3Сервера">
+    <rights right="Read" value="true"/>
+    <rights right="Update" value="true"/>
+    <rights right="View" value="true"/>
+    <rights right="Edit" value="true"/>
+  </rights>
+  <rights object="Catalog.Валюты">
+    <rights right="Read" value="true"/>
+    <rights right="Insert" value="true"/>
+    <rights right="Update" value="true"/>
+    <rights right="Delete" value="true"/>
+    <rights right="View" value="true"/>
+    <rights right="InteractiveInsert" value="true"/>
+    <rights right="Edit" value="true"/>
+    <rights right="InteractiveDelete" value="true"/>
+    <rights right="InteractiveSetDeletionMark" value="true"/>
+    <rights right="InteractiveClearDeletionMark" value="true"/>
+    <rights right="InteractiveDeleteMarked" value="true"/>
+    <rights right="InputByString" value="true"/>
+    <rights right="InteractiveDeletePredefinedData" value="true"/>
+    <rights right="InteractiveSetDeletionMarkPredefinedData" value="true"/>
+    <rights right="InteractiveClearDeletionMarkPredefinedData" value="true"/>
+    <rights right="InteractiveDeleteMarkedPredefinedData" value="true"/>
+  </rights>
+  <rights object="Constant.АдресIMAPСервера">
+    <rights right="Read" value="true"/>
+    <rights right="Update" value="true"/>
+    <rights right="View" value="true"/>
+    <rights right="Edit" value="true"/>
+  </rights>
+  <rights object="Constant.НомерПриложенияGoogleCloud">
+    <rights right="Read" value="true"/>
+    <rights right="Update" value="true"/>
+    <rights right="View" value="true"/>
+    <rights right="Edit" value="true"/>
+  </rights>
+  <rights object="Subsystem.Финансы.Subsystem.Банк">
+    <rights right="View" value="true"/>
+  </rights>
+  <rights object="Document.Оплата.Attribute.РасчетныйСчет">
+    <rights right="Edit"/>
+  </rights>
+  <rights object="Report.ОстаткиТоваровНаСкладах">
+    <rights right="Use" value="true"/>
+    <rights right="View" value="true"/>
+  </rights>
+  <rights object="Constant.ПарольSMTP">
+    <rights right="Read" value="true"/>
+    <rights right="Update" value="true"/>
+    <rights right="View" value="true"/>
+    <rights right="Edit" value="true"/>
+  </rights>
+  <rights object="Constant.ПользовательIMAP">
+    <rights right="Read" value="true"/>
+    <rights right="Update" value="true"/>
+    <rights right="View" value="true"/>
+    <rights right="Edit" value="true"/>
+  </rights>
+  <rights object="DocumentJournal.ФинансовыеДокументы">
+    <rights right="Read" value="true"/>
+    <rights right="View" value="true"/>
+  </rights>
+  <rights object="Document.ПриходТовара.Attribute.Валюта">
+    <rights right="Edit"/>
+  </rights>
+  <rights object="InformationRegister.СостояниеВходящихПисем">
+    <rights right="Read" value="true"/>
+    <rights right="Update" value="true"/>
+    <rights right="View" value="true"/>
+    <rights right="Edit" value="true"/>
+  </rights>
+  <rights object="InformationRegister.СостояниеИсходящихПисем">
+    <rights right="Read" value="true"/>
+    <rights right="Update" value="true"/>
+    <rights right="View" value="true"/>
+    <rights right="Edit" value="true"/>
+  </rights>
+  <rights object="Catalog.РасчетныеСчетаКонтрагентов">
+    <rights right="Read" value="true"/>
+    <rights right="Insert" value="true"/>
+    <rights right="Update" value="true"/>
+    <rights right="Delete" value="true"/>
+    <rights right="View" value="true"/>
+    <rights right="InteractiveInsert" value="true"/>
+    <rights right="Edit" value="true"/>
+    <rights right="InteractiveDelete" value="true"/>
+    <rights right="InteractiveSetDeletionMark" value="true"/>
+    <rights right="InteractiveClearDeletionMark" value="true"/>
+    <rights right="InteractiveDeleteMarked" value="true"/>
+    <rights right="InputByString" value="true"/>
+    <rights right="InteractiveDeletePredefinedData" value="true"/>
+    <rights right="InteractiveSetDeletionMarkPredefinedData" value="true"/>
+    <rights right="InteractiveClearDeletionMarkPredefinedData" value="true"/>
+    <rights right="InteractiveDeleteMarkedPredefinedData" value="true"/>
+  </rights>
+  <rights object="Document.ПоступлениеДенег">
+    <rights right="Read" value="true"/>
+    <rights right="Insert" value="true"/>
+    <rights right="Update" value="true"/>
+    <rights right="Delete" value="true"/>
+    <rights right="Posting" value="true"/>
+    <rights right="UndoPosting" value="true"/>
+    <rights right="View" value="true"/>
+    <rights right="InteractiveInsert" value="true"/>
+    <rights right="Edit" value="true"/>
+    <rights right="InteractiveSetDeletionMark" value="true"/>
+    <rights right="InteractiveClearDeletionMark" value="true"/>
+    <rights right="InteractiveDeleteMarked" value="true"/>
+    <rights right="InteractivePosting" value="true"/>
+    <rights right="InteractivePostingRegular" value="true"/>
+    <rights right="InteractiveUndoPosting" value="true"/>
+    <rights right="InteractiveChangeOfPosted" value="true"/>
+    <rights right="InputByString" value="true"/>
+  </rights>
+  <rights object="Constant.ПортPOP3">
+    <rights right="Read" value="true"/>
+    <rights right="Update" value="true"/>
+    <rights right="View" value="true"/>
+    <rights right="Edit" value="true"/>
+  </rights>
+</rights:RoleDescription>

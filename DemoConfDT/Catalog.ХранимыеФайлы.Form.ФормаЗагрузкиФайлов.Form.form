@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form:Form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:form="http://g5.1c.ru/v8/dt/form" windowOpeningMode="LockWholeInterface">
+  <items xsi:type="form:FormField" name="Владелец" id="1" editMode="Enter">
+    <userVisible common="true"/>
+    <dataPath xsi:type="form:DataPath">
+      <segments>Владелец</segments>
+    </dataPath>
+    <extInfo xsi:type="form:InputFieldExtInfo" wrap="false" autoMarkIncomplete="true"/>
+    <contextMenu name="ВладелецКонтекстноеМеню" id="2">
+      <userVisible common="true"/>
+    </contextMenu>
+    <extendedTooltip name="ВладелецExtendedTooltip" id="17">
+      <userVisible common="true"/>
+      <extInfo xsi:type="form:LabelDecorationExtInfo"/>
+    </extendedTooltip>
+  </items>
+  <items xsi:type="form:Table" name="СписокФайлов" id="3" skipOnInput="false" representation="List" header="false" autoInsertNewRow="true" searchStringLocation="None" viewStatusLocation="None" searchControlLocation="None">
+    <userVisible common="true"/>
+    <dataPath xsi:type="form:DataPath">
+      <segments>СписокФайлов</segments>
+    </dataPath>
+    <items xsi:type="form:FormField" name="СписокФайловЗначение" id="6" type="LabelField">
+      <userVisible common="true"/>
+      <dataPath xsi:type="form:DataPath">
+        <segments>СписокФайлов</segments>
+        <segments>Value</segments>
+      </dataPath>
+      <extInfo xsi:type="form:LabelFieldExtInfo"/>
+      <contextMenu name="СписокФайловЗначениеКонтекстноеМеню" id="7">
+        <userVisible common="true"/>
+      </contextMenu>
+      <extendedTooltip name="СписокФайловЗначениеExtendedTooltip" id="26">
+        <userVisible common="true"/>
+        <extInfo xsi:type="form:LabelDecorationExtInfo"/>
+      </extendedTooltip>
+    </items>
+    <autoCommandBar name="СписокФайловКоманднаяПанель" id="5" autoFill="false">
+      <items xsi:type="form:Button" name="ДобавитьФайлы" id="10" skipOnInput="false" type="CommandBarButton" commandName="Form.Command.ДобавитьФайлы">
+        <userVisible common="true"/>
+        <parameter/>
+        <extendedTooltip name="ДобавитьФайлыExtendedTooltip" id="22">
+          <userVisible common="true"/>
+          <extInfo xsi:type="form:LabelDecorationExtInfo"/>
+        </extendedTooltip>
+      </items>
+      <items xsi:type="form:Button" name="ДобавитьКаталог" id="11" skipOnInput="false" type="CommandBarButton" commandName="Form.Command.ДобавитьКаталог">
+        <userVisible common="true"/>
+        <parameter/>
+        <extendedTooltip name="ДобавитьКаталогExtendedTooltip" id="23">
+          <userVisible common="true"/>
+          <extInfo xsi:type="form:LabelDecorationExtInfo"/>
+        </extendedTooltip>
+      </items>
+      <items xsi:type="form:Button" name="Удалить" id="8" skipOnInput="false" type="CommandBarButton" commandName="Form.Item.СписокФайлов.StandardCommand.Delete" representation="PictureAndText">
+        <userVisible common="true"/>
+        <parameter/>
+        <extendedTooltip name="УдалитьExtendedTooltip" id="24">
+          <userVisible common="true"/>
+          <extInfo xsi:type="form:LabelDecorationExtInfo"/>
+        </extendedTooltip>
+      </items>
+      <userVisible common="true"/>
+    </autoCommandBar>
+    <events key="BeforeAddRow" value="СписокФайловПередНачаломДобавления"/>
+    <searchStringAddition name="СписокФайловСтрокаПоиска" id="27" source="СписокФайловСтрокаПоиска">
+      <userVisible common="true"/>
+      <extInfo xsi:type="form:SearchStringAdditionExtInfo"/>
+      <contextMenu name="СписокФайловСтрокаПоискаКонтекстноеМеню" id="28">
+        <userVisible common="true"/>
+      </contextMenu>
+      <extendedTooltip name="СписокФайловСтрокаПоискаРасширеннаяПодсказка" id="29">
+        <userVisible common="true"/>
+        <extInfo xsi:type="form:LabelDecorationExtInfo"/>
+      </extendedTooltip>
+    </searchStringAddition>
+    <viewStatusAddition name="СписокФайловСостояниеПросмотра" id="30" type="ViewStatusAddition" source="СписокФайловСостояниеПросмотра">
+      <userVisible common="true"/>
+      <extInfo xsi:type="form:ViewStatusAdditionExtInfo"/>
+      <contextMenu name="СписокФайловСостояниеПросмотраКонтекстноеМеню" id="31">
+        <userVisible common="true"/>
+      </contextMenu>
+      <extendedTooltip name="СписокФайловСостояниеПросмотраРасширеннаяПодсказка" id="32">
+        <userVisible common="true"/>
+        <extInfo xsi:type="form:LabelDecorationExtInfo"/>
+      </extendedTooltip>
+    </viewStatusAddition>
+    <searchControlAddition name="СписокФайловУправлениеПоиском" id="33" type="SearchControlAddition" source="СписокФайловУправлениеПоиском">
+      <userVisible common="true"/>
+      <extInfo xsi:type="form:SearchControlAdditionExtInfo"/>
+      <contextMenu name="СписокФайловУправлениеПоискомКонтекстноеМеню" id="34">
+        <userVisible common="true"/>
+      </contextMenu>
+      <extendedTooltip name="СписокФайловУправлениеПоискомРасширеннаяПодсказка" id="35">
+        <userVisible common="true"/>
+        <extInfo xsi:type="form:LabelDecorationExtInfo"/>
+      </extendedTooltip>
+    </searchControlAddition>
+    <rowPictureDataPath xsi:type="form:DataPath">
+      <segments>СписокФайлов</segments>
+      <segments>Picture</segments>
+    </rowPictureDataPath>
+    <contextMenu name="СписокФайловКонтекстноеМеню" id="4" autoFill="false">
+      <items xsi:type="form:Button" name="ДобавитьФайлы1" id="12" skipOnInput="false" type="CommandBarButton" commandName="Form.Command.ДобавитьФайлы">
+        <userVisible common="true"/>
+        <parameter/>
+        <extendedTooltip name="ДобавитьФайлы1ExtendedTooltip" id="18">
+          <userVisible common="true"/>
+          <extInfo xsi:type="form:LabelDecorationExtInfo"/>
+        </extendedTooltip>
+      </items>
+      <items xsi:type="form:Button" name="ДобавитьКаталог1" id="13" skipOnInput="false" type="CommandBarButton" commandName="Form.Command.ДобавитьКаталог">
+        <userVisible common="true"/>
+        <parameter/>
+        <extendedTooltip name="ДобавитьКаталог1ExtendedTooltip" id="19">
+          <userVisible common="true"/>
+          <extInfo xsi:type="form:LabelDecorationExtInfo"/>
+        </extendedTooltip>
+      </items>
+      <items xsi:type="form:Button" name="КонтекстноеМенюСписокФайловУдалить" id="15" skipOnInput="false" type="CommandBarButton" commandName="Form.Item.СписокФайлов.StandardCommand.Delete">
+        <userVisible common="true"/>
+        <parameter/>
+        <extendedTooltip name="КонтекстноеМенюСписокФайловУдалитьExtendedTooltip" id="20">
+          <userVisible common="true"/>
+          <extInfo xsi:type="form:LabelDecorationExtInfo"/>
+        </extendedTooltip>
+      </items>
+      <items xsi:type="form:Button" name="Загрузить1" id="14" skipOnInput="false" type="CommandBarButton" commandName="Form.Command.Загрузить">
+        <userVisible common="true"/>
+        <parameter/>
+        <extendedTooltip name="Загрузить1ExtendedTooltip" id="21">
+          <userVisible common="true"/>
+          <extInfo xsi:type="form:LabelDecorationExtInfo"/>
+        </extendedTooltip>
+      </items>
+      <userVisible common="true"/>
+    </contextMenu>
+    <extendedTooltip name="СписокФайловExtendedTooltip" id="25">
+      <userVisible common="true"/>
+      <extInfo xsi:type="form:LabelDecorationExtInfo"/>
+    </extendedTooltip>
+  </items>
+  <autoCommandBar name="ФормаКоманднаяПанель" id="-1">
+    <items xsi:type="form:Button" name="Загрузить" id="9" skipOnInput="false" type="CommandBarButton" commandName="Form.Command.Загрузить" defaultButton="true">
+      <userVisible common="true"/>
+      <parameter/>
+      <extendedTooltip name="ЗагрузитьExtendedTooltip" id="16">
+        <userVisible common="true"/>
+        <extInfo xsi:type="form:LabelDecorationExtInfo"/>
+      </extendedTooltip>
+    </items>
+    <userVisible common="true"/>
+  </autoCommandBar>
+  <attributes name="Владелец" id="1" fillChecking="ShowError">
+    <title key="ru" value="Владелец"/>
+    <valueType>
+      <types>CatalogRef.Контрагенты</types>
+      <types>CatalogRef.Товары</types>
+    </valueType>
+    <view common="true"/>
+    <edit common="true"/>
+  </attributes>
+  <attributes name="СписокФайлов" id="2">
+    <title key="ru" value="Список файлов"/>
+    <valueType>
+      <types>ValueList</types>
+    </valueType>
+    <view common="true"/>
+    <edit common="true"/>
+  </attributes>
+  <attributes name="СписокЗагруженныхФайлов" id="3">
+    <title key="ru" value="Список загруженных файлов"/>
+    <valueType>
+      <types>ValueList</types>
+    </valueType>
+    <view common="true"/>
+    <edit common="true"/>
+  </attributes>
+  <formCommands name="ДобавитьФайлы" id="1" action="ДобавитьФайлы" representation="TextPicture">
+    <title key="ru" value="Добавить файлы"/>
+    <toolTip key="ru" value="Добавить файлы"/>
+    <use common="true"/>
+    <picture xsi:type="core:PictureRef" picture="StdPicture.CreateListItem"/>
+  </formCommands>
+  <formCommands name="ДобавитьКаталог" id="2" action="ДобавитьКаталог" representation="TextPicture">
+    <title key="ru" value="Добавить каталог"/>
+    <toolTip key="ru" value="Добавить каталог"/>
+    <use common="true"/>
+    <picture xsi:type="core:PictureRef" picture="StdPicture.CreateFolder"/>
+  </formCommands>
+  <formCommands name="Загрузить" id="3" action="Загрузить">
+    <title key="ru" value="Загрузить и закрыть"/>
+    <toolTip key="ru" value="Загрузить"/>
+    <use common="true"/>
+  </formCommands>
+  <commandInterface>
+    <navigationPanel/>
+    <commandBar/>
+  </commandInterface>
+</form:Form>

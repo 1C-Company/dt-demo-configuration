@@ -1,0 +1,386 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form:Form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:form="http://g5.1c.ru/v8/dt/form" windowOpeningMode="LockWholeInterface">
+  <items xsi:type="form:FormField" name="ИмяОтправителя" id="54" editMode="Enter">
+    <userVisible common="true"/>
+    <dataPath xsi:type="form:DataPath">
+      <segments>Объект</segments>
+      <segments>ИмяОтправителяПочтовогоСообщения</segments>
+    </dataPath>
+    <extInfo xsi:type="form:InputFieldExtInfo"/>
+    <contextMenu name="ИмяОтправителяКонтекстноеМеню" id="55">
+      <userVisible common="true"/>
+    </contextMenu>
+    <extendedTooltip name="ИмяОтправителяExtendedTooltip" id="89">
+      <userVisible common="true"/>
+      <extInfo xsi:type="form:LabelDecorationExtInfo"/>
+    </extendedTooltip>
+  </items>
+  <items xsi:type="form:FormGroup" name="Группа1" id="124" type="Pages">
+    <items xsi:type="form:FormGroup" name="ГруппаНастройкаSMTPСервера" id="27" type="Page">
+      <items xsi:type="form:FormField" name="АдресSMTPСервера" id="58" editMode="Enter">
+        <title key="ru" value="Адрес SMTP сервера"/>
+        <userVisible common="true"/>
+        <dataPath xsi:type="form:DataPath">
+          <segments>Объект</segments>
+          <segments>АдресSMTPСервера</segments>
+        </dataPath>
+        <extInfo xsi:type="form:InputFieldExtInfo"/>
+        <contextMenu name="АдресSMTPСервераКонтекстноеМеню" id="59">
+          <userVisible common="true"/>
+        </contextMenu>
+        <extendedTooltip name="АдресSMTPСервераExtendedTooltip" id="91">
+          <userVisible common="true"/>
+          <extInfo xsi:type="form:LabelDecorationExtInfo"/>
+        </extendedTooltip>
+      </items>
+      <items xsi:type="form:FormField" name="ПортSMTP" id="60" toolTipRepresentation="ShowRight" editMode="Enter">
+        <userVisible common="true"/>
+        <dataPath xsi:type="form:DataPath">
+          <segments>Объект</segments>
+          <segments>ПортSMTP</segments>
+        </dataPath>
+        <toolTip key="ru" value="0 - устанавливать порт автоматически"/>
+        <extInfo xsi:type="form:InputFieldExtInfo"/>
+        <contextMenu name="ПортSMTPКонтекстноеМеню" id="61">
+          <userVisible common="true"/>
+        </contextMenu>
+        <extendedTooltip name="ПортSMTPРасширеннаяПодсказка" id="92">
+          <userVisible common="true"/>
+          <extInfo xsi:type="form:LabelDecorationExtInfo"/>
+        </extendedTooltip>
+      </items>
+      <items xsi:type="form:FormField" name="SMTPSSL" id="109" type="CheckBoxField" editMode="Enter">
+        <title key="ru" value="SSL"/>
+        <userVisible common="true"/>
+        <dataPath xsi:type="form:DataPath">
+          <segments>Объект</segments>
+          <segments>SSLSMTP</segments>
+        </dataPath>
+        <extInfo xsi:type="form:CheckBoxFieldExtInfo"/>
+        <contextMenu name="SMTPSSLКонтекстноеМеню" id="110">
+          <userVisible common="true"/>
+        </contextMenu>
+        <extendedTooltip name="SMTPSSLРасширеннаяПодсказка" id="111">
+          <userVisible common="true"/>
+          <extInfo xsi:type="form:LabelDecorationExtInfo"/>
+        </extendedTooltip>
+      </items>
+      <items xsi:type="form:FormField" name="ПользовательSMTP" id="64" editMode="Enter">
+        <userVisible common="true"/>
+        <dataPath xsi:type="form:DataPath">
+          <segments>Объект</segments>
+          <segments>ПользовательSMTP</segments>
+        </dataPath>
+        <extInfo xsi:type="form:InputFieldExtInfo"/>
+        <contextMenu name="ПользовательSMTPКонтекстноеМеню" id="65">
+          <userVisible common="true"/>
+        </contextMenu>
+        <extendedTooltip name="ПользовательSMTPExtendedTooltip" id="94">
+          <userVisible common="true"/>
+          <extInfo xsi:type="form:LabelDecorationExtInfo"/>
+        </extendedTooltip>
+      </items>
+      <items xsi:type="form:FormField" name="ПарольSMTP" id="66" editMode="Enter">
+        <userVisible common="true"/>
+        <dataPath xsi:type="form:DataPath">
+          <segments>Объект</segments>
+          <segments>ПарольSMTP</segments>
+        </dataPath>
+        <extInfo xsi:type="form:InputFieldExtInfo"/>
+        <contextMenu name="ПарольSMTPКонтекстноеМеню" id="67">
+          <userVisible common="true"/>
+        </contextMenu>
+        <extendedTooltip name="ПарольSMTPExtendedTooltip" id="95">
+          <userVisible common="true"/>
+          <extInfo xsi:type="form:LabelDecorationExtInfo"/>
+        </extendedTooltip>
+      </items>
+      <items xsi:type="form:FormField" name="ТолькоЗащищеннаяАутентификацияSMTP" id="115" type="CheckBoxField" editMode="Enter">
+        <title key="ru" value="Защищенная аутентификация"/>
+        <userVisible common="true"/>
+        <dataPath xsi:type="form:DataPath">
+          <segments>Объект</segments>
+          <segments>ТолькоЗащищеннаяАутентификацияSMTP</segments>
+        </dataPath>
+        <extInfo xsi:type="form:CheckBoxFieldExtInfo"/>
+        <contextMenu name="ТолькоЗащищеннаяАутентификацияSMTPКонтекстноеМеню" id="116">
+          <userVisible common="true"/>
+        </contextMenu>
+        <extendedTooltip name="ТолькоЗащищеннаяАутентификацияSMTPРасширеннаяПодсказка" id="117">
+          <userVisible common="true"/>
+          <extInfo xsi:type="form:LabelDecorationExtInfo"/>
+        </extendedTooltip>
+      </items>
+      <userVisible common="true"/>
+      <title key="ru" value="Настройка SMTP сервера"/>
+      <toolTip key="ru" value="Группа настройка SMTPСервера"/>
+      <extendedTooltip name="ГруппаНастройкаSMTPСервераExtendedTooltip" id="90">
+        <userVisible common="true"/>
+        <extInfo xsi:type="form:LabelDecorationExtInfo"/>
+      </extendedTooltip>
+      <extInfo xsi:type="form:PageGroupExtInfo"/>
+    </items>
+    <items xsi:type="form:FormGroup" name="ГруппаНастройкаPOP3Сервера" id="28" type="Page">
+      <items xsi:type="form:FormField" name="АдресPOP3Сервера" id="68" editMode="Enter">
+        <userVisible common="true"/>
+        <dataPath xsi:type="form:DataPath">
+          <segments>Объект</segments>
+          <segments>АдресPOP3Сервера</segments>
+        </dataPath>
+        <extInfo xsi:type="form:InputFieldExtInfo"/>
+        <contextMenu name="АдресPOP3СервераКонтекстноеМеню" id="69">
+          <userVisible common="true"/>
+        </contextMenu>
+        <extendedTooltip name="АдресPOP3СервераExtendedTooltip" id="97">
+          <userVisible common="true"/>
+          <extInfo xsi:type="form:LabelDecorationExtInfo"/>
+        </extendedTooltip>
+      </items>
+      <items xsi:type="form:FormField" name="ПортPOP3" id="70" toolTipRepresentation="ShowRight" editMode="Enter">
+        <userVisible common="true"/>
+        <dataPath xsi:type="form:DataPath">
+          <segments>Объект</segments>
+          <segments>ПортPOP3</segments>
+        </dataPath>
+        <toolTip key="ru" value="0 - устанавливать порт автоматически"/>
+        <extInfo xsi:type="form:InputFieldExtInfo"/>
+        <contextMenu name="ПортPOP3КонтекстноеМеню" id="71">
+          <userVisible common="true"/>
+        </contextMenu>
+        <extendedTooltip name="ПортPOP3РасширеннаяПодсказка" id="98">
+          <userVisible common="true"/>
+          <extInfo xsi:type="form:LabelDecorationExtInfo"/>
+        </extendedTooltip>
+      </items>
+      <items xsi:type="form:FormField" name="POP3SSL" id="112" type="CheckBoxField" editMode="Enter">
+        <title key="ru" value="SSL"/>
+        <userVisible common="true"/>
+        <dataPath xsi:type="form:DataPath">
+          <segments>Объект</segments>
+          <segments>SSLPOP3</segments>
+        </dataPath>
+        <extInfo xsi:type="form:CheckBoxFieldExtInfo"/>
+        <contextMenu name="POP3SSLКонтекстноеМеню" id="113">
+          <userVisible common="true"/>
+        </contextMenu>
+        <extendedTooltip name="POP3SSLРасширеннаяПодсказка" id="114">
+          <userVisible common="true"/>
+          <extInfo xsi:type="form:LabelDecorationExtInfo"/>
+        </extendedTooltip>
+      </items>
+      <items xsi:type="form:FormField" name="ПользовательPOP3" id="72" editMode="Enter">
+        <userVisible common="true"/>
+        <dataPath xsi:type="form:DataPath">
+          <segments>Объект</segments>
+          <segments>ПользовательPOP3</segments>
+        </dataPath>
+        <extInfo xsi:type="form:InputFieldExtInfo"/>
+        <contextMenu name="ПользовательPOP3КонтекстноеМеню" id="73">
+          <userVisible common="true"/>
+        </contextMenu>
+        <extendedTooltip name="ПользовательPOP3ExtendedTooltip" id="99">
+          <userVisible common="true"/>
+          <extInfo xsi:type="form:LabelDecorationExtInfo"/>
+        </extendedTooltip>
+      </items>
+      <items xsi:type="form:FormField" name="ПарольPOP3" id="74" editMode="Enter">
+        <userVisible common="true"/>
+        <dataPath xsi:type="form:DataPath">
+          <segments>Объект</segments>
+          <segments>ПарольPOP3</segments>
+        </dataPath>
+        <extInfo xsi:type="form:InputFieldExtInfo"/>
+        <contextMenu name="ПарольPOP3КонтекстноеМеню" id="75">
+          <userVisible common="true"/>
+        </contextMenu>
+        <extendedTooltip name="ПарольPOP3ExtendedTooltip" id="100">
+          <userVisible common="true"/>
+          <extInfo xsi:type="form:LabelDecorationExtInfo"/>
+        </extendedTooltip>
+      </items>
+      <items xsi:type="form:FormField" name="ТолькоЗащищеннаяАутентификацияPOP3" id="118" type="CheckBoxField" editMode="Enter">
+        <title key="ru" value="Защищенная аутентификация"/>
+        <userVisible common="true"/>
+        <dataPath xsi:type="form:DataPath">
+          <segments>Объект</segments>
+          <segments>ТолькоЗащищеннаяАутентификацияPOP3</segments>
+        </dataPath>
+        <extInfo xsi:type="form:CheckBoxFieldExtInfo"/>
+        <contextMenu name="ТолькоЗащищеннаяАутентификацияPOP3КонтекстноеМеню" id="119">
+          <userVisible common="true"/>
+        </contextMenu>
+        <extendedTooltip name="ТолькоЗащищеннаяАутентификацияPOP3РасширеннаяПодсказка" id="120">
+          <userVisible common="true"/>
+          <extInfo xsi:type="form:LabelDecorationExtInfo"/>
+        </extendedTooltip>
+      </items>
+      <userVisible common="true"/>
+      <title key="ru" value="Настройка POP3 сервера"/>
+      <toolTip key="ru" value="Группа настройка POP3 сервера"/>
+      <extendedTooltip name="ГруппаНастройкаPOP3СервераExtendedTooltip" id="96">
+        <userVisible common="true"/>
+        <extInfo xsi:type="form:LabelDecorationExtInfo"/>
+      </extendedTooltip>
+      <extInfo xsi:type="form:PageGroupExtInfo"/>
+    </items>
+    <items xsi:type="form:FormGroup" name="ГруппаНастройкаIMAPСервера" id="76" type="Page">
+      <items xsi:type="form:FormField" name="АдресIMAPСервера" id="81" editMode="Enter">
+        <userVisible common="true"/>
+        <dataPath xsi:type="form:DataPath">
+          <segments>Объект</segments>
+          <segments>АдресIMAPСервера</segments>
+        </dataPath>
+        <extInfo xsi:type="form:InputFieldExtInfo"/>
+        <contextMenu name="АдресIMAPСервераКонтекстноеМеню" id="82">
+          <userVisible common="true"/>
+        </contextMenu>
+        <extendedTooltip name="АдресIMAPСервераExtendedTooltip" id="102">
+          <userVisible common="true"/>
+          <extInfo xsi:type="form:LabelDecorationExtInfo"/>
+        </extendedTooltip>
+      </items>
+      <items xsi:type="form:FormField" name="ПортIMAP" id="83" toolTipRepresentation="ShowRight" editMode="Enter">
+        <userVisible common="true"/>
+        <dataPath xsi:type="form:DataPath">
+          <segments>Объект</segments>
+          <segments>ПортIMAP</segments>
+        </dataPath>
+        <toolTip key="ru" value="0 - устанавливать порт автоматически"/>
+        <extInfo xsi:type="form:InputFieldExtInfo"/>
+        <contextMenu name="ПортIMAPКонтекстноеМеню" id="84">
+          <userVisible common="true"/>
+        </contextMenu>
+        <extendedTooltip name="ПортIMAPРасширеннаяПодсказка" id="103">
+          <userVisible common="true"/>
+          <extInfo xsi:type="form:LabelDecorationExtInfo"/>
+        </extendedTooltip>
+      </items>
+      <items xsi:type="form:FormField" name="IMAPSSL" id="85" type="CheckBoxField" editMode="Enter">
+        <title key="ru" value="SSL"/>
+        <userVisible common="true"/>
+        <dataPath xsi:type="form:DataPath">
+          <segments>Объект</segments>
+          <segments>SSLIMAP</segments>
+        </dataPath>
+        <extInfo xsi:type="form:CheckBoxFieldExtInfo"/>
+        <contextMenu name="IMAPSSLКонтекстноеМеню" id="86">
+          <userVisible common="true"/>
+        </contextMenu>
+        <extendedTooltip name="IMAPSSLExtendedTooltip" id="106">
+          <userVisible common="true"/>
+          <extInfo xsi:type="form:LabelDecorationExtInfo"/>
+        </extendedTooltip>
+      </items>
+      <items xsi:type="form:FormField" name="ПользовательIMAP" id="77" editMode="Enter">
+        <userVisible common="true"/>
+        <dataPath xsi:type="form:DataPath">
+          <segments>Объект</segments>
+          <segments>ПользовательIMAP</segments>
+        </dataPath>
+        <extInfo xsi:type="form:InputFieldExtInfo"/>
+        <contextMenu name="ПользовательIMAPКонтекстноеМеню" id="78">
+          <userVisible common="true"/>
+        </contextMenu>
+        <extendedTooltip name="ПользовательIMAPExtendedTooltip" id="104">
+          <userVisible common="true"/>
+          <extInfo xsi:type="form:LabelDecorationExtInfo"/>
+        </extendedTooltip>
+      </items>
+      <items xsi:type="form:FormField" name="ПарольIMAP" id="79" editMode="Enter">
+        <userVisible common="true"/>
+        <dataPath xsi:type="form:DataPath">
+          <segments>Объект</segments>
+          <segments>ПарольIMAP</segments>
+        </dataPath>
+        <extInfo xsi:type="form:InputFieldExtInfo"/>
+        <contextMenu name="ПарольIMAPКонтекстноеМеню" id="80">
+          <userVisible common="true"/>
+        </contextMenu>
+        <extendedTooltip name="ПарольIMAPExtendedTooltip" id="105">
+          <userVisible common="true"/>
+          <extInfo xsi:type="form:LabelDecorationExtInfo"/>
+        </extendedTooltip>
+      </items>
+      <items xsi:type="form:FormField" name="ТолькоЗащищеннаяАутентификацияIMAP" id="121" type="CheckBoxField" editMode="Enter">
+        <title key="ru" value="Защищенная аутентификация"/>
+        <userVisible common="true"/>
+        <dataPath xsi:type="form:DataPath">
+          <segments>Объект</segments>
+          <segments>ТолькоЗащищеннаяАутентификацияIMAP</segments>
+        </dataPath>
+        <extInfo xsi:type="form:CheckBoxFieldExtInfo"/>
+        <contextMenu name="ТолькоЗащищеннаяАутентификацияIMAPКонтекстноеМеню" id="122">
+          <userVisible common="true"/>
+        </contextMenu>
+        <extendedTooltip name="ТолькоЗащищеннаяАутентификацияIMAPРасширеннаяПодсказка" id="123">
+          <userVisible common="true"/>
+          <extInfo xsi:type="form:LabelDecorationExtInfo"/>
+        </extendedTooltip>
+      </items>
+      <userVisible common="true"/>
+      <title key="ru" value="Настройка IMAP сервера"/>
+      <toolTip key="ru" value="Группа настройка IMAPСервера"/>
+      <extendedTooltip name="ГруппаНастройкаIMAPСервераExtendedTooltip" id="101">
+        <userVisible common="true"/>
+        <extInfo xsi:type="form:LabelDecorationExtInfo"/>
+      </extendedTooltip>
+      <extInfo xsi:type="form:PageGroupExtInfo"/>
+    </items>
+    <userVisible common="true"/>
+    <extendedTooltip name="Группа1РасширеннаяПодсказка" id="125">
+      <userVisible common="true"/>
+      <extInfo xsi:type="form:LabelDecorationExtInfo"/>
+    </extendedTooltip>
+    <extInfo xsi:type="form:PagesGroupExtInfo"/>
+  </items>
+  <items xsi:type="form:FormField" name="ИспользоватьIMAP" id="87" type="CheckBoxField" editMode="Enter">
+    <userVisible common="true"/>
+    <dataPath xsi:type="form:DataPath">
+      <segments>Объект</segments>
+      <segments>ИспользоватьIMAP</segments>
+    </dataPath>
+    <extInfo xsi:type="form:CheckBoxFieldExtInfo"/>
+    <contextMenu name="ИспользоватьIMAPКонтекстноеМеню" id="88">
+      <userVisible common="true"/>
+    </contextMenu>
+    <extendedTooltip name="ИспользоватьIMAPExtendedTooltip" id="107">
+      <userVisible common="true"/>
+      <extInfo xsi:type="form:LabelDecorationExtInfo"/>
+    </extendedTooltip>
+  </items>
+  <items xsi:type="form:FormField" name="Таймаут" id="56" editMode="Enter">
+    <userVisible common="true"/>
+    <dataPath xsi:type="form:DataPath">
+      <segments>Объект</segments>
+      <segments>ТаймаутИнтернетПочты</segments>
+    </dataPath>
+    <extInfo xsi:type="form:InputFieldExtInfo"/>
+    <contextMenu name="ТаймаутКонтекстноеМеню" id="57">
+      <userVisible common="true"/>
+    </contextMenu>
+    <extendedTooltip name="ТаймаутExtendedTooltip" id="108">
+      <userVisible common="true"/>
+      <extInfo xsi:type="form:LabelDecorationExtInfo"/>
+    </extendedTooltip>
+  </items>
+  <autoCommandBar name="ФормаКоманднаяПанель" id="-1">
+    <userVisible common="true"/>
+  </autoCommandBar>
+  <attributes name="Объект" id="1" main="true" savedData="true">
+    <valueType>
+      <types>ConstantsSet</types>
+    </valueType>
+    <view common="true"/>
+    <edit common="true"/>
+  </attributes>
+  <parameters name="ТекущийПользователь">
+    <valueType>
+      <types>Boolean</types>
+    </valueType>
+  </parameters>
+  <commandInterface>
+    <navigationPanel/>
+    <commandBar/>
+  </commandInterface>
+  <extInfo xsi:type="form:ConstantsFormExtInfo"/>
+</form:Form>
