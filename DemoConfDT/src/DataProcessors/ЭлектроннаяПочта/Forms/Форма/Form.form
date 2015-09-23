@@ -1,0 +1,1267 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form:Form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:form="http://g5.1c.ru/v8/dt/form">
+  <title>
+    <key>ru</key>
+    <value>Электронная почта</value>
+  </title>
+  <items xsi:type="form:FormGroup">
+    <name>ГруппаКоманднаяПанель</name>
+    <id>22</id>
+    <items xsi:type="form:FormGroup">
+      <name>ГруппаНовоеПисьмо</name>
+      <id>71</id>
+      <items xsi:type="form:Button">
+        <name>КомандаНовоеПисьмо</name>
+        <id>23</id>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <extendedTooltip>
+          <name>КомандаНовоеПисьмоExtendedTooltip</name>
+          <id>49</id>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+        </extendedTooltip>
+        <type>CommandBarButton</type>
+        <commandName>Form.Command.КомандаНовоеПисьмо</commandName>
+        <parameter xsi:type="core:NullValue"/>
+      </items>
+      <items xsi:type="form:Button">
+        <name>КомандаНовоеПисьмоПоШаблону</name>
+        <id>69</id>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <extendedTooltip>
+          <name>КомандаНовоеПисьмоПоШаблонуРасширеннаяПодсказка</name>
+          <id>70</id>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+        </extendedTooltip>
+        <type>CommandBarButton</type>
+        <commandName>Form.Command.КомандаНовоеПисьмоПоШаблону</commandName>
+        <parameter xsi:type="core:NullValue"/>
+      </items>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <title>
+        <key>ru</key>
+        <value>Группа новое письмо</value>
+      </title>
+      <toolTip>
+        <key>ru</key>
+        <value>Группа новое письмо</value>
+      </toolTip>
+      <extendedTooltip>
+        <name>ГруппаНовоеПисьмоРасширеннаяПодсказка</name>
+        <id>72</id>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+      </extendedTooltip>
+      <extInfo xsi:type="form:ButtonGroupExtInfo"/>
+    </items>
+    <items xsi:type="form:Button">
+      <name>КомандаОтветить</name>
+      <id>25</id>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <extendedTooltip>
+        <name>КомандаОтветитьExtendedTooltip</name>
+        <id>50</id>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+      </extendedTooltip>
+      <type>CommandBarButton</type>
+      <commandName>Form.Command.КомандаОтветить</commandName>
+      <parameter xsi:type="core:NullValue"/>
+    </items>
+    <items xsi:type="form:FormGroup">
+      <name>ГруппаПолучитьПисьма</name>
+      <id>73</id>
+      <items xsi:type="form:Button">
+        <name>КомандаПолучитьПисьма</name>
+        <id>24</id>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <extendedTooltip>
+          <name>КомандаПолучитьПисьмаExtendedTooltip</name>
+          <id>48</id>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+        </extendedTooltip>
+        <type>CommandBarButton</type>
+        <commandName>Form.Command.КомандаПолучитьПисьма</commandName>
+        <parameter xsi:type="core:NullValue"/>
+        <picture xsi:type="core:PictureRef">
+          <picture>StdPicture.Refresh</picture>
+        </picture>
+      </items>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <title>
+        <key>ru</key>
+        <value>Группа получить письма</value>
+      </title>
+      <toolTip>
+        <key>ru</key>
+        <value>Группа получить письма</value>
+      </toolTip>
+      <extendedTooltip>
+        <name>ГруппаПолучитьПисьмаРасширеннаяПодсказка</name>
+        <id>74</id>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+      </extendedTooltip>
+      <extInfo xsi:type="form:ButtonGroupExtInfo"/>
+    </items>
+    <items xsi:type="form:Button">
+      <name>КомандаСоздатьПочтовыйЯщикIMAP</name>
+      <id>41</id>
+      <enabled>false</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <extendedTooltip>
+        <name>КомандаСоздатьПочтовыйЯщикIMAPExtendedTooltip</name>
+        <id>51</id>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+      </extendedTooltip>
+      <type>CommandBarButton</type>
+      <commandName>Form.Command.КомандаСоздатьПочтовыйЯщикIMAP</commandName>
+      <parameter xsi:type="core:NullValue"/>
+      <onlyInAllActions>false</onlyInAllActions>
+    </items>
+    <items xsi:type="form:Button">
+      <name>Справка</name>
+      <id>33</id>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <extendedTooltip>
+        <name>СправкаExtendedTooltip</name>
+        <id>52</id>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+      </extendedTooltip>
+      <type>CommandBarButton</type>
+      <commandName>Form.StandardCommand.Help</commandName>
+      <parameter xsi:type="core:NullValue"/>
+    </items>
+    <items xsi:type="form:Button">
+      <name>КомандаНастройкаПочты</name>
+      <id>42</id>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <extendedTooltip>
+        <name>КомандаНастройкаПочтыExtendedTooltip</name>
+        <id>53</id>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+      </extendedTooltip>
+      <type>CommandBarButton</type>
+      <commandName>Form.Command.КомандаНастроить</commandName>
+      <parameter xsi:type="core:NullValue"/>
+      <onlyInAllActions>false</onlyInAllActions>
+    </items>
+    <userVisible>
+      <common>true</common>
+    </userVisible>
+    <title>
+      <key>ru</key>
+      <value>Группа командная панель</value>
+    </title>
+    <toolTip>
+      <key>ru</key>
+      <value>Группа командная панель</value>
+    </toolTip>
+    <extendedTooltip>
+      <name>ГруппаКоманднаяПанельExtendedTooltip</name>
+      <id>47</id>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+    </extendedTooltip>
+    <type>CommandBar</type>
+    <extInfo xsi:type="form:CommandBarExtInfo"/>
+  </items>
+  <items xsi:type="form:FormGroup">
+    <name>ГруппаСтраницы</name>
+    <id>10</id>
+    <items xsi:type="form:FormGroup">
+      <name>ГруппаВходящие</name>
+      <id>11</id>
+      <items xsi:type="form:FormField">
+        <name>ПочтовыйЯщикIMAP</name>
+        <id>37</id>
+        <enabled>false</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <dataPath xsi:type="form:DataPath">
+          <segments>ПочтовыйЯщикIMAP</segments>
+        </dataPath>
+        <events>
+          <key>OnChange</key>
+          <value>ПочтовыйЯщикIMAPПриИзменении</value>
+        </events>
+        <extendedTooltip>
+          <name>ПочтовыйЯщикIMAPExtendedTooltip</name>
+          <id>56</id>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+        </extendedTooltip>
+        <contextMenu>
+          <name>ПочтовыйЯщикIMAPКонтекстноеМеню</name>
+          <id>38</id>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+        </contextMenu>
+        <editMode>Enter</editMode>
+        <extInfo xsi:type="form:InputFieldExtInfo">
+          <choiceListButton>true</choiceListButton>
+          <dropListButton>true</dropListButton>
+          <listChoiceMode>true</listChoiceMode>
+        </extInfo>
+      </items>
+      <items xsi:type="form:FormGroup">
+        <name>ГруппаПоискВходящие</name>
+        <id>93</id>
+        <items xsi:type="form:Addition">
+          <title>
+            <key>ru</key>
+            <value>Отображение состояния входящие</value>
+          </title>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <name>ОтображениеСостоянияВходящие</name>
+          <id>95</id>
+          <extendedTooltip>
+            <name>ОтображениеСостоянияВходящиеРасширеннаяПодсказка</name>
+            <id>97</id>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+          </extendedTooltip>
+          <contextMenu>
+            <name>ОтображениеСостоянияВходящиеКонтекстноеМеню</name>
+            <id>96</id>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+          </contextMenu>
+          <type>ViewStatusAddition</type>
+          <source>СписокВходящиеСостояниеПросмотра</source>
+          <extInfo xsi:type="form:ViewStatusAdditionExtInfo"/>
+        </items>
+        <items xsi:type="form:FormGroup">
+          <name>КоманднаяПанельПоискаВходяшие</name>
+          <id>115</id>
+          <items xsi:type="form:Addition">
+            <title>
+              <key>ru</key>
+              <value>Строка поиска входящие</value>
+            </title>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <name>СтрокаПоискаВходящие</name>
+            <id>98</id>
+            <extendedTooltip>
+              <name>СтрокаПоискаВходящиеРасширеннаяПодсказка</name>
+              <id>100</id>
+              <userVisible>
+                <common>true</common>
+              </userVisible>
+            </extendedTooltip>
+            <contextMenu>
+              <name>СтрокаПоискаВходящиеКонтекстноеМеню</name>
+              <id>99</id>
+              <userVisible>
+                <common>true</common>
+              </userVisible>
+            </contextMenu>
+            <source>СписокВходящиеСтрокаПоиска</source>
+            <extInfo xsi:type="form:SearchStringAdditionExtInfo"/>
+          </items>
+          <items xsi:type="form:Addition">
+            <title>
+              <key>ru</key>
+              <value>Управление поиском входящие</value>
+            </title>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <name>УправлениеПоискомВходящие</name>
+            <id>101</id>
+            <extendedTooltip>
+              <name>УправлениеПоискомВходящиеРасширеннаяПодсказка</name>
+              <id>103</id>
+              <userVisible>
+                <common>true</common>
+              </userVisible>
+            </extendedTooltip>
+            <contextMenu>
+              <name>УправлениеПоискомВходящиеКонтекстноеМеню</name>
+              <id>102</id>
+              <userVisible>
+                <common>true</common>
+              </userVisible>
+            </contextMenu>
+            <type>SearchControlAddition</type>
+            <source>СписокВходящиеУправлениеПоиском</source>
+            <extInfo xsi:type="form:SearchControlAdditionExtInfo"/>
+          </items>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <title>
+            <key>ru</key>
+            <value>Командная панель поиска входяшие</value>
+          </title>
+          <toolTip>
+            <key>ru</key>
+            <value>Командная панель поиска входяшие</value>
+          </toolTip>
+          <extendedTooltip>
+            <name>КоманднаяПанельПоискаВходяшиеРасширеннаяПодсказка</name>
+            <id>116</id>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+          </extendedTooltip>
+          <type>CommandBar</type>
+          <extInfo xsi:type="form:CommandBarExtInfo"/>
+        </items>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <title>
+          <key>ru</key>
+          <value>Группа поиск входящие</value>
+        </title>
+        <toolTip>
+          <key>ru</key>
+          <value>Группа поиск входящие</value>
+        </toolTip>
+        <extendedTooltip>
+          <name>ГруппаПоискВходящиеРасширеннаяПодсказка</name>
+          <id>94</id>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+        </extendedTooltip>
+        <type>UsualGroup</type>
+        <extInfo xsi:type="form:UsualGroupExtInfo">
+          <group>Horizontal</group>
+          <representation>None</representation>
+          <showTitle>false</showTitle>
+        </extInfo>
+      </items>
+      <items xsi:type="form:Table">
+        <name>СписокВходящие</name>
+        <id>1</id>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <dataPath xsi:type="form:DataPath">
+          <segments>СписокВходящие</segments>
+        </dataPath>
+        <excludedCommands>Copy</excludedCommands>
+        <excludedCommands>Create</excludedCommands>
+        <excludedCommands>Choose</excludedCommands>
+        <excludedCommands>SetDeletionMark</excludedCommands>
+        <excludedCommands>Change</excludedCommands>
+        <items xsi:type="form:FormField">
+          <name>ДатаВходящие</name>
+          <id>6</id>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <dataPath xsi:type="form:DataPath">
+            <segments>СписокВходящие.Дата</segments>
+          </dataPath>
+          <extendedTooltip>
+            <name>ДатаВходящиеExtendedTooltip</name>
+            <id>58</id>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+          </extendedTooltip>
+          <contextMenu>
+            <name>ДатаВходящиеКонтекстноеМеню</name>
+            <id>7</id>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+          </contextMenu>
+          <type>LabelField</type>
+          <editMode>Enter</editMode>
+          <extInfo xsi:type="form:LabelFieldExtInfo"/>
+        </items>
+        <items xsi:type="form:FormField">
+          <name>НаименованиеВходящие</name>
+          <id>4</id>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <dataPath xsi:type="form:DataPath">
+            <segments>СписокВходящие.Description</segments>
+          </dataPath>
+          <defaultItem>true</defaultItem>
+          <extendedTooltip>
+            <name>НаименованиеВходящиеExtendedTooltip</name>
+            <id>59</id>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+          </extendedTooltip>
+          <contextMenu>
+            <name>НаименованиеВходящиеКонтекстноеМеню</name>
+            <id>5</id>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+          </contextMenu>
+          <type>LabelField</type>
+          <editMode>Enter</editMode>
+          <extInfo xsi:type="form:LabelFieldExtInfo"/>
+        </items>
+        <items xsi:type="form:FormField">
+          <name>СписокВходящиеОтправитель</name>
+          <id>31</id>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <dataPath xsi:type="form:DataPath">
+            <segments>СписокВходящие.Отправитель</segments>
+          </dataPath>
+          <extendedTooltip>
+            <name>СписокВходящиеОтправительExtendedTooltip</name>
+            <id>60</id>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+          </extendedTooltip>
+          <contextMenu>
+            <name>СписокВходящиеОтправительКонтекстноеМеню</name>
+            <id>32</id>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+          </contextMenu>
+          <type>LabelField</type>
+          <editMode>Enter</editMode>
+          <extInfo xsi:type="form:LabelFieldExtInfo"/>
+        </items>
+        <items xsi:type="form:FormField">
+          <name>СписокВходящиеПочтовыйЯщик</name>
+          <id>43</id>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <dataPath xsi:type="form:DataPath">
+            <segments>СписокВходящие.ПочтовыйЯщик</segments>
+          </dataPath>
+          <extendedTooltip>
+            <name>СписокВходящиеПочтовыйЯщикExtendedTooltip</name>
+            <id>61</id>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+          </extendedTooltip>
+          <contextMenu>
+            <name>СписокВходящиеПочтовыйЯщикКонтекстноеМеню</name>
+            <id>44</id>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+          </contextMenu>
+          <editMode>Enter</editMode>
+          <extInfo xsi:type="form:InputFieldExtInfo"/>
+        </items>
+        <commandBarLocation>None</commandBarLocation>
+        <autoCommandBar>
+          <name>СписокВходящиеКоманднаяПанель</name>
+          <id>3</id>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+        </autoCommandBar>
+        <searchStringAddition>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <name>СписокВходящиеСтрокаПоиска</name>
+          <id>75</id>
+          <extendedTooltip>
+            <name>СписокВходящиеСтрокаПоискаРасширеннаяПодсказка</name>
+            <id>77</id>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+          </extendedTooltip>
+          <contextMenu>
+            <name>СписокВходящиеСтрокаПоискаКонтекстноеМеню</name>
+            <id>76</id>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+          </contextMenu>
+          <source>СписокВходящиеСтрокаПоиска</source>
+          <extInfo xsi:type="form:SearchStringAdditionExtInfo"/>
+        </searchStringAddition>
+        <viewStatusAddition>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <name>СписокВходящиеСостояниеПросмотра</name>
+          <id>78</id>
+          <extendedTooltip>
+            <name>СписокВходящиеСостояниеПросмотраРасширеннаяПодсказка</name>
+            <id>80</id>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+          </extendedTooltip>
+          <contextMenu>
+            <name>СписокВходящиеСостояниеПросмотраКонтекстноеМеню</name>
+            <id>79</id>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+          </contextMenu>
+          <type>ViewStatusAddition</type>
+          <source>СписокВходящиеСостояниеПросмотра</source>
+          <extInfo xsi:type="form:ViewStatusAdditionExtInfo"/>
+        </viewStatusAddition>
+        <searchControlAddition>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <name>СписокВходящиеУправлениеПоиском</name>
+          <id>81</id>
+          <extendedTooltip>
+            <name>СписокВходящиеУправлениеПоискомРасширеннаяПодсказка</name>
+            <id>83</id>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+          </extendedTooltip>
+          <contextMenu>
+            <name>СписокВходящиеУправлениеПоискомКонтекстноеМеню</name>
+            <id>82</id>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+          </contextMenu>
+          <type>SearchControlAddition</type>
+          <source>СписокВходящиеУправлениеПоиском</source>
+          <extInfo xsi:type="form:SearchControlAdditionExtInfo"/>
+        </searchControlAddition>
+        <extendedTooltip>
+          <name>СписокВходящиеExtendedTooltip</name>
+          <id>57</id>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+        </extendedTooltip>
+        <contextMenu>
+          <name>СписокВходящиеКонтекстноеМеню</name>
+          <id>2</id>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+        </contextMenu>
+        <representation>List</representation>
+        <useAlternationRowColor>true</useAlternationRowColor>
+        <initialTreeView>ExpandTopLevel</initialTreeView>
+        <enableStartDrag>true</enableStartDrag>
+        <rowPictureDataPath xsi:type="form:DataPath">
+          <segments>СписокВходящие.DefaultPicture</segments>
+        </rowPictureDataPath>
+        <searchStringLocation>None</searchStringLocation>
+        <viewStatusLocation>None</viewStatusLocation>
+        <searchControlLocation>None</searchControlLocation>
+        <extInfo xsi:type="form:DynamicListTableExtInfo">
+          <autoRefreshPeriod>60</autoRefreshPeriod>
+        </extInfo>
+      </items>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <title>
+        <key>ru</key>
+        <value>Входящие</value>
+      </title>
+      <toolTip>
+        <key>ru</key>
+        <value>Группа входящие</value>
+      </toolTip>
+      <extendedTooltip>
+        <name>ГруппаВходящиеExtendedTooltip</name>
+        <id>55</id>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+      </extendedTooltip>
+      <type>Page</type>
+      <extInfo xsi:type="form:PageGroupExtInfo"/>
+    </items>
+    <items xsi:type="form:FormGroup">
+      <name>ГруппаИсходящие</name>
+      <id>12</id>
+      <items xsi:type="form:FormGroup">
+        <name>ГруппаПоискИсходящие</name>
+        <id>104</id>
+        <items xsi:type="form:Addition">
+          <title>
+            <key>ru</key>
+            <value>Состояние просмотра исходящие</value>
+          </title>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <name>СостояниеПросмотраИсходящие</name>
+          <id>106</id>
+          <extendedTooltip>
+            <name>СостояниеПросмотраИсходящиеРасширеннаяПодсказка</name>
+            <id>108</id>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+          </extendedTooltip>
+          <contextMenu>
+            <name>СостояниеПросмотраИсходящиеКонтекстноеМеню</name>
+            <id>107</id>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+          </contextMenu>
+          <type>ViewStatusAddition</type>
+          <source>СписокИсходящиеСостояниеПросмотра</source>
+          <extInfo xsi:type="form:ViewStatusAdditionExtInfo"/>
+        </items>
+        <items xsi:type="form:FormGroup">
+          <name>КоманднаяПанельПоискаИсходяшие</name>
+          <id>117</id>
+          <items xsi:type="form:Addition">
+            <title>
+              <key>ru</key>
+              <value>Строка поиска исходящие</value>
+            </title>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <name>СтрокаПоискаИсходящие</name>
+            <id>109</id>
+            <extendedTooltip>
+              <name>СтрокаПоискаИсходящиеРасширеннаяПодсказка</name>
+              <id>111</id>
+              <userVisible>
+                <common>true</common>
+              </userVisible>
+            </extendedTooltip>
+            <contextMenu>
+              <name>СтрокаПоискаИсходящиеКонтекстноеМеню</name>
+              <id>110</id>
+              <userVisible>
+                <common>true</common>
+              </userVisible>
+            </contextMenu>
+            <source>СписокИсходящиеСтрокаПоиска</source>
+            <extInfo xsi:type="form:SearchStringAdditionExtInfo"/>
+          </items>
+          <items xsi:type="form:Addition">
+            <title>
+              <key>ru</key>
+              <value>Управление поиском исходящие</value>
+            </title>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <name>УправлениеПоискомИсходящие</name>
+            <id>112</id>
+            <extendedTooltip>
+              <name>УправлениеПоискомИсходящиеРасширеннаяПодсказка</name>
+              <id>114</id>
+              <userVisible>
+                <common>true</common>
+              </userVisible>
+            </extendedTooltip>
+            <contextMenu>
+              <name>УправлениеПоискомИсходящиеКонтекстноеМеню</name>
+              <id>113</id>
+              <userVisible>
+                <common>true</common>
+              </userVisible>
+            </contextMenu>
+            <type>SearchControlAddition</type>
+            <source>СписокИсходящиеУправлениеПоиском</source>
+            <extInfo xsi:type="form:SearchControlAdditionExtInfo"/>
+          </items>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <title>
+            <key>ru</key>
+            <value>Командная панель поиска исходяшие</value>
+          </title>
+          <toolTip>
+            <key>ru</key>
+            <value>Командная панель поиска исходяшие</value>
+          </toolTip>
+          <extendedTooltip>
+            <name>КоманднаяПанельПоискаИсходяшиеРасширеннаяПодсказка</name>
+            <id>118</id>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+          </extendedTooltip>
+          <type>CommandBar</type>
+          <extInfo xsi:type="form:CommandBarExtInfo"/>
+        </items>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <title>
+          <key>ru</key>
+          <value>Группа поиск исходящие</value>
+        </title>
+        <toolTip>
+          <key>ru</key>
+          <value>Группа поиск исходящие</value>
+        </toolTip>
+        <extendedTooltip>
+          <name>ГруппаПоискИсходящиеРасширеннаяПодсказка</name>
+          <id>105</id>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+        </extendedTooltip>
+        <type>UsualGroup</type>
+        <extInfo xsi:type="form:UsualGroupExtInfo">
+          <group>Horizontal</group>
+          <representation>None</representation>
+          <showTitle>false</showTitle>
+        </extInfo>
+      </items>
+      <items xsi:type="form:Table">
+        <name>СписокИсходящие</name>
+        <id>13</id>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <dataPath xsi:type="form:DataPath">
+          <segments>СписокИсходящие</segments>
+        </dataPath>
+        <excludedCommands>Copy</excludedCommands>
+        <excludedCommands>Create</excludedCommands>
+        <excludedCommands>Choose</excludedCommands>
+        <excludedCommands>SetDeletionMark</excludedCommands>
+        <items xsi:type="form:FormField">
+          <name>ДатаИсходящие</name>
+          <id>18</id>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <dataPath xsi:type="form:DataPath">
+            <segments>СписокИсходящие.Дата</segments>
+          </dataPath>
+          <extendedTooltip>
+            <name>ДатаИсходящиеExtendedTooltip</name>
+            <id>64</id>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+          </extendedTooltip>
+          <contextMenu>
+            <name>ДатаИсходящиеКонтекстноеМеню</name>
+            <id>19</id>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+          </contextMenu>
+          <type>LabelField</type>
+          <editMode>Enter</editMode>
+          <extInfo xsi:type="form:LabelFieldExtInfo"/>
+        </items>
+        <items xsi:type="form:FormField">
+          <name>НаименованиеИсходящие</name>
+          <id>16</id>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <dataPath xsi:type="form:DataPath">
+            <segments>СписокИсходящие.Description</segments>
+          </dataPath>
+          <extendedTooltip>
+            <name>НаименованиеИсходящиеExtendedTooltip</name>
+            <id>65</id>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+          </extendedTooltip>
+          <contextMenu>
+            <name>НаименованиеИсходящиеКонтекстноеМеню</name>
+            <id>17</id>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+          </contextMenu>
+          <type>LabelField</type>
+          <editMode>Enter</editMode>
+          <extInfo xsi:type="form:LabelFieldExtInfo"/>
+        </items>
+        <items xsi:type="form:FormField">
+          <name>СписокИсходящиеПолучатель</name>
+          <id>29</id>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <dataPath xsi:type="form:DataPath">
+            <segments>СписокИсходящие.Получатель</segments>
+          </dataPath>
+          <extendedTooltip>
+            <name>СписокИсходящиеПолучательExtendedTooltip</name>
+            <id>66</id>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+          </extendedTooltip>
+          <contextMenu>
+            <name>СписокИсходящиеПолучательКонтекстноеМеню</name>
+            <id>30</id>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+          </contextMenu>
+          <type>LabelField</type>
+          <editMode>Enter</editMode>
+          <extInfo xsi:type="form:LabelFieldExtInfo"/>
+        </items>
+        <items xsi:type="form:FormField">
+          <name>СписокИсходящиеОтправлено</name>
+          <id>27</id>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <dataPath xsi:type="form:DataPath">
+            <segments>СписокИсходящие.Отправлено</segments>
+          </dataPath>
+          <extendedTooltip>
+            <name>СписокИсходящиеОтправленоExtendedTooltip</name>
+            <id>67</id>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+          </extendedTooltip>
+          <contextMenu>
+            <name>СписокИсходящиеОтправленоКонтекстноеМеню</name>
+            <id>28</id>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+          </contextMenu>
+          <type>CheckBoxField</type>
+          <editMode>Enter</editMode>
+          <extInfo xsi:type="form:CheckBoxFieldExtInfo"/>
+        </items>
+        <commandBarLocation>None</commandBarLocation>
+        <autoCommandBar>
+          <name>СписокИсходящиеКоманднаяПанель</name>
+          <id>15</id>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+        </autoCommandBar>
+        <searchStringAddition>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <name>СписокИсходящиеСтрокаПоиска</name>
+          <id>84</id>
+          <extendedTooltip>
+            <name>СписокИсходящиеСтрокаПоискаРасширеннаяПодсказка</name>
+            <id>86</id>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+          </extendedTooltip>
+          <contextMenu>
+            <name>СписокИсходящиеСтрокаПоискаКонтекстноеМеню</name>
+            <id>85</id>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+          </contextMenu>
+          <source>СписокИсходящиеСтрокаПоиска</source>
+          <extInfo xsi:type="form:SearchStringAdditionExtInfo"/>
+        </searchStringAddition>
+        <viewStatusAddition>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <name>СписокИсходящиеСостояниеПросмотра</name>
+          <id>87</id>
+          <extendedTooltip>
+            <name>СписокИсходящиеСостояниеПросмотраРасширеннаяПодсказка</name>
+            <id>89</id>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+          </extendedTooltip>
+          <contextMenu>
+            <name>СписокИсходящиеСостояниеПросмотраКонтекстноеМеню</name>
+            <id>88</id>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+          </contextMenu>
+          <type>ViewStatusAddition</type>
+          <source>СписокИсходящиеСостояниеПросмотра</source>
+          <extInfo xsi:type="form:ViewStatusAdditionExtInfo"/>
+        </viewStatusAddition>
+        <searchControlAddition>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <name>СписокИсходящиеУправлениеПоиском</name>
+          <id>90</id>
+          <extendedTooltip>
+            <name>СписокИсходящиеУправлениеПоискомРасширеннаяПодсказка</name>
+            <id>92</id>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+          </extendedTooltip>
+          <contextMenu>
+            <name>СписокИсходящиеУправлениеПоискомКонтекстноеМеню</name>
+            <id>91</id>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+          </contextMenu>
+          <type>SearchControlAddition</type>
+          <source>СписокИсходящиеУправлениеПоиском</source>
+          <extInfo xsi:type="form:SearchControlAdditionExtInfo"/>
+        </searchControlAddition>
+        <extendedTooltip>
+          <name>СписокИсходящиеExtendedTooltip</name>
+          <id>63</id>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+        </extendedTooltip>
+        <contextMenu>
+          <name>СписокИсходящиеКонтекстноеМеню</name>
+          <id>14</id>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+        </contextMenu>
+        <useAlternationRowColor>true</useAlternationRowColor>
+        <enableStartDrag>true</enableStartDrag>
+        <rowPictureDataPath xsi:type="form:DataPath">
+          <segments>СписокИсходящие.DefaultPicture</segments>
+        </rowPictureDataPath>
+        <searchStringLocation>None</searchStringLocation>
+        <viewStatusLocation>None</viewStatusLocation>
+        <searchControlLocation>None</searchControlLocation>
+        <extInfo xsi:type="form:DynamicListTableExtInfo">
+          <autoRefreshPeriod>60</autoRefreshPeriod>
+        </extInfo>
+      </items>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <title>
+        <key>ru</key>
+        <value>Исходящие</value>
+      </title>
+      <toolTip>
+        <key>ru</key>
+        <value>Группа исходящие</value>
+      </toolTip>
+      <extendedTooltip>
+        <name>ГруппаИсходящиеExtendedTooltip</name>
+        <id>62</id>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+      </extendedTooltip>
+      <type>Page</type>
+      <extInfo xsi:type="form:PageGroupExtInfo"/>
+    </items>
+    <userVisible>
+      <common>true</common>
+    </userVisible>
+    <title>
+      <key>ru</key>
+      <value>Группа страницы</value>
+    </title>
+    <toolTip>
+      <key>ru</key>
+      <value>Группа страницы</value>
+    </toolTip>
+    <extendedTooltip>
+      <name>ГруппаСтраницыExtendedTooltip</name>
+      <id>54</id>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+    </extendedTooltip>
+    <type>Pages</type>
+    <extInfo xsi:type="form:PagesGroupExtInfo"/>
+  </items>
+  <commandBarLocation>None</commandBarLocation>
+  <autoCommandBar>
+    <name>ФормаКоманднаяПанель</name>
+    <id>-1</id>
+    <userVisible>
+      <common>true</common>
+    </userVisible>
+  </autoCommandBar>
+  <events>
+    <key>NotificationProcessing</key>
+    <value>ОбработкаОповещения</value>
+  </events>
+  <events>
+    <key>OnCreateAtServer</key>
+    <value>ПриСозданииНаСервере</value>
+  </events>
+  <width>80</width>
+  <height>80</height>
+  <autoTitle>false</autoTitle>
+  <verticalScroll>UseIfNecessary</verticalScroll>
+  <attributes>
+    <name>СписокВходящие</name>
+    <title>
+      <key>ru</key>
+      <value>Список входящие</value>
+    </title>
+    <id>1</id>
+    <valueType>
+      <types>DynamicList</types>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+    <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
+      <segments>СписокВходящие.Прочитано</segments>
+    </notDefaultUseAlwaysAttributes>
+    <extInfo xsi:type="form:DynamicListExtInfo">
+      <queryText>ВЫБРАТЬ
+	СправочникВходящиеПисьма.Ссылка,
+	СправочникВходящиеПисьма.ПометкаУдаления,
+	СправочникВходящиеПисьма.Предопределенный,
+	СправочникВходящиеПисьма.Наименование,
+	СправочникВходящиеПисьма.Дата,
+	СправочникВходящиеПисьма.Отправитель,
+	СправочникВходящиеПисьма.Текст,
+	СправочникВходящиеПисьма.ВидСодержимого,
+	СправочникВходящиеПисьма.Идентификатор,
+	СправочникВходящиеПисьма.ПочтовыйЯщик,
+	ЕСТЬNULL(СостояниеВходящихПисем.Прочитано, ЛОЖЬ) КАК Прочитано
+ИЗ
+	Справочник.ВходящиеПисьма КАК СправочникВходящиеПисьма
+		ЛЕВОЕ СОЕДИНЕНИЕ РегистрСведений.СостояниеВходящихПисем КАК СостояниеВходящихПисем
+		ПО СостояниеВходящихПисем.Письмо = СправочникВходящиеПисьма.Ссылка</queryText>
+      <mainTable>Catalog.ВходящиеПисьма</mainTable>
+      <customQuery>true</customQuery>
+      <listSettings>DataProcessor.ЭлектроннаяПочта.Form.Форма.Form.Attributes.СписокВходящие.ExtInfo.ListSettings</listSettings>
+    </extInfo>
+  </attributes>
+  <attributes>
+    <name>СписокИсходящие</name>
+    <title>
+      <key>ru</key>
+      <value>Список исходящие</value>
+    </title>
+    <id>2</id>
+    <valueType>
+      <types>DynamicList</types>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+    <extInfo xsi:type="form:DynamicListExtInfo">
+      <queryText>ВЫБРАТЬ
+	СправочникИсходящиеПисьма.Ссылка,
+	СправочникИсходящиеПисьма.ПометкаУдаления,
+	СправочникИсходящиеПисьма.Предопределенный,
+	СправочникИсходящиеПисьма.Наименование,
+	СправочникИсходящиеПисьма.Дата,
+	СправочникИсходящиеПисьма.Получатель,
+	СправочникИсходящиеПисьма.Содержимое,
+	СправочникИсходящиеПисьма.Текст,
+	ЕСТЬNULL(СостояниеИсходящихПисем.Отправлено, ЛОЖЬ) КАК Отправлено
+ИЗ
+	Справочник.ИсходящиеПисьма КАК СправочникИсходящиеПисьма
+		ЛЕВОЕ СОЕДИНЕНИЕ РегистрСведений.СостояниеИсходящихПисем КАК СостояниеИсходящихПисем
+		ПО СправочникИсходящиеПисьма.Ссылка = СостояниеИсходящихПисем.Письмо</queryText>
+      <mainTable>Catalog.ИсходящиеПисьма</mainTable>
+      <customQuery>true</customQuery>
+      <listSettings>DataProcessor.ЭлектроннаяПочта.Form.Форма.Form.Attributes.СписокИсходящие.ExtInfo.ListSettings</listSettings>
+    </extInfo>
+  </attributes>
+  <attributes>
+    <name>ИспользоватьIMAP</name>
+    <title>
+      <key>ru</key>
+      <value>Использовать IMAP</value>
+    </title>
+    <id>3</id>
+    <valueType>
+      <types>Boolean</types>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <attributes>
+    <name>ПочтовыйЯщикIMAP</name>
+    <title>
+      <key>ru</key>
+      <value>Почтовый ящик</value>
+    </title>
+    <id>4</id>
+    <valueType>
+      <types>String</types>
+      <stringQualifiers/>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <conditionalAppearance>DataProcessor.ЭлектроннаяПочта.Form.Форма.Form.ConditionalAppearance</conditionalAppearance>
+  <formCommands>
+    <name>КомандаНовоеПисьмо</name>
+    <title>
+      <key>ru</key>
+      <value>Новое письмо</value>
+    </title>
+    <id>1</id>
+    <toolTip>
+      <key>ru</key>
+      <value>Команда новое письмо</value>
+    </toolTip>
+    <use>
+      <common>true</common>
+    </use>
+    <action>КомандаНовоеПисьмо</action>
+  </formCommands>
+  <formCommands>
+    <name>КомандаПолучитьПисьма</name>
+    <title>
+      <key>ru</key>
+      <value>Получить письма</value>
+    </title>
+    <id>2</id>
+    <toolTip>
+      <key>ru</key>
+      <value>Команда получить письма</value>
+    </toolTip>
+    <use>
+      <common>true</common>
+    </use>
+    <action>КомандаПолучитьПисьма</action>
+  </formCommands>
+  <formCommands>
+    <name>КомандаОтветить</name>
+    <title>
+      <key>ru</key>
+      <value>Ответить</value>
+    </title>
+    <id>3</id>
+    <toolTip>
+      <key>ru</key>
+      <value>Команда ответить</value>
+    </toolTip>
+    <use>
+      <common>true</common>
+    </use>
+    <action>КомандаОтветить</action>
+  </formCommands>
+  <formCommands>
+    <name>КомандаСоздатьПочтовыйЯщикIMAP</name>
+    <title>
+      <key>ru</key>
+      <value>Создать почтовый ящик</value>
+    </title>
+    <id>4</id>
+    <toolTip>
+      <key>ru</key>
+      <value>Команда создать почтовый ящик IMAP</value>
+    </toolTip>
+    <use>
+      <common>true</common>
+    </use>
+    <action>КомандаСоздатьПочтовыйЯщикIMAP</action>
+  </formCommands>
+  <formCommands>
+    <name>КомандаНастроить</name>
+    <title>
+      <key>ru</key>
+      <value>Настроить</value>
+    </title>
+    <id>5</id>
+    <toolTip>
+      <key>ru</key>
+      <value>Команда настроить</value>
+    </toolTip>
+    <use>
+      <common>true</common>
+    </use>
+    <action>КомандаНастройкаПочты</action>
+  </formCommands>
+  <formCommands>
+    <name>КомандаНовоеПисьмоПоШаблону</name>
+    <title>
+      <key>ru</key>
+      <value>Новое письмо по шаблону</value>
+    </title>
+    <id>6</id>
+    <toolTip>
+      <key>ru</key>
+      <value>Команда новое письмо по шаблону</value>
+    </toolTip>
+    <use>
+      <common>true</common>
+    </use>
+    <action>КомандаНовоеПисьмоПоШаблону</action>
+  </formCommands>
+  <commandInterface>
+    <navigationPanel/>
+    <commandBar/>
+  </commandInterface>
+</form:Form>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form:Form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:form="http://g5.1c.ru/v8/dt/form">
+  <items xsi:type="form:FormField">
+    <name>РаботаСТорговымОборудованием</name>
+    <id>3</id>
+    <userVisible>
+      <common>true</common>
+    </userVisible>
+    <dataPath xsi:type="form:DataPath">
+      <segments>Константы.РаботаСТорговымОборудованием</segments>
+    </dataPath>
+    <toolTip>
+      <key>ru</key>
+      <value>Установите, если необходимо использовать
+торговое оборудование (сканер штрих-кодов).</value>
+    </toolTip>
+    <toolTipRepresentation>Button</toolTipRepresentation>
+    <extendedTooltip>
+      <name>РаботаСТорговымОборудованиемExtendedTooltip</name>
+      <id>7</id>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+    </extendedTooltip>
+    <contextMenu>
+      <name>РаботаСТорговымОборудованиемКонтекстноеМеню</name>
+      <id>4</id>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+    </contextMenu>
+    <type>CheckBoxField</type>
+    <editMode>Enter</editMode>
+    <extInfo xsi:type="form:CheckBoxFieldExtInfo"/>
+  </items>
+  <items xsi:type="form:FormField">
+    <name>УчетПоСкладам</name>
+    <id>5</id>
+    <userVisible>
+      <common>true</common>
+    </userVisible>
+    <dataPath xsi:type="form:DataPath">
+      <segments>Константы.УчетПоСкладам</segments>
+    </dataPath>
+    <toolTip>
+      <key>ru</key>
+      <value>Установите, если на предприятии ведется
+учет товаров в разрезе складов.</value>
+    </toolTip>
+    <toolTipRepresentation>Button</toolTipRepresentation>
+    <extendedTooltip>
+      <name>УчетПоСкладамExtendedTooltip</name>
+      <id>8</id>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+    </extendedTooltip>
+    <contextMenu>
+      <name>УчетПоСкладамКонтекстноеМеню</name>
+      <id>6</id>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+    </contextMenu>
+    <type>CheckBoxField</type>
+    <editMode>Enter</editMode>
+    <extInfo xsi:type="form:CheckBoxFieldExtInfo"/>
+  </items>
+  <autoCommandBar>
+    <name>ФормаКоманднаяПанель</name>
+    <id>-1</id>
+    <userVisible>
+      <common>true</common>
+    </userVisible>
+  </autoCommandBar>
+  <width>50</width>
+  <height>8</height>
+  <attributes>
+    <name>Константы</name>
+    <id>1</id>
+    <valueType>
+      <types>ConstantsSet</types>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+    <main>true</main>
+    <savedData>true</savedData>
+  </attributes>
+  <commandInterface>
+    <navigationPanel/>
+    <commandBar/>
+  </commandInterface>
+  <extInfo xsi:type="form:ConstantsFormExtInfo">
+    <events>
+      <key>AfterWrite</key>
+      <value>ПослеЗаписи</value>
+    </events>
+  </extInfo>
+</form:Form>

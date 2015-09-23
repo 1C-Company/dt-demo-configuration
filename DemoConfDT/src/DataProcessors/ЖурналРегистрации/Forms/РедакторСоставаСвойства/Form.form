@@ -1,0 +1,474 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form:Form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:form="http://g5.1c.ru/v8/dt/form">
+  <title>
+    <key>ru</key>
+    <value>Выбор значений для отбора</value>
+  </title>
+  <items xsi:type="form:Table">
+    <name>Список</name>
+    <id>1</id>
+    <userVisible>
+      <common>true</common>
+    </userVisible>
+    <dataPath xsi:type="form:DataPath">
+      <segments>Список</segments>
+    </dataPath>
+    <skipOnInput>false</skipOnInput>
+    <items xsi:type="form:FormGroup">
+      <name>Группа</name>
+      <id>6</id>
+      <items xsi:type="form:FormField">
+        <name>Пометка</name>
+        <id>7</id>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <dataPath xsi:type="form:DataPath">
+          <segments>Список.Пометка</segments>
+        </dataPath>
+        <events>
+          <key>OnChange</key>
+          <value>ПометкаПриИзменении</value>
+        </events>
+        <extendedTooltip>
+          <name>ПометкаExtendedTooltip</name>
+          <id>18</id>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+        </extendedTooltip>
+        <contextMenu>
+          <name>ПометкаКонтекстноеМеню</name>
+          <id>8</id>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+        </contextMenu>
+        <type>CheckBoxField</type>
+        <editMode>Enter</editMode>
+        <extInfo xsi:type="form:CheckBoxFieldExtInfo"/>
+      </items>
+      <items xsi:type="form:FormField">
+        <name>Представление</name>
+        <id>4</id>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <dataPath xsi:type="form:DataPath">
+          <segments>Список.Представление</segments>
+        </dataPath>
+        <extendedTooltip>
+          <name>ПредставлениеExtendedTooltip</name>
+          <id>19</id>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+        </extendedTooltip>
+        <contextMenu>
+          <name>ПредставлениеКонтекстноеМеню</name>
+          <id>5</id>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+        </contextMenu>
+        <type>LabelField</type>
+        <readOnly>true</readOnly>
+        <editMode>Enter</editMode>
+        <showInFooter>false</showInFooter>
+        <extInfo xsi:type="form:LabelFieldExtInfo"/>
+      </items>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <extendedTooltip>
+        <name>ГруппаExtendedTooltip</name>
+        <id>17</id>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+      </extendedTooltip>
+      <type>ColumnGroup</type>
+      <extInfo xsi:type="form:ColumnGroupExtInfo">
+        <group>InCell</group>
+      </extInfo>
+    </items>
+    <autoCommandBar>
+      <name>СписокКоманднаяПанель</name>
+      <id>3</id>
+      <items xsi:type="form:Button">
+        <name>УстановитьВсе</name>
+        <id>9</id>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <skipOnInput>false</skipOnInput>
+        <extendedTooltip>
+          <name>УстановитьВсеExtendedTooltip</name>
+          <id>14</id>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+        </extendedTooltip>
+        <type>CommandBarButton</type>
+        <commandName>Form.Command.УстановитьВсе</commandName>
+        <parameter xsi:type="core:NullValue"/>
+        <textColor xsi:type="core:ColorRef">
+          <color>Style.ButtonTextColor</color>
+        </textColor>
+        <backColor xsi:type="core:ColorRef">
+          <color>Style.ButtonBackColor</color>
+        </backColor>
+        <borderColor xsi:type="core:ColorRef">
+          <color>Style.BorderColor</color>
+        </borderColor>
+      </items>
+      <items xsi:type="form:Button">
+        <name>СнятьВсе</name>
+        <id>10</id>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <skipOnInput>false</skipOnInput>
+        <extendedTooltip>
+          <name>СнятьВсеExtendedTooltip</name>
+          <id>15</id>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+        </extendedTooltip>
+        <type>CommandBarButton</type>
+        <commandName>Form.Command.СнятьВсе</commandName>
+        <parameter xsi:type="core:NullValue"/>
+        <textColor xsi:type="core:ColorRef">
+          <color>Style.ButtonTextColor</color>
+        </textColor>
+        <backColor xsi:type="core:ColorRef">
+          <color>Style.ButtonBackColor</color>
+        </backColor>
+        <borderColor xsi:type="core:ColorRef">
+          <color>Style.BorderColor</color>
+        </borderColor>
+      </items>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <horizontalAlign>Right</horizontalAlign>
+      <autoFill>false</autoFill>
+    </autoCommandBar>
+    <searchStringAddition>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <name>СписокСтрокаПоиска</name>
+      <id>23</id>
+      <extendedTooltip>
+        <name>СписокСтрокаПоискаРасширеннаяПодсказка</name>
+        <id>25</id>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+      </extendedTooltip>
+      <contextMenu>
+        <name>СписокСтрокаПоискаКонтекстноеМеню</name>
+        <id>24</id>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+      </contextMenu>
+      <source>СписокСтрокаПоиска</source>
+      <extInfo xsi:type="form:SearchStringAdditionExtInfo"/>
+    </searchStringAddition>
+    <viewStatusAddition>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <name>СписокСостояниеПросмотра</name>
+      <id>26</id>
+      <extendedTooltip>
+        <name>СписокСостояниеПросмотраРасширеннаяПодсказка</name>
+        <id>28</id>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+      </extendedTooltip>
+      <contextMenu>
+        <name>СписокСостояниеПросмотраКонтекстноеМеню</name>
+        <id>27</id>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+      </contextMenu>
+      <type>ViewStatusAddition</type>
+      <source>СписокСостояниеПросмотра</source>
+      <extInfo xsi:type="form:ViewStatusAdditionExtInfo"/>
+    </viewStatusAddition>
+    <searchControlAddition>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <name>СписокУправлениеПоиском</name>
+      <id>29</id>
+      <extendedTooltip>
+        <name>СписокУправлениеПоискомРасширеннаяПодсказка</name>
+        <id>31</id>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+      </extendedTooltip>
+      <contextMenu>
+        <name>СписокУправлениеПоискомКонтекстноеМеню</name>
+        <id>30</id>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+      </contextMenu>
+      <type>SearchControlAddition</type>
+      <source>СписокУправлениеПоиском</source>
+      <extInfo xsi:type="form:SearchControlAdditionExtInfo"/>
+    </searchControlAddition>
+    <extendedTooltip>
+      <name>СписокExtendedTooltip</name>
+      <id>16</id>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+    </extendedTooltip>
+    <contextMenu>
+      <name>СписокКонтекстноеМеню</name>
+      <id>2</id>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+    </contextMenu>
+    <representation>Tree</representation>
+    <header>false</header>
+    <horizontalLines>false</horizontalLines>
+    <verticalLines>false</verticalLines>
+    <autoInsertNewRow>true</autoInsertNewRow>
+    <initialTreeView>ExpandAllLevels</initialTreeView>
+    <borderColor xsi:type="core:ColorRef">
+      <color>Style.BorderColor</color>
+    </borderColor>
+    <searchStringLocation>None</searchStringLocation>
+    <viewStatusLocation>None</viewStatusLocation>
+    <searchControlLocation>None</searchControlLocation>
+  </items>
+  <items xsi:type="form:FormGroup">
+    <name>КнопкиФормы</name>
+    <id>11</id>
+    <items xsi:type="form:Button">
+      <name>OK</name>
+      <id>12</id>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <skipOnInput>false</skipOnInput>
+      <extendedTooltip>
+        <name>OKExtendedTooltip</name>
+        <id>21</id>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+      </extendedTooltip>
+      <type>CommandBarButton</type>
+      <commandName>Form.StandardCommand.OK</commandName>
+      <parameter xsi:type="core:NullValue"/>
+      <defaultButton>true</defaultButton>
+      <textColor xsi:type="core:ColorRef">
+        <color>Style.ButtonTextColor</color>
+      </textColor>
+      <backColor xsi:type="core:ColorRef">
+        <color>Style.ButtonBackColor</color>
+      </backColor>
+      <borderColor xsi:type="core:ColorRef">
+        <color>Style.BorderColor</color>
+      </borderColor>
+    </items>
+    <items xsi:type="form:Button">
+      <name>Отмена</name>
+      <id>13</id>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <skipOnInput>false</skipOnInput>
+      <extendedTooltip>
+        <name>ОтменаExtendedTooltip</name>
+        <id>22</id>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+      </extendedTooltip>
+      <type>CommandBarButton</type>
+      <commandName>Form.StandardCommand.Cancel</commandName>
+      <parameter xsi:type="core:NullValue"/>
+      <textColor xsi:type="core:ColorRef">
+        <color>Style.ButtonTextColor</color>
+      </textColor>
+      <backColor xsi:type="core:ColorRef">
+        <color>Style.ButtonBackColor</color>
+      </backColor>
+      <borderColor xsi:type="core:ColorRef">
+        <color>Style.BorderColor</color>
+      </borderColor>
+    </items>
+    <userVisible>
+      <common>true</common>
+    </userVisible>
+    <title>
+      <key>ru</key>
+      <value>Кнопки формы</value>
+    </title>
+    <toolTip>
+      <key>ru</key>
+      <value>Кнопки формы</value>
+    </toolTip>
+    <extendedTooltip>
+      <name>КнопкиФормыExtendedTooltip</name>
+      <id>20</id>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+    </extendedTooltip>
+    <type>CommandBar</type>
+    <extInfo xsi:type="form:CommandBarExtInfo">
+      <horizontalAlign>Right</horizontalAlign>
+    </extInfo>
+  </items>
+  <commandBarLocation>None</commandBarLocation>
+  <autoCommandBar>
+    <name>ФормаКоманднаяПанель</name>
+    <id>-1</id>
+    <userVisible>
+      <common>true</common>
+    </userVisible>
+  </autoCommandBar>
+  <windowOpeningMode>LockWholeInterface</windowOpeningMode>
+  <autoTitle>false</autoTitle>
+  <verticalScroll>UseIfNecessary</verticalScroll>
+  <attributes>
+    <name>Объект</name>
+    <id>1</id>
+    <valueType>
+      <types>DataProcessorObject.ЖурналРегистрации</types>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+    <main>true</main>
+  </attributes>
+  <attributes>
+    <name>Список</name>
+    <title>
+      <key>ru</key>
+      <value>Список</value>
+    </title>
+    <id>2</id>
+    <valueType>
+      <types>ValueTree</types>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+    <columns>
+      <name>Пометка</name>
+      <title>
+        <key>ru</key>
+        <value>Пометка</value>
+      </title>
+      <id>1</id>
+      <valueType>
+        <types>Boolean</types>
+      </valueType>
+      <view>
+        <common>true</common>
+      </view>
+      <edit>
+        <common>true</common>
+      </edit>
+    </columns>
+    <columns>
+      <name>Значение</name>
+      <title>
+        <key>ru</key>
+        <value>Значение</value>
+      </title>
+      <id>2</id>
+      <valueType>
+        <types>String</types>
+        <stringQualifiers/>
+      </valueType>
+      <view>
+        <common>true</common>
+      </view>
+      <edit>
+        <common>true</common>
+      </edit>
+    </columns>
+    <columns>
+      <name>Представление</name>
+      <title>
+        <key>ru</key>
+        <value>Представление</value>
+      </title>
+      <id>3</id>
+      <valueType>
+        <types>String</types>
+        <stringQualifiers/>
+      </valueType>
+      <view>
+        <common>true</common>
+      </view>
+      <edit>
+        <common>true</common>
+      </edit>
+    </columns>
+  </attributes>
+  <formCommands>
+    <name>УстановитьВсе</name>
+    <title>
+      <key>ru</key>
+      <value>Установить все флажки</value>
+    </title>
+    <id>1</id>
+    <toolTip>
+      <key>ru</key>
+      <value>Установить все флажки</value>
+    </toolTip>
+    <use>
+      <common>true</common>
+    </use>
+    <picture xsi:type="core:PictureRef">
+      <picture>StdPicture.CheckAll</picture>
+    </picture>
+    <action>УстановитьВсеФлажки</action>
+  </formCommands>
+  <formCommands>
+    <name>СнятьВсе</name>
+    <title>
+      <key>ru</key>
+      <value>Снять все флажки</value>
+    </title>
+    <id>2</id>
+    <toolTip>
+      <key>ru</key>
+      <value>Снять все флажки</value>
+    </toolTip>
+    <use>
+      <common>true</common>
+    </use>
+    <picture xsi:type="core:PictureRef">
+      <picture>StdPicture.UncheckAll</picture>
+    </picture>
+    <action>СнятьВсеФлажки</action>
+  </formCommands>
+  <commandInterface>
+    <navigationPanel/>
+    <commandBar/>
+  </commandInterface>
+</form:Form>

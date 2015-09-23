@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form:Form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:form="http://g5.1c.ru/v8/dt/form">
+  <title>
+    <key>ru</key>
+    <value>Управление полнотекстовым поиском</value>
+  </title>
+  <items xsi:type="form:FormGroup">
+    <name>ГоризонтальнаяГруппа</name>
+    <id>14</id>
+    <items xsi:type="form:FormGroup">
+      <name>ГруппаУправления</name>
+      <id>16</id>
+      <items xsi:type="form:FormField">
+        <name>РазрешитьПолнотекстовыйПоиск</name>
+        <id>1</id>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <dataPath xsi:type="form:DataPath">
+          <segments>РазрешитьПолнотекстовыйПоиск</segments>
+        </dataPath>
+        <events>
+          <key>OnChange</key>
+          <value>РазрешитьПолнотекстовыйПоискПриИзменении</value>
+        </events>
+        <extendedTooltip>
+          <name>РазрешитьПолнотекстовыйПоискExtendedTooltip</name>
+          <id>9</id>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+        </extendedTooltip>
+        <contextMenu>
+          <name>РазрешитьПолнотекстовыйПоискКонтекстноеМеню</name>
+          <id>2</id>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+        </contextMenu>
+        <type>CheckBoxField</type>
+        <editMode>Enter</editMode>
+        <extInfo xsi:type="form:CheckBoxFieldExtInfo"/>
+      </items>
+      <items xsi:type="form:FormField">
+        <name>СтатусИндекса</name>
+        <id>3</id>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <dataPath xsi:type="form:DataPath">
+          <segments>СтатусИндекса</segments>
+        </dataPath>
+        <titleLocation>None</titleLocation>
+        <extendedTooltip>
+          <name>СтатусИндексаExtendedTooltip</name>
+          <id>10</id>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+        </extendedTooltip>
+        <contextMenu>
+          <name>СтатусИндексаКонтекстноеМеню</name>
+          <id>4</id>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+        </contextMenu>
+        <type>LabelField</type>
+        <editMode>Enter</editMode>
+        <extInfo xsi:type="form:LabelFieldExtInfo"/>
+      </items>
+      <items xsi:type="form:FormField">
+        <name>ДатаАктуальностиИндекса</name>
+        <id>5</id>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <dataPath xsi:type="form:DataPath">
+          <segments>ДатаАктуальностиИндекса</segments>
+        </dataPath>
+        <extendedTooltip>
+          <name>ДатаАктуальностиИндексаExtendedTooltip</name>
+          <id>11</id>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+        </extendedTooltip>
+        <contextMenu>
+          <name>ДатаАктуальностиИндексаКонтекстноеМеню</name>
+          <id>6</id>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+        </contextMenu>
+        <type>LabelField</type>
+        <editMode>Enter</editMode>
+        <extInfo xsi:type="form:LabelFieldExtInfo"/>
+      </items>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <title>
+        <key>ru</key>
+        <value>Группа управления</value>
+      </title>
+      <toolTip>
+        <key>ru</key>
+        <value>Группа управления</value>
+      </toolTip>
+      <extendedTooltip>
+        <name>ГруппаУправленияРасширеннаяПодсказка</name>
+        <id>17</id>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+      </extendedTooltip>
+      <type>UsualGroup</type>
+      <extInfo xsi:type="form:UsualGroupExtInfo">
+        <group>HorizontalIfPossible</group>
+        <representation>None</representation>
+        <showTitle>false</showTitle>
+      </extInfo>
+    </items>
+    <items xsi:type="form:FormGroup">
+      <name>ГруппаКнопок</name>
+      <id>18</id>
+      <items xsi:type="form:Button">
+        <name>Справка</name>
+        <id>20</id>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <extendedTooltip>
+          <name>СправкаРасширеннаяПодсказка</name>
+          <id>21</id>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+        </extendedTooltip>
+        <commandName>Form.StandardCommand.Help</commandName>
+        <parameter xsi:type="core:NullValue"/>
+      </items>
+      <items xsi:type="form:Button">
+        <name>ОбновитьИндекс</name>
+        <id>7</id>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <skipOnInput>false</skipOnInput>
+        <extendedTooltip>
+          <name>ОбновитьИндексExtendedTooltip</name>
+          <id>12</id>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+        </extendedTooltip>
+        <commandName>Form.Command.ОбновитьИндекс</commandName>
+        <parameter xsi:type="core:NullValue"/>
+        <textColor xsi:type="core:ColorRef">
+          <color>Style.ButtonTextColor</color>
+        </textColor>
+        <backColor xsi:type="core:ColorRef">
+          <color>Style.ButtonBackColor</color>
+        </backColor>
+        <borderColor xsi:type="core:ColorRef">
+          <color>Style.BorderColor</color>
+        </borderColor>
+      </items>
+      <items xsi:type="form:Button">
+        <name>ОчиститьИндекс</name>
+        <id>8</id>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <skipOnInput>false</skipOnInput>
+        <extendedTooltip>
+          <name>ОчиститьИндексExtendedTooltip</name>
+          <id>13</id>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+        </extendedTooltip>
+        <commandName>Form.Command.ОчиститьИндекс</commandName>
+        <parameter xsi:type="core:NullValue"/>
+        <textColor xsi:type="core:ColorRef">
+          <color>Style.ButtonTextColor</color>
+        </textColor>
+        <backColor xsi:type="core:ColorRef">
+          <color>Style.ButtonBackColor</color>
+        </backColor>
+        <borderColor xsi:type="core:ColorRef">
+          <color>Style.BorderColor</color>
+        </borderColor>
+      </items>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <title>
+        <key>ru</key>
+        <value>Группа кнопок</value>
+      </title>
+      <toolTip>
+        <key>ru</key>
+        <value>Группа кнопок</value>
+      </toolTip>
+      <extendedTooltip>
+        <name>ГруппаКнопокРасширеннаяПодсказка</name>
+        <id>19</id>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+      </extendedTooltip>
+      <type>UsualGroup</type>
+      <extInfo xsi:type="form:UsualGroupExtInfo">
+        <group>HorizontalIfPossible</group>
+        <representation>None</representation>
+        <showTitle>false</showTitle>
+      </extInfo>
+    </items>
+    <userVisible>
+      <common>true</common>
+    </userVisible>
+    <title>
+      <key>ru</key>
+      <value>Горизонтальная группа</value>
+    </title>
+    <toolTip>
+      <key>ru</key>
+      <value>Горизонтальная группа</value>
+    </toolTip>
+    <extendedTooltip>
+      <name>ГоризонтальнаяГруппаРасширеннаяПодсказка</name>
+      <id>15</id>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+    </extendedTooltip>
+    <type>UsualGroup</type>
+    <extInfo xsi:type="form:UsualGroupExtInfo">
+      <group>Horizontal</group>
+      <representation>None</representation>
+      <showTitle>false</showTitle>
+    </extInfo>
+  </items>
+  <commandBarLocation>None</commandBarLocation>
+  <autoCommandBar>
+    <name>ФормаКоманднаяПанель</name>
+    <id>-1</id>
+    <userVisible>
+      <common>true</common>
+    </userVisible>
+    <horizontalAlign>Right</horizontalAlign>
+  </autoCommandBar>
+  <events>
+    <key>OnCreateAtServer</key>
+    <value>ПриСозданииНаСервере</value>
+  </events>
+  <windowOpeningMode>LockOwnerWindow</windowOpeningMode>
+  <autoTitle>false</autoTitle>
+  <allowFormCustomize>false</allowFormCustomize>
+  <attributes>
+    <name>Объект</name>
+    <id>1</id>
+    <valueType>
+      <types>DataProcessorObject.УправлениеПолнотекстовымПоиском</types>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+    <main>true</main>
+  </attributes>
+  <attributes>
+    <name>РазрешитьПолнотекстовыйПоиск</name>
+    <title>
+      <key>ru</key>
+      <value>Разрешить полнотекстовый поиск</value>
+    </title>
+    <id>2</id>
+    <valueType>
+      <types>Boolean</types>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <attributes>
+    <name>СтатусИндекса</name>
+    <title>
+      <key>ru</key>
+      <value>Статус индекса</value>
+    </title>
+    <id>3</id>
+    <valueType>
+      <types>FormattedString</types>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <attributes>
+    <name>ДатаАктуальностиИндекса</name>
+    <title>
+      <key>ru</key>
+      <value>Дата актуальности индекса</value>
+    </title>
+    <id>4</id>
+    <valueType>
+      <types>Date</types>
+      <dateQualifiers/>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <formCommands>
+    <name>ОбновитьИндекс</name>
+    <title>
+      <key>ru</key>
+      <value>Обновить индекс</value>
+    </title>
+    <id>1</id>
+    <toolTip>
+      <key>ru</key>
+      <value>Обновить индекс</value>
+    </toolTip>
+    <use>
+      <common>true</common>
+    </use>
+    <picture xsi:type="core:PictureRef">
+      <picture>StdPicture.Refresh</picture>
+    </picture>
+    <action>ОбновитьИндексВыполнить</action>
+    <representation>TextPicture</representation>
+  </formCommands>
+  <formCommands>
+    <name>ОчиститьИндекс</name>
+    <title>
+      <key>ru</key>
+      <value>Очистить индекс</value>
+    </title>
+    <id>2</id>
+    <toolTip>
+      <key>ru</key>
+      <value>Очистить индекс</value>
+    </toolTip>
+    <use>
+      <common>true</common>
+    </use>
+    <picture xsi:type="core:PictureRef">
+      <picture>StdPicture.Delete</picture>
+    </picture>
+    <action>ОчиститьИндексВыполнить</action>
+    <representation>TextPicture</representation>
+  </formCommands>
+  <commandInterface>
+    <navigationPanel/>
+    <commandBar/>
+  </commandInterface>
+</form:Form>

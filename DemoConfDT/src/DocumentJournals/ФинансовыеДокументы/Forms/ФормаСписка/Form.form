@@ -1,0 +1,422 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form:Form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:form="http://g5.1c.ru/v8/dt/form">
+  <items xsi:type="form:FormGroup">
+    <name>Настройки</name>
+    <id>64</id>
+    <userVisible>
+      <common>true</common>
+    </userVisible>
+    <title>
+      <key>ru</key>
+      <value>Настройки</value>
+    </title>
+    <toolTip>
+      <key>ru</key>
+      <value>Настройки</value>
+    </toolTip>
+    <extendedTooltip>
+      <name>НастройкиРасширеннаяПодсказка</name>
+      <id>65</id>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+    </extendedTooltip>
+    <type>UsualGroup</type>
+    <extInfo xsi:type="form:UsualGroupExtInfo">
+      <group>HorizontalIfPossible</group>
+      <showTitle>false</showTitle>
+    </extInfo>
+  </items>
+  <items xsi:type="form:Table">
+    <name>ЖурналДокументовСписок</name>
+    <id>31</id>
+    <userVisible>
+      <common>true</common>
+    </userVisible>
+    <dataPath xsi:type="form:DataPath">
+      <segments>ЖурналДокументовСписок</segments>
+    </dataPath>
+    <defaultItem>true</defaultItem>
+    <skipOnInput>false</skipOnInput>
+    <items xsi:type="form:FormField">
+      <name>Дата</name>
+      <id>34</id>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <dataPath xsi:type="form:DataPath">
+        <segments>ЖурналДокументовСписок.Date</segments>
+      </dataPath>
+      <extendedTooltip>
+        <name>ДатаExtendedTooltip</name>
+        <id>55</id>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+      </extendedTooltip>
+      <contextMenu>
+        <name>ДатаКонтекстноеМеню</name>
+        <id>35</id>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+      </contextMenu>
+      <type>LabelField</type>
+      <editMode>Enter</editMode>
+      <extInfo xsi:type="form:LabelFieldExtInfo"/>
+    </items>
+    <items xsi:type="form:FormField">
+      <name>Номер</name>
+      <id>36</id>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <dataPath xsi:type="form:DataPath">
+        <segments>ЖурналДокументовСписок.Number</segments>
+      </dataPath>
+      <extendedTooltip>
+        <name>НомерExtendedTooltip</name>
+        <id>56</id>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+      </extendedTooltip>
+      <contextMenu>
+        <name>НомерКонтекстноеМеню</name>
+        <id>37</id>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+      </contextMenu>
+      <type>LabelField</type>
+      <editMode>Enter</editMode>
+      <extInfo xsi:type="form:LabelFieldExtInfo"/>
+    </items>
+    <items xsi:type="form:FormField">
+      <name>Тип</name>
+      <id>38</id>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <dataPath xsi:type="form:DataPath">
+        <segments>ЖурналДокументовСписок.Type</segments>
+      </dataPath>
+      <extendedTooltip>
+        <name>ТипExtendedTooltip</name>
+        <id>57</id>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+      </extendedTooltip>
+      <contextMenu>
+        <name>ТипКонтекстноеМеню</name>
+        <id>39</id>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+      </contextMenu>
+      <type>LabelField</type>
+      <editMode>Enter</editMode>
+      <extInfo xsi:type="form:LabelFieldExtInfo"/>
+    </items>
+    <items xsi:type="form:FormField">
+      <name>Контрагент</name>
+      <id>42</id>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <dataPath xsi:type="form:DataPath">
+        <segments>ЖурналДокументовСписок.Контрагент</segments>
+      </dataPath>
+      <extendedTooltip>
+        <name>КонтрагентExtendedTooltip</name>
+        <id>58</id>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+      </extendedTooltip>
+      <contextMenu>
+        <name>КонтрагентКонтекстноеМеню</name>
+        <id>43</id>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+      </contextMenu>
+      <type>LabelField</type>
+      <editMode>Enter</editMode>
+      <extInfo xsi:type="form:LabelFieldExtInfo"/>
+    </items>
+    <items xsi:type="form:FormField">
+      <name>РасчетныйСчет</name>
+      <id>44</id>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <dataPath xsi:type="form:DataPath">
+        <segments>ЖурналДокументовСписок.РасчетныйСчет</segments>
+      </dataPath>
+      <extendedTooltip>
+        <name>РасчетныйСчетExtendedTooltip</name>
+        <id>59</id>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+      </extendedTooltip>
+      <contextMenu>
+        <name>РасчетныйСчетКонтекстноеМеню</name>
+        <id>45</id>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+      </contextMenu>
+      <type>LabelField</type>
+      <editMode>Enter</editMode>
+      <extInfo xsi:type="form:LabelFieldExtInfo"/>
+    </items>
+    <items xsi:type="form:FormField">
+      <name>Организация</name>
+      <id>48</id>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <dataPath xsi:type="form:DataPath">
+        <segments>ЖурналДокументовСписок.Организация</segments>
+      </dataPath>
+      <extendedTooltip>
+        <name>ОрганизацияExtendedTooltip</name>
+        <id>60</id>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+      </extendedTooltip>
+      <contextMenu>
+        <name>ОрганизацияКонтекстноеМеню</name>
+        <id>49</id>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+      </contextMenu>
+      <type>LabelField</type>
+      <editMode>Enter</editMode>
+      <extInfo xsi:type="form:LabelFieldExtInfo"/>
+    </items>
+    <items xsi:type="form:FormGroup">
+      <name>СуммаДокумента</name>
+      <id>50</id>
+      <items xsi:type="form:FormField">
+        <name>Сумма</name>
+        <id>46</id>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <dataPath xsi:type="form:DataPath">
+          <segments>ЖурналДокументовСписок.Сумма</segments>
+        </dataPath>
+        <extendedTooltip>
+          <name>СуммаExtendedTooltip</name>
+          <id>62</id>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+        </extendedTooltip>
+        <contextMenu>
+          <name>СуммаКонтекстноеМеню</name>
+          <id>47</id>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+        </contextMenu>
+        <type>LabelField</type>
+        <editMode>Enter</editMode>
+        <showInHeader>false</showInHeader>
+        <extInfo xsi:type="form:LabelFieldExtInfo"/>
+      </items>
+      <items xsi:type="form:FormField">
+        <name>Валюта</name>
+        <id>40</id>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <dataPath xsi:type="form:DataPath">
+          <segments>ЖурналДокументовСписок.Валюта</segments>
+        </dataPath>
+        <extendedTooltip>
+          <name>ВалютаExtendedTooltip</name>
+          <id>63</id>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+        </extendedTooltip>
+        <contextMenu>
+          <name>ВалютаКонтекстноеМеню</name>
+          <id>41</id>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+        </contextMenu>
+        <type>LabelField</type>
+        <editMode>Enter</editMode>
+        <showInHeader>false</showInHeader>
+        <extInfo xsi:type="form:LabelFieldExtInfo"/>
+      </items>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <title>
+        <key>ru</key>
+        <value>Сумма документа</value>
+      </title>
+      <toolTip>
+        <key>ru</key>
+        <value>Сумма документа</value>
+      </toolTip>
+      <extendedTooltip>
+        <name>СуммаДокументаExtendedTooltip</name>
+        <id>61</id>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+      </extendedTooltip>
+      <type>ColumnGroup</type>
+      <extInfo xsi:type="form:ColumnGroupExtInfo">
+        <group>Horizontal</group>
+        <showInHeader>true</showInHeader>
+      </extInfo>
+    </items>
+    <commandBarLocation>None</commandBarLocation>
+    <autoCommandBar>
+      <name>ЖурналДокументовСписокКоманднаяПанель</name>
+      <id>33</id>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+    </autoCommandBar>
+    <searchStringAddition>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <name>ЖурналДокументовСписокСтрокаПоиска</name>
+      <id>66</id>
+      <extendedTooltip>
+        <name>ЖурналДокументовСписокСтрокаПоискаРасширеннаяПодсказка</name>
+        <id>68</id>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+      </extendedTooltip>
+      <contextMenu>
+        <name>ЖурналДокументовСписокСтрокаПоискаКонтекстноеМеню</name>
+        <id>67</id>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+      </contextMenu>
+      <source>ЖурналДокументовСписокСтрокаПоиска</source>
+      <extInfo xsi:type="form:SearchStringAdditionExtInfo"/>
+    </searchStringAddition>
+    <viewStatusAddition>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <name>ЖурналДокументовСписокСостояниеПросмотра</name>
+      <id>69</id>
+      <extendedTooltip>
+        <name>ЖурналДокументовСписокСостояниеПросмотраРасширеннаяПодсказка</name>
+        <id>71</id>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+      </extendedTooltip>
+      <contextMenu>
+        <name>ЖурналДокументовСписокСостояниеПросмотраКонтекстноеМеню</name>
+        <id>70</id>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+      </contextMenu>
+      <type>ViewStatusAddition</type>
+      <source>ЖурналДокументовСписокСостояниеПросмотра</source>
+      <extInfo xsi:type="form:ViewStatusAdditionExtInfo"/>
+    </viewStatusAddition>
+    <searchControlAddition>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <name>ЖурналДокументовСписокУправлениеПоиском</name>
+      <id>72</id>
+      <extendedTooltip>
+        <name>ЖурналДокументовСписокУправлениеПоискомРасширеннаяПодсказка</name>
+        <id>74</id>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+      </extendedTooltip>
+      <contextMenu>
+        <name>ЖурналДокументовСписокУправлениеПоискомКонтекстноеМеню</name>
+        <id>73</id>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+      </contextMenu>
+      <type>SearchControlAddition</type>
+      <source>ЖурналДокументовСписокУправлениеПоиском</source>
+      <extInfo xsi:type="form:SearchControlAdditionExtInfo"/>
+    </searchControlAddition>
+    <extendedTooltip>
+      <name>ЖурналДокументовСписокExtendedTooltip</name>
+      <id>54</id>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+    </extendedTooltip>
+    <contextMenu>
+      <name>ЖурналДокументовСписокКонтекстноеМеню</name>
+      <id>32</id>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+    </contextMenu>
+    <representation>List</representation>
+    <enableStartDrag>true</enableStartDrag>
+    <rowPictureDataPath xsi:type="form:DataPath">
+      <segments>ЖурналДокументовСписок.DefaultPicture</segments>
+    </rowPictureDataPath>
+    <borderColor xsi:type="core:ColorRef">
+      <color>Style.BorderColor</color>
+    </borderColor>
+    <extInfo xsi:type="form:DynamicListTableExtInfo">
+      <autoRefreshPeriod>60</autoRefreshPeriod>
+      <showRoot>false</showRoot>
+      <userSettingsGroup>Настройки</userSettingsGroup>
+    </extInfo>
+  </items>
+  <autoCommandBar>
+    <name>ФормаКоманднаяПанель</name>
+    <id>-1</id>
+    <userVisible>
+      <common>true</common>
+    </userVisible>
+  </autoCommandBar>
+  <attributes>
+    <name>ЖурналДокументовСписок</name>
+    <id>1</id>
+    <valueType>
+      <types>DynamicList</types>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+    <main>true</main>
+    <extInfo xsi:type="form:DynamicListExtInfo">
+      <mainTable>DocumentJournal.ФинансовыеДокументы</mainTable>
+      <listSettings>DocumentJournal.ФинансовыеДокументы.Form.ФормаСписка.Form.Attributes.ЖурналДокументовСписок.ExtInfo.ListSettings</listSettings>
+    </extInfo>
+  </attributes>
+  <commandInterface>
+    <navigationPanel/>
+    <commandBar/>
+  </commandInterface>
+</form:Form>
