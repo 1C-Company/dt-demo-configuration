@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="03f6e302-d71f-4ddc-987a-fde68900646f">
+  <producedTypes>
+    <objectType typeId="256b4453-e9be-4b8e-8866-d79c0d00ecfa" valueTypeId="bef4a43f-83be-4a08-b8de-6c2437c789e7"/>
+    <refType typeId="58739b60-3f40-4c00-89b9-41d0bdf21dab" valueTypeId="cd7ff76f-391f-4db1-b211-028b2053d4e8"/>
+    <selectionType typeId="10d5b2a5-b47d-4e5e-919d-ab7d5ef076d1" valueTypeId="9cfe6c16-3d50-494d-820f-1a9776ce3f16"/>
+    <listType typeId="4d8d73de-3066-472b-a723-e0c5f3b19bfd" valueTypeId="fa797f79-d166-4e51-b0e8-65f5c96b166c"/>
+    <managerType typeId="4e399042-a074-4e6c-9399-36baf20d9410" valueTypeId="6b31ff36-94f9-48f8-8d58-956a3b25a453"/>
+  </producedTypes>
+  <name>РасчетныеСчета</name>
+  <synonym>
+    <key>ru</key>
+    <value>Расчетные счета</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.РасчетныеСчета.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.РасчетныеСчета.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <name>PredefinedDataName</name>
+    <fillValue xsi:type="core:NullValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:NullValue"/>
+    <maxValue xsi:type="core:NullValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>Predefined</name>
+    <fillValue xsi:type="core:NullValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:NullValue"/>
+    <maxValue xsi:type="core:NullValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>Ref</name>
+    <fillValue xsi:type="core:NullValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:NullValue"/>
+    <maxValue xsi:type="core:NullValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>DeletionMark</name>
+    <fillValue xsi:type="core:NullValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:NullValue"/>
+    <maxValue xsi:type="core:NullValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>IsFolder</name>
+    <fillValue xsi:type="core:NullValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:NullValue"/>
+    <maxValue xsi:type="core:NullValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>Owner</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>Catalog.Организации.EmptyRef</value>
+    </fillValue>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:NullValue"/>
+    <maxValue xsi:type="core:NullValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>Parent</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:NullValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:NullValue"/>
+    <maxValue xsi:type="core:NullValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>Description</name>
+    <fillValue xsi:type="core:NullValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:NullValue"/>
+    <maxValue xsi:type="core:NullValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>Code</name>
+    <fillValue xsi:type="core:NullValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:NullValue"/>
+    <maxValue xsi:type="core:NullValue"/>
+  </standardAttributes>
+  <createOnInput>Use</createOnInput>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Расчетный счет</value>
+  </objectPresentation>
+  <extendedObjectPresentation>
+    <key>ru</key>
+    <value>Наш расчетный счет</value>
+  </extendedObjectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Наши расчетные счета</value>
+  </listPresentation>
+  <explanation>
+    <key>ru</key>
+    <value>Наши расчетные счета используемые при расчетах с контрагентами</value>
+  </explanation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <owners>Catalog.Организации</owners>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultChoiceForm>Catalog.РасчетныеСчета.Form.ФормаВыбора</defaultChoiceForm>
+  <attributes uuid="a84154d3-9dd7-445b-a06b-adb353ee058f">
+    <name>Номер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номер</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>20</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:NullValue"/>
+    <maxValue xsi:type="core:NullValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <quickChoice>DontUse</quickChoice>
+    <createOnInput>Use</createOnInput>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="aac6dd88-8347-4214-87bd-303241768b89">
+    <name>Банк</name>
+    <synonym>
+      <key>ru</key>
+      <value>Банк</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Банки</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Банк в котором зарегистрирован расчетный счет</value>
+    </toolTip>
+    <minValue xsi:type="core:NullValue"/>
+    <maxValue xsi:type="core:NullValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>Catalog.Банки.EmptyRef</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <forms uuid="47efd4b9-035d-40d2-bbea-b2557655d37c">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>
