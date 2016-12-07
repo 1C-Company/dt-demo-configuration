@@ -1,12 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2385e9b7-636d-421a-a491-100c7e78752e">
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:aggregates="http://g5.1c.ru/v8/dt/aggregates" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2385e9b7-636d-421a-a491-100c7e78752e">
   <producedTypes>
-    <selectionType typeId="67da0792-6e43-4451-bc07-d6e183da5378" valueTypeId="e5d693c4-9f19-4ec7-8c05-7eb52bae92b0"/>
-    <listType typeId="39e423b1-a9b8-4683-892f-a0bc57368305" valueTypeId="c9159b14-c0c8-477f-909a-98746703c6ac"/>
-    <managerType typeId="d1a8b4cb-5424-439f-a1f0-37b86ef39e95" valueTypeId="ebad960f-6ed0-477f-919d-8a1e19547f57"/>
-    <recordSetType typeId="f6f5bed8-9884-4c74-b5a0-35c1a4345e30" valueTypeId="c2586ba6-e687-416b-a790-f1acfdf2584a"/>
-    <recordKeyType typeId="3e5bbeca-a4cf-4a6d-989b-390a319c55ab" valueTypeId="8a62a020-5ff2-4910-b609-3aab0a2fa1c8"/>
-    <recordType typeId="6611e019-0141-4943-b1d4-7902477e0294" valueTypeId="1cf6a45f-df1e-4c58-9c67-06e62f16c106"/>
+    <selectionType typeId="67da0792-6e43-4451-bc07-d6e183da5378" valueTypeId="e5d693c4-9f19-4ec7-8c05-7eb52bae92b0">
+    </selectionType>
+    <listType typeId="39e423b1-a9b8-4683-892f-a0bc57368305" valueTypeId="c9159b14-c0c8-477f-909a-98746703c6ac">
+    </listType>
+    <managerType typeId="d1a8b4cb-5424-439f-a1f0-37b86ef39e95" valueTypeId="ebad960f-6ed0-477f-919d-8a1e19547f57">
+    </managerType>
+    <recordSetType typeId="f6f5bed8-9884-4c74-b5a0-35c1a4345e30" valueTypeId="c2586ba6-e687-416b-a790-f1acfdf2584a">
+    </recordSetType>
+    <recordKeyType typeId="3e5bbeca-a4cf-4a6d-989b-390a319c55ab" valueTypeId="8a62a020-5ff2-4910-b609-3aab0a2fa1c8">
+    </recordKeyType>
+    <recordType typeId="6611e019-0141-4943-b1d4-7902477e0294" valueTypeId="1cf6a45f-df1e-4c58-9c67-06e62f16c106">
+    </recordType>
   </producedTypes>
   <name>Продажи</name>
   <synonym>
@@ -51,6 +57,16 @@
     <maxValue xsi:type="core:NullValue"/>
   </standardAttributes>
   <enableTotalsSplitting>true</enableTotalsSplitting>
+  <aggregates xsi:type="aggregates:AccumulationRegisterAggregates">
+    <aggregates id="b309b8a5-8fe5-4cc4-b1b6-4db218dbdb56">
+      <periodicity>Auto</periodicity>
+      <dimensions>AccumulationRegister.Продажи.Dimension.Покупатель</dimensions>
+    </aggregates>
+    <aggregates id="db2da9ec-4c6c-4ce4-be7a-cf1da89003c2">
+      <periodicity>Auto</periodicity>
+      <dimensions>AccumulationRegister.Продажи.Dimension.Товар</dimensions>
+    </aggregates>
+  </aggregates>
   <listPresentation>
     <key>ru</key>
     <value>Регистр продаж</value>
