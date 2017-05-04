@@ -1139,6 +1139,18 @@
     <key>OnCreateAtServer</key>
     <value>ПриСозданииНаСервере</value>
   </events>
+  <events>
+    <key>BeforeWriteAtServer</key>
+    <value>ПередЗаписьюНаСервере</value>
+  </events>
+  <events>
+    <key>AfterWriteAtServer</key>
+    <value>ПослеЗаписиНаСервере</value>
+  </events>
+  <events>
+    <key>OnReadAtServer</key>
+    <value>ПриЧтенииНаСервере</value>
+  </events>
   <width>60</width>
   <autoTitle>true</autoTitle>
   <autoUrl>true</autoUrl>
