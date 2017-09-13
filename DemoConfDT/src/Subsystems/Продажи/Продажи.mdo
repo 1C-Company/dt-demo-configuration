@@ -5,6 +5,7 @@
     <key>ru</key>
     <value>Продажи</value>
   </synonym>
+  <comment></comment>
   <includeHelpInContents>true</includeHelpInContents>
   <includeInCommandInterface>true</includeInCommandInterface>
   <picture xsi:type="core:PictureRef">

@@ -11,10 +11,10 @@
     <dataPath xsi:type="form:DataPath">
       <segments>Пользователь</segments>
     </dataPath>
-    <events>
-      <key>OnChange</key>
-      <value>ПользовательПриИзменении</value>
-    </events>
+    <handlers>
+      <event>OnChange</event>
+      <name>ПользовательПриИзменении</name>
+    </handlers>
     <extendedTooltip>
       <name>ПользовательExtendedTooltip</name>
       <id>39</id>
@@ -71,10 +71,10 @@
       <dataPath xsi:type="form:DataPath">
         <segments>Поиск</segments>
       </dataPath>
-      <events>
-        <key>OnChange</key>
-        <value>ПоискПриИзменении</value>
-      </events>
+      <handlers>
+        <event>OnChange</event>
+        <name>ПоискПриИзменении</name>
+      </handlers>
       <extendedTooltip>
         <name>ПоискExtendedTooltip</name>
         <id>41</id>
@@ -417,6 +417,7 @@
     <changeRowOrder>true</changeRowOrder>
     <autoMaxWidth>true</autoMaxWidth>
     <autoMaxHeight>true</autoMaxHeight>
+    <autoMaxRowsCount>true</autoMaxRowsCount>
     <selectionMode>MultiRow</selectionMode>
     <headerHeight>1</headerHeight>
     <footerHeight>1</footerHeight>
@@ -568,14 +569,10 @@
     <horizontalAlign>Left</horizontalAlign>
     <autoFill>true</autoFill>
   </autoCommandBar>
-  <events>
-    <key>OnOpen</key>
-    <value>ПриОткрытии</value>
-  </events>
-  <events>
-    <key>OnCreateAtServer</key>
-    <value>ПриСозданииНаСервере</value>
-  </events>
+  <handlers>
+    <event>OnCreateAtServer</event>
+    <name>ПриСозданииНаСервере</name>
+  </handlers>
   <enterKeyBehavior>DefaultButton</enterKeyBehavior>
   <autoTitle>true</autoTitle>
   <autoUrl>true</autoUrl>
@@ -583,6 +580,8 @@
   <autoFillCheck>true</autoFillCheck>
   <allowFormCustomize>true</allowFormCustomize>
   <enabled>true</enabled>
+  <showTitle>true</showTitle>
+  <showCloseButton>true</showCloseButton>
   <attributes>
     <name>Объект</name>
     <id>1</id>
@@ -613,6 +612,9 @@
     <edit>
       <common>true</common>
     </edit>
+    <extInfo xsi:type="form:ValueListExtInfo">
+      <itemValueType/>
+    </extInfo>
   </attributes>
   <attributes>
     <name>Пользователь</name>
@@ -666,6 +668,9 @@
     <edit>
       <common>true</common>
     </edit>
+    <extInfo xsi:type="form:ValueListExtInfo">
+      <itemValueType/>
+    </extInfo>
   </attributes>
   <attributes>
     <name>ПредыдущийПоиск</name>
@@ -756,7 +761,11 @@
     <picture xsi:type="core:PictureRef">
       <picture>StdPicture.Refresh</picture>
     </picture>
-    <action>ОбновитьВыполнить</action>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>ОбновитьВыполнить</name>
+      </handler>
+    </action>
   </formCommands>
   <formCommands>
     <name>Скопировать</name>
@@ -772,7 +781,11 @@
     <use>
       <common>true</common>
     </use>
-    <action>СкопироватьВыполнить</action>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>СкопироватьВыполнить</name>
+      </handler>
+    </action>
   </formCommands>
   <formCommands>
     <name>Удалить</name>
@@ -788,7 +801,11 @@
     <use>
       <common>true</common>
     </use>
-    <action>УдалитьВыполнить</action>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>УдалитьВыполнить</name>
+      </handler>
+    </action>
   </formCommands>
   <formCommands>
     <name>Искать</name>
@@ -804,7 +821,11 @@
     <use>
       <common>true</common>
     </use>
-    <action>ИскатьВыполнить</action>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>ИскатьВыполнить</name>
+      </handler>
+    </action>
   </formCommands>
   <commandInterface>
     <navigationPanel/>

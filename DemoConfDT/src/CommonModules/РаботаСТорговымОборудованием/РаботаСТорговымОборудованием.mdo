@@ -5,6 +5,7 @@
     <key>ru</key>
     <value>Работа с торговым оборудованием</value>
   </synonym>
+  <comment></comment>
   <clientManagedApplication>true</clientManagedApplication>
   <clientOrdinaryApplication>true</clientOrdinaryApplication>
   <serverCall>true</serverCall>

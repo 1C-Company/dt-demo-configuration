@@ -5,6 +5,7 @@
     <key>ru</key>
     <value>Настроить сканер</value>
   </synonym>
+  <comment></comment>
   <group>ActionsPanelTools</group>
   <commandParameterType/>
   <representation>Auto</representation>
@@ -12,4 +13,5 @@
     <key>ru</key>
     <value>Настроить сканер штрихкодов</value>
   </toolTip>
+  <shortcut></shortcut>
 </mdclass:CommonCommand>

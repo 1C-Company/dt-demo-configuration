@@ -125,16 +125,18 @@
     </userVisible>
     <horizontalAlign>Right</horizontalAlign>
   </autoCommandBar>
-  <events>
-    <key>OnOpen</key>
-    <value>ПриОткрытии</value>
-  </events>
+  <handlers>
+    <event>OnOpen</event>
+    <name>ПриОткрытии</name>
+  </handlers>
   <windowOpeningMode>LockWholeInterface</windowOpeningMode>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
   <autoFillCheck>true</autoFillCheck>
   <allowFormCustomize>true</allowFormCustomize>
   <enabled>true</enabled>
+  <showTitle>true</showTitle>
+  <showCloseButton>true</showCloseButton>
   <attributes>
     <name>Пароль</name>
     <title>
@@ -167,7 +169,11 @@
     <use>
       <common>true</common>
     </use>
-    <action>ОК</action>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>ОК</name>
+      </handler>
+    </action>
   </formCommands>
   <commandInterface>
     <navigationPanel/>

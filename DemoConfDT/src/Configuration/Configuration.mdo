@@ -12,12 +12,13 @@
   <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="b8df29d7-0e21-419d-b132-cd99c709210a"/>
   <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="2a793120-c7a1-422e-b404-b0f78b87b1b5"/>
   <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="c7b02cf7-645c-471f-a7d9-81b0d59ca319"/>
-  <configurationExtensionCompatibilityMode>8.3.7</configurationExtensionCompatibilityMode>
+  <namePrefix></namePrefix>
   <defaultRunMode>ManagedApplication</defaultRunMode>
   <usePurposes>PersonalComputer</usePurposes>
   <scriptVariant>Russian</scriptVariant>
   <vendor>Фирма &quot;1С&quot;</vendor>
-  <version>1.0.20.1</version>
+  <version>1.0.24.0</version>
+  <updateCatalogAddress></updateCatalogAddress>
   <includeHelpInContents>true</includeHelpInContents>
   <help>
     <pages>
@@ -37,7 +38,7 @@
   <splash/>
   <copyright>
     <key>ru</key>
-    <value>Copyright © ООО &quot;1C&quot;, 2015</value>
+    <value>Copyright © ООО &quot;1C-Софт&quot;, 2017</value>
   </copyright>
   <vendorInformationAddress>
     <key>ru</key>
@@ -51,7 +52,8 @@
   <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
   <modalityUseMode>DontUse</modalityUseMode>
   <synchronousExtensionAndAddInCallUseMode>DontUse</synchronousExtensionAndAddInCallUseMode>
-  <compatibilityMode>8.3.7</compatibilityMode>
+  <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
+  <compatibilityMode>8.3.10</compatibilityMode>
   <defaultConstantsForm>CommonForm.ОбщиеНастройки</defaultConstantsForm>
   <languages uuid="d5fb342e-0c73-4410-8517-8ce7ee20e8bd">
     <name>Русский</name>
@@ -59,6 +61,7 @@
       <key>ru</key>
       <value>Русский</value>
     </synonym>
+    <comment></comment>
     <languageCode>ru</languageCode>
   </languages>
   <subsystems>Subsystem.Предприятие</subsystems>
@@ -83,7 +86,10 @@
   <commonPictures>CommonPicture.ПолнотекстовыйПоискНазад</commonPictures>
   <commonPictures>CommonPicture.ОткрытьХранимыйФайл</commonPictures>
   <commonPictures>CommonPicture.ВыделитьВажное</commonPictures>
+  <commonPictures>CommonPicture.ПроверитьПочту</commonPictures>
+  <commonPictures>CommonPicture.СписокЗаказов</commonPictures>
   <sessionParameters>SessionParameter.ТекущийПользователь</sessionParameters>
+  <sessionParameters>SessionParameter.ЯщикIMAP</sessionParameters>
   <roles>Role.Администратор</roles>
   <roles>Role.МенеджерПоЗакупкам</roles>
   <roles>Role.МенеджерПоПродажам</roles>
@@ -100,10 +106,12 @@
   <commonModules>CommonModule.РегламентныеЗаданияАгрегатов</commonModules>
   <commonModules>CommonModule.СервисныеМеханизмы</commonModules>
   <commonModules>CommonModule.РаботаСПочтой</commonModules>
+  <commonModules>CommonModule.РаботаСПочтойВызовСервера</commonModules>
   <commonModules>CommonModule.ОбменМобильныеОбщее</commonModules>
   <commonModules>CommonModule.ОбменМобильныеПереопределяемый</commonModules>
   <commonModules>CommonModule.Пользователи</commonModules>
   <commonModules>CommonModule.РаботаСДоставляемымиУведомлениям</commonModules>
+  <commonModules>CommonModule.РаботаСПанельюЗадач</commonModules>
   <exchangePlans>ExchangePlan.Мобильные</exchangePlans>
   <xDTOPackages>XDTOPackage.ОбменСМобильнымУстройством</xDTOPackages>
   <webServices>WebService.MAExchange</webServices>

@@ -10,20 +10,25 @@
     <key>ru</key>
     <value>Состояния заказов</value>
   </synonym>
+  <comment></comment>
   <useStandardCommands>true</useStandardCommands>
   <standardAttributes>
     <name>Order</name>
-    <fillValue xsi:type="core:NullValue"/>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
-    <minValue xsi:type="core:NullValue"/>
-    <maxValue xsi:type="core:NullValue"/>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
   <standardAttributes>
     <name>Ref</name>
-    <fillValue xsi:type="core:NullValue"/>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
-    <minValue xsi:type="core:NullValue"/>
-    <maxValue xsi:type="core:NullValue"/>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
   <quickChoice>true</quickChoice>
   <choiceMode>BothWays</choiceMode>
@@ -33,6 +38,7 @@
       <key>ru</key>
       <value>Открыт</value>
     </synonym>
+    <comment></comment>
   </enumValues>
   <enumValues uuid="e59adbf6-1bf0-4b39-b269-312da7760618">
     <name>ВРаботе</name>
@@ -40,6 +46,7 @@
       <key>ru</key>
       <value>В работе</value>
     </synonym>
+    <comment></comment>
   </enumValues>
   <enumValues uuid="30f78cf9-5ae4-4bc7-9a7b-42a73f8efa36">
     <name>Выполнен</name>
@@ -47,6 +54,7 @@
       <key>ru</key>
       <value>Выполнен</value>
     </synonym>
+    <comment></comment>
   </enumValues>
   <enumValues uuid="c69c4f31-f018-440d-8eee-77e0327644c5">
     <name>Закрыт</name>
@@ -54,5 +62,6 @@
       <key>ru</key>
       <value>Закрыт</value>
     </synonym>
+    <comment></comment>
   </enumValues>
 </mdclass:Enum>

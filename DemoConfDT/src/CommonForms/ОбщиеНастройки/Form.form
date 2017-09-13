@@ -117,6 +117,8 @@
   <autoFillCheck>true</autoFillCheck>
   <allowFormCustomize>true</allowFormCustomize>
   <enabled>true</enabled>
+  <showTitle>true</showTitle>
+  <showCloseButton>true</showCloseButton>
   <attributes>
     <name>Константы</name>
     <id>1</id>
@@ -146,9 +148,9 @@
     <commandBar/>
   </commandInterface>
   <extInfo xsi:type="form:ConstantsFormExtInfo">
-    <events>
-      <key>AfterWrite</key>
-      <value>ПослеЗаписи</value>
-    </events>
+    <handlers>
+      <event>AfterWrite</event>
+      <name>ПослеЗаписи</name>
+    </handlers>
   </extInfo>
 </form:Form>

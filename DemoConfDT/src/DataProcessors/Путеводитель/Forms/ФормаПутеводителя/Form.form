@@ -41,7 +41,7 @@
     <autoMaxWidth>true</autoMaxWidth>
     <autoMaxHeight>true</autoMaxHeight>
     <font xsi:type="core:FontRef">
-      <font>System.DefaultGUIFont</font>
+      <font>Style.NormalTextFont</font>
       <bold>true</bold>
       <italic>false</italic>
       <underline>false</underline>
@@ -94,14 +94,14 @@
     <headerHorizontalAlign>Left</headerHorizontalAlign>
     <showInFooter>true</showInFooter>
     <extInfo xsi:type="form:HtmlFieldExtInfo">
-      <events>
-        <key>DocumentComplete</key>
-        <value>ПолеHTMLДокументСформирован</value>
-      </events>
-      <events>
-        <key>OnClick</key>
-        <value>ПолеHTMLПриНажатии</value>
-      </events>
+      <handlers>
+        <event>DocumentComplete</event>
+        <name>ПолеHTMLДокументСформирован</name>
+      </handlers>
+      <handlers>
+        <event>OnClick</event>
+        <name>ПолеHTMLПриНажатии</name>
+      </handlers>
       <width>50</width>
       <autoMaxWidth>true</autoMaxWidth>
       <height>10</height>
@@ -122,10 +122,10 @@
     <horizontalAlign>Left</horizontalAlign>
     <autoFill>true</autoFill>
   </autoCommandBar>
-  <events>
-    <key>OnCreateAtServer</key>
-    <value>ПриСозданииНаСервере</value>
-  </events>
+  <handlers>
+    <event>OnCreateAtServer</event>
+    <name>ПриСозданииНаСервере</name>
+  </handlers>
   <width>90</width>
   <height>30</height>
   <autoTitle>true</autoTitle>
@@ -134,6 +134,8 @@
   <autoFillCheck>true</autoFillCheck>
   <allowFormCustomize>true</allowFormCustomize>
   <enabled>true</enabled>
+  <showTitle>true</showTitle>
+  <showCloseButton>true</showCloseButton>
   <attributes>
     <name>Объект</name>
     <id>1</id>

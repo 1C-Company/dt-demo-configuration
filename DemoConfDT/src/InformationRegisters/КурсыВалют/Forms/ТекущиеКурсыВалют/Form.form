@@ -275,6 +275,7 @@
     <autoMaxWidth>true</autoMaxWidth>
     <autoMaxHeight>true</autoMaxHeight>
     <heightInTableRows>10</heightInTableRows>
+    <autoMaxRowsCount>true</autoMaxRowsCount>
     <selectionMode>MultiRow</selectionMode>
     <header>true</header>
     <headerHeight>1</headerHeight>
@@ -290,7 +291,7 @@
     <verticalStretch>true</verticalStretch>
     <enableStartDrag>true</enableStartDrag>
     <rowPictureDataPath xsi:type="form:DataPath">
-      <segments>1/1000000000</segments>
+      <segments></segments>
     </rowPictureDataPath>
     <borderColor xsi:type="core:ColorRef">
       <color>Style.BorderColor</color>
@@ -300,6 +301,11 @@
     <searchControlLocation>None</searchControlLocation>
     <extInfo xsi:type="form:DynamicListTableExtInfo">
       <autoRefreshPeriod>60</autoRefreshPeriod>
+      <period>
+        <startDate>0001-01-01T00:00:00</startDate>
+        <endDate>0001-01-01T00:00:00</endDate>
+      </period>
+      <topLevelParent xsi:type="core:UndefinedValue"/>
     </extInfo>
   </items>
   <autoCommandBar>
@@ -385,6 +391,8 @@
   <autoFillCheck>true</autoFillCheck>
   <allowFormCustomize>true</allowFormCustomize>
   <enabled>true</enabled>
+  <showTitle>true</showTitle>
+  <showCloseButton>true</showCloseButton>
   <attributes>
     <name>Список</name>
     <id>1</id>
@@ -400,7 +408,9 @@
     <main>true</main>
     <extInfo xsi:type="form:DynamicListExtInfo">
       <mainTable>InformationRegister.КурсыВалют.SliceLast</mainTable>
+      <autoFillAvailableFields>true</autoFillAvailableFields>
       <autoSaveUserSettings>true</autoSaveUserSettings>
+      <getInvisibleFieldPresentations>true</getInvisibleFieldPresentations>
     </extInfo>
   </attributes>
   <commandInterface>

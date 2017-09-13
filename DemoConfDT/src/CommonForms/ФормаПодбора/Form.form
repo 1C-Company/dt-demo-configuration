@@ -216,10 +216,10 @@
           <horizontalAlign>Left</horizontalAlign>
           <autoFill>true</autoFill>
         </autoCommandBar>
-        <events>
-          <key>OnActivateRow</key>
-          <value>ДеревоТоваровПриАктивизацииСтроки</value>
-        </events>
+        <handlers>
+          <event>OnActivateRow</event>
+          <name>ДеревоТоваровПриАктивизацииСтроки</name>
+        </handlers>
         <searchStringAddition>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -369,6 +369,7 @@
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
         <heightInTableRows>5</heightInTableRows>
+        <autoMaxRowsCount>true</autoMaxRowsCount>
         <header>true</header>
         <headerHeight>1</headerHeight>
         <footerHeight>1</footerHeight>
@@ -395,6 +396,11 @@
         <searchControlLocation>None</searchControlLocation>
         <extInfo xsi:type="form:DynamicListTableExtInfo">
           <autoRefreshPeriod>60</autoRefreshPeriod>
+          <period>
+            <startDate>0001-01-01T00:00:00</startDate>
+            <endDate>0001-01-01T00:00:00</endDate>
+          </period>
+          <topLevelParent xsi:type="core:UndefinedValue"/>
           <showRoot>true</showRoot>
         </extInfo>
       </items>
@@ -618,14 +624,14 @@
           <horizontalAlign>Left</horizontalAlign>
           <autoFill>true</autoFill>
         </autoCommandBar>
-        <events>
-          <key>ValueChoice</key>
-          <value>СписокТоваровВыборЗначения</value>
-        </events>
-        <events>
-          <key>DragStart</key>
-          <value>СписокТоваровНачалоПеретаскивания</value>
-        </events>
+        <handlers>
+          <event>ValueChoice</event>
+          <name>СписокТоваровВыборЗначения</name>
+        </handlers>
+        <handlers>
+          <event>DragStart</event>
+          <name>СписокТоваровНачалоПеретаскивания</name>
+        </handlers>
         <searchStringAddition>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -775,6 +781,7 @@
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
         <heightInTableRows>8</heightInTableRows>
+        <autoMaxRowsCount>true</autoMaxRowsCount>
         <choiceMode>true</choiceMode>
         <header>true</header>
         <headerHeight>1</headerHeight>
@@ -802,6 +809,11 @@
         <searchControlLocation>None</searchControlLocation>
         <extInfo xsi:type="form:DynamicListTableExtInfo">
           <autoRefreshPeriod>60</autoRefreshPeriod>
+          <period>
+            <startDate>0001-01-01T00:00:00</startDate>
+            <endDate>0001-01-01T00:00:00</endDate>
+          </period>
+          <topLevelParent xsi:type="core:UndefinedValue"/>
         </extInfo>
       </items>
       <visible>true</visible>
@@ -997,14 +1009,14 @@
         <horizontalAlign>Left</horizontalAlign>
         <autoFill>true</autoFill>
       </autoCommandBar>
-      <events>
-        <key>DragCheck</key>
-        <value>ТоварыПроверкаПеретаскивания</value>
-      </events>
-      <events>
-        <key>Drag</key>
-        <value>ТоварыПеретаскивание</value>
-      </events>
+      <handlers>
+        <event>DragCheck</event>
+        <name>ТоварыПроверкаПеретаскивания</name>
+      </handlers>
+      <handlers>
+        <event>Drag</event>
+        <name>ТоварыПеретаскивание</name>
+      </handlers>
       <searchStringAddition>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -1192,6 +1204,7 @@
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
       <heightInTableRows>4</heightInTableRows>
+      <autoMaxRowsCount>true</autoMaxRowsCount>
       <header>true</header>
       <headerHeight>1</headerHeight>
       <footerHeight>1</footerHeight>
@@ -1212,6 +1225,7 @@
       <searchStringLocation>None</searchStringLocation>
       <viewStatusLocation>None</viewStatusLocation>
       <searchControlLocation>None</searchControlLocation>
+      <rowFilter xsi:type="core:UndefinedValue"/>
     </items>
     <visible>true</visible>
     <enabled>true</enabled>
@@ -1408,16 +1422,18 @@
     </userVisible>
     <horizontalAlign>Right</horizontalAlign>
   </autoCommandBar>
-  <events>
-    <key>OnCreateAtServer</key>
-    <value>ПриСозданииНаСервере</value>
-  </events>
+  <handlers>
+    <event>OnCreateAtServer</event>
+    <name>ПриСозданииНаСервере</name>
+  </handlers>
   <windowOpeningMode>LockOwnerWindow</windowOpeningMode>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
   <autoFillCheck>true</autoFillCheck>
   <allowFormCustomize>true</allowFormCustomize>
   <enabled>true</enabled>
+  <showTitle>true</showTitle>
+  <showCloseButton>true</showCloseButton>
   <attributes>
     <name>Товары</name>
     <title>
@@ -1530,8 +1546,10 @@
 		ПО Товары.Ссылка = ЦеныТоваровСрезПоследних.Товар</queryText>
       <mainTable>Catalog.Товары</mainTable>
       <dynamicDataRead>true</dynamicDataRead>
+      <autoFillAvailableFields>true</autoFillAvailableFields>
       <customQuery>true</customQuery>
       <autoSaveUserSettings>true</autoSaveUserSettings>
+      <getInvisibleFieldPresentations>true</getInvisibleFieldPresentations>
     </extInfo>
   </attributes>
   <attributes>
@@ -1559,7 +1577,9 @@
 	Товары.ЭтоГруппа</queryText>
       <mainTable>Catalog.Товары</mainTable>
       <dynamicDataRead>true</dynamicDataRead>
+      <autoFillAvailableFields>true</autoFillAvailableFields>
       <autoSaveUserSettings>true</autoSaveUserSettings>
+      <getInvisibleFieldPresentations>true</getInvisibleFieldPresentations>
     </extInfo>
   </attributes>
   <attributes>
@@ -1646,7 +1666,11 @@
     <use>
       <common>true</common>
     </use>
-    <action>ОКВыполнить</action>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>ОКВыполнить</name>
+      </handler>
+    </action>
   </formCommands>
   <parameters>
     <name>Склад</name>

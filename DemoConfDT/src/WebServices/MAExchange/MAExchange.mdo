@@ -23,7 +23,6 @@
     <value>http://v8.1c.ru/8.3/data/ext</value>
   </xdtoPackages>
   <descriptorFileName>ws1.1cws</descriptorFileName>
-  <reuseSessions>AutoUse</reuseSessions>
   <sessionMaxAge>20</sessionMaxAge>
   <operations uuid="a0c36d69-5e65-4f7a-bb99-05c186258bdf">
     <name>НачатьОбмен</name>

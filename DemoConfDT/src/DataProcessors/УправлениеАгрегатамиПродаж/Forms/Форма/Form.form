@@ -11,10 +11,10 @@
     <dataPath xsi:type="form:DataPath">
       <segments>РежимАгрегатов</segments>
     </dataPath>
-    <events>
-      <key>OnChange</key>
-      <value>РежимАгрегатовПриИзменении</value>
-    </events>
+    <handlers>
+      <event>OnChange</event>
+      <name>РежимАгрегатовПриИзменении</name>
+    </handlers>
     <extendedTooltip>
       <name>РежимАгрегатовExtendedTooltip</name>
       <id>22</id>
@@ -61,10 +61,10 @@
       <dataPath xsi:type="form:DataPath">
         <segments>РегламентноеОбновление</segments>
       </dataPath>
-      <events>
-        <key>OnChange</key>
-        <value>РегламентноеОбновлениеПриИзменении</value>
-      </events>
+      <handlers>
+        <event>OnChange</event>
+        <name>РегламентноеОбновлениеПриИзменении</name>
+      </handlers>
       <extendedTooltip>
         <name>РегламентноеОбновлениеExtendedTooltip</name>
         <id>24</id>
@@ -225,10 +225,10 @@
       <dataPath xsi:type="form:DataPath">
         <segments>РегламентноеПерестроение</segments>
       </dataPath>
-      <events>
-        <key>OnChange</key>
-        <value>РегламентноеПерестроениеПриИзменении</value>
-      </events>
+      <handlers>
+        <event>OnChange</event>
+        <name>РегламентноеПерестроениеПриИзменении</name>
+      </handlers>
       <extendedTooltip>
         <name>РегламентноеПерестроениеExtendedTooltip</name>
         <id>28</id>
@@ -506,10 +506,10 @@
     </userVisible>
     <horizontalAlign>Left</horizontalAlign>
   </autoCommandBar>
-  <events>
-    <key>OnCreateAtServer</key>
-    <value>ПриСозданииНаСервере</value>
-  </events>
+  <handlers>
+    <event>OnCreateAtServer</event>
+    <name>ПриСозданииНаСервере</name>
+  </handlers>
   <windowOpeningMode>LockOwnerWindow</windowOpeningMode>
   <autoTitle>true</autoTitle>
   <autoUrl>true</autoUrl>
@@ -517,6 +517,8 @@
   <autoFillCheck>true</autoFillCheck>
   <allowFormCustomize>true</allowFormCustomize>
   <enabled>true</enabled>
+  <showTitle>true</showTitle>
+  <showCloseButton>true</showCloseButton>
   <attributes>
     <name>Объект</name>
     <id>1</id>
@@ -650,7 +652,11 @@
     <use>
       <common>true</common>
     </use>
-    <action>ОбновитьНажатие</action>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>ОбновитьНажатие</name>
+      </handler>
+    </action>
   </formCommands>
   <formCommands>
     <name>Перестроить</name>
@@ -666,7 +672,11 @@
     <use>
       <common>true</common>
     </use>
-    <action>Перестроить</action>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>Перестроить</name>
+      </handler>
+    </action>
   </formCommands>
   <formCommands>
     <name>ОпределитьОптимальные</name>
@@ -682,7 +692,11 @@
     <use>
       <common>true</common>
     </use>
-    <action>ОпределитьОптимальные</action>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>ОпределитьОптимальные</name>
+      </handler>
+    </action>
   </formCommands>
   <commandInterface>
     <navigationPanel/>

@@ -12,44 +12,55 @@
     <key>ru</key>
     <value>Операция по учету товаров</value>
   </synonym>
+  <comment></comment>
   <useStandardCommands>true</useStandardCommands>
   <inputByString>Document.ОперацияПоУчетуТоваров.StandardAttribute.Number</inputByString>
   <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
   <standardAttributes>
     <name>Posted</name>
-    <fillValue xsi:type="core:NullValue"/>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
-    <minValue xsi:type="core:NullValue"/>
-    <maxValue xsi:type="core:NullValue"/>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
   <standardAttributes>
     <name>Ref</name>
-    <fillValue xsi:type="core:NullValue"/>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
-    <minValue xsi:type="core:NullValue"/>
-    <maxValue xsi:type="core:NullValue"/>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
   <standardAttributes>
     <name>DeletionMark</name>
-    <fillValue xsi:type="core:NullValue"/>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
-    <minValue xsi:type="core:NullValue"/>
-    <maxValue xsi:type="core:NullValue"/>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
   <standardAttributes>
     <name>Date</name>
-    <fillValue xsi:type="core:NullValue"/>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
     <fillChecking>ShowError</fillChecking>
     <fullTextSearch>Use</fullTextSearch>
-    <minValue xsi:type="core:NullValue"/>
-    <maxValue xsi:type="core:NullValue"/>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
   <standardAttributes>
     <name>Number</name>
-    <fillValue xsi:type="core:NullValue"/>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
-    <minValue xsi:type="core:NullValue"/>
-    <maxValue xsi:type="core:NullValue"/>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
   <createOnInput>Use</createOnInput>
   <includeHelpInContents>true</includeHelpInContents>
@@ -96,12 +107,14 @@
       <key>ru</key>
       <value>Содержание операции</value>
     </synonym>
+    <comment></comment>
     <type>
       <types>String</types>
       <stringQualifiers/>
     </type>
-    <minValue xsi:type="core:NullValue"/>
-    <maxValue xsi:type="core:NullValue"/>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
     <quickChoice>DontUse</quickChoice>
     <createOnInput>Use</createOnInput>
     <fillValue xsi:type="core:StringValue">
@@ -115,11 +128,13 @@
       <key>ru</key>
       <value>Организация</value>
     </synonym>
+    <comment></comment>
     <type>
       <types>CatalogRef.Организации</types>
     </type>
-    <minValue xsi:type="core:NullValue"/>
-    <maxValue xsi:type="core:NullValue"/>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
     <fillChecking>ShowError</fillChecking>
     <fillValue xsi:type="core:ReferenceValue">
       <value>Catalog.Организации.EmptyRef</value>
@@ -132,6 +147,7 @@
       <key>ru</key>
       <value>Форма документа</value>
     </synonym>
+    <comment></comment>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>

@@ -12,44 +12,55 @@
     <key>ru</key>
     <value>Расчетные счета</value>
   </synonym>
+  <comment></comment>
   <useStandardCommands>true</useStandardCommands>
   <inputByString>Catalog.РасчетныеСчета.StandardAttribute.Description</inputByString>
   <inputByString>Catalog.РасчетныеСчета.StandardAttribute.Code</inputByString>
   <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
   <standardAttributes>
     <name>PredefinedDataName</name>
-    <fillValue xsi:type="core:NullValue"/>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
-    <minValue xsi:type="core:NullValue"/>
-    <maxValue xsi:type="core:NullValue"/>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
   <standardAttributes>
     <name>Predefined</name>
-    <fillValue xsi:type="core:NullValue"/>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
-    <minValue xsi:type="core:NullValue"/>
-    <maxValue xsi:type="core:NullValue"/>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
   <standardAttributes>
     <name>Ref</name>
-    <fillValue xsi:type="core:NullValue"/>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
-    <minValue xsi:type="core:NullValue"/>
-    <maxValue xsi:type="core:NullValue"/>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
   <standardAttributes>
     <name>DeletionMark</name>
-    <fillValue xsi:type="core:NullValue"/>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
-    <minValue xsi:type="core:NullValue"/>
-    <maxValue xsi:type="core:NullValue"/>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
   <standardAttributes>
     <name>IsFolder</name>
-    <fillValue xsi:type="core:NullValue"/>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
-    <minValue xsi:type="core:NullValue"/>
-    <maxValue xsi:type="core:NullValue"/>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
   <standardAttributes>
     <name>Owner</name>
@@ -57,37 +68,45 @@
       <key>ru</key>
       <value>Организация</value>
     </synonym>
+    <comment></comment>
     <fillFromFillingValue>true</fillFromFillingValue>
     <fillValue xsi:type="core:ReferenceValue">
       <value>Catalog.Организации.EmptyRef</value>
     </fillValue>
     <fillChecking>ShowError</fillChecking>
     <fullTextSearch>Use</fullTextSearch>
-    <minValue xsi:type="core:NullValue"/>
-    <maxValue xsi:type="core:NullValue"/>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
   <standardAttributes>
     <name>Parent</name>
+    <comment></comment>
     <fillFromFillingValue>true</fillFromFillingValue>
-    <fillValue xsi:type="core:NullValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
-    <minValue xsi:type="core:NullValue"/>
-    <maxValue xsi:type="core:NullValue"/>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
   <standardAttributes>
     <name>Description</name>
-    <fillValue xsi:type="core:NullValue"/>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
     <fillChecking>ShowError</fillChecking>
     <fullTextSearch>Use</fullTextSearch>
-    <minValue xsi:type="core:NullValue"/>
-    <maxValue xsi:type="core:NullValue"/>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
   <standardAttributes>
     <name>Code</name>
-    <fillValue xsi:type="core:NullValue"/>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
-    <minValue xsi:type="core:NullValue"/>
-    <maxValue xsi:type="core:NullValue"/>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
   <createOnInput>Use</createOnInput>
   <includeHelpInContents>true</includeHelpInContents>
@@ -132,14 +151,16 @@
       <key>ru</key>
       <value>Номер</value>
     </synonym>
+    <comment></comment>
     <type>
       <types>String</types>
       <stringQualifiers>
         <length>20</length>
       </stringQualifiers>
     </type>
-    <minValue xsi:type="core:NullValue"/>
-    <maxValue xsi:type="core:NullValue"/>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
     <fillChecking>ShowError</fillChecking>
     <quickChoice>DontUse</quickChoice>
     <createOnInput>Use</createOnInput>
@@ -154,6 +175,7 @@
       <key>ru</key>
       <value>Банк</value>
     </synonym>
+    <comment></comment>
     <type>
       <types>CatalogRef.Банки</types>
     </type>
@@ -161,8 +183,9 @@
       <key>ru</key>
       <value>Банк в котором зарегистрирован расчетный счет</value>
     </toolTip>
-    <minValue xsi:type="core:NullValue"/>
-    <maxValue xsi:type="core:NullValue"/>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
     <fillChecking>ShowError</fillChecking>
     <fillValue xsi:type="core:ReferenceValue">
       <value>Catalog.Банки.EmptyRef</value>
@@ -175,6 +198,7 @@
       <key>ru</key>
       <value>Форма выбора</value>
     </synonym>
+    <comment></comment>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>

@@ -13,6 +13,7 @@
     <key>ru</key>
     <value>Взаиморасчеты</value>
   </synonym>
+  <comment></comment>
   <useStandardCommands>true</useStandardCommands>
   <defaultListForm>AccumulationRegister.Взаиморасчеты.Form.ФормаСписка</defaultListForm>
   <includeHelpInContents>true</includeHelpInContents>
@@ -23,39 +24,49 @@
   </help>
   <standardAttributes>
     <name>RecordType</name>
-    <fillValue xsi:type="core:NullValue"/>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
-    <minValue xsi:type="core:NullValue"/>
-    <maxValue xsi:type="core:NullValue"/>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
   <standardAttributes>
     <name>Active</name>
-    <fillValue xsi:type="core:NullValue"/>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
-    <minValue xsi:type="core:NullValue"/>
-    <maxValue xsi:type="core:NullValue"/>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
   <standardAttributes>
     <name>LineNumber</name>
-    <fillValue xsi:type="core:NullValue"/>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
-    <minValue xsi:type="core:NullValue"/>
-    <maxValue xsi:type="core:NullValue"/>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
   <standardAttributes>
     <name>Recorder</name>
-    <fillValue xsi:type="core:NullValue"/>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
-    <minValue xsi:type="core:NullValue"/>
-    <maxValue xsi:type="core:NullValue"/>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
   <standardAttributes>
     <name>Period</name>
-    <fillValue xsi:type="core:NullValue"/>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
     <fillChecking>ShowError</fillChecking>
     <fullTextSearch>Use</fullTextSearch>
-    <minValue xsi:type="core:NullValue"/>
-    <maxValue xsi:type="core:NullValue"/>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
   <enableTotalsSplitting>true</enableTotalsSplitting>
   <listPresentation>
@@ -80,8 +91,9 @@
         <scale>2</scale>
       </numberQualifiers>
     </type>
-    <minValue xsi:type="core:NullValue"/>
-    <maxValue xsi:type="core:NullValue"/>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
     <quickChoice>DontUse</quickChoice>
     <createOnInput>Use</createOnInput>
     <fullTextSearch>Use</fullTextSearch>
@@ -92,11 +104,13 @@
       <key>ru</key>
       <value>Контрагент</value>
     </synonym>
+    <comment></comment>
     <type>
       <types>CatalogRef.Контрагенты</types>
     </type>
-    <minValue xsi:type="core:NullValue"/>
-    <maxValue xsi:type="core:NullValue"/>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
     <indexing>Index</indexing>
     <fullTextSearch>Use</fullTextSearch>
     <useInTotals>true</useInTotals>
@@ -107,11 +121,13 @@
       <key>ru</key>
       <value>Валюта</value>
     </synonym>
+    <comment></comment>
     <type>
       <types>CatalogRef.Валюты</types>
     </type>
-    <minValue xsi:type="core:NullValue"/>
-    <maxValue xsi:type="core:NullValue"/>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <useInTotals>true</useInTotals>
   </dimensions>
@@ -121,6 +137,7 @@
       <key>ru</key>
       <value>Текущие взаиморасчеты</value>
     </synonym>
+    <comment></comment>
     <help>
       <pages>
         <lang>ru</lang>
@@ -135,6 +152,7 @@
       <key>ru</key>
       <value>Форма списка</value>
     </synonym>
+    <comment></comment>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>

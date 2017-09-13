@@ -11,10 +11,10 @@
     <dataPath xsi:type="form:DataPath">
       <segments>Объект.Организация</segments>
     </dataPath>
-    <events>
-      <key>OnChange</key>
-      <value>ОрганизацияПриИзменении</value>
-    </events>
+    <handlers>
+      <event>OnChange</event>
+      <name>ОрганизацияПриИзменении</name>
+    </handlers>
     <extendedTooltip>
       <name>ОрганизацияExtendedTooltip</name>
       <id>18</id>
@@ -439,16 +439,18 @@
     <horizontalAlign>Left</horizontalAlign>
     <autoFill>true</autoFill>
   </autoCommandBar>
-  <events>
-    <key>OnCreateAtServer</key>
-    <value>ПриСозданииНаСервере</value>
-  </events>
+  <handlers>
+    <event>OnCreateAtServer</event>
+    <name>ПриСозданииНаСервере</name>
+  </handlers>
   <autoTitle>true</autoTitle>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
   <autoFillCheck>true</autoFillCheck>
   <allowFormCustomize>true</allowFormCustomize>
   <enabled>true</enabled>
+  <showTitle>true</showTitle>
+  <showCloseButton>true</showCloseButton>
   <attributes>
     <name>Объект</name>
     <id>1</id>
@@ -479,14 +481,14 @@
     <commandBar/>
   </commandInterface>
   <extInfo xsi:type="form:DocumentFormExtInfo">
-    <events>
-      <key>AfterWriteAtServer</key>
-      <value>ПослеЗаписиНаСервере</value>
-    </events>
-    <events>
-      <key>OnReadAtServer</key>
-      <value>ПриЧтенииНаСервере</value>
-    </events>
+    <handlers>
+      <event>AfterWriteAtServer</event>
+      <name>ПослеЗаписиНаСервере</name>
+    </handlers>
+    <handlers>
+      <event>OnReadAtServer</event>
+      <name>ПриЧтенииНаСервере</name>
+    </handlers>
     <repostOnWrite>true</repostOnWrite>
   </extInfo>
 </form:Form>

@@ -10,6 +10,7 @@
     <key>ru</key>
     <value>Виды товаров</value>
   </synonym>
+  <comment></comment>
   <quickChoice>true</quickChoice>
   <choiceMode>BothWays</choiceMode>
   <enumValues uuid="8b34502a-e8b9-444d-92f3-0631ccef1842">
@@ -18,6 +19,7 @@
       <key>ru</key>
       <value>Товар</value>
     </synonym>
+    <comment></comment>
   </enumValues>
   <enumValues uuid="ad6cfe59-4c32-49af-9ef8-0ce717c80524">
     <name>Услуга</name>
@@ -25,5 +27,6 @@
       <key>ru</key>
       <value>Услуга</value>
     </synonym>
+    <comment></comment>
   </enumValues>
 </mdclass:Enum>

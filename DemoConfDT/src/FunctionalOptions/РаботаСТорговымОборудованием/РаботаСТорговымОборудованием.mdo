@@ -5,6 +5,7 @@
     <key>ru</key>
     <value>Работа с торговым оборудованием</value>
   </synonym>
+  <comment></comment>
   <location>Constant.РаботаСТорговымОборудованием</location>
   <privilegedGetMode>true</privilegedGetMode>
   <content>Catalog.НастройкиТорговогоОборудования</content>

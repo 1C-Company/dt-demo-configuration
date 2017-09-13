@@ -12,84 +12,103 @@
     <key>ru</key>
     <value>Варианты отчетов</value>
   </synonym>
+  <comment></comment>
   <useStandardCommands>true</useStandardCommands>
   <inputByString>Catalog.ХранилищеВариантовОтчетов.StandardAttribute.Description</inputByString>
   <inputByString>Catalog.ХранилищеВариантовОтчетов.StandardAttribute.Code</inputByString>
   <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
   <standardAttributes>
     <name>PredefinedDataName</name>
-    <fillValue xsi:type="core:NullValue"/>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
-    <minValue xsi:type="core:NullValue"/>
-    <maxValue xsi:type="core:NullValue"/>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
   <standardAttributes>
     <name>Predefined</name>
+    <comment></comment>
     <fillValue xsi:type="core:BooleanValue"/>
     <fullTextSearch>Use</fullTextSearch>
-    <minValue xsi:type="core:NullValue"/>
-    <maxValue xsi:type="core:NullValue"/>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
   <standardAttributes>
     <name>Ref</name>
+    <comment></comment>
     <fillValue xsi:type="core:ReferenceValue">
       <value>Catalog.ХранилищеВариантовОтчетов.EmptyRef</value>
     </fillValue>
     <fullTextSearch>Use</fullTextSearch>
-    <minValue xsi:type="core:NullValue"/>
-    <maxValue xsi:type="core:NullValue"/>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
   <standardAttributes>
     <name>DeletionMark</name>
+    <comment></comment>
     <fillValue xsi:type="core:BooleanValue"/>
     <fullTextSearch>Use</fullTextSearch>
-    <minValue xsi:type="core:NullValue"/>
-    <maxValue xsi:type="core:NullValue"/>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
   <standardAttributes>
     <name>IsFolder</name>
-    <fillValue xsi:type="core:NullValue"/>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
-    <minValue xsi:type="core:NullValue"/>
-    <maxValue xsi:type="core:NullValue"/>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
   <standardAttributes>
     <name>Owner</name>
+    <comment></comment>
     <fillFromFillingValue>true</fillFromFillingValue>
-    <fillValue xsi:type="core:NullValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
     <fillChecking>ShowError</fillChecking>
     <fullTextSearch>Use</fullTextSearch>
-    <minValue xsi:type="core:NullValue"/>
-    <maxValue xsi:type="core:NullValue"/>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
   <standardAttributes>
     <name>Parent</name>
+    <comment></comment>
     <fillFromFillingValue>true</fillFromFillingValue>
     <fillValue xsi:type="core:ReferenceValue">
       <value>Catalog.ХранилищеВариантовОтчетов.EmptyRef</value>
     </fillValue>
     <fullTextSearch>Use</fullTextSearch>
-    <minValue xsi:type="core:NullValue"/>
-    <maxValue xsi:type="core:NullValue"/>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
   <standardAttributes>
     <name>Description</name>
+    <comment></comment>
     <fillValue xsi:type="core:StringValue">
       <value></value>
     </fillValue>
     <fillChecking>ShowError</fillChecking>
     <fullTextSearch>Use</fullTextSearch>
-    <minValue xsi:type="core:NullValue"/>
-    <maxValue xsi:type="core:NullValue"/>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
   <standardAttributes>
     <name>Code</name>
+    <comment></comment>
     <fillValue xsi:type="core:StringValue">
       <value></value>
     </fillValue>
     <fullTextSearch>Use</fullTextSearch>
-    <minValue xsi:type="core:NullValue"/>
-    <maxValue xsi:type="core:NullValue"/>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
   <createOnInput>Use</createOnInput>
   <includeHelpInContents>true</includeHelpInContents>
@@ -125,12 +144,14 @@
       <key>ru</key>
       <value>Вариант отчета</value>
     </synonym>
+    <comment></comment>
     <type>
       <types>ValueStorage</types>
     </type>
-    <minValue xsi:type="core:NullValue"/>
-    <maxValue xsi:type="core:NullValue"/>
-    <fillValue xsi:type="core:NullValue"/>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
   </attributes>
   <attributes uuid="d20d1043-b6d0-4fbb-9276-e74510c0e6af">
     <name>КлючОбъекта</name>
@@ -138,14 +159,16 @@
       <key>ru</key>
       <value>Ключ объекта</value>
     </synonym>
+    <comment></comment>
     <type>
       <types>String</types>
       <stringQualifiers>
         <length>255</length>
       </stringQualifiers>
     </type>
-    <minValue xsi:type="core:NullValue"/>
-    <maxValue xsi:type="core:NullValue"/>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
     <quickChoice>DontUse</quickChoice>
     <createOnInput>Use</createOnInput>
     <fillValue xsi:type="core:StringValue">
@@ -159,6 +182,7 @@
       <key>ru</key>
       <value>Форма списка</value>
     </synonym>
+    <comment></comment>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
@@ -168,10 +192,12 @@
       <key>ru</key>
       <value>Открыть отчет</value>
     </synonym>
+    <comment></comment>
     <group>FormCommandBarImportant</group>
     <commandParameterType>
       <types>CatalogRef.ХранилищеВариантовОтчетов</types>
     </commandParameterType>
     <representation>Auto</representation>
+    <shortcut></shortcut>
   </commands>
 </mdclass:Catalog>

@@ -9,11 +9,13 @@
     <key>ru</key>
     <value>Только защищенная аутентификация IMAP</value>
   </synonym>
+  <comment></comment>
   <type>
     <types>Boolean</types>
   </type>
   <useStandardCommands>true</useStandardCommands>
-  <minValue xsi:type="core:NullValue"/>
-  <maxValue xsi:type="core:NullValue"/>
+  <mask></mask>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
   <dataLockControlMode>Managed</dataLockControlMode>
 </mdclass:Constant>

@@ -91,22 +91,22 @@
       <horizontalAlign>Left</horizontalAlign>
       <autoFill>true</autoFill>
     </autoCommandBar>
-    <events>
-      <key>Selection</key>
-      <value>СписокНастроекВыбор</value>
-    </events>
-    <events>
-      <key>BeforeAddRow</key>
-      <value>СписокНастроекПередНачаломДобавления</value>
-    </events>
-    <events>
-      <key>BeforeDeleteRow</key>
-      <value>СписокНастроекПередУдалением</value>
-    </events>
-    <events>
-      <key>BeforeRowChange</key>
-      <value>СписокНастроекПередНачаломИзменения</value>
-    </events>
+    <handlers>
+      <event>Selection</event>
+      <name>СписокНастроекВыбор</name>
+    </handlers>
+    <handlers>
+      <event>BeforeAddRow</event>
+      <name>СписокНастроекПередНачаломДобавления</name>
+    </handlers>
+    <handlers>
+      <event>BeforeDeleteRow</event>
+      <name>СписокНастроекПередУдалением</name>
+    </handlers>
+    <handlers>
+      <event>BeforeRowChange</event>
+      <name>СписокНастроекПередНачаломИзменения</name>
+    </handlers>
     <searchStringAddition>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -291,6 +291,7 @@
     <autoMaxWidth>true</autoMaxWidth>
     <autoMaxHeight>true</autoMaxHeight>
     <heightInTableRows>10</heightInTableRows>
+    <autoMaxRowsCount>true</autoMaxRowsCount>
     <headerHeight>1</headerHeight>
     <footerHeight>1</footerHeight>
     <horizontalScrollBar>AutoUse</horizontalScrollBar>
@@ -467,15 +468,17 @@
     <horizontalAlign>Left</horizontalAlign>
     <autoFill>true</autoFill>
   </autoCommandBar>
-  <events>
-    <key>OnCreateAtServer</key>
-    <value>ПриСозданииНаСервере</value>
-  </events>
+  <handlers>
+    <event>OnCreateAtServer</event>
+    <name>ПриСозданииНаСервере</name>
+  </handlers>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
   <autoFillCheck>true</autoFillCheck>
   <allowFormCustomize>true</allowFormCustomize>
   <enabled>true</enabled>
+  <showTitle>true</showTitle>
+  <showCloseButton>true</showCloseButton>
   <attributes>
     <name>СтандартныеНастройки</name>
     <title>
@@ -492,6 +495,9 @@
     <edit>
       <common>true</common>
     </edit>
+    <extInfo xsi:type="form:ValueListExtInfo">
+      <itemValueType/>
+    </extInfo>
   </attributes>
   <attributes>
     <name>КлючОбъекта</name>
@@ -527,6 +533,9 @@
     <edit>
       <common>true</common>
     </edit>
+    <extInfo xsi:type="form:ValueListExtInfo">
+      <itemValueType/>
+    </extInfo>
   </attributes>
   <attributes>
     <name>КлючТекущихНастроек</name>
@@ -560,7 +569,11 @@
     <use>
       <common>true</common>
     </use>
-    <action>ЗагрузитьВыполнить</action>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>ЗагрузитьВыполнить</name>
+      </handler>
+    </action>
   </formCommands>
   <parameters>
     <name>КлючОбъекта</name>

@@ -12,6 +12,7 @@
     <key>ru</key>
     <value>Контрагенты</value>
   </synonym>
+  <comment></comment>
   <useStandardCommands>true</useStandardCommands>
   <inputByString>Catalog.Контрагенты.StandardAttribute.Description</inputByString>
   <inputByString>Catalog.Контрагенты.StandardAttribute.Code</inputByString>
@@ -19,47 +20,59 @@
   <choiceDataGetModeOnInputByString>Background</choiceDataGetModeOnInputByString>
   <standardAttributes>
     <name>PredefinedDataName</name>
-    <fillValue xsi:type="core:NullValue"/>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
-    <minValue xsi:type="core:NullValue"/>
-    <maxValue xsi:type="core:NullValue"/>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
   <standardAttributes>
     <name>Predefined</name>
-    <fillValue xsi:type="core:NullValue"/>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
-    <minValue xsi:type="core:NullValue"/>
-    <maxValue xsi:type="core:NullValue"/>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
   <standardAttributes>
     <name>Ref</name>
-    <fillValue xsi:type="core:NullValue"/>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
-    <minValue xsi:type="core:NullValue"/>
-    <maxValue xsi:type="core:NullValue"/>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
   <standardAttributes>
     <name>DeletionMark</name>
-    <fillValue xsi:type="core:NullValue"/>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
-    <minValue xsi:type="core:NullValue"/>
-    <maxValue xsi:type="core:NullValue"/>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
   <standardAttributes>
     <name>IsFolder</name>
-    <fillValue xsi:type="core:NullValue"/>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
-    <minValue xsi:type="core:NullValue"/>
-    <maxValue xsi:type="core:NullValue"/>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
   <standardAttributes>
     <name>Owner</name>
+    <comment></comment>
     <fillFromFillingValue>true</fillFromFillingValue>
-    <fillValue xsi:type="core:NullValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
     <fillChecking>ShowError</fillChecking>
     <fullTextSearch>Use</fullTextSearch>
-    <minValue xsi:type="core:NullValue"/>
-    <maxValue xsi:type="core:NullValue"/>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
   <standardAttributes>
     <name>Parent</name>
@@ -67,30 +80,36 @@
       <key>ru</key>
       <value>Группа контрагентов</value>
     </synonym>
+    <comment></comment>
     <fillFromFillingValue>true</fillFromFillingValue>
     <fillValue xsi:type="core:ReferenceValue">
       <value>Catalog.Контрагенты.EmptyRef</value>
     </fillValue>
     <fullTextSearch>Use</fullTextSearch>
-    <minValue xsi:type="core:NullValue"/>
-    <maxValue xsi:type="core:NullValue"/>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
   <standardAttributes>
     <name>Description</name>
-    <fillValue xsi:type="core:NullValue"/>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
     <fillChecking>ShowError</fillChecking>
     <fullTextSearch>Use</fullTextSearch>
-    <minValue xsi:type="core:NullValue"/>
-    <maxValue xsi:type="core:NullValue"/>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
   <standardAttributes>
     <name>Code</name>
+    <comment></comment>
     <fillValue xsi:type="core:StringValue">
       <value></value>
     </fillValue>
     <fullTextSearch>Use</fullTextSearch>
-    <minValue xsi:type="core:NullValue"/>
-    <maxValue xsi:type="core:NullValue"/>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
   <characteristics>
     <characteristicTypes>ChartOfCharacteristicTypes.ВидыХарактеристик</characteristicTypes>
@@ -145,6 +164,7 @@
       <key>ru</key>
       <value>Регион</value>
     </synonym>
+    <comment></comment>
     <type>
       <types>CatalogRef.Регионы</types>
     </type>
@@ -152,8 +172,9 @@
       <key>ru</key>
       <value>Регион контрагента</value>
     </toolTip>
-    <minValue xsi:type="core:NullValue"/>
-    <maxValue xsi:type="core:NullValue"/>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
     <fillValue xsi:type="core:ReferenceValue">
       <value>Catalog.Регионы.EmptyRef</value>
     </fillValue>
@@ -165,14 +186,16 @@
       <key>ru</key>
       <value>Индекс</value>
     </synonym>
+    <comment></comment>
     <type>
       <types>String</types>
       <stringQualifiers>
         <length>10</length>
       </stringQualifiers>
     </type>
-    <minValue xsi:type="core:NullValue"/>
-    <maxValue xsi:type="core:NullValue"/>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
     <quickChoice>DontUse</quickChoice>
     <createOnInput>Use</createOnInput>
     <fillValue xsi:type="core:StringValue">
@@ -186,12 +209,14 @@
       <key>ru</key>
       <value>Страна</value>
     </synonym>
+    <comment></comment>
     <type>
       <types>String</types>
       <stringQualifiers/>
     </type>
-    <minValue xsi:type="core:NullValue"/>
-    <maxValue xsi:type="core:NullValue"/>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
     <quickChoice>DontUse</quickChoice>
     <createOnInput>Use</createOnInput>
     <fillValue xsi:type="core:StringValue">
@@ -205,12 +230,14 @@
       <key>ru</key>
       <value>Город</value>
     </synonym>
+    <comment></comment>
     <type>
       <types>String</types>
       <stringQualifiers/>
     </type>
-    <minValue xsi:type="core:NullValue"/>
-    <maxValue xsi:type="core:NullValue"/>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
     <quickChoice>DontUse</quickChoice>
     <createOnInput>Use</createOnInput>
     <fillValue xsi:type="core:StringValue">
@@ -224,12 +251,14 @@
       <key>ru</key>
       <value>Улица</value>
     </synonym>
+    <comment></comment>
     <type>
       <types>String</types>
       <stringQualifiers/>
     </type>
-    <minValue xsi:type="core:NullValue"/>
-    <maxValue xsi:type="core:NullValue"/>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
     <quickChoice>DontUse</quickChoice>
     <createOnInput>Use</createOnInput>
     <fillValue xsi:type="core:StringValue">
@@ -243,14 +272,16 @@
       <key>ru</key>
       <value>Дом</value>
     </synonym>
+    <comment></comment>
     <type>
       <types>String</types>
       <stringQualifiers>
         <length>15</length>
       </stringQualifiers>
     </type>
-    <minValue xsi:type="core:NullValue"/>
-    <maxValue xsi:type="core:NullValue"/>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
     <createOnInput>Use</createOnInput>
     <fillValue xsi:type="core:StringValue">
       <value></value>
@@ -263,14 +294,16 @@
       <key>ru</key>
       <value>Телефон</value>
     </synonym>
+    <comment></comment>
     <type>
       <types>String</types>
       <stringQualifiers>
         <length>16</length>
       </stringQualifiers>
     </type>
-    <minValue xsi:type="core:NullValue"/>
-    <maxValue xsi:type="core:NullValue"/>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
     <fillValue xsi:type="core:StringValue">
       <value></value>
     </fillValue>
@@ -282,14 +315,16 @@
       <key>ru</key>
       <value>Электронная почта</value>
     </synonym>
+    <comment></comment>
     <type>
       <types>String</types>
       <stringQualifiers>
         <length>40</length>
       </stringQualifiers>
     </type>
-    <minValue xsi:type="core:NullValue"/>
-    <maxValue xsi:type="core:NullValue"/>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
     <fillValue xsi:type="core:StringValue">
       <value></value>
     </fillValue>
@@ -301,14 +336,16 @@
       <key>ru</key>
       <value>Факс</value>
     </synonym>
+    <comment></comment>
     <type>
       <types>String</types>
       <stringQualifiers>
         <length>16</length>
       </stringQualifiers>
     </type>
-    <minValue xsi:type="core:NullValue"/>
-    <maxValue xsi:type="core:NullValue"/>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
     <fillValue xsi:type="core:StringValue">
       <value></value>
     </fillValue>
@@ -320,14 +357,16 @@
       <key>ru</key>
       <value>Веб сайт</value>
     </synonym>
+    <comment></comment>
     <type>
       <types>String</types>
       <stringQualifiers>
         <length>40</length>
       </stringQualifiers>
     </type>
-    <minValue xsi:type="core:NullValue"/>
-    <maxValue xsi:type="core:NullValue"/>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
     <fillValue xsi:type="core:StringValue">
       <value></value>
     </fillValue>
@@ -339,6 +378,7 @@
       <key>ru</key>
       <value>Вид цен</value>
     </synonym>
+    <comment></comment>
     <type>
       <types>CatalogRef.ВидыЦен</types>
     </type>
@@ -346,8 +386,9 @@
       <key>ru</key>
       <value>Вид цены при продаже товара </value>
     </toolTip>
-    <minValue xsi:type="core:NullValue"/>
-    <maxValue xsi:type="core:NullValue"/>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
     <fillChecking>ShowError</fillChecking>
     <fillValue xsi:type="core:ReferenceValue">
       <value>Catalog.ВидыЦен.EmptyRef</value>
@@ -360,13 +401,15 @@
       <key>ru</key>
       <value>Дополнительная информация</value>
     </synonym>
+    <comment></comment>
     <type>
       <types>String</types>
       <stringQualifiers/>
     </type>
+    <mask></mask>
     <multiLine>true</multiLine>
-    <minValue xsi:type="core:NullValue"/>
-    <maxValue xsi:type="core:NullValue"/>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
     <quickChoice>DontUse</quickChoice>
     <createOnInput>Use</createOnInput>
     <fillValue xsi:type="core:StringValue">
@@ -380,14 +423,16 @@
       <key>ru</key>
       <value>Контактное лицо</value>
     </synonym>
+    <comment></comment>
     <type>
       <types>String</types>
       <stringQualifiers>
         <length>100</length>
       </stringQualifiers>
     </type>
-    <minValue xsi:type="core:NullValue"/>
-    <maxValue xsi:type="core:NullValue"/>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
     <fillValue xsi:type="core:StringValue">
       <value></value>
     </fillValue>
@@ -399,6 +444,7 @@
       <key>ru</key>
       <value>Широта</value>
     </synonym>
+    <comment></comment>
     <type>
       <types>Number</types>
       <numberQualifiers>
@@ -406,9 +452,10 @@
         <scale>6</scale>
       </numberQualifiers>
     </type>
-    <minValue xsi:type="core:NullValue"/>
-    <maxValue xsi:type="core:NullValue"/>
-    <fillValue xsi:type="core:NullValue"/>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
   </attributes>
   <attributes uuid="8761cadc-b3e1-489a-8fb2-c29b20d1cdb7">
@@ -417,6 +464,7 @@
       <key>ru</key>
       <value>Долгота</value>
     </synonym>
+    <comment></comment>
     <type>
       <types>Number</types>
       <numberQualifiers>
@@ -424,9 +472,10 @@
         <scale>6</scale>
       </numberQualifiers>
     </type>
-    <minValue xsi:type="core:NullValue"/>
-    <maxValue xsi:type="core:NullValue"/>
-    <fillValue xsi:type="core:NullValue"/>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
   </attributes>
   <forms uuid="0a489df6-dfb8-4e80-9a2d-8905c720a14a">
@@ -435,6 +484,7 @@
       <key>ru</key>
       <value>Форма элемента</value>
     </synonym>
+    <comment></comment>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
@@ -444,6 +494,7 @@
       <key>ru</key>
       <value>Форма выбора</value>
     </synonym>
+    <comment></comment>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
@@ -453,6 +504,7 @@
       <key>ru</key>
       <value>Форма списка</value>
     </synonym>
+    <comment></comment>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>

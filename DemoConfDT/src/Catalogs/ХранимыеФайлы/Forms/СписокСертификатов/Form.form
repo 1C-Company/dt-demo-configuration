@@ -198,10 +198,10 @@
       </userVisible>
       <horizontalAlign>Left</horizontalAlign>
     </autoCommandBar>
-    <events>
-      <key>Selection</key>
-      <value>ТаблицаДляВыбораВыбор</value>
-    </events>
+    <handlers>
+      <event>Selection</event>
+      <name>ТаблицаДляВыбораВыбор</name>
+    </handlers>
     <searchStringAddition>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -346,6 +346,7 @@
     </contextMenu>
     <autoMaxWidth>true</autoMaxWidth>
     <autoMaxHeight>true</autoMaxHeight>
+    <autoMaxRowsCount>true</autoMaxRowsCount>
     <selectionMode>MultiRow</selectionMode>
     <header>true</header>
     <headerHeight>1</headerHeight>
@@ -364,6 +365,7 @@
     <searchStringLocation>None</searchStringLocation>
     <viewStatusLocation>None</viewStatusLocation>
     <searchControlLocation>None</searchControlLocation>
+    <rowFilter xsi:type="core:UndefinedValue"/>
   </items>
   <items xsi:type="form:FormGroup">
     <name>КнопкиФормы</name>
@@ -474,20 +476,22 @@
     </userVisible>
     <horizontalAlign>Left</horizontalAlign>
   </autoCommandBar>
-  <events>
-    <key>OnOpen</key>
-    <value>ПриОткрытии</value>
-  </events>
-  <events>
-    <key>OnCreateAtServer</key>
-    <value>ПриСозданииНаСервере</value>
-  </events>
+  <handlers>
+    <event>OnOpen</event>
+    <name>ПриОткрытии</name>
+  </handlers>
+  <handlers>
+    <event>OnCreateAtServer</event>
+    <name>ПриСозданииНаСервере</name>
+  </handlers>
   <windowOpeningMode>LockWholeInterface</windowOpeningMode>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
   <autoFillCheck>true</autoFillCheck>
   <allowFormCustomize>true</allowFormCustomize>
   <enabled>true</enabled>
+  <showTitle>true</showTitle>
+  <showCloseButton>true</showCloseButton>
   <attributes>
     <name>ВыбранныеСертификаты</name>
     <title>
@@ -586,7 +590,11 @@
     <picture xsi:type="core:PictureRef">
       <picture>StdPicture.ChooseValue</picture>
     </picture>
-    <action>ОсуществлениеВыбораНажатие</action>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>ОсуществлениеВыбораНажатие</name>
+      </handler>
+    </action>
     <representation>TextPicture</representation>
   </formCommands>
   <formCommands>
@@ -603,7 +611,11 @@
     <use>
       <common>true</common>
     </use>
-    <action>OK</action>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>OK</name>
+      </handler>
+    </action>
   </formCommands>
   <parameters>
     <name>МножественныйВыбор</name>

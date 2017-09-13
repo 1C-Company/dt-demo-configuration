@@ -5,4 +5,5 @@
     <key>ru</key>
     <value>Администратор</value>
   </synonym>
+  <comment></comment>
 </mdclass:Role>

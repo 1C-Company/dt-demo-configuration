@@ -1326,7 +1326,6 @@
       <showInFooter>true</showInFooter>
       <footerHorizontalAlign>Left</footerHorizontalAlign>
       <extInfo xsi:type="form:InputFieldExtInfo">
-        <autoMaxWidth>true</autoMaxWidth>
         <height>4</height>
         <autoMaxHeight>true</autoMaxHeight>
         <chooseType>true</chooseType>
@@ -1393,6 +1392,8 @@
   <autoFillCheck>true</autoFillCheck>
   <allowFormCustomize>true</allowFormCustomize>
   <enabled>true</enabled>
+  <showTitle>true</showTitle>
+  <showCloseButton>true</showCloseButton>
   <attributes>
     <name>Объект</name>
     <id>1</id>
@@ -1457,7 +1458,11 @@
     <use>
       <common>true</common>
     </use>
-    <action>НовыйРасчетныйСчетВыполнить</action>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>НовыйРасчетныйСчетВыполнить</name>
+      </handler>
+    </action>
   </formCommands>
   <commandInterface>
     <navigationPanel>

@@ -123,10 +123,10 @@
         <dataPath xsi:type="form:DataPath">
           <segments>Объект.Организация</segments>
         </dataPath>
-        <events>
-          <key>OnChange</key>
-          <value>ОрганизацияПриИзменении</value>
-        </events>
+        <handlers>
+          <event>OnChange</event>
+          <name>ОрганизацияПриИзменении</name>
+        </handlers>
         <extendedTooltip>
           <name>ОрганизацияExtendedTooltip</name>
           <id>56</id>
@@ -183,10 +183,10 @@
           <dataPath xsi:type="form:DataPath">
             <segments>Объект.Покупатель</segments>
           </dataPath>
-          <events>
-            <key>OnChange</key>
-            <value>ПокупательПриИзменении</value>
-          </events>
+          <handlers>
+            <event>OnChange</event>
+            <name>ПокупательПриИзменении</name>
+          </handlers>
           <extendedTooltip>
             <name>ПокупательExtendedTooltip</name>
             <id>58</id>
@@ -367,10 +367,10 @@
           <segments>Объект.ВидЦен</segments>
         </dataPath>
         <skipOnInput>true</skipOnInput>
-        <events>
-          <key>OnChange</key>
-          <value>ВидЦенПриИзменении</value>
-        </events>
+        <handlers>
+          <event>OnChange</event>
+          <name>ВидЦенПриИзменении</name>
+        </handlers>
         <extendedTooltip>
           <name>ВидЦенExtendedTooltip</name>
           <id>62</id>
@@ -509,6 +509,10 @@
             </value>
           </choiceList>
           <choiceList>
+            <presentation>
+              <key>ru</key>
+              <value>В работе</value>
+            </presentation>
             <value xsi:type="core:ReferenceValue">
               <value>Enum.СостоянияЗаказов.EnumValue.ВРаботе</value>
             </value>
@@ -623,10 +627,10 @@
         <dataPath xsi:type="form:DataPath">
           <segments>Объект.Товары.Товар</segments>
         </dataPath>
-        <events>
-          <key>OnChange</key>
-          <value>ТоварыТоварПриИзменении</value>
-        </events>
+        <handlers>
+          <event>OnChange</event>
+          <name>ТоварыТоварПриИзменении</name>
+        </handlers>
         <extendedTooltip>
           <name>ТоварыТоварРасширеннаяПодсказка</name>
           <id>78</id>
@@ -677,10 +681,10 @@
         <dataPath xsi:type="form:DataPath">
           <segments>Объект.Товары.Цена</segments>
         </dataPath>
-        <events>
-          <key>OnChange</key>
-          <value>ТоварыЦенаПриИзменении</value>
-        </events>
+        <handlers>
+          <event>OnChange</event>
+          <name>ТоварыЦенаПриИзменении</name>
+        </handlers>
         <extendedTooltip>
           <name>ТоварыЦенаРасширеннаяПодсказка</name>
           <id>81</id>
@@ -731,10 +735,10 @@
         <dataPath xsi:type="form:DataPath">
           <segments>Объект.Товары.Количество</segments>
         </dataPath>
-        <events>
-          <key>OnChange</key>
-          <value>ТоварыКоличествоПриИзменении</value>
-        </events>
+        <handlers>
+          <event>OnChange</event>
+          <name>ТоварыКоличествоПриИзменении</name>
+        </handlers>
         <extendedTooltip>
           <name>ТоварыКоличествоРасширеннаяПодсказка</name>
           <id>84</id>
@@ -785,10 +789,10 @@
         <dataPath xsi:type="form:DataPath">
           <segments>Объект.Товары.Сумма</segments>
         </dataPath>
-        <events>
-          <key>OnChange</key>
-          <value>ТоварыСуммаПриИзменении</value>
-        </events>
+        <handlers>
+          <event>OnChange</event>
+          <name>ТоварыСуммаПриИзменении</name>
+        </handlers>
         <extendedTooltip>
           <name>ТоварыСуммаРасширеннаяПодсказка</name>
           <id>87</id>
@@ -855,6 +859,7 @@
               <horizontalAlign>Left</horizontalAlign>
             </extInfo>
           </extendedTooltip>
+          <type>CommandBarHyperlink</type>
           <commandName>Form.Command.КомандаПодбор</commandName>
           <representation>Auto</representation>
           <autoMaxWidth>true</autoMaxWidth>
@@ -1026,6 +1031,7 @@
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
       <heightInTableRows>8</heightInTableRows>
+      <autoMaxRowsCount>true</autoMaxRowsCount>
       <selectionMode>MultiRow</selectionMode>
       <header>true</header>
       <headerHeight>1</headerHeight>
@@ -1048,6 +1054,7 @@
       <searchStringLocation>None</searchStringLocation>
       <viewStatusLocation>None</viewStatusLocation>
       <searchControlLocation>None</searchControlLocation>
+      <rowFilter xsi:type="core:UndefinedValue"/>
     </items>
     <items xsi:type="form:FormGroup">
       <name>Итоги</name>
@@ -1321,20 +1328,22 @@
     <horizontalAlign>Left</horizontalAlign>
     <autoFill>true</autoFill>
   </autoCommandBar>
-  <events>
-    <key>NewWriteProcessing</key>
-    <value>ОбработкаЗаписиНового</value>
-  </events>
-  <events>
-    <key>OnCreateAtServer</key>
-    <value>ПриСозданииНаСервере</value>
-  </events>
+  <handlers>
+    <event>NewWriteProcessing</event>
+    <name>ОбработкаЗаписиНового</name>
+  </handlers>
+  <handlers>
+    <event>OnCreateAtServer</event>
+    <name>ПриСозданииНаСервере</name>
+  </handlers>
   <autoTitle>true</autoTitle>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
   <autoFillCheck>true</autoFillCheck>
   <allowFormCustomize>true</allowFormCustomize>
   <enabled>true</enabled>
+  <showTitle>true</showTitle>
+  <showCloseButton>true</showCloseButton>
   <attributes>
     <name>Объект</name>
     <title>
@@ -1427,7 +1436,11 @@
     <use>
       <common>true</common>
     </use>
-    <action>КомандаПодбор</action>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>КомандаПодбор</name>
+      </handler>
+    </action>
     <modifiesStoredData>true</modifiesStoredData>
   </formCommands>
   <commandInterface>
@@ -1458,21 +1471,19 @@
       <cmiFragmentRecord>
         <command>Document.РасходТовара.Command.ПечатьРасходнойНакладной</command>
         <group>CommandGroup.Печать</group>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
+        <userVisible/>
       </cmiFragmentRecord>
     </commandBar>
   </commandInterface>
   <extInfo xsi:type="form:DocumentFormExtInfo">
-    <events>
-      <key>AfterWriteAtServer</key>
-      <value>ПослеЗаписиНаСервере</value>
-    </events>
-    <events>
-      <key>OnReadAtServer</key>
-      <value>ПриЧтенииНаСервере</value>
-    </events>
+    <handlers>
+      <event>AfterWriteAtServer</event>
+      <name>ПослеЗаписиНаСервере</name>
+    </handlers>
+    <handlers>
+      <event>OnReadAtServer</event>
+      <name>ПриЧтенииНаСервере</name>
+    </handlers>
     <repostOnWrite>true</repostOnWrite>
   </extInfo>
 </form:Form>

@@ -10,19 +10,24 @@
     <key>ru</key>
     <value>Вид настройки аутентификации SMTP</value>
   </synonym>
+  <comment></comment>
   <standardAttributes>
     <name>Order</name>
-    <fillValue xsi:type="core:NullValue"/>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
-    <minValue xsi:type="core:NullValue"/>
-    <maxValue xsi:type="core:NullValue"/>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
   <standardAttributes>
     <name>Ref</name>
-    <fillValue xsi:type="core:NullValue"/>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
-    <minValue xsi:type="core:NullValue"/>
-    <maxValue xsi:type="core:NullValue"/>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
   <quickChoice>true</quickChoice>
   <choiceMode>BothWays</choiceMode>
@@ -32,6 +37,7 @@
       <key>ru</key>
       <value>Нет</value>
     </synonym>
+    <comment></comment>
   </enumValues>
   <enumValues uuid="dcc72ba4-4733-4965-85b4-fb70d7d54685">
     <name>ПолучатьССервера</name>
@@ -39,6 +45,7 @@
       <key>ru</key>
       <value>Получать с сервера</value>
     </synonym>
+    <comment></comment>
   </enumValues>
   <enumValues uuid="637ce4ad-bca6-4448-b9ef-7e7b444bc3b6">
     <name>РучнаяНастройка</name>
@@ -46,5 +53,6 @@
       <key>ru</key>
       <value>Ручная настройка</value>
     </synonym>
+    <comment></comment>
   </enumValues>
 </mdclass:Enum>

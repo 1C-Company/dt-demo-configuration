@@ -5,7 +5,10 @@
     <key>ru</key>
     <value>Обновление индекса ППД</value>
   </synonym>
+  <comment></comment>
   <methodName>CommonModule.РаботаСПолнотекстовымПоиском.ОбновлениеИндексаПолнотекстовогоПоиска</methodName>
+  <description></description>
+  <key></key>
   <use>true</use>
   <predefined>true</predefined>
   <restartCountOnFailure>3</restartCountOnFailure>

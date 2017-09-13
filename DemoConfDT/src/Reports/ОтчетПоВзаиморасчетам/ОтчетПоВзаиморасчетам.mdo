@@ -9,6 +9,7 @@
     <key>ru</key>
     <value>Отчет по взаиморасчетам</value>
   </synonym>
+  <comment></comment>
   <useStandardCommands>true</useStandardCommands>
   <mainDataCompositionSchema>Report.ОтчетПоВзаиморасчетам.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
   <includeHelpInContents>true</includeHelpInContents>
@@ -31,6 +32,7 @@
       <key>ru</key>
       <value>Основная схема компоновки данных</value>
     </synonym>
+    <comment></comment>
     <templateType>DataCompositionSchema</templateType>
   </templates>
 </mdclass:Report>

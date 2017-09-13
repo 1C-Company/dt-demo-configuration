@@ -5,6 +5,7 @@
     <key>ru</key>
     <value>Предприятие</value>
   </synonym>
+  <comment></comment>
   <includeHelpInContents>true</includeHelpInContents>
   <includeInCommandInterface>true</includeInCommandInterface>
   <explanation>

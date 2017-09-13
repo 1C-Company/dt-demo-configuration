@@ -209,6 +209,8 @@
   <autoFillCheck>true</autoFillCheck>
   <allowFormCustomize>true</allowFormCustomize>
   <enabled>true</enabled>
+  <showTitle>true</showTitle>
+  <showCloseButton>true</showCloseButton>
   <attributes>
     <name>Объект</name>
     <id>1</id>
@@ -237,7 +239,11 @@
     <use>
       <common>true</common>
     </use>
-    <action>ОчиститьИсториюВыполнить</action>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>ОчиститьИсториюВыполнить</name>
+      </handler>
+    </action>
   </formCommands>
   <commandInterface>
     <navigationPanel/>

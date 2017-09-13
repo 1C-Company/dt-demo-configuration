@@ -9,11 +9,13 @@
     <key>ru</key>
     <value>Учет по складам</value>
   </synonym>
+  <comment></comment>
   <type>
     <types>Boolean</types>
   </type>
-  <minValue xsi:type="core:NullValue"/>
-  <maxValue xsi:type="core:NullValue"/>
+  <mask></mask>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
   <quickChoice>DontUse</quickChoice>
   <dataLockControlMode>Managed</dataLockControlMode>
 </mdclass:Constant>

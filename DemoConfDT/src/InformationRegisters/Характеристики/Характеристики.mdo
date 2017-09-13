@@ -14,36 +14,45 @@
     <key>ru</key>
     <value>Характеристики</value>
   </synonym>
+  <comment></comment>
   <useStandardCommands>true</useStandardCommands>
   <editType>BothWays</editType>
   <standardAttributes>
     <name>Active</name>
-    <fillValue xsi:type="core:NullValue"/>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
-    <minValue xsi:type="core:NullValue"/>
-    <maxValue xsi:type="core:NullValue"/>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
   <standardAttributes>
     <name>LineNumber</name>
-    <fillValue xsi:type="core:NullValue"/>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
-    <minValue xsi:type="core:NullValue"/>
-    <maxValue xsi:type="core:NullValue"/>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
   <standardAttributes>
     <name>Recorder</name>
-    <fillValue xsi:type="core:NullValue"/>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
-    <minValue xsi:type="core:NullValue"/>
-    <maxValue xsi:type="core:NullValue"/>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
   <standardAttributes>
     <name>Period</name>
-    <fillValue xsi:type="core:NullValue"/>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
     <fillChecking>ShowError</fillChecking>
     <fullTextSearch>Use</fullTextSearch>
-    <minValue xsi:type="core:NullValue"/>
-    <maxValue xsi:type="core:NullValue"/>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
   <includeHelpInContents>true</includeHelpInContents>
   <help>
@@ -73,6 +82,7 @@
       <key>ru</key>
       <value>Значение</value>
     </synonym>
+    <comment></comment>
     <type>
       <types>Characteristic.ВидыХарактеристик</types>
     </type>
@@ -80,8 +90,9 @@
       <key>ru</key>
       <value>Значение характеристики товара</value>
     </toolTip>
-    <minValue xsi:type="core:NullValue"/>
-    <maxValue xsi:type="core:NullValue"/>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
     <choiceParameterLinks>
       <name>Отбор.Владелец</name>
       <field>InformationRegister.Характеристики.Dimension.ВидХарактеристики</field>
@@ -90,7 +101,7 @@
       <field>InformationRegister.Характеристики.Dimension.ВидХарактеристики</field>
     </linkByType>
     <fullTextSearch>Use</fullTextSearch>
-    <fillValue xsi:type="core:NullValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
   </resources>
   <dimensions uuid="1dad36b3-976e-42b4-9450-e55b4b633afb">
     <name>Объект</name>
@@ -98,6 +109,7 @@
       <key>ru</key>
       <value>Объект</value>
     </synonym>
+    <comment></comment>
     <type>
       <types>CatalogRef.Контрагенты</types>
       <types>CatalogRef.Товары</types>
@@ -106,8 +118,9 @@
       <key>ru</key>
       <value>Товар</value>
     </toolTip>
-    <minValue xsi:type="core:NullValue"/>
-    <maxValue xsi:type="core:NullValue"/>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
     <fillChecking>ShowError</fillChecking>
     <denyIncompleteValues>true</denyIncompleteValues>
     <fullTextSearch>Use</fullTextSearch>
@@ -124,6 +137,7 @@
       <key>ru</key>
       <value>Вид характеристики</value>
     </synonym>
+    <comment></comment>
     <type>
       <types>ChartOfCharacteristicTypesRef.ВидыХарактеристик</types>
     </type>
@@ -131,8 +145,9 @@
       <key>ru</key>
       <value>Характеристика товара</value>
     </toolTip>
-    <minValue xsi:type="core:NullValue"/>
-    <maxValue xsi:type="core:NullValue"/>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
     <fillChecking>ShowError</fillChecking>
     <choiceParameterLinks>
       <name>ОбъектОтбораВидовХарактеристик</name>
@@ -151,6 +166,7 @@
       <key>ru</key>
       <value>Форма записи</value>
     </synonym>
+    <comment></comment>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>

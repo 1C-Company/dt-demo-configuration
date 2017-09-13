@@ -5,6 +5,7 @@
     <key>ru</key>
     <value>Настройка отправки push-уведомлений</value>
   </synonym>
+  <comment></comment>
   <usePurposes>PersonalComputer</usePurposes>
   <usePurposes>MobileDevice</usePurposes>
   <useStandardCommands>true</useStandardCommands>

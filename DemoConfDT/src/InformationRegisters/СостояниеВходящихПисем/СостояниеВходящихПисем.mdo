@@ -14,6 +14,7 @@
     <key>ru</key>
     <value>Состояние входящих писем</value>
   </synonym>
+  <comment></comment>
   <editType>InDialog</editType>
   <dataLockControlMode>Managed</dataLockControlMode>
   <resources uuid="a32a1d54-a99e-4216-86b5-cfa5eaeb2e99">
@@ -22,13 +23,15 @@
       <key>ru</key>
       <value>Прочитано</value>
     </synonym>
+    <comment></comment>
     <type>
       <types>Boolean</types>
     </type>
-    <minValue xsi:type="core:NullValue"/>
-    <maxValue xsi:type="core:NullValue"/>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
-    <fillValue xsi:type="core:NullValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
   </resources>
   <dimensions uuid="a9234923-b95c-487a-a6e5-6a77495af739">
     <name>Письмо</name>
@@ -36,16 +39,18 @@
       <key>ru</key>
       <value>Письмо</value>
     </synonym>
+    <comment></comment>
     <type>
       <types>CatalogRef.ВходящиеПисьма</types>
     </type>
-    <minValue xsi:type="core:NullValue"/>
-    <maxValue xsi:type="core:NullValue"/>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
     <fillChecking>ShowError</fillChecking>
     <denyIncompleteValues>true</denyIncompleteValues>
     <fullTextSearch>Use</fullTextSearch>
     <fillFromFillingValue>true</fillFromFillingValue>
-    <fillValue xsi:type="core:NullValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
     <master>true</master>
     <mainFilter>true</mainFilter>
   </dimensions>

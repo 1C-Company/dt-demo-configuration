@@ -9,7 +9,9 @@
     <key>ru</key>
     <value>Электронная почта</value>
   </synonym>
+  <comment></comment>
   <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ЭлектроннаяПочта.Form.Форма</defaultForm>
   <help>
     <pages>
       <lang>ru</lang>
@@ -25,6 +27,7 @@
       <key>ru</key>
       <value>Форма</value>
     </synonym>
+    <comment></comment>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>

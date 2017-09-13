@@ -9,6 +9,7 @@
     <key>ru</key>
     <value>Административный сервис</value>
   </synonym>
+  <comment></comment>
   <defaultForm>DataProcessor.АдминистративныйСервис.Form.Форма</defaultForm>
   <includeHelpInContents>true</includeHelpInContents>
   <help>
@@ -22,6 +23,7 @@
       <key>ru</key>
       <value>Форма</value>
     </synonym>
+    <comment></comment>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
@@ -31,8 +33,10 @@
       <key>ru</key>
       <value>Административный сервис</value>
     </synonym>
+    <comment></comment>
     <group>ActionsPanelTools</group>
     <commandParameterType/>
     <representation>Auto</representation>
+    <shortcut></shortcut>
   </commands>
 </mdclass:DataProcessor>

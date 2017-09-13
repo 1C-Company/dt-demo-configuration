@@ -11,10 +11,10 @@
     <dataPath xsi:type="form:DataPath">
       <segments>Объект.Организация</segments>
     </dataPath>
-    <events>
-      <key>OnChange</key>
-      <value>ОрганизацияПриИзменении</value>
-    </events>
+    <handlers>
+      <event>OnChange</event>
+      <name>ОрганизацияПриИзменении</name>
+    </handlers>
     <extendedTooltip>
       <name>ОрганизацияExtendedTooltip</name>
       <id>30</id>
@@ -716,6 +716,7 @@
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
         <heightInTableRows>13</heightInTableRows>
+        <autoMaxRowsCount>true</autoMaxRowsCount>
         <header>true</header>
         <headerHeight>1</headerHeight>
         <footerHeight>1</footerHeight>
@@ -737,6 +738,7 @@
         <searchStringLocation>None</searchStringLocation>
         <viewStatusLocation>None</viewStatusLocation>
         <searchControlLocation>None</searchControlLocation>
+        <rowFilter xsi:type="core:UndefinedValue"/>
       </items>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -804,20 +806,22 @@
     <horizontalAlign>Left</horizontalAlign>
     <autoFill>true</autoFill>
   </autoCommandBar>
-  <events>
-    <key>OnCreateAtServer</key>
-    <value>ПриСозданииНаСервере</value>
-  </events>
-  <events>
-    <key>FillCheckProcessingAtServer</key>
-    <value>ОбработкаПроверкиЗаполненияНаСервере</value>
-  </events>
+  <handlers>
+    <event>OnCreateAtServer</event>
+    <name>ПриСозданииНаСервере</name>
+  </handlers>
+  <handlers>
+    <event>FillCheckProcessingAtServer</event>
+    <name>ОбработкаПроверкиЗаполненияНаСервере</name>
+  </handlers>
   <autoTitle>true</autoTitle>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
   <autoFillCheck>true</autoFillCheck>
   <allowFormCustomize>true</allowFormCustomize>
   <enabled>true</enabled>
+  <showTitle>true</showTitle>
+  <showCloseButton>true</showCloseButton>
   <attributes>
     <name>Объект</name>
     <id>1</id>
@@ -838,14 +842,14 @@
     <commandBar/>
   </commandInterface>
   <extInfo xsi:type="form:DocumentFormExtInfo">
-    <events>
-      <key>AfterWriteAtServer</key>
-      <value>ПослеЗаписиНаСервере</value>
-    </events>
-    <events>
-      <key>OnWriteAtServer</key>
-      <value>ПриЗаписиНаСервере</value>
-    </events>
+    <handlers>
+      <event>AfterWriteAtServer</event>
+      <name>ПослеЗаписиНаСервере</name>
+    </handlers>
+    <handlers>
+      <event>OnWriteAtServer</event>
+      <name>ПриЗаписиНаСервере</name>
+    </handlers>
     <repostOnWrite>true</repostOnWrite>
   </extInfo>
 </form:Form>
