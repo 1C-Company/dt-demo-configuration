@@ -5,5 +5,6 @@
     <key>ru</key>
     <value>Работа с доставляемыми уведомлениям</value>
   </synonym>
+  <comment></comment>
   <server>true</server>
 </mdclass:CommonModule>

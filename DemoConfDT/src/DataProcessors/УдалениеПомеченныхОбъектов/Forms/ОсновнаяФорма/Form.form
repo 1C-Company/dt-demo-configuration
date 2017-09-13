@@ -26,10 +26,10 @@
           <segments>РежимУдаления</segments>
         </dataPath>
         <titleLocation>None</titleLocation>
-        <events>
-          <key>OnChange</key>
-          <value>РежимУдаленияПриИзменении</value>
-        </events>
+        <handlers>
+          <event>OnChange</event>
+          <name>РежимУдаленияПриИзменении</name>
+        </handlers>
         <extendedTooltip>
           <name>РежимУдаленияExtendedTooltip</name>
           <id>48</id>
@@ -169,7 +169,6 @@
         <headerHorizontalAlign>Left</headerHorizontalAlign>
         <showInFooter>true</showInFooter>
         <extInfo xsi:type="form:LabelFieldExtInfo">
-          <autoMaxWidth>true</autoMaxWidth>
           <height>4</height>
           <autoMaxHeight>true</autoMaxHeight>
         </extInfo>
@@ -307,10 +306,10 @@
           <horizontalAlign>Left</horizontalAlign>
           <autoFill>true</autoFill>
         </autoCommandBar>
-        <events>
-          <key>Selection</key>
-          <value>ДеревоНеудаленныхОбъектовВыбор</value>
-        </events>
+        <handlers>
+          <event>Selection</event>
+          <name>ДеревоНеудаленныхОбъектовВыбор</name>
+        </handlers>
         <searchStringAddition>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -457,6 +456,7 @@
         <readOnly>true</readOnly>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
+        <autoMaxRowsCount>true</autoMaxRowsCount>
         <selectionMode>MultiRow</selectionMode>
         <headerHeight>1</headerHeight>
         <footerHeight>1</footerHeight>
@@ -551,10 +551,10 @@
             <dataPath xsi:type="form:DataPath">
               <segments>СписокПомеченныхНаУдаление.Пометка</segments>
             </dataPath>
-            <events>
-              <key>OnChange</key>
-              <value>ПометкаПриИзменении</value>
-            </events>
+            <handlers>
+              <event>OnChange</event>
+              <name>ПометкаПриИзменении</name>
+            </handlers>
             <extendedTooltip>
               <name>ПометкаExtendedTooltip</name>
               <id>59</id>
@@ -673,18 +673,103 @@
         <autoCommandBar>
           <name>СписокПомеченныхНаУдаление_КоманднаяПанель</name>
           <id>28</id>
-          <items xsi:type="form:Button">
-            <name>КомандаСписокПомеченныхУстановитьВсе</name>
-            <id>37</id>
+          <items xsi:type="form:FormGroup">
+            <name>ГруппаКнопокПометки</name>
+            <id>84</id>
+            <items xsi:type="form:Button">
+              <name>КомандаСписокПомеченныхУстановитьВсе</name>
+              <id>37</id>
+              <visible>true</visible>
+              <enabled>true</enabled>
+              <userVisible>
+                <common>true</common>
+              </userVisible>
+              <skipOnInput>false</skipOnInput>
+              <extendedTooltip>
+                <name>КомандаСписокПомеченныхУстановитьВсеExtendedTooltip</name>
+                <id>55</id>
+                <visible>true</visible>
+                <enabled>true</enabled>
+                <userVisible>
+                  <common>true</common>
+                </userVisible>
+                <type>Label</type>
+                <autoMaxWidth>true</autoMaxWidth>
+                <autoMaxHeight>true</autoMaxHeight>
+                <extInfo xsi:type="form:LabelDecorationExtInfo">
+                  <horizontalAlign>Left</horizontalAlign>
+                </extInfo>
+              </extendedTooltip>
+              <commandName>Form.Command.КомандаСписокПомеченныхУстановитьВсе</commandName>
+              <representation>Auto</representation>
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <placementArea>UserCmds</placementArea>
+              <textColor xsi:type="core:ColorRef">
+                <color>Style.ButtonTextColor</color>
+              </textColor>
+              <backColor xsi:type="core:ColorRef">
+                <color>Style.ButtonBackColor</color>
+              </backColor>
+              <borderColor xsi:type="core:ColorRef">
+                <color>Style.BorderColor</color>
+              </borderColor>
+            </items>
+            <items xsi:type="form:Button">
+              <name>КомандаСписокПомеченныхСнятьВсе</name>
+              <id>38</id>
+              <visible>true</visible>
+              <enabled>true</enabled>
+              <userVisible>
+                <common>true</common>
+              </userVisible>
+              <skipOnInput>false</skipOnInput>
+              <extendedTooltip>
+                <name>КомандаСписокПомеченныхСнятьВсеExtendedTooltip</name>
+                <id>56</id>
+                <visible>true</visible>
+                <enabled>true</enabled>
+                <userVisible>
+                  <common>true</common>
+                </userVisible>
+                <type>Label</type>
+                <autoMaxWidth>true</autoMaxWidth>
+                <autoMaxHeight>true</autoMaxHeight>
+                <extInfo xsi:type="form:LabelDecorationExtInfo">
+                  <horizontalAlign>Left</horizontalAlign>
+                </extInfo>
+              </extendedTooltip>
+              <commandName>Form.Command.КомандаСписокПомеченныхСнятьВсе</commandName>
+              <representation>Auto</representation>
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <placementArea>UserCmds</placementArea>
+              <textColor xsi:type="core:ColorRef">
+                <color>Style.ButtonTextColor</color>
+              </textColor>
+              <backColor xsi:type="core:ColorRef">
+                <color>Style.ButtonBackColor</color>
+              </backColor>
+              <borderColor xsi:type="core:ColorRef">
+                <color>Style.BorderColor</color>
+              </borderColor>
+            </items>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
               <common>true</common>
             </userVisible>
-            <skipOnInput>false</skipOnInput>
+            <title>
+              <key>ru</key>
+              <value>Группа кнопок пометки</value>
+            </title>
+            <toolTip>
+              <key>ru</key>
+              <value>Группа кнопок пометки</value>
+            </toolTip>
             <extendedTooltip>
-              <name>КомандаСписокПомеченныхУстановитьВсеExtendedTooltip</name>
-              <id>55</id>
+              <name>ГруппаКнопокПометкиРасширеннаяПодсказка</name>
+              <id>85</id>
               <visible>true</visible>
               <enabled>true</enabled>
               <userVisible>
@@ -697,59 +782,9 @@
                 <horizontalAlign>Left</horizontalAlign>
               </extInfo>
             </extendedTooltip>
-            <commandName>Form.Command.КомандаСписокПомеченныхУстановитьВсе</commandName>
-            <representation>Auto</representation>
-            <autoMaxWidth>true</autoMaxWidth>
-            <autoMaxHeight>true</autoMaxHeight>
-            <placementArea>UserCmds</placementArea>
-            <textColor xsi:type="core:ColorRef">
-              <color>Style.ButtonTextColor</color>
-            </textColor>
-            <backColor xsi:type="core:ColorRef">
-              <color>Style.ButtonBackColor</color>
-            </backColor>
-            <borderColor xsi:type="core:ColorRef">
-              <color>Style.BorderColor</color>
-            </borderColor>
-          </items>
-          <items xsi:type="form:Button">
-            <name>КомандаСписокПомеченныхСнятьВсе</name>
-            <id>38</id>
-            <visible>true</visible>
-            <enabled>true</enabled>
-            <userVisible>
-              <common>true</common>
-            </userVisible>
-            <skipOnInput>false</skipOnInput>
-            <extendedTooltip>
-              <name>КомандаСписокПомеченныхСнятьВсеExtendedTooltip</name>
-              <id>56</id>
-              <visible>true</visible>
-              <enabled>true</enabled>
-              <userVisible>
-                <common>true</common>
-              </userVisible>
-              <type>Label</type>
-              <autoMaxWidth>true</autoMaxWidth>
-              <autoMaxHeight>true</autoMaxHeight>
-              <extInfo xsi:type="form:LabelDecorationExtInfo">
-                <horizontalAlign>Left</horizontalAlign>
-              </extInfo>
-            </extendedTooltip>
-            <commandName>Form.Command.КомандаСписокПомеченныхСнятьВсе</commandName>
-            <representation>Auto</representation>
-            <autoMaxWidth>true</autoMaxWidth>
-            <autoMaxHeight>true</autoMaxHeight>
-            <placementArea>UserCmds</placementArea>
-            <textColor xsi:type="core:ColorRef">
-              <color>Style.ButtonTextColor</color>
-            </textColor>
-            <backColor xsi:type="core:ColorRef">
-              <color>Style.ButtonBackColor</color>
-            </backColor>
-            <borderColor xsi:type="core:ColorRef">
-              <color>Style.BorderColor</color>
-            </borderColor>
+            <extInfo xsi:type="form:ButtonGroupExtInfo">
+              <representation>Compact</representation>
+            </extInfo>
           </items>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -758,10 +793,10 @@
           </userVisible>
           <horizontalAlign>Right</horizontalAlign>
         </autoCommandBar>
-        <events>
-          <key>Selection</key>
-          <value>СписокПомеченныхНаУдалениеВыбор</value>
-        </events>
+        <handlers>
+          <event>Selection</event>
+          <name>СписокПомеченныхНаУдалениеВыбор</name>
+        </handlers>
         <searchStringAddition>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -907,6 +942,7 @@
         <representation>Tree</representation>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
+        <autoMaxRowsCount>true</autoMaxRowsCount>
         <selectionMode>MultiRow</selectionMode>
         <headerHeight>1</headerHeight>
         <footerHeight>1</footerHeight>
@@ -1201,10 +1237,10 @@
     </userVisible>
     <horizontalAlign>Left</horizontalAlign>
   </autoCommandBar>
-  <events>
-    <key>OnCreateAtServer</key>
-    <value>ПриСозданииНаСервере</value>
-  </events>
+  <handlers>
+    <event>OnCreateAtServer</event>
+    <name>ПриСозданииНаСервере</name>
+  </handlers>
   <excludedCommands>No</excludedCommands>
   <excludedCommands>SaveValues</excludedCommands>
   <excludedCommands>Abort</excludedCommands>
@@ -1217,6 +1253,8 @@
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
   <enabled>true</enabled>
+  <showTitle>true</showTitle>
+  <showCloseButton>true</showCloseButton>
   <attributes>
     <name>Объект</name>
     <id>1</id>
@@ -1463,7 +1501,11 @@
     <use>
       <common>true</common>
     </use>
-    <action>ВыполнитьДалее</action>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>ВыполнитьДалее</name>
+      </handler>
+    </action>
   </formCommands>
   <formCommands>
     <name>КомандаСписокПомеченныхУстановитьВсе</name>
@@ -1482,7 +1524,11 @@
     <picture xsi:type="core:PictureRef">
       <picture>StdPicture.CheckAll</picture>
     </picture>
-    <action>КомандаСписокПомеченныхУстановитьВсе</action>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>КомандаСписокПомеченныхУстановитьВсе</name>
+      </handler>
+    </action>
   </formCommands>
   <formCommands>
     <name>КомандаСписокПомеченныхСнятьВсе</name>
@@ -1501,7 +1547,11 @@
     <picture xsi:type="core:PictureRef">
       <picture>StdPicture.UncheckAll</picture>
     </picture>
-    <action>КомандаСписокПомеченныхСнятьВсе</action>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>КомандаСписокПомеченныхСнятьВсе</name>
+      </handler>
+    </action>
   </formCommands>
   <formCommands>
     <name>КомандаУдалить</name>
@@ -1520,7 +1570,11 @@
     <picture xsi:type="core:PictureRef">
       <picture>StdPicture.DeleteListItemDirectly</picture>
     </picture>
-    <action>ВыполнитьУдаление</action>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>ВыполнитьУдаление</name>
+      </handler>
+    </action>
   </formCommands>
   <commandInterface>
     <navigationPanel/>

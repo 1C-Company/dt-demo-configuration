@@ -12,44 +12,55 @@
     <key>ru</key>
     <value>Заказ</value>
   </synonym>
+  <comment></comment>
   <useStandardCommands>true</useStandardCommands>
   <inputByString>Document.Заказ.StandardAttribute.Number</inputByString>
   <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
   <standardAttributes>
     <name>Posted</name>
-    <fillValue xsi:type="core:NullValue"/>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
-    <minValue xsi:type="core:NullValue"/>
-    <maxValue xsi:type="core:NullValue"/>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
   <standardAttributes>
     <name>Ref</name>
-    <fillValue xsi:type="core:NullValue"/>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
-    <minValue xsi:type="core:NullValue"/>
-    <maxValue xsi:type="core:NullValue"/>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
   <standardAttributes>
     <name>DeletionMark</name>
-    <fillValue xsi:type="core:NullValue"/>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
-    <minValue xsi:type="core:NullValue"/>
-    <maxValue xsi:type="core:NullValue"/>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
   <standardAttributes>
     <name>Date</name>
-    <fillValue xsi:type="core:NullValue"/>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
     <fillChecking>ShowError</fillChecking>
     <fullTextSearch>Use</fullTextSearch>
-    <minValue xsi:type="core:NullValue"/>
-    <maxValue xsi:type="core:NullValue"/>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
   <standardAttributes>
     <name>Number</name>
-    <fillValue xsi:type="core:NullValue"/>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
-    <minValue xsi:type="core:NullValue"/>
-    <maxValue xsi:type="core:NullValue"/>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
   <basedOn>Catalog.Контрагенты</basedOn>
   <basedOn>Catalog.Товары</basedOn>
@@ -79,13 +90,15 @@
       <key>ru</key>
       <value>Покупатель</value>
     </synonym>
+    <comment></comment>
     <type>
       <types>CatalogRef.Контрагенты</types>
     </type>
-    <minValue xsi:type="core:NullValue"/>
-    <maxValue xsi:type="core:NullValue"/>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
     <fillChecking>ShowError</fillChecking>
-    <fillValue xsi:type="core:NullValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
   </attributes>
   <attributes uuid="8c2a1e2b-cdef-4f9a-87b6-a2dc33c2939e">
@@ -94,13 +107,15 @@
       <key>ru</key>
       <value>Склад</value>
     </synonym>
+    <comment></comment>
     <type>
       <types>CatalogRef.Склады</types>
     </type>
-    <minValue xsi:type="core:NullValue"/>
-    <maxValue xsi:type="core:NullValue"/>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
     <fillChecking>ShowError</fillChecking>
-    <fillValue xsi:type="core:NullValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
   </attributes>
   <attributes uuid="0078aeef-66a2-4205-8ef8-c479c569b355">
@@ -109,6 +124,7 @@
       <key>ru</key>
       <value>Валюта взаиморасчетов</value>
     </synonym>
+    <comment></comment>
     <type>
       <types>CatalogRef.Валюты</types>
     </type>
@@ -116,8 +132,9 @@
       <key>ru</key>
       <value>Валюта, в которой указаны цены</value>
     </toolTip>
-    <minValue xsi:type="core:NullValue"/>
-    <maxValue xsi:type="core:NullValue"/>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
     <fillChecking>ShowError</fillChecking>
     <fillValue xsi:type="core:ReferenceValue">
       <value>Catalog.Валюты.EmptyRef</value>
@@ -130,11 +147,13 @@
       <key>ru</key>
       <value>Вид цен</value>
     </synonym>
+    <comment></comment>
     <type>
       <types>CatalogRef.ВидыЦен</types>
     </type>
-    <minValue xsi:type="core:NullValue"/>
-    <maxValue xsi:type="core:NullValue"/>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
     <fillChecking>ShowError</fillChecking>
     <fillValue xsi:type="core:ReferenceValue">
       <value>Catalog.ВидыЦен.EmptyRef</value>
@@ -147,11 +166,13 @@
       <key>ru</key>
       <value>Организация</value>
     </synonym>
+    <comment></comment>
     <type>
       <types>CatalogRef.Организации</types>
     </type>
-    <minValue xsi:type="core:NullValue"/>
-    <maxValue xsi:type="core:NullValue"/>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
     <fillChecking>ShowError</fillChecking>
     <fillValue xsi:type="core:ReferenceValue">
       <value>Catalog.Организации.EmptyRef</value>
@@ -164,11 +185,13 @@
       <key>ru</key>
       <value>Состояние заказа</value>
     </synonym>
+    <comment></comment>
     <type>
       <types>EnumRef.СостоянияЗаказов</types>
     </type>
-    <minValue xsi:type="core:NullValue"/>
-    <maxValue xsi:type="core:NullValue"/>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
     <fillChecking>ShowError</fillChecking>
     <fillValue xsi:type="core:ReferenceValue">
       <value>Enum.СостоянияЗаказов.EnumValue.Открыт</value>
@@ -181,12 +204,14 @@
       <key>ru</key>
       <value>Автор</value>
     </synonym>
+    <comment></comment>
     <type>
       <types>CatalogRef.Пользователи</types>
     </type>
-    <minValue xsi:type="core:NullValue"/>
-    <maxValue xsi:type="core:NullValue"/>
-    <fillValue xsi:type="core:NullValue"/>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
   </attributes>
   <attributes uuid="db9e7ed9-335d-40c2-a950-d4a4213a7380">
@@ -195,6 +220,7 @@
       <key>ru</key>
       <value>Сумма</value>
     </synonym>
+    <comment></comment>
     <type>
       <types>Number</types>
       <numberQualifiers>
@@ -202,9 +228,10 @@
         <scale>2</scale>
       </numberQualifiers>
     </type>
-    <minValue xsi:type="core:NullValue"/>
-    <maxValue xsi:type="core:NullValue"/>
-    <fillValue xsi:type="core:NullValue"/>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
   </attributes>
   <forms uuid="eb4d6024-f5e8-48ce-87cc-51aa1d8bdc00">
@@ -213,6 +240,7 @@
       <key>ru</key>
       <value>Форма документа</value>
     </synonym>
+    <comment></comment>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
@@ -222,6 +250,7 @@
       <key>ru</key>
       <value>Форма списка</value>
     </synonym>
+    <comment></comment>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
@@ -235,12 +264,15 @@
       <key>ru</key>
       <value>Товары</value>
     </synonym>
+    <comment></comment>
     <standardAttributes>
       <name>LineNumber</name>
-      <fillValue xsi:type="core:NullValue"/>
+      <comment></comment>
+      <fillValue xsi:type="core:UndefinedValue"/>
       <fullTextSearch>Use</fullTextSearch>
-      <minValue xsi:type="core:NullValue"/>
-      <maxValue xsi:type="core:NullValue"/>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
     </standardAttributes>
     <attributes uuid="0f8a6207-3423-4e79-8f8e-83e4c9b65b87">
       <name>Товар</name>
@@ -248,11 +280,13 @@
         <key>ru</key>
         <value>Товар</value>
       </synonym>
+      <comment></comment>
       <type>
         <types>CatalogRef.Товары</types>
       </type>
-      <minValue xsi:type="core:NullValue"/>
-      <maxValue xsi:type="core:NullValue"/>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
     <attributes uuid="1a79ad10-128e-47a2-8e61-d381d554b6f0">
@@ -261,6 +295,7 @@
         <key>ru</key>
         <value>Цена</value>
       </synonym>
+      <comment></comment>
       <type>
         <types>Number</types>
         <numberQualifiers>
@@ -274,8 +309,9 @@
         <value>Цена товара</value>
       </toolTip>
       <markNegatives>true</markNegatives>
-      <minValue xsi:type="core:NullValue"/>
-      <maxValue xsi:type="core:NullValue"/>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
       <fillChecking>ShowError</fillChecking>
       <quickChoice>DontUse</quickChoice>
       <createOnInput>Use</createOnInput>
@@ -287,14 +323,16 @@
         <key>ru</key>
         <value>Количество</value>
       </synonym>
+      <comment></comment>
       <type>
         <types>Number</types>
         <numberQualifiers>
           <precision>10</precision>
         </numberQualifiers>
       </type>
-      <minValue xsi:type="core:NullValue"/>
-      <maxValue xsi:type="core:NullValue"/>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
     <attributes uuid="e1f02944-e8f4-400f-9c8d-3fe451018e58">
@@ -303,6 +341,7 @@
         <key>ru</key>
         <value>Сумма</value>
       </synonym>
+      <comment></comment>
       <type>
         <types>Number</types>
         <numberQualifiers>
@@ -310,8 +349,9 @@
           <scale>2</scale>
         </numberQualifiers>
       </type>
-      <minValue xsi:type="core:NullValue"/>
-      <maxValue xsi:type="core:NullValue"/>
+      <mask></mask>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
   </tabularSections>

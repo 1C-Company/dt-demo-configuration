@@ -398,10 +398,10 @@
         <key>ru</key>
         <value>Количество отбираемых с учетом установленного отбора последних в хронологическом порядке событий</value>
       </toolTip>
-      <events>
-        <key>OnChange</key>
-        <value>КоличествоПоказываемыхСобытийПриИзменении</value>
-      </events>
+      <handlers>
+        <event>OnChange</event>
+        <name>КоличествоПоказываемыхСобытийПриИзменении</name>
+      </handlers>
       <extendedTooltip>
         <name>КоличествоПоказываемыхСобытийExtendedTooltip</name>
         <id>116</id>
@@ -1716,10 +1716,10 @@
       </userVisible>
       <horizontalAlign>Left</horizontalAlign>
     </autoCommandBar>
-    <events>
-      <key>Selection</key>
-      <value>ЖурналВыбор</value>
-    </events>
+    <handlers>
+      <event>Selection</event>
+      <name>ЖурналВыбор</name>
+    </handlers>
     <searchStringAddition>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -1985,6 +1985,7 @@
     <autoMaxWidth>true</autoMaxWidth>
     <autoMaxHeight>true</autoMaxHeight>
     <heightInTableRows>15</heightInTableRows>
+    <autoMaxRowsCount>true</autoMaxRowsCount>
     <header>true</header>
     <headerHeight>1</headerHeight>
     <footerHeight>1</footerHeight>
@@ -2009,6 +2010,7 @@
     <searchStringLocation>None</searchStringLocation>
     <viewStatusLocation>None</viewStatusLocation>
     <searchControlLocation>None</searchControlLocation>
+    <rowFilter xsi:type="core:UndefinedValue"/>
   </items>
   <commandBarLocation>None</commandBarLocation>
   <autoCommandBar>
@@ -2022,10 +2024,10 @@
     <horizontalAlign>Left</horizontalAlign>
     <autoFill>true</autoFill>
   </autoCommandBar>
-  <events>
-    <key>OnCreateAtServer</key>
-    <value>ПриСозданииНаСервере</value>
-  </events>
+  <handlers>
+    <event>OnCreateAtServer</event>
+    <name>ПриСозданииНаСервере</name>
+  </handlers>
   <excludedCommands>No</excludedCommands>
   <excludedCommands>SaveValues</excludedCommands>
   <excludedCommands>Close</excludedCommands>
@@ -2042,6 +2044,8 @@
   <allowFormCustomize>true</allowFormCustomize>
   <enabled>true</enabled>
   <verticalScroll>UseIfNecessary</verticalScroll>
+  <showTitle>true</showTitle>
+  <showCloseButton>true</showCloseButton>
   <attributes>
     <name>Объект</name>
     <id>1</id>
@@ -2567,7 +2571,11 @@
     <picture xsi:type="core:PictureRef">
       <picture>StdPicture.Properties</picture>
     </picture>
-    <action>ПросмотрТекущегоСобытияВОтдельномОкне</action>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>ПросмотрТекущегоСобытияВОтдельномОкне</name>
+      </handler>
+    </action>
   </formCommands>
   <formCommands>
     <name>ОткрытьДанныеДляПросмотра</name>
@@ -2586,7 +2594,11 @@
     <picture xsi:type="core:PictureRef">
       <picture>StdPicture.ShowData</picture>
     </picture>
-    <action>ОткрытьДанныеДляПросмотра</action>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>ОткрытьДанныеДляПросмотра</name>
+      </handler>
+    </action>
   </formCommands>
   <formCommands>
     <name>УстановитьИнтервалДатДляПросмотра</name>
@@ -2605,7 +2617,11 @@
     <picture xsi:type="core:PictureRef">
       <picture>StdPicture.SetDateInterval</picture>
     </picture>
-    <action>УстановитьИнтервалДатДляПросмотра</action>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>УстановитьИнтервалДатДляПросмотра</name>
+      </handler>
+    </action>
   </formCommands>
   <formCommands>
     <name>УстановитьОтбор</name>
@@ -2624,7 +2640,11 @@
     <picture xsi:type="core:PictureRef">
       <picture>StdPicture.FilterAndSort</picture>
     </picture>
-    <action>ВыполнитьУстановитьОтбор</action>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>ВыполнитьУстановитьОтбор</name>
+      </handler>
+    </action>
   </formCommands>
   <formCommands>
     <name>ОтключитьОтбор</name>
@@ -2643,7 +2663,11 @@
     <picture xsi:type="core:PictureRef">
       <picture>StdPicture.ClearFilter</picture>
     </picture>
-    <action>ОтключитьОтбор</action>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>ОтключитьОтбор</name>
+      </handler>
+    </action>
   </formCommands>
   <formCommands>
     <name>СписокАктивныхПользователей</name>
@@ -2662,7 +2686,11 @@
     <picture xsi:type="core:PictureRef">
       <picture>StdPicture.ActiveUsers</picture>
     </picture>
-    <action>СписокАктивныхПользователей</action>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>СписокАктивныхПользователей</name>
+      </handler>
+    </action>
   </formCommands>
   <formCommands>
     <name>ОбновитьТекущийСписок</name>
@@ -2681,7 +2709,11 @@
     <picture xsi:type="core:PictureRef">
       <picture>StdPicture.Refresh</picture>
     </picture>
-    <action>ОбновитьТекущийСписок</action>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>ОбновитьТекущийСписок</name>
+      </handler>
+    </action>
   </formCommands>
   <parameters>
     <name>Пользователь</name>

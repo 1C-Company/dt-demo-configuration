@@ -7,7 +7,6 @@
   </synonym>
   <comment></comment>
   <rootURL>Products</rootURL>
-  <reuseSessions>AutoUse</reuseSessions>
   <sessionMaxAge>20</sessionMaxAge>
   <urlTemplates uuid="cef43c0d-213c-4dbd-9eb3-49fdaf530254">
     <name>ПутьКТовару</name>

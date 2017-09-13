@@ -5,6 +5,7 @@
     <key>ru</key>
     <value>Пользователи</value>
   </synonym>
+  <comment></comment>
   <server>true</server>
   <externalConnection>true</externalConnection>
   <serverCall>true</serverCall>

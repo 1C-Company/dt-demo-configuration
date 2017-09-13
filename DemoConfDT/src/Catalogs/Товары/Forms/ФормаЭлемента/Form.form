@@ -172,10 +172,10 @@
       <segments>Объект.Вид</segments>
     </dataPath>
     <titleLocation>Left</titleLocation>
-    <events>
-      <key>OnChange</key>
-      <value>ВидПриИзменении</value>
-    </events>
+    <handlers>
+      <event>OnChange</event>
+      <name>ВидПриИзменении</name>
+    </handlers>
     <extendedTooltip>
       <name>ВидExtendedTooltip</name>
       <id>30</id>
@@ -399,10 +399,10 @@
           <dataPath xsi:type="form:DataPath">
             <segments>Объект.ФайлКартинки</segments>
           </dataPath>
-          <events>
-            <key>OnChange</key>
-            <value>ФайлКартинкиПриИзменении</value>
-          </events>
+          <handlers>
+            <event>OnChange</event>
+            <name>ФайлКартинкиПриИзменении</name>
+          </handlers>
           <extendedTooltip>
             <name>ФайлКартинкиExtendedTooltip</name>
             <id>36</id>
@@ -435,10 +435,10 @@
           <showInFooter>true</showInFooter>
           <footerHorizontalAlign>Left</footerHorizontalAlign>
           <extInfo xsi:type="form:InputFieldExtInfo">
-            <events>
-              <key>StartChoice</key>
-              <value>ФайлКартинкиНачалоВыбора</value>
-            </events>
+            <handlers>
+              <event>StartChoice</event>
+              <name>ФайлКартинкиНачалоВыбора</name>
+            </handlers>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
             <dropListButton>false</dropListButton>
@@ -983,7 +983,6 @@
               <width>50</width>
               <autoMaxWidth>true</autoMaxWidth>
               <height>10</height>
-              <autoMaxHeight>true</autoMaxHeight>
               <horizontalStretch>true</horizontalStretch>
               <verticalStretch>true</verticalStretch>
             </extInfo>
@@ -1131,14 +1130,10 @@
     <horizontalAlign>Left</horizontalAlign>
     <autoFill>true</autoFill>
   </autoCommandBar>
-  <events>
-    <key>NewWriteProcessing</key>
-    <value>ОбработкаЗаписиНового</value>
-  </events>
-  <events>
-    <key>OnCreateAtServer</key>
-    <value>ПриСозданииНаСервере</value>
-  </events>
+  <handlers>
+    <event>OnCreateAtServer</event>
+    <name>ПриСозданииНаСервере</name>
+  </handlers>
   <width>60</width>
   <autoTitle>true</autoTitle>
   <autoUrl>true</autoUrl>
@@ -1146,6 +1141,8 @@
   <autoFillCheck>true</autoFillCheck>
   <allowFormCustomize>true</allowFormCustomize>
   <enabled>true</enabled>
+  <showTitle>true</showTitle>
+  <showCloseButton>true</showCloseButton>
   <attributes>
     <name>Объект</name>
     <id>1</id>
@@ -1274,6 +1271,9 @@
     <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
       <segments>КартинкиОписания.Check</segments>
     </notDefaultUseAlwaysAttributes>
+    <extInfo xsi:type="form:ValueListExtInfo">
+      <itemValueType/>
+    </extInfo>
   </attributes>
   <attributes>
     <name>КартинкиИзменены</name>
@@ -1306,7 +1306,11 @@
     <use>
       <common>true</common>
     </use>
-    <action>ДобавитьХарактеристику</action>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>ДобавитьХарактеристику</name>
+      </handler>
+    </action>
     <modifiesStoredData>true</modifiesStoredData>
   </formCommands>
   <formCommands>
@@ -1323,7 +1327,11 @@
     <use>
       <common>true</common>
     </use>
-    <action>УдалитьХарактеристику</action>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>УдалитьХарактеристику</name>
+      </handler>
+    </action>
     <modifiesStoredData>true</modifiesStoredData>
   </formCommands>
   <formCommands>
@@ -1340,7 +1348,11 @@
     <use>
       <common>true</common>
     </use>
-    <action>ОбновитьКартинку</action>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>ОбновитьКартинку</name>
+      </handler>
+    </action>
   </formCommands>
   <formCommands>
     <name>РедактироватьОписание</name>
@@ -1356,7 +1368,11 @@
     <use>
       <common>true</common>
     </use>
-    <action>РедактироватьОписание</action>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>РедактироватьОписание</name>
+      </handler>
+    </action>
   </formCommands>
   <formCommands>
     <name>ЗакончитьРедактирование</name>
@@ -1372,7 +1388,11 @@
     <use>
       <common>true</common>
     </use>
-    <action>ЗакончитьРедактирование</action>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>ЗакончитьРедактирование</name>
+      </handler>
+    </action>
   </formCommands>
   <commandInterface>
     <navigationPanel>
@@ -1384,17 +1404,17 @@
     <commandBar/>
   </commandInterface>
   <extInfo xsi:type="form:CatalogFormExtInfo">
-    <events>
-      <key>AfterWriteAtServer</key>
-      <value>ПослеЗаписиНаСервере</value>
-    </events>
-    <events>
-      <key>OnReadAtServer</key>
-      <value>ПриЧтенииНаСервере</value>
-    </events>
-    <events>
-      <key>BeforeWriteAtServer</key>
-      <value>ПередЗаписьюНаСервере</value>
-    </events>
+    <handlers>
+      <event>AfterWriteAtServer</event>
+      <name>ПослеЗаписиНаСервере</name>
+    </handlers>
+    <handlers>
+      <event>OnReadAtServer</event>
+      <name>ПриЧтенииНаСервере</name>
+    </handlers>
+    <handlers>
+      <event>BeforeWriteAtServer</event>
+      <name>ПередЗаписьюНаСервере</name>
+    </handlers>
   </extInfo>
 </form:Form>

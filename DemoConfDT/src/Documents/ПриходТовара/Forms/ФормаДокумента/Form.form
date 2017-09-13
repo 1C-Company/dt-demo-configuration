@@ -118,10 +118,10 @@
     <dataPath xsi:type="form:DataPath">
       <segments>Объект.Организация</segments>
     </dataPath>
-    <events>
-      <key>OnChange</key>
-      <value>ОрганизацияПриИзменении</value>
-    </events>
+    <handlers>
+      <event>OnChange</event>
+      <name>ОрганизацияПриИзменении</name>
+    </handlers>
     <extendedTooltip>
       <name>ОрганизацияExtendedTooltip</name>
       <id>41</id>
@@ -400,10 +400,10 @@
           <dataPath xsi:type="form:DataPath">
             <segments>Объект.Товары.Товар</segments>
           </dataPath>
-          <events>
-            <key>OnChange</key>
-            <value>ТоварыТоварПриИзменении</value>
-          </events>
+          <handlers>
+            <event>OnChange</event>
+            <name>ТоварыТоварПриИзменении</name>
+          </handlers>
           <extendedTooltip>
             <name>ТоварыТоварExtendedTooltip</name>
             <id>49</id>
@@ -508,10 +508,10 @@
           <dataPath xsi:type="form:DataPath">
             <segments>Объект.Товары.Цена</segments>
           </dataPath>
-          <events>
-            <key>OnChange</key>
-            <value>ТоварыЦенаПриИзменении</value>
-          </events>
+          <handlers>
+            <event>OnChange</event>
+            <name>ТоварыЦенаПриИзменении</name>
+          </handlers>
           <extendedTooltip>
             <name>ТоварыЦенаExtendedTooltip</name>
             <id>51</id>
@@ -562,10 +562,10 @@
           <dataPath xsi:type="form:DataPath">
             <segments>Объект.Товары.Количество</segments>
           </dataPath>
-          <events>
-            <key>OnChange</key>
-            <value>ТоварыКоличествоПриИзменении</value>
-          </events>
+          <handlers>
+            <event>OnChange</event>
+            <name>ТоварыКоличествоПриИзменении</name>
+          </handlers>
           <extendedTooltip>
             <name>ТоварыКоличествоExtendedTooltip</name>
             <id>52</id>
@@ -813,6 +813,7 @@
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
         <heightInTableRows>5</heightInTableRows>
+        <autoMaxRowsCount>true</autoMaxRowsCount>
         <selectionMode>MultiRow</selectionMode>
         <header>true</header>
         <headerHeight>1</headerHeight>
@@ -833,6 +834,7 @@
         <searchStringLocation>None</searchStringLocation>
         <viewStatusLocation>None</viewStatusLocation>
         <searchControlLocation>None</searchControlLocation>
+        <rowFilter xsi:type="core:UndefinedValue"/>
       </items>
       <items xsi:type="form:FormGroup">
         <name>Итоги</name>
@@ -1050,24 +1052,26 @@
     <horizontalAlign>Left</horizontalAlign>
     <autoFill>true</autoFill>
   </autoCommandBar>
-  <events>
-    <key>OnOpen</key>
-    <value>ПриОткрытии</value>
-  </events>
-  <events>
-    <key>ExternalEvent</key>
-    <value>ВнешнееСобытие</value>
-  </events>
-  <events>
-    <key>OnCreateAtServer</key>
-    <value>ПриСозданииНаСервере</value>
-  </events>
+  <handlers>
+    <event>OnOpen</event>
+    <name>ПриОткрытии</name>
+  </handlers>
+  <handlers>
+    <event>ExternalEvent</event>
+    <name>ВнешнееСобытие</name>
+  </handlers>
+  <handlers>
+    <event>OnCreateAtServer</event>
+    <name>ПриСозданииНаСервере</name>
+  </handlers>
   <autoTitle>true</autoTitle>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
   <autoFillCheck>true</autoFillCheck>
   <allowFormCustomize>true</allowFormCustomize>
   <enabled>true</enabled>
+  <showTitle>true</showTitle>
+  <showCloseButton>true</showCloseButton>
   <attributes>
     <name>Объект</name>
     <title>
@@ -1143,14 +1147,14 @@
     </commandBar>
   </commandInterface>
   <extInfo xsi:type="form:DocumentFormExtInfo">
-    <events>
-      <key>AfterWriteAtServer</key>
-      <value>ПослеЗаписиНаСервере</value>
-    </events>
-    <events>
-      <key>OnReadAtServer</key>
-      <value>ПриЧтенииНаСервере</value>
-    </events>
+    <handlers>
+      <event>AfterWriteAtServer</event>
+      <name>ПослеЗаписиНаСервере</name>
+    </handlers>
+    <handlers>
+      <event>OnReadAtServer</event>
+      <name>ПриЧтенииНаСервере</name>
+    </handlers>
     <repostOnWrite>true</repostOnWrite>
   </extInfo>
 </form:Form>

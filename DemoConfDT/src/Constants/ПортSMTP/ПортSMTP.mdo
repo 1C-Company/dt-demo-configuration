@@ -9,6 +9,7 @@
     <key>ru</key>
     <value>Порт SMTP</value>
   </synonym>
+  <comment></comment>
   <type>
     <types>Number</types>
     <numberQualifiers>
@@ -16,7 +17,8 @@
     </numberQualifiers>
   </type>
   <useStandardCommands>true</useStandardCommands>
-  <minValue xsi:type="core:NullValue"/>
-  <maxValue xsi:type="core:NullValue"/>
+  <mask></mask>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
   <dataLockControlMode>Managed</dataLockControlMode>
 </mdclass:Constant>

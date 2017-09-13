@@ -5,6 +5,7 @@
     <key>ru</key>
     <value>Сервисные механизмы</value>
   </synonym>
+  <comment></comment>
   <server>true</server>
   <serverCall>true</serverCall>
 </mdclass:CommonModule>

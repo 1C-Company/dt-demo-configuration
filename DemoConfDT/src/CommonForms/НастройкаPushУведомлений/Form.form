@@ -15,10 +15,10 @@
     <dataPath xsi:type="form:DataPath">
       <segments>Объект.ИспользоватьPushУведомления</segments>
     </dataPath>
-    <events>
-      <key>OnChange</key>
-      <value>ИспользоватьPushУведомленияПриИзменении</value>
-    </events>
+    <handlers>
+      <event>OnChange</event>
+      <name>ИспользоватьPushУведомленияПриИзменении</name>
+    </handlers>
     <extendedTooltip>
       <name>ИспользоватьPushУведомленияРасширеннаяПодсказка</name>
       <id>31</id>
@@ -698,16 +698,18 @@
     <horizontalAlign>Left</horizontalAlign>
     <autoFill>true</autoFill>
   </autoCommandBar>
-  <events>
-    <key>OnCreateAtServer</key>
-    <value>ПриСозданииНаСервере</value>
-  </events>
+  <handlers>
+    <event>OnCreateAtServer</event>
+    <name>ПриСозданииНаСервере</name>
+  </handlers>
   <autoTitle>true</autoTitle>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
   <autoFillCheck>true</autoFillCheck>
   <allowFormCustomize>true</allowFormCustomize>
   <enabled>true</enabled>
+  <showTitle>true</showTitle>
+  <showCloseButton>true</showCloseButton>
   <attributes>
     <name>Объект</name>
     <title>
@@ -796,7 +798,11 @@
     <use>
       <common>true</common>
     </use>
-    <action>ЗагрузитьСертификат</action>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>ЗагрузитьСертификат</name>
+      </handler>
+    </action>
   </formCommands>
   <formCommands>
     <name>ПолучитьЛогин</name>
@@ -812,16 +818,20 @@
     <use>
       <common>true</common>
     </use>
-    <action>ПолучитьЛогин</action>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>ПолучитьЛогин</name>
+      </handler>
+    </action>
   </formCommands>
   <commandInterface>
     <navigationPanel/>
     <commandBar/>
   </commandInterface>
   <extInfo xsi:type="form:ConstantsFormExtInfo">
-    <events>
-      <key>OnWriteAtServer</key>
-      <value>ПриЗаписиНаСервере</value>
-    </events>
+    <handlers>
+      <event>OnWriteAtServer</event>
+      <name>ПриЗаписиНаСервере</name>
+    </handlers>
   </extInfo>
 </form:Form>

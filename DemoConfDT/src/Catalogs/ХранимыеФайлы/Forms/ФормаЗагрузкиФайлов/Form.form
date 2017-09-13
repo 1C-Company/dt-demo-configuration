@@ -209,10 +209,10 @@
       </userVisible>
       <horizontalAlign>Left</horizontalAlign>
     </autoCommandBar>
-    <events>
-      <key>BeforeAddRow</key>
-      <value>СписокФайловПередНачаломДобавления</value>
-    </events>
+    <handlers>
+      <event>BeforeAddRow</event>
+      <name>СписокФайловПередНачаломДобавления</name>
+    </handlers>
     <searchStringAddition>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -478,6 +478,7 @@
     <changeRowOrder>true</changeRowOrder>
     <autoMaxWidth>true</autoMaxWidth>
     <autoMaxHeight>true</autoMaxHeight>
+    <autoMaxRowsCount>true</autoMaxRowsCount>
     <selectionMode>MultiRow</selectionMode>
     <headerHeight>1</headerHeight>
     <footerHeight>1</footerHeight>
@@ -546,6 +547,8 @@
   <autoFillCheck>true</autoFillCheck>
   <allowFormCustomize>true</allowFormCustomize>
   <enabled>true</enabled>
+  <showTitle>true</showTitle>
+  <showCloseButton>true</showCloseButton>
   <attributes>
     <name>Владелец</name>
     <title>
@@ -581,6 +584,9 @@
     <edit>
       <common>true</common>
     </edit>
+    <extInfo xsi:type="form:ValueListExtInfo">
+      <itemValueType/>
+    </extInfo>
   </attributes>
   <attributes>
     <name>СписокЗагруженныхФайлов</name>
@@ -598,6 +604,9 @@
     <edit>
       <common>true</common>
     </edit>
+    <extInfo xsi:type="form:ValueListExtInfo">
+      <itemValueType/>
+    </extInfo>
   </attributes>
   <formCommands>
     <name>ДобавитьФайлы</name>
@@ -616,7 +625,11 @@
     <picture xsi:type="core:PictureRef">
       <picture>StdPicture.CreateListItem</picture>
     </picture>
-    <action>ДобавитьФайлы</action>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>ДобавитьФайлы</name>
+      </handler>
+    </action>
     <representation>TextPicture</representation>
   </formCommands>
   <formCommands>
@@ -636,7 +649,11 @@
     <picture xsi:type="core:PictureRef">
       <picture>StdPicture.CreateFolder</picture>
     </picture>
-    <action>ДобавитьКаталог</action>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>ДобавитьКаталог</name>
+      </handler>
+    </action>
     <representation>TextPicture</representation>
   </formCommands>
   <formCommands>
@@ -653,7 +670,11 @@
     <use>
       <common>true</common>
     </use>
-    <action>Загрузить</action>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>Загрузить</name>
+      </handler>
+    </action>
   </formCommands>
   <commandInterface>
     <navigationPanel/>

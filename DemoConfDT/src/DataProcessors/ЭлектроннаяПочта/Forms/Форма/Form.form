@@ -329,10 +329,10 @@
         <dataPath xsi:type="form:DataPath">
           <segments>ПочтовыйЯщикIMAP</segments>
         </dataPath>
-        <events>
-          <key>OnChange</key>
-          <value>ПочтовыйЯщикIMAPПриИзменении</value>
-        </events>
+        <handlers>
+          <event>OnChange</event>
+          <name>ПочтовыйЯщикIMAPПриИзменении</name>
+        </handlers>
         <extendedTooltip>
           <name>ПочтовыйЯщикIMAPExtendedTooltip</name>
           <id>56</id>
@@ -942,6 +942,7 @@
         <changeRowOrder>true</changeRowOrder>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
+        <autoMaxRowsCount>true</autoMaxRowsCount>
         <selectionMode>MultiRow</selectionMode>
         <header>true</header>
         <headerHeight>1</headerHeight>
@@ -965,6 +966,11 @@
         <searchControlLocation>None</searchControlLocation>
         <extInfo xsi:type="form:DynamicListTableExtInfo">
           <autoRefreshPeriod>60</autoRefreshPeriod>
+          <period>
+            <startDate>0001-01-01T00:00:00</startDate>
+            <endDate>0001-01-01T00:00:00</endDate>
+          </period>
+          <topLevelParent xsi:type="core:UndefinedValue"/>
           <showRoot>true</showRoot>
         </extInfo>
       </items>
@@ -1564,6 +1570,7 @@
         <changeRowOrder>true</changeRowOrder>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
+        <autoMaxRowsCount>true</autoMaxRowsCount>
         <selectionMode>MultiRow</selectionMode>
         <header>true</header>
         <headerHeight>1</headerHeight>
@@ -1586,6 +1593,11 @@
         <searchControlLocation>None</searchControlLocation>
         <extInfo xsi:type="form:DynamicListTableExtInfo">
           <autoRefreshPeriod>60</autoRefreshPeriod>
+          <period>
+            <startDate>0001-01-01T00:00:00</startDate>
+            <endDate>0001-01-01T00:00:00</endDate>
+          </period>
+          <topLevelParent xsi:type="core:UndefinedValue"/>
           <showRoot>true</showRoot>
         </extInfo>
       </items>
@@ -1668,14 +1680,14 @@
     <horizontalAlign>Left</horizontalAlign>
     <autoFill>true</autoFill>
   </autoCommandBar>
-  <events>
-    <key>NotificationProcessing</key>
-    <value>ОбработкаОповещения</value>
-  </events>
-  <events>
-    <key>OnCreateAtServer</key>
-    <value>ПриСозданииНаСервере</value>
-  </events>
+  <handlers>
+    <event>NotificationProcessing</event>
+    <name>ОбработкаОповещения</name>
+  </handlers>
+  <handlers>
+    <event>OnCreateAtServer</event>
+    <name>ПриСозданииНаСервере</name>
+  </handlers>
   <width>80</width>
   <height>80</height>
   <autoUrl>true</autoUrl>
@@ -1684,6 +1696,8 @@
   <allowFormCustomize>true</allowFormCustomize>
   <enabled>true</enabled>
   <verticalScroll>UseIfNecessary</verticalScroll>
+  <showTitle>true</showTitle>
+  <showCloseButton>true</showCloseButton>
   <attributes>
     <name>СписокВходящие</name>
     <title>
@@ -1722,8 +1736,10 @@
 		ПО СостояниеВходящихПисем.Письмо = СправочникВходящиеПисьма.Ссылка</queryText>
       <mainTable>Catalog.ВходящиеПисьма</mainTable>
       <dynamicDataRead>true</dynamicDataRead>
+      <autoFillAvailableFields>true</autoFillAvailableFields>
       <customQuery>true</customQuery>
       <autoSaveUserSettings>true</autoSaveUserSettings>
+      <getInvisibleFieldPresentations>true</getInvisibleFieldPresentations>
     </extInfo>
   </attributes>
   <attributes>
@@ -1759,8 +1775,10 @@
 		ПО СправочникИсходящиеПисьма.Ссылка = СостояниеИсходящихПисем.Письмо</queryText>
       <mainTable>Catalog.ИсходящиеПисьма</mainTable>
       <dynamicDataRead>true</dynamicDataRead>
+      <autoFillAvailableFields>true</autoFillAvailableFields>
       <customQuery>true</customQuery>
       <autoSaveUserSettings>true</autoSaveUserSettings>
+      <getInvisibleFieldPresentations>true</getInvisibleFieldPresentations>
     </extInfo>
   </attributes>
   <attributes>
@@ -1812,7 +1830,11 @@
     <use>
       <common>true</common>
     </use>
-    <action>КомандаНовоеПисьмо</action>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>КомандаНовоеПисьмо</name>
+      </handler>
+    </action>
   </formCommands>
   <formCommands>
     <name>КомандаПолучитьПисьма</name>
@@ -1828,7 +1850,11 @@
     <use>
       <common>true</common>
     </use>
-    <action>КомандаПолучитьПисьма</action>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>КомандаПолучитьПисьма</name>
+      </handler>
+    </action>
   </formCommands>
   <formCommands>
     <name>КомандаОтветить</name>
@@ -1844,7 +1870,11 @@
     <use>
       <common>true</common>
     </use>
-    <action>КомандаОтветить</action>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>КомандаОтветить</name>
+      </handler>
+    </action>
   </formCommands>
   <formCommands>
     <name>КомандаСоздатьПочтовыйЯщикIMAP</name>
@@ -1860,7 +1890,11 @@
     <use>
       <common>true</common>
     </use>
-    <action>КомандаСоздатьПочтовыйЯщикIMAP</action>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>КомандаСоздатьПочтовыйЯщикIMAP</name>
+      </handler>
+    </action>
   </formCommands>
   <formCommands>
     <name>КомандаНастроить</name>
@@ -1876,7 +1910,11 @@
     <use>
       <common>true</common>
     </use>
-    <action>КомандаНастройкаПочты</action>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>КомандаНастройкаПочты</name>
+      </handler>
+    </action>
   </formCommands>
   <formCommands>
     <name>КомандаНовоеПисьмоПоШаблону</name>
@@ -1892,7 +1930,11 @@
     <use>
       <common>true</common>
     </use>
-    <action>КомандаНовоеПисьмоПоШаблону</action>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>КомандаНовоеПисьмоПоШаблону</name>
+      </handler>
+    </action>
   </formCommands>
   <commandInterface>
     <navigationPanel/>

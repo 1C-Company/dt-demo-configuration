@@ -9,6 +9,7 @@
     <key>ru</key>
     <value>Журнал регистрации</value>
   </synonym>
+  <comment></comment>
   <useStandardCommands>true</useStandardCommands>
   <defaultForm>DataProcessor.ЖурналРегистрации.Form.ЖурналРегистрации</defaultForm>
   <includeHelpInContents>true</includeHelpInContents>
@@ -23,6 +24,7 @@
       <key>ru</key>
       <value>Журнал регистрации</value>
     </synonym>
+    <comment></comment>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
@@ -32,6 +34,7 @@
       <key>ru</key>
       <value>Отбор журнала регистрации</value>
     </synonym>
+    <comment></comment>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
@@ -41,6 +44,7 @@
       <key>ru</key>
       <value>Редактор состава свойства</value>
     </synonym>
+    <comment></comment>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
@@ -50,6 +54,7 @@
       <key>ru</key>
       <value>Форма события</value>
     </synonym>
+    <comment></comment>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>

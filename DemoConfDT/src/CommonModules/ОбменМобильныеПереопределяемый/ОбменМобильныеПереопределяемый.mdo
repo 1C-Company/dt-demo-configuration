@@ -5,6 +5,7 @@
     <key>ru</key>
     <value>Обмен мобильные переопределяемый</value>
   </synonym>
+  <comment></comment>
   <server>true</server>
   <serverCall>true</serverCall>
 </mdclass:CommonModule>

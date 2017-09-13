@@ -5,7 +5,9 @@
     <key>ru</key>
     <value>Обновление агрегатов продаж</value>
   </synonym>
+  <comment></comment>
   <methodName>CommonModule.РегламентныеЗаданияАгрегатов.ОбновлениеАгрегатовПродаж</methodName>
+  <description></description>
   <key>1</key>
   <predefined>true</predefined>
   <restartCountOnFailure>3</restartCountOnFailure>

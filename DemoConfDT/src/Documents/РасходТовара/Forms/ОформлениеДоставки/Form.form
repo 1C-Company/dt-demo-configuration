@@ -233,14 +233,19 @@
     <headerHorizontalAlign>Left</headerHorizontalAlign>
     <showInFooter>true</showInFooter>
     <extInfo xsi:type="form:SpreadSheetDocFieldExtInfo">
+      <handlers>
+        <event>OnChangeAreaContent</event>
+        <name>ТабличныйДокументПриИзмененииСодержимогоОбласти</name>
+      </handlers>
       <width>80</width>
       <autoMaxWidth>true</autoMaxWidth>
       <height>20</height>
       <autoMaxHeight>true</autoMaxHeight>
       <horizontalStretch>true</horizontalStretch>
       <verticalStretch>true</verticalStretch>
-      <verticalScrollBar>true</verticalScrollBar>
-      <horizontalScrollBar>true</horizontalScrollBar>
+      <pointerType>Special</pointerType>
+      <verticalScrollBar>ScrollAlways</verticalScrollBar>
+      <horizontalScrollBar>ScrollAlways</horizontalScrollBar>
       <showGroups>true</showGroups>
     </extInfo>
   </items>
@@ -256,14 +261,14 @@
     <horizontalAlign>Left</horizontalAlign>
     <autoFill>true</autoFill>
   </autoCommandBar>
-  <events>
-    <key>OnOpen</key>
-    <value>ПриОткрытии</value>
-  </events>
-  <events>
-    <key>OnCreateAtServer</key>
-    <value>ПриСозданииНаСервере</value>
-  </events>
+  <handlers>
+    <event>OnOpen</event>
+    <name>ПриОткрытии</name>
+  </handlers>
+  <handlers>
+    <event>OnCreateAtServer</event>
+    <name>ПриСозданииНаСервере</name>
+  </handlers>
   <autoTitle>true</autoTitle>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
@@ -271,6 +276,8 @@
   <allowFormCustomize>true</allowFormCustomize>
   <enabled>true</enabled>
   <verticalScroll>UseIfNecessary</verticalScroll>
+  <showTitle>true</showTitle>
+  <showCloseButton>true</showCloseButton>
   <attributes>
     <name>ТабличныйДокумент</name>
     <title>
@@ -287,6 +294,7 @@
     <edit>
       <common>true</common>
     </edit>
+    <extInfo xsi:type="form:SpreadsheetDocumentExtInfo"/>
   </attributes>
   <attributes>
     <name>ДатаДокумента</name>
@@ -339,7 +347,11 @@
     <use>
       <common>true</common>
     </use>
-    <action>ПечатьПакетаДокументов</action>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>ПечатьПакетаДокументов</name>
+      </handler>
+    </action>
   </formCommands>
   <parameters>
     <name>ДатаДокумента</name>

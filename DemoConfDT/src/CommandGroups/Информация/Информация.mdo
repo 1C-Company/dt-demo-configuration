@@ -5,6 +5,7 @@
     <key>ru</key>
     <value>Информация</value>
   </synonym>
+  <comment></comment>
   <representation>Auto</representation>
   <category>ActionsPanel</category>
 </mdclass:CommandGroup>

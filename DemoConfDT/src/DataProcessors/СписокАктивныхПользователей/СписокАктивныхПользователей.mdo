@@ -9,6 +9,7 @@
     <key>ru</key>
     <value>Активные пользователи</value>
   </synonym>
+  <comment></comment>
   <useStandardCommands>true</useStandardCommands>
   <defaultForm>DataProcessor.СписокАктивныхПользователей.Form.ФормаСпискаАктивныхПользователей</defaultForm>
   <includeHelpInContents>true</includeHelpInContents>
@@ -23,6 +24,7 @@
       <key>ru</key>
       <value>Форма списка активных пользователей</value>
     </synonym>
+    <comment></comment>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>

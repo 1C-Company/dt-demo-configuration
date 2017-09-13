@@ -5,7 +5,9 @@
     <key>ru</key>
     <value>Перестроение агрегатов продаж</value>
   </synonym>
+  <comment></comment>
   <methodName>CommonModule.РегламентныеЗаданияАгрегатов.ПерестроениеАгрегатовПродаж</methodName>
+  <description></description>
   <key>1</key>
   <predefined>true</predefined>
   <restartCountOnFailure>3</restartCountOnFailure>

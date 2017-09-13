@@ -378,10 +378,10 @@
         </userVisible>
         <horizontalAlign>Left</horizontalAlign>
       </autoCommandBar>
-      <events>
-        <key>Selection</key>
-        <value>СписокДокументовВыбор</value>
-      </events>
+      <handlers>
+        <event>Selection</event>
+        <name>СписокДокументовВыбор</name>
+      </handlers>
       <searchStringAddition>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -528,6 +528,7 @@
       <width>30</width>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
+      <autoMaxRowsCount>true</autoMaxRowsCount>
       <selectionMode>MultiRow</selectionMode>
       <headerHeight>1</headerHeight>
       <footerHeight>1</footerHeight>
@@ -662,10 +663,10 @@
         </userVisible>
         <horizontalAlign>Left</horizontalAlign>
       </autoCommandBar>
-      <events>
-        <key>Selection</key>
-        <value>ВыбранныеДокументыВыбор</value>
-      </events>
+      <handlers>
+        <event>Selection</event>
+        <name>ВыбранныеДокументыВыбор</name>
+      </handlers>
       <searchStringAddition>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -812,6 +813,7 @@
       <width>30</width>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
+      <autoMaxRowsCount>true</autoMaxRowsCount>
       <selectionMode>MultiRow</selectionMode>
       <headerHeight>1</headerHeight>
       <footerHeight>1</footerHeight>
@@ -977,10 +979,10 @@
     <horizontalAlign>Left</horizontalAlign>
     <autoFill>true</autoFill>
   </autoCommandBar>
-  <events>
-    <key>OnCreateAtServer</key>
-    <value>ПриСозданииНаСервере</value>
-  </events>
+  <handlers>
+    <event>OnCreateAtServer</event>
+    <name>ПриСозданииНаСервере</name>
+  </handlers>
   <autoSaveDataInSettings>Use</autoSaveDataInSettings>
   <saveDataInSettings>UseList</saveDataInSettings>
   <autoTitle>true</autoTitle>
@@ -989,6 +991,8 @@
   <autoFillCheck>true</autoFillCheck>
   <allowFormCustomize>true</allowFormCustomize>
   <enabled>true</enabled>
+  <showTitle>true</showTitle>
+  <showCloseButton>true</showCloseButton>
   <attributes>
     <name>Объект</name>
     <title>
@@ -1113,7 +1117,11 @@
     <picture xsi:type="core:PictureRef">
       <picture>StdPicture.Post</picture>
     </picture>
-    <action>ПровестиВыполнить</action>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>ПровестиВыполнить</name>
+      </handler>
+    </action>
     <representation>TextPicture</representation>
   </formCommands>
   <formCommands>
@@ -1133,7 +1141,11 @@
     <picture xsi:type="core:PictureRef">
       <picture>StdPicture.MoveLeft</picture>
     </picture>
-    <action>ИсключитьВыполнить</action>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>ИсключитьВыполнить</name>
+      </handler>
+    </action>
     <representation>TextPicture</representation>
   </formCommands>
   <formCommands>
@@ -1153,7 +1165,11 @@
     <picture xsi:type="core:PictureRef">
       <picture>StdPicture.MoveRight</picture>
     </picture>
-    <action>ДобавитьВыполнить</action>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>ДобавитьВыполнить</name>
+      </handler>
+    </action>
     <representation>TextPicture</representation>
   </formCommands>
   <commandInterface>

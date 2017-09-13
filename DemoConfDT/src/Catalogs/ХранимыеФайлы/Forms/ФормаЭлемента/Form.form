@@ -606,10 +606,10 @@
     <horizontalAlign>Left</horizontalAlign>
     <autoFill>true</autoFill>
   </autoCommandBar>
-  <events>
-    <key>OnCreateAtServer</key>
-    <value>ПриСозданииНаСервере</value>
-  </events>
+  <handlers>
+    <event>OnCreateAtServer</event>
+    <name>ПриСозданииНаСервере</name>
+  </handlers>
   <windowOpeningMode>LockOwnerWindow</windowOpeningMode>
   <autoTitle>true</autoTitle>
   <autoUrl>true</autoUrl>
@@ -617,6 +617,8 @@
   <autoFillCheck>true</autoFillCheck>
   <allowFormCustomize>true</allowFormCustomize>
   <enabled>true</enabled>
+  <showTitle>true</showTitle>
+  <showCloseButton>true</showCloseButton>
   <attributes>
     <name>Объект</name>
     <id>1</id>
@@ -649,7 +651,11 @@
     <use>
       <common>true</common>
     </use>
-    <action>ВыбратьФайлСДискаИЗаписать</action>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>ВыбратьФайлСДискаИЗаписать</name>
+      </handler>
+    </action>
   </formCommands>
   <formCommands>
     <name>ПрочитатьФайлИСохранитьНаДиск</name>
@@ -665,7 +671,11 @@
     <use>
       <common>true</common>
     </use>
-    <action>ПрочитатьФайлИСохранитьНаДиск</action>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>ПрочитатьФайлИСохранитьНаДиск</name>
+      </handler>
+    </action>
   </formCommands>
   <formCommands>
     <name>Подписать</name>
@@ -681,7 +691,11 @@
     <use>
       <common>true</common>
     </use>
-    <action>Подписать</action>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>Подписать</name>
+      </handler>
+    </action>
   </formCommands>
   <formCommands>
     <name>ПроверитьПодпись</name>
@@ -697,7 +711,11 @@
     <use>
       <common>true</common>
     </use>
-    <action>ПроверитьПодпись</action>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>ПроверитьПодпись</name>
+      </handler>
+    </action>
   </formCommands>
   <formCommands>
     <name>ПоместитьЗашифрованныйНаСервер</name>
@@ -713,7 +731,11 @@
     <use>
       <common>true</common>
     </use>
-    <action>ПоместитьЗашифрованныйНаСервер</action>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>ПоместитьЗашифрованныйНаСервер</name>
+      </handler>
+    </action>
   </formCommands>
   <formCommands>
     <name>ПолучитьСРасшифровкой</name>
@@ -729,7 +751,11 @@
     <use>
       <common>true</common>
     </use>
-    <action>ПолучитьСРасшифровкой</action>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>ПолучитьСРасшифровкой</name>
+      </handler>
+    </action>
   </formCommands>
   <formCommands>
     <name>Зашифровать</name>
@@ -745,16 +771,20 @@
     <use>
       <common>true</common>
     </use>
-    <action>Зашифровать</action>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>Зашифровать</name>
+      </handler>
+    </action>
   </formCommands>
   <commandInterface>
     <navigationPanel/>
     <commandBar/>
   </commandInterface>
   <extInfo xsi:type="form:CatalogFormExtInfo">
-    <events>
-      <key>BeforeWrite</key>
-      <value>ПередЗаписью</value>
-    </events>
+    <handlers>
+      <event>BeforeWrite</event>
+      <name>ПередЗаписью</name>
+    </handlers>
   </extInfo>
 </form:Form>

@@ -9,6 +9,7 @@
     <key>ru</key>
     <value>Проведение документов</value>
   </synonym>
+  <comment></comment>
   <useStandardCommands>true</useStandardCommands>
   <defaultForm>DataProcessor.ПроведениеДокументов.Form.Форма</defaultForm>
   <includeHelpInContents>true</includeHelpInContents>
@@ -23,11 +24,13 @@
       <key>ru</key>
       <value>Список документов</value>
     </synonym>
+    <comment></comment>
     <type>
       <types>ValueList</types>
     </type>
-    <minValue xsi:type="core:NullValue"/>
-    <maxValue xsi:type="core:NullValue"/>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
   </attributes>
   <attributes uuid="deab3cc8-11b4-41e6-be94-aaa6d2e3bd1f">
     <name>ВыбранныеДокументы</name>
@@ -35,11 +38,13 @@
       <key>ru</key>
       <value>Выбранные документы</value>
     </synonym>
+    <comment></comment>
     <type>
       <types>ValueList</types>
     </type>
-    <minValue xsi:type="core:NullValue"/>
-    <maxValue xsi:type="core:NullValue"/>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
   </attributes>
   <attributes uuid="78b5f45d-8c53-4f21-9813-4a29b5114644">
     <name>Проводить</name>
@@ -47,12 +52,14 @@
       <key>ru</key>
       <value>Проводить</value>
     </synonym>
+    <comment></comment>
     <type>
       <types>String</types>
       <stringQualifiers/>
     </type>
-    <minValue xsi:type="core:NullValue"/>
-    <maxValue xsi:type="core:NullValue"/>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
   </attributes>
   <forms uuid="5d59e43a-df9b-4152-a48f-54b0cc5fe6bc">
     <name>Форма</name>
@@ -60,6 +67,7 @@
       <key>ru</key>
       <value>Форма</value>
     </synonym>
+    <comment></comment>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>

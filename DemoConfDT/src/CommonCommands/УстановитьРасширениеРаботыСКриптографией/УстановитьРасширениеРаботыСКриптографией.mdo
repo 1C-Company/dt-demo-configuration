@@ -5,7 +5,9 @@
     <key>ru</key>
     <value>Установить расширение работы с криптографией</value>
   </synonym>
+  <comment></comment>
   <group>ActionsPanelTools</group>
   <commandParameterType/>
   <representation>Auto</representation>
+  <shortcut></shortcut>
 </mdclass:CommonCommand>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<spwa:StartPageWorkingArea xmlns:spwa="http://g5.1c.ru/v8/dt/spwa">
+<hpwa:HomePageWorkArea xmlns:hpwa="http://g5.1c.ru/v8/dt/hpwa">
   <workingAreaTemplate>TwoColumnsVariableWidth</workingAreaTemplate>
   <columns>
     <items>
@@ -63,4 +63,4 @@
       </visibility>
     </items>
   </columns>
-</spwa:StartPageWorkingArea>
+</hpwa:HomePageWorkArea>

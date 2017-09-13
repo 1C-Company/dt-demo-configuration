@@ -31,10 +31,10 @@
         <dataPath xsi:type="form:DataPath">
           <segments>Список.Пометка</segments>
         </dataPath>
-        <events>
-          <key>OnChange</key>
-          <value>ПометкаПриИзменении</value>
-        </events>
+        <handlers>
+          <event>OnChange</event>
+          <name>ПометкаПриИзменении</name>
+        </handlers>
         <extendedTooltip>
           <name>ПометкаExtendedTooltip</name>
           <id>18</id>
@@ -142,18 +142,103 @@
     <autoCommandBar>
       <name>СписокКоманднаяПанель</name>
       <id>3</id>
-      <items xsi:type="form:Button">
-        <name>УстановитьВсе</name>
-        <id>9</id>
+      <items xsi:type="form:FormGroup">
+        <name>КруппаКнопокОтметки</name>
+        <id>32</id>
+        <items xsi:type="form:Button">
+          <name>УстановитьВсе</name>
+          <id>9</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <skipOnInput>false</skipOnInput>
+          <extendedTooltip>
+            <name>УстановитьВсеExtendedTooltip</name>
+            <id>14</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <type>Label</type>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <extInfo xsi:type="form:LabelDecorationExtInfo">
+              <horizontalAlign>Left</horizontalAlign>
+            </extInfo>
+          </extendedTooltip>
+          <commandName>Form.Command.УстановитьВсе</commandName>
+          <representation>Auto</representation>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <placementArea>UserCmds</placementArea>
+          <textColor xsi:type="core:ColorRef">
+            <color>Style.ButtonTextColor</color>
+          </textColor>
+          <backColor xsi:type="core:ColorRef">
+            <color>Style.ButtonBackColor</color>
+          </backColor>
+          <borderColor xsi:type="core:ColorRef">
+            <color>Style.BorderColor</color>
+          </borderColor>
+        </items>
+        <items xsi:type="form:Button">
+          <name>СнятьВсе</name>
+          <id>10</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <skipOnInput>false</skipOnInput>
+          <extendedTooltip>
+            <name>СнятьВсеExtendedTooltip</name>
+            <id>15</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <type>Label</type>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <extInfo xsi:type="form:LabelDecorationExtInfo">
+              <horizontalAlign>Left</horizontalAlign>
+            </extInfo>
+          </extendedTooltip>
+          <commandName>Form.Command.СнятьВсе</commandName>
+          <representation>Auto</representation>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <placementArea>UserCmds</placementArea>
+          <textColor xsi:type="core:ColorRef">
+            <color>Style.ButtonTextColor</color>
+          </textColor>
+          <backColor xsi:type="core:ColorRef">
+            <color>Style.ButtonBackColor</color>
+          </backColor>
+          <borderColor xsi:type="core:ColorRef">
+            <color>Style.BorderColor</color>
+          </borderColor>
+        </items>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
           <common>true</common>
         </userVisible>
-        <skipOnInput>false</skipOnInput>
+        <title>
+          <key>ru</key>
+          <value>Круппа кнопок отметки</value>
+        </title>
+        <toolTip>
+          <key>ru</key>
+          <value>Круппа кнопок отметки</value>
+        </toolTip>
         <extendedTooltip>
-          <name>УстановитьВсеExtendedTooltip</name>
-          <id>14</id>
+          <name>КруппаКнопокОтметкиРасширеннаяПодсказка</name>
+          <id>33</id>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -166,59 +251,9 @@
             <horizontalAlign>Left</horizontalAlign>
           </extInfo>
         </extendedTooltip>
-        <commandName>Form.Command.УстановитьВсе</commandName>
-        <representation>Auto</representation>
-        <autoMaxWidth>true</autoMaxWidth>
-        <autoMaxHeight>true</autoMaxHeight>
-        <placementArea>UserCmds</placementArea>
-        <textColor xsi:type="core:ColorRef">
-          <color>Style.ButtonTextColor</color>
-        </textColor>
-        <backColor xsi:type="core:ColorRef">
-          <color>Style.ButtonBackColor</color>
-        </backColor>
-        <borderColor xsi:type="core:ColorRef">
-          <color>Style.BorderColor</color>
-        </borderColor>
-      </items>
-      <items xsi:type="form:Button">
-        <name>СнятьВсе</name>
-        <id>10</id>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
-        <skipOnInput>false</skipOnInput>
-        <extendedTooltip>
-          <name>СнятьВсеExtendedTooltip</name>
-          <id>15</id>
-          <visible>true</visible>
-          <enabled>true</enabled>
-          <userVisible>
-            <common>true</common>
-          </userVisible>
-          <type>Label</type>
-          <autoMaxWidth>true</autoMaxWidth>
-          <autoMaxHeight>true</autoMaxHeight>
-          <extInfo xsi:type="form:LabelDecorationExtInfo">
-            <horizontalAlign>Left</horizontalAlign>
-          </extInfo>
-        </extendedTooltip>
-        <commandName>Form.Command.СнятьВсе</commandName>
-        <representation>Auto</representation>
-        <autoMaxWidth>true</autoMaxWidth>
-        <autoMaxHeight>true</autoMaxHeight>
-        <placementArea>UserCmds</placementArea>
-        <textColor xsi:type="core:ColorRef">
-          <color>Style.ButtonTextColor</color>
-        </textColor>
-        <backColor xsi:type="core:ColorRef">
-          <color>Style.ButtonBackColor</color>
-        </backColor>
-        <borderColor xsi:type="core:ColorRef">
-          <color>Style.BorderColor</color>
-        </borderColor>
+        <extInfo xsi:type="form:ButtonGroupExtInfo">
+          <representation>Compact</representation>
+        </extInfo>
       </items>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -374,6 +409,7 @@
     <changeRowOrder>true</changeRowOrder>
     <autoMaxWidth>true</autoMaxWidth>
     <autoMaxHeight>true</autoMaxHeight>
+    <autoMaxRowsCount>true</autoMaxRowsCount>
     <selectionMode>MultiRow</selectionMode>
     <headerHeight>1</headerHeight>
     <footerHeight>1</footerHeight>
@@ -526,6 +562,8 @@
   <allowFormCustomize>true</allowFormCustomize>
   <enabled>true</enabled>
   <verticalScroll>UseIfNecessary</verticalScroll>
+  <showTitle>true</showTitle>
+  <showCloseButton>true</showCloseButton>
   <attributes>
     <name>Объект</name>
     <id>1</id>
@@ -627,7 +665,11 @@
     <picture xsi:type="core:PictureRef">
       <picture>StdPicture.CheckAll</picture>
     </picture>
-    <action>УстановитьВсеФлажки</action>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>УстановитьВсеФлажки</name>
+      </handler>
+    </action>
   </formCommands>
   <formCommands>
     <name>СнятьВсе</name>
@@ -646,7 +688,11 @@
     <picture xsi:type="core:PictureRef">
       <picture>StdPicture.UncheckAll</picture>
     </picture>
-    <action>СнятьВсеФлажки</action>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>СнятьВсеФлажки</name>
+      </handler>
+    </action>
   </formCommands>
   <commandInterface>
     <navigationPanel/>

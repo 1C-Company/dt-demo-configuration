@@ -7,7 +7,6 @@
   </synonym>
   <comment></comment>
   <rootURL>ProductDescriptions</rootURL>
-  <reuseSessions>AutoUse</reuseSessions>
   <sessionMaxAge>20</sessionMaxAge>
   <urlTemplates uuid="ef44555a-bb40-44ec-824f-20b29ee71bd4">
     <name>V1_ВызовМетода</name>

@@ -43,10 +43,10 @@
     <headerHorizontalAlign>Left</headerHorizontalAlign>
     <showInFooter>true</showInFooter>
     <extInfo xsi:type="form:InputFieldExtInfo">
-      <events>
-        <key>StartChoice</key>
-        <value>ПутьКРабочемуКаталогуНачалоВыбора</value>
-      </events>
+      <handlers>
+        <event>StartChoice</event>
+        <name>ПутьКРабочемуКаталогуНачалоВыбора</name>
+      </handlers>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
       <choiceButton>true</choiceButton>
@@ -148,16 +148,18 @@
     <horizontalAlign>Left</horizontalAlign>
     <autoFill>true</autoFill>
   </autoCommandBar>
-  <events>
-    <key>OnCreateAtServer</key>
-    <value>ПриСозданииНаСервере</value>
-  </events>
+  <handlers>
+    <event>OnCreateAtServer</event>
+    <name>ПриСозданииНаСервере</name>
+  </handlers>
   <autoTitle>true</autoTitle>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
   <autoFillCheck>true</autoFillCheck>
   <allowFormCustomize>true</allowFormCustomize>
   <enabled>true</enabled>
+  <showTitle>true</showTitle>
+  <showCloseButton>true</showCloseButton>
   <attributes>
     <name>Объект</name>
     <id>1</id>
@@ -222,7 +224,11 @@
     <use>
       <common>true</common>
     </use>
-    <action>Сохранить</action>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>Сохранить</name>
+      </handler>
+    </action>
   </formCommands>
   <commandInterface>
     <navigationPanel/>
