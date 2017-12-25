@@ -14,8 +14,10 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:DataPath">
-          <segments>ДатаНачала</segments>
+        <dataPath xsi:type="form:MultiLanguageDataPath">
+          <paths xsi:type="form:DataPath">
+            <segments>ДатаНачала</segments>
+          </paths>
         </dataPath>
         <extendedTooltip>
           <name>ДатаНачалаExtendedTooltip</name>
@@ -67,8 +69,10 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:DataPath">
-          <segments>ДатаОкончания</segments>
+        <dataPath xsi:type="form:MultiLanguageDataPath">
+          <paths xsi:type="form:DataPath">
+            <segments>ДатаОкончания</segments>
+          </paths>
         </dataPath>
         <extendedTooltip>
           <name>ДатаОкончанияExtendedTooltip</name>
@@ -155,8 +159,10 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:DataPath">
-        <segments>Объект.Проводить</segments>
+      <dataPath xsi:type="form:MultiLanguageDataPath">
+        <paths xsi:type="form:DataPath">
+          <segments>Объект.Проводить</segments>
+        </paths>
       </dataPath>
       <titleLocation>Left</titleLocation>
       <extendedTooltip>
@@ -285,8 +291,10 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:DataPath">
-          <segments>Объект.СписокДокументов.Presentation</segments>
+        <dataPath xsi:type="form:MultiLanguageDataPath">
+          <paths xsi:type="form:DataPath">
+            <segments>Объект.СписокДокументов.Presentation</segments>
+          </paths>
         </dataPath>
         <extendedTooltip>
           <name>ПредставлениеExtendedTooltip</name>
@@ -570,8 +578,10 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:DataPath">
-          <segments>Объект.ВыбранныеДокументы.Presentation</segments>
+        <dataPath xsi:type="form:MultiLanguageDataPath">
+          <paths xsi:type="form:DataPath">
+            <segments>Объект.ВыбранныеДокументы.Presentation</segments>
+          </paths>
         </dataPath>
         <extendedTooltip>
           <name>Представление1ExtendedTooltip</name>
@@ -1010,10 +1020,10 @@
       <common>true</common>
     </edit>
     <settingsSavedData xsi:type="form:DataPath">
-      <segments>Объект.Проводить</segments>
+      <segments>Объект.ВыбранныеДокументы</segments>
     </settingsSavedData>
     <settingsSavedData xsi:type="form:DataPath">
-      <segments>Объект.ВыбранныеДокументы</segments>
+      <segments>Объект.Проводить</segments>
     </settingsSavedData>
     <main>true</main>
   </attributes>

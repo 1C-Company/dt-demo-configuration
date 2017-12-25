@@ -15,8 +15,10 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:DataPath">
-        <segments>ДатаНачала</segments>
+      <dataPath xsi:type="form:MultiLanguageDataPath">
+        <paths xsi:type="form:DataPath">
+          <segments>ДатаНачала</segments>
+        </paths>
       </dataPath>
       <extendedTooltip>
         <name>ДатаНачалаExtendedTooltip</name>
@@ -69,8 +71,10 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:DataPath">
-        <segments>ДатаОкончания</segments>
+      <dataPath xsi:type="form:MultiLanguageDataPath">
+        <paths xsi:type="form:DataPath">
+          <segments>ДатаОкончания</segments>
+        </paths>
       </dataPath>
       <extendedTooltip>
         <name>ДатаОкончанияExtendedTooltip</name>
@@ -157,8 +161,10 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:DataPath">
-          <segments>Пользователи</segments>
+        <dataPath xsi:type="form:MultiLanguageDataPath">
+          <paths xsi:type="form:DataPath">
+            <segments>Пользователи</segments>
+          </paths>
         </dataPath>
         <extendedTooltip>
           <name>ПользователиExtendedTooltip</name>
@@ -213,8 +219,10 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:DataPath">
-          <segments>События</segments>
+        <dataPath xsi:type="form:MultiLanguageDataPath">
+          <paths xsi:type="form:DataPath">
+            <segments>События</segments>
+          </paths>
         </dataPath>
         <extendedTooltip>
           <name>СобытияExtendedTooltip</name>
@@ -269,8 +277,10 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:DataPath">
-          <segments>Компьютеры</segments>
+        <dataPath xsi:type="form:MultiLanguageDataPath">
+          <paths xsi:type="form:DataPath">
+            <segments>Компьютеры</segments>
+          </paths>
         </dataPath>
         <extendedTooltip>
           <name>КомпьютерыExtendedTooltip</name>
@@ -325,8 +335,10 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:DataPath">
-          <segments>Приложения</segments>
+        <dataPath xsi:type="form:MultiLanguageDataPath">
+          <paths xsi:type="form:DataPath">
+            <segments>Приложения</segments>
+          </paths>
         </dataPath>
         <extendedTooltip>
           <name>ПриложенияExtendedTooltip</name>
@@ -381,8 +393,10 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:DataPath">
-          <segments>Комментарий</segments>
+        <dataPath xsi:type="form:MultiLanguageDataPath">
+          <paths xsi:type="form:DataPath">
+            <segments>Комментарий</segments>
+          </paths>
         </dataPath>
         <extendedTooltip>
           <name>КомментарийExtendedTooltip</name>
@@ -723,8 +737,10 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:DataPath">
-            <segments>Важность.Check</segments>
+          <dataPath xsi:type="form:MultiLanguageDataPath">
+            <paths xsi:type="form:DataPath">
+              <segments>Важность.Check</segments>
+            </paths>
           </dataPath>
           <extendedTooltip>
             <name>ПометкаВажностиExtendedTooltip</name>
@@ -767,8 +783,10 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:DataPath">
-            <segments>Важность.Value</segments>
+          <dataPath xsi:type="form:MultiLanguageDataPath">
+            <paths xsi:type="form:DataPath">
+              <segments>Важность.Value</segments>
+            </paths>
           </dataPath>
           <extendedTooltip>
             <name>ЗначениеВажностиExtendedTooltip</name>
@@ -1067,8 +1085,10 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:DataPath">
-        <segments>Метаданные</segments>
+      <dataPath xsi:type="form:MultiLanguageDataPath">
+        <paths xsi:type="form:DataPath">
+          <segments>Метаданные</segments>
+        </paths>
       </dataPath>
       <extendedTooltip>
         <name>МетаданныеExtendedTooltip</name>
@@ -1123,8 +1143,10 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:DataPath">
-        <segments>Данные</segments>
+      <dataPath xsi:type="form:MultiLanguageDataPath">
+        <paths xsi:type="form:DataPath">
+          <segments>Данные</segments>
+        </paths>
       </dataPath>
       <extendedTooltip>
         <name>ДанныеExtendedTooltip</name>
@@ -1177,8 +1199,10 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:DataPath">
-        <segments>ПредставлениеДанных</segments>
+      <dataPath xsi:type="form:MultiLanguageDataPath">
+        <paths xsi:type="form:DataPath">
+          <segments>ПредставлениеДанных</segments>
+        </paths>
       </dataPath>
       <extendedTooltip>
         <name>ПредставлениеДанныхExtendedTooltip</name>
@@ -1524,8 +1548,10 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:DataPath">
-            <segments>СтатусТранзакции.Check</segments>
+          <dataPath xsi:type="form:MultiLanguageDataPath">
+            <paths xsi:type="form:DataPath">
+              <segments>СтатусТранзакции.Check</segments>
+            </paths>
           </dataPath>
           <extendedTooltip>
             <name>ПометкаСтатусаExtendedTooltip</name>
@@ -1568,8 +1594,10 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:DataPath">
-            <segments>СтатусТранзакции.Value</segments>
+          <dataPath xsi:type="form:MultiLanguageDataPath">
+            <paths xsi:type="form:DataPath">
+              <segments>СтатусТранзакции.Value</segments>
+            </paths>
           </dataPath>
           <extendedTooltip>
             <name>ЗначениеСтатусаExtendedTooltip</name>
@@ -1794,8 +1822,10 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:DataPath">
-          <segments>Транзакция</segments>
+        <dataPath xsi:type="form:MultiLanguageDataPath">
+          <paths xsi:type="form:DataPath">
+            <segments>Транзакция</segments>
+          </paths>
         </dataPath>
         <titleLocation>Left</titleLocation>
         <extendedTooltip>
@@ -1880,8 +1910,10 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:DataPath">
-          <segments>СтрСоединения</segments>
+        <dataPath xsi:type="form:MultiLanguageDataPath">
+          <paths xsi:type="form:DataPath">
+            <segments>СтрСоединения</segments>
+          </paths>
         </dataPath>
         <titleLocation>Top</titleLocation>
         <extendedTooltip>
@@ -1938,8 +1970,10 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:DataPath">
-            <segments>РабочиеСерверы</segments>
+          <dataPath xsi:type="form:MultiLanguageDataPath">
+            <paths xsi:type="form:DataPath">
+              <segments>РабочиеСерверы</segments>
+            </paths>
           </dataPath>
           <titleLocation>Top</titleLocation>
           <extendedTooltip>
@@ -1995,8 +2029,10 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:DataPath">
-            <segments>ОсновныеIPПорты</segments>
+          <dataPath xsi:type="form:MultiLanguageDataPath">
+            <paths xsi:type="form:DataPath">
+              <segments>ОсновныеIPПорты</segments>
+            </paths>
           </dataPath>
           <extendedTooltip>
             <name>ОсновныеIPПортыExtendedTooltip</name>
@@ -2051,8 +2087,10 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:DataPath">
-            <segments>ВспомогательныеIPПорты</segments>
+          <dataPath xsi:type="form:MultiLanguageDataPath">
+            <paths xsi:type="form:DataPath">
+              <segments>ВспомогательныеIPПорты</segments>
+            </paths>
           </dataPath>
           <extendedTooltip>
             <name>ВспомогательныеIPПортыExtendedTooltip</name>
@@ -2382,13 +2420,13 @@
       <common>true</common>
     </edit>
     <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
-      <segments>Пользователи.ValueType</segments>
+      <segments>Пользователи.Picture</segments>
     </notDefaultUseAlwaysAttributes>
     <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
       <segments>Пользователи.Presentation</segments>
     </notDefaultUseAlwaysAttributes>
     <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
-      <segments>Пользователи.Picture</segments>
+      <segments>Пользователи.ValueType</segments>
     </notDefaultUseAlwaysAttributes>
     <extInfo xsi:type="form:ValueListExtInfo">
       <itemValueType>
@@ -2434,13 +2472,13 @@
       <common>true</common>
     </edit>
     <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
-      <segments>Компьютеры.ValueType</segments>
+      <segments>Компьютеры.Picture</segments>
     </notDefaultUseAlwaysAttributes>
     <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
       <segments>Компьютеры.Presentation</segments>
     </notDefaultUseAlwaysAttributes>
     <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
-      <segments>Компьютеры.Picture</segments>
+      <segments>Компьютеры.ValueType</segments>
     </notDefaultUseAlwaysAttributes>
     <extInfo xsi:type="form:ValueListExtInfo">
       <itemValueType>
@@ -2466,10 +2504,10 @@
       <common>true</common>
     </edit>
     <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
-      <segments>Приложения.ValueType</segments>
+      <segments>Приложения.Picture</segments>
     </notDefaultUseAlwaysAttributes>
     <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
-      <segments>Приложения.Picture</segments>
+      <segments>Приложения.ValueType</segments>
     </notDefaultUseAlwaysAttributes>
     <extInfo xsi:type="form:ValueListExtInfo">
       <itemValueType>
@@ -2495,10 +2533,10 @@
       <common>true</common>
     </edit>
     <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
-      <segments>Важность.ValueType</segments>
+      <segments>Важность.Picture</segments>
     </notDefaultUseAlwaysAttributes>
     <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
-      <segments>Важность.Picture</segments>
+      <segments>Важность.ValueType</segments>
     </notDefaultUseAlwaysAttributes>
     <extInfo xsi:type="form:ValueListExtInfo">
       <itemValueType>
@@ -2542,13 +2580,13 @@
       <common>true</common>
     </edit>
     <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
-      <segments>Метаданные.ValueType</segments>
+      <segments>Метаданные.Picture</segments>
     </notDefaultUseAlwaysAttributes>
     <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
       <segments>Метаданные.Presentation</segments>
     </notDefaultUseAlwaysAttributes>
     <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
-      <segments>Метаданные.Picture</segments>
+      <segments>Метаданные.ValueType</segments>
     </notDefaultUseAlwaysAttributes>
     <extInfo xsi:type="form:ValueListExtInfo">
       <itemValueType>
@@ -2609,13 +2647,13 @@
       <common>true</common>
     </edit>
     <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
-      <segments>СтатусТранзакции.ValueType</segments>
+      <segments>СтатусТранзакции.Picture</segments>
     </notDefaultUseAlwaysAttributes>
     <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
       <segments>СтатусТранзакции.Presentation</segments>
     </notDefaultUseAlwaysAttributes>
     <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
-      <segments>СтатусТранзакции.Picture</segments>
+      <segments>СтатусТранзакции.ValueType</segments>
     </notDefaultUseAlwaysAttributes>
     <extInfo xsi:type="form:ValueListExtInfo">
       <itemValueType>
@@ -2707,13 +2745,13 @@
       <common>true</common>
     </edit>
     <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
-      <segments>РабочиеСерверы.ValueType</segments>
+      <segments>РабочиеСерверы.Picture</segments>
     </notDefaultUseAlwaysAttributes>
     <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
       <segments>РабочиеСерверы.Presentation</segments>
     </notDefaultUseAlwaysAttributes>
     <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
-      <segments>РабочиеСерверы.Picture</segments>
+      <segments>РабочиеСерверы.ValueType</segments>
     </notDefaultUseAlwaysAttributes>
     <extInfo xsi:type="form:ValueListExtInfo">
       <itemValueType>
@@ -2739,13 +2777,13 @@
       <common>true</common>
     </edit>
     <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
-      <segments>ОсновныеIPПорты.ValueType</segments>
+      <segments>ОсновныеIPПорты.Picture</segments>
     </notDefaultUseAlwaysAttributes>
     <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
       <segments>ОсновныеIPПорты.Presentation</segments>
     </notDefaultUseAlwaysAttributes>
     <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
-      <segments>ОсновныеIPПорты.Picture</segments>
+      <segments>ОсновныеIPПорты.ValueType</segments>
     </notDefaultUseAlwaysAttributes>
     <extInfo xsi:type="form:ValueListExtInfo">
       <itemValueType>
@@ -2773,13 +2811,13 @@
       <common>true</common>
     </edit>
     <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
-      <segments>ВспомогательныеIPПорты.ValueType</segments>
+      <segments>ВспомогательныеIPПорты.Picture</segments>
     </notDefaultUseAlwaysAttributes>
     <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
       <segments>ВспомогательныеIPПорты.Presentation</segments>
     </notDefaultUseAlwaysAttributes>
     <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
-      <segments>ВспомогательныеIPПорты.Picture</segments>
+      <segments>ВспомогательныеIPПорты.ValueType</segments>
     </notDefaultUseAlwaysAttributes>
     <extInfo xsi:type="form:ValueListExtInfo">
       <itemValueType>

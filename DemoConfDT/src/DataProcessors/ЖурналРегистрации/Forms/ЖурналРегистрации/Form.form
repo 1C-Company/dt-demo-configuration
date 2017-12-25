@@ -391,8 +391,10 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:DataPath">
-        <segments>КоличествоПоказываемыхСобытий</segments>
+      <dataPath xsi:type="form:MultiLanguageDataPath">
+        <paths xsi:type="form:DataPath">
+          <segments>КоличествоПоказываемыхСобытий</segments>
+        </paths>
       </dataPath>
       <toolTip>
         <key>ru</key>
@@ -499,8 +501,10 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:DataPath">
-        <segments>ПредставлениеОтбора</segments>
+      <dataPath xsi:type="form:MultiLanguageDataPath">
+        <paths xsi:type="form:DataPath">
+          <segments>ПредставлениеОтбора</segments>
+        </paths>
       </dataPath>
       <extendedTooltip>
         <name>ПредставлениеОтбораExtendedTooltip</name>
@@ -593,13 +597,13 @@
     <defaultItem>true</defaultItem>
     <skipOnInput>false</skipOnInput>
     <titleLocation>None</titleLocation>
-    <excludedCommands>Copy</excludedCommands>
-    <excludedCommands>MoveUp</excludedCommands>
-    <excludedCommands>CopyToClipboard</excludedCommands>
-    <excludedCommands>EndEdit</excludedCommands>
     <excludedCommands>Add</excludedCommands>
     <excludedCommands>Change</excludedCommands>
+    <excludedCommands>Copy</excludedCommands>
+    <excludedCommands>CopyToClipboard</excludedCommands>
+    <excludedCommands>EndEdit</excludedCommands>
     <excludedCommands>MoveDown</excludedCommands>
+    <excludedCommands>MoveUp</excludedCommands>
     <items xsi:type="form:FormField">
       <name>Дата</name>
       <id>51</id>
@@ -612,8 +616,10 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:DataPath">
-        <segments>Журнал.Дата</segments>
+      <dataPath xsi:type="form:MultiLanguageDataPath">
+        <paths xsi:type="form:DataPath">
+          <segments>Журнал.Дата</segments>
+        </paths>
       </dataPath>
       <extendedTooltip>
         <name>ДатаExtendedTooltip</name>
@@ -671,8 +677,10 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:DataPath">
-          <segments>Журнал.ИмяПользователя</segments>
+        <dataPath xsi:type="form:MultiLanguageDataPath">
+          <paths xsi:type="form:DataPath">
+            <segments>Журнал.ИмяПользователя</segments>
+          </paths>
         </dataPath>
         <extendedTooltip>
           <name>ИмяПользователяExtendedTooltip</name>
@@ -727,8 +735,10 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:DataPath">
-          <segments>Журнал.Компьютер</segments>
+        <dataPath xsi:type="form:MultiLanguageDataPath">
+          <paths xsi:type="form:DataPath">
+            <segments>Журнал.Компьютер</segments>
+          </paths>
         </dataPath>
         <extendedTooltip>
           <name>КомпьютерExtendedTooltip</name>
@@ -786,8 +796,10 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:DataPath">
-            <segments>Журнал.ПредставлениеПриложения</segments>
+          <dataPath xsi:type="form:MultiLanguageDataPath">
+            <paths xsi:type="form:DataPath">
+              <segments>Журнал.ПредставлениеПриложения</segments>
+            </paths>
           </dataPath>
           <extendedTooltip>
             <name>ПредставлениеПриложенияExtendedTooltip</name>
@@ -838,8 +850,10 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:DataPath">
-            <segments>Журнал.Сеанс</segments>
+          <dataPath xsi:type="form:MultiLanguageDataPath">
+            <paths xsi:type="form:DataPath">
+              <segments>Журнал.Сеанс</segments>
+            </paths>
           </dataPath>
           <extendedTooltip>
             <name>СеансExtendedTooltip</name>
@@ -948,8 +962,10 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:DataPath">
-          <segments>Журнал.ПредставлениеСобытия</segments>
+        <dataPath xsi:type="form:MultiLanguageDataPath">
+          <paths xsi:type="form:DataPath">
+            <segments>Журнал.ПредставлениеСобытия</segments>
+          </paths>
         </dataPath>
         <extendedTooltip>
           <name>ПредставлениеСобытияExtendedTooltip</name>
@@ -1004,8 +1020,10 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:DataPath">
-          <segments>Журнал.Комментарий</segments>
+        <dataPath xsi:type="form:MultiLanguageDataPath">
+          <paths xsi:type="form:DataPath">
+            <segments>Журнал.Комментарий</segments>
+          </paths>
         </dataPath>
         <extendedTooltip>
           <name>КомментарийExtendedTooltip</name>
@@ -1089,8 +1107,10 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:DataPath">
-          <segments>Журнал.СтатусТранзакции</segments>
+        <dataPath xsi:type="form:MultiLanguageDataPath">
+          <paths xsi:type="form:DataPath">
+            <segments>Журнал.СтатусТранзакции</segments>
+          </paths>
         </dataPath>
         <extendedTooltip>
           <name>СтатусТранзакцииExtendedTooltip</name>
@@ -1141,8 +1161,10 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:DataPath">
-          <segments>Журнал.Транзакция</segments>
+        <dataPath xsi:type="form:MultiLanguageDataPath">
+          <paths xsi:type="form:DataPath">
+            <segments>Журнал.Транзакция</segments>
+          </paths>
         </dataPath>
         <extendedTooltip>
           <name>ТранзакцияExtendedTooltip</name>
@@ -1222,8 +1244,10 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:DataPath">
-          <segments>Журнал.ПредставлениеМетаданных</segments>
+        <dataPath xsi:type="form:MultiLanguageDataPath">
+          <paths xsi:type="form:DataPath">
+            <segments>Журнал.ПредставлениеМетаданных</segments>
+          </paths>
         </dataPath>
         <extendedTooltip>
           <name>МетаданныеExtendedTooltip</name>
@@ -1274,8 +1298,10 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:DataPath">
-          <segments>Журнал.Данные</segments>
+        <dataPath xsi:type="form:MultiLanguageDataPath">
+          <paths xsi:type="form:DataPath">
+            <segments>Журнал.Данные</segments>
+          </paths>
         </dataPath>
         <extendedTooltip>
           <name>ДанныеExtendedTooltip</name>
@@ -1326,8 +1352,10 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:DataPath">
-          <segments>Журнал.ПредставлениеДанных</segments>
+        <dataPath xsi:type="form:MultiLanguageDataPath">
+          <paths xsi:type="form:DataPath">
+            <segments>Журнал.ПредставлениеДанных</segments>
+          </paths>
         </dataPath>
         <extendedTooltip>
           <name>ПредставлениеДанныхExtendedTooltip</name>
@@ -1404,8 +1432,10 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:DataPath">
-            <segments>Журнал.РабочийСервер</segments>
+          <dataPath xsi:type="form:MultiLanguageDataPath">
+            <paths xsi:type="form:DataPath">
+              <segments>Журнал.РабочийСервер</segments>
+            </paths>
           </dataPath>
           <extendedTooltip>
             <name>РабочийСерверExtendedTooltip</name>
@@ -1456,8 +1486,10 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:DataPath">
-            <segments>Журнал.Соединение</segments>
+          <dataPath xsi:type="form:MultiLanguageDataPath">
+            <paths xsi:type="form:DataPath">
+              <segments>Журнал.Соединение</segments>
+            </paths>
           </dataPath>
           <extendedTooltip>
             <name>СоединениеExtendedTooltip</name>
@@ -1544,8 +1576,10 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:DataPath">
-            <segments>Журнал.ОсновнойIPПорт</segments>
+          <dataPath xsi:type="form:MultiLanguageDataPath">
+            <paths xsi:type="form:DataPath">
+              <segments>Журнал.ОсновнойIPПорт</segments>
+            </paths>
           </dataPath>
           <extendedTooltip>
             <name>ОсновнойIPПортExtendedTooltip</name>
@@ -1596,8 +1630,10 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:DataPath">
-            <segments>Журнал.ВспомогательныйIPПорт</segments>
+          <dataPath xsi:type="form:MultiLanguageDataPath">
+            <paths xsi:type="form:DataPath">
+              <segments>Журнал.ВспомогательныйIPПорт</segments>
+            </paths>
           </dataPath>
           <extendedTooltip>
             <name>ВспомогательныйIPПортExtendedTooltip</name>
@@ -2028,17 +2064,17 @@
     <event>OnCreateAtServer</event>
     <name>ПриСозданииНаСервере</name>
   </handlers>
-  <excludedCommands>No</excludedCommands>
-  <excludedCommands>SaveValues</excludedCommands>
+  <excludedCommands>Abort</excludedCommands>
+  <excludedCommands>Cancel</excludedCommands>
   <excludedCommands>Close</excludedCommands>
   <excludedCommands>Help</excludedCommands>
-  <excludedCommands>Abort</excludedCommands>
-  <excludedCommands>Retry</excludedCommands>
-  <excludedCommands>Yes</excludedCommands>
-  <excludedCommands>Cancel</excludedCommands>
-  <excludedCommands>RestoreValues</excludedCommands>
   <excludedCommands>Ignore</excludedCommands>
+  <excludedCommands>No</excludedCommands>
   <excludedCommands>OK</excludedCommands>
+  <excludedCommands>RestoreValues</excludedCommands>
+  <excludedCommands>Retry</excludedCommands>
+  <excludedCommands>SaveValues</excludedCommands>
+  <excludedCommands>Yes</excludedCommands>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
   <allowFormCustomize>true</allowFormCustomize>

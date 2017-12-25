@@ -8,8 +8,10 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:DataPath">
-      <segments>Объект.Организация</segments>
+    <dataPath xsi:type="form:MultiLanguageDataPath">
+      <paths xsi:type="form:DataPath">
+        <segments>Объект.Организация</segments>
+      </paths>
     </dataPath>
     <handlers>
       <event>OnChange</event>
@@ -64,8 +66,10 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:DataPath">
-      <segments>Объект.Number</segments>
+    <dataPath xsi:type="form:MultiLanguageDataPath">
+      <paths xsi:type="form:DataPath">
+        <segments>Объект.Number</segments>
+      </paths>
     </dataPath>
     <extendedTooltip>
       <name>НомерExtendedTooltip</name>
@@ -118,8 +122,10 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:DataPath">
-      <segments>Объект.Date</segments>
+    <dataPath xsi:type="form:MultiLanguageDataPath">
+      <paths xsi:type="form:DataPath">
+        <segments>Объект.Date</segments>
+      </paths>
     </dataPath>
     <extendedTooltip>
       <name>ДатаExtendedTooltip</name>
@@ -168,8 +174,10 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:DataPath">
-      <segments>Объект.СодержаниеОперации</segments>
+    <dataPath xsi:type="form:MultiLanguageDataPath">
+      <paths xsi:type="form:DataPath">
+        <segments>Объект.СодержаниеОперации</segments>
+      </paths>
     </dataPath>
     <extendedTooltip>
       <name>СодержаниеОперацииExtendedTooltip</name>
@@ -237,8 +245,10 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:DataPath">
-            <segments>Объект.RegisterRecords.ТоварныеЗапасы.LineNumber</segments>
+          <dataPath xsi:type="form:MultiLanguageDataPath">
+            <paths xsi:type="form:DataPath">
+              <segments>Объект.RegisterRecords.ТоварныеЗапасы.LineNumber</segments>
+            </paths>
           </dataPath>
           <extendedTooltip>
             <name>ТоварныеЗапасыНомерСтрокиExtendedTooltip</name>
@@ -284,8 +294,10 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:DataPath">
-            <segments>Объект.RegisterRecords.ТоварныеЗапасы.RecordType</segments>
+          <dataPath xsi:type="form:MultiLanguageDataPath">
+            <paths xsi:type="form:DataPath">
+              <segments>Объект.RegisterRecords.ТоварныеЗапасы.RecordType</segments>
+            </paths>
           </dataPath>
           <extendedTooltip>
             <name>ТоварныеЗапасыВидДвиженияExtendedTooltip</name>
@@ -338,8 +350,10 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:DataPath">
-            <segments>Объект.RegisterRecords.ТоварныеЗапасы.Active</segments>
+          <dataPath xsi:type="form:MultiLanguageDataPath">
+            <paths xsi:type="form:DataPath">
+              <segments>Объект.RegisterRecords.ТоварныеЗапасы.Active</segments>
+            </paths>
           </dataPath>
           <extendedTooltip>
             <name>ТоварныеЗапасыАктивностьExtendedTooltip</name>
@@ -383,8 +397,10 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:DataPath">
-            <segments>Объект.RegisterRecords.ТоварныеЗапасы.Товар</segments>
+          <dataPath xsi:type="form:MultiLanguageDataPath">
+            <paths xsi:type="form:DataPath">
+              <segments>Объект.RegisterRecords.ТоварныеЗапасы.Товар</segments>
+            </paths>
           </dataPath>
           <extendedTooltip>
             <name>ТоварныеЗапасыТоварExtendedTooltip</name>
@@ -433,8 +449,10 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:DataPath">
-            <segments>Объект.RegisterRecords.ТоварныеЗапасы.Склад</segments>
+          <dataPath xsi:type="form:MultiLanguageDataPath">
+            <paths xsi:type="form:DataPath">
+              <segments>Объект.RegisterRecords.ТоварныеЗапасы.Склад</segments>
+            </paths>
           </dataPath>
           <extendedTooltip>
             <name>ТоварныеЗапасыСкладExtendedTooltip</name>
@@ -483,8 +501,10 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:DataPath">
-            <segments>Объект.RegisterRecords.ТоварныеЗапасы.Количество</segments>
+          <dataPath xsi:type="form:MultiLanguageDataPath">
+            <paths xsi:type="form:DataPath">
+              <segments>Объект.RegisterRecords.ТоварныеЗапасы.Количество</segments>
+            </paths>
           </dataPath>
           <extendedTooltip>
             <name>ТоварныеЗапасыКоличествоExtendedTooltip</name>

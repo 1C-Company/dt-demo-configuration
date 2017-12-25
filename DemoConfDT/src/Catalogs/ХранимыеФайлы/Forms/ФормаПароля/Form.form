@@ -12,8 +12,10 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:DataPath">
-      <segments>Пароль</segments>
+    <dataPath xsi:type="form:MultiLanguageDataPath">
+      <paths xsi:type="form:DataPath">
+        <segments>Пароль</segments>
+      </paths>
     </dataPath>
     <extendedTooltip>
       <name>ПарольExtendedTooltip</name>

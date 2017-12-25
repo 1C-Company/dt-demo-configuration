@@ -149,5 +149,12 @@
       <commands>Catalog.Товары.StandardCommand.CreateFolder</commands>
       <commands>Catalog.РасчетныеСчетаКонтрагентов.StandardCommand.Create</commands>
     </orderFragments>
+    <orderFragments>
+      <group>ActionsPanelReports</group>
+      <commands>Report.ДинамикаПродаж.StandardCommand.Open</commands>
+      <commands>Report.ОстаткиТоваровНаСкладах.StandardCommand.Open</commands>
+      <commands>Report.ОтчетПоВзаиморасчетам.StandardCommand.Open</commands>
+      <commands>Report.ВзаимосвязьПродажТоваров.StandardCommand.Open</commands>
+    </orderFragments>
   </commandsOrder>
 </cmi:CommandInterface>

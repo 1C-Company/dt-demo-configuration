@@ -32,6 +32,12 @@
       </visible>
     </visibilityFragments>
     <visibilityFragments>
+      <command>Catalog.Встречи.Command.ОткрытьКалендарь</command>
+      <visible>
+        <common>true</common>
+      </visible>
+    </visibilityFragments>
+    <visibilityFragments>
       <command>DataProcessor.Путеводитель.Command.ПутеводительПоКонфигурации</command>
       <visible>
         <common>true</common>
@@ -46,6 +52,7 @@
       <commands>DocumentJournal.ФинансовыеДокументы.StandardCommand.OpenList</commands>
       <commands>Catalog.Товары.StandardCommand.OpenList</commands>
       <commands>Catalog.Контрагенты.StandardCommand.OpenList</commands>
+      <commands>Catalog.Встречи.Command.ОткрытьКалендарь</commands>
     </placementFragments>
     <placementFragments>
       <group>CommandGroup.Информация</group>
@@ -60,6 +67,7 @@
       <commands>DocumentJournal.ФинансовыеДокументы.StandardCommand.OpenList</commands>
       <commands>Catalog.Товары.StandardCommand.OpenList</commands>
       <commands>Catalog.Контрагенты.StandardCommand.OpenList</commands>
+      <commands>Catalog.Встречи.Command.ОткрытьКалендарь</commands>
     </orderFragments>
   </commandsOrder>
 </cmi:CommandInterface>

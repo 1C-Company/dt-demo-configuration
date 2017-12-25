@@ -15,8 +15,10 @@
     <value>Состояние исходящих писем</value>
   </synonym>
   <comment></comment>
+  <dataHistory>Use</dataHistory>
   <editType>InDialog</editType>
   <standardAttributes>
+    <dataHistory>Use</dataHistory>
     <name>Active</name>
     <comment></comment>
     <fillValue xsi:type="core:UndefinedValue"/>
@@ -26,6 +28,7 @@
     <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
   <standardAttributes>
+    <dataHistory>Use</dataHistory>
     <name>LineNumber</name>
     <comment></comment>
     <fillValue xsi:type="core:UndefinedValue"/>
@@ -35,6 +38,7 @@
     <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
   <standardAttributes>
+    <dataHistory>Use</dataHistory>
     <name>Recorder</name>
     <comment></comment>
     <fillValue xsi:type="core:UndefinedValue"/>
@@ -44,6 +48,7 @@
     <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
   <standardAttributes>
+    <dataHistory>Use</dataHistory>
     <name>Period</name>
     <comment></comment>
     <fillValue xsi:type="core:UndefinedValue"/>
@@ -68,6 +73,7 @@
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
     <fillValue xsi:type="core:UndefinedValue"/>
   </resources>
   <dimensions uuid="da1a06f9-9cae-4026-b2a7-d0f9e255f6fe">
@@ -86,6 +92,7 @@
     <fillChecking>ShowError</fillChecking>
     <denyIncompleteValues>true</denyIncompleteValues>
     <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
     <fillFromFillingValue>true</fillFromFillingValue>
     <fillValue xsi:type="core:UndefinedValue"/>
     <master>true</master>

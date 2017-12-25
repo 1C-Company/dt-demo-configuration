@@ -301,6 +301,33 @@
     <comment></comment>
     <templateType>HTMLDocument</templateType>
   </templates>
+  <templates uuid="e598b312-727f-42ba-ba3a-ddd9c4ba303f">
+    <name>ИсторияДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>История данных</value>
+    </synonym>
+    <comment></comment>
+    <templateType>HTMLDocument</templateType>
+  </templates>
+  <templates uuid="94e76634-d1b0-4d21-a712-ed49576f8bb1">
+    <name>Планировщик</name>
+    <synonym>
+      <key>ru</key>
+      <value>Планировщик</value>
+    </synonym>
+    <comment></comment>
+    <templateType>HTMLDocument</templateType>
+  </templates>
+  <templates uuid="b6e9a28b-6105-4c35-82e7-3e651ce221a5">
+    <name>СистемаВзаимодействия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Система взаимодействия</value>
+    </synonym>
+    <comment></comment>
+    <templateType>HTMLDocument</templateType>
+  </templates>
   <templates uuid="9db21765-8f96-4169-b33c-14b44527f82f">
     <name>ТиповыеПриемыРазработки</name>
     <synonym>

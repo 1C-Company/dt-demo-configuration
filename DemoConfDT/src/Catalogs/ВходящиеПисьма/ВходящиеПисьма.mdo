@@ -17,6 +17,7 @@
   <inputByString>Catalog.ВходящиеПисьма.StandardAttribute.Description</inputByString>
   <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
   <standardAttributes>
+    <dataHistory>Use</dataHistory>
     <name>PredefinedDataName</name>
     <comment></comment>
     <fillValue xsi:type="core:UndefinedValue"/>
@@ -26,6 +27,7 @@
     <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
   <standardAttributes>
+    <dataHistory>Use</dataHistory>
     <name>Predefined</name>
     <comment></comment>
     <fillValue xsi:type="core:UndefinedValue"/>
@@ -35,6 +37,7 @@
     <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
   <standardAttributes>
+    <dataHistory>Use</dataHistory>
     <name>Ref</name>
     <comment></comment>
     <fillValue xsi:type="core:UndefinedValue"/>
@@ -44,6 +47,7 @@
     <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
   <standardAttributes>
+    <dataHistory>Use</dataHistory>
     <name>DeletionMark</name>
     <comment></comment>
     <fillValue xsi:type="core:UndefinedValue"/>
@@ -53,6 +57,7 @@
     <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
   <standardAttributes>
+    <dataHistory>Use</dataHistory>
     <name>IsFolder</name>
     <comment></comment>
     <fillValue xsi:type="core:UndefinedValue"/>
@@ -62,6 +67,7 @@
     <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
   <standardAttributes>
+    <dataHistory>Use</dataHistory>
     <name>Owner</name>
     <comment></comment>
     <fillFromFillingValue>true</fillFromFillingValue>
@@ -73,6 +79,7 @@
     <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
   <standardAttributes>
+    <dataHistory>Use</dataHistory>
     <name>Parent</name>
     <comment></comment>
     <fillFromFillingValue>true</fillFromFillingValue>
@@ -83,6 +90,7 @@
     <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
   <standardAttributes>
+    <dataHistory>Use</dataHistory>
     <name>Description</name>
     <synonym>
       <key>ru</key>
@@ -97,6 +105,7 @@
     <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
   <standardAttributes>
+    <dataHistory>Use</dataHistory>
     <name>Code</name>
     <comment></comment>
     <fillValue xsi:type="core:UndefinedValue"/>
@@ -150,6 +159,7 @@
     <fillValue xsi:type="core:UndefinedValue"/>
     <indexing>Index</indexing>
     <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
   </attributes>
   <attributes uuid="a0dc2f35-4af9-4a2a-ae86-caf1fad83d2e">
     <name>Отправитель</name>
@@ -169,6 +179,7 @@
       <value></value>
     </fillValue>
     <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
   </attributes>
   <attributes uuid="c0483110-30ba-4cc5-bf22-3ce282946721">
     <name>Текст</name>
@@ -186,6 +197,7 @@
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
   </attributes>
   <attributes uuid="1e5aebf6-3bf4-463f-b47b-02e112778d12">
     <name>ВидСодержимого</name>
@@ -202,6 +214,7 @@
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
   </attributes>
   <attributes uuid="37fa094f-8bef-400d-8b99-2925169f8185">
     <name>Идентификатор</name>
@@ -221,6 +234,7 @@
       <value></value>
     </fillValue>
     <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
   </attributes>
   <attributes uuid="89168750-c64e-4400-81fb-d044432afce8">
     <name>ПочтовыйЯщик</name>
@@ -242,6 +256,7 @@
       <value></value>
     </fillValue>
     <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
   </attributes>
   <forms uuid="3f834492-7d92-4947-9cdf-ddda5b048c2c">
     <name>ФормаЭлемента</name>

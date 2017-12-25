@@ -21,15 +21,15 @@
     </dataPath>
     <skipOnInput>false</skipOnInput>
     <titleLocation>Top</titleLocation>
+    <excludedCommands>CancelSearch</excludedCommands>
+    <excludedCommands>Change</excludedCommands>
     <excludedCommands>Copy</excludedCommands>
     <excludedCommands>Create</excludedCommands>
-    <excludedCommands>ListSettings</excludedCommands>
-    <excludedCommands>Refresh</excludedCommands>
-    <excludedCommands>CancelSearch</excludedCommands>
-    <excludedCommands>OutputList</excludedCommands>
-    <excludedCommands>SetDeletionMark</excludedCommands>
-    <excludedCommands>Change</excludedCommands>
     <excludedCommands>Find</excludedCommands>
+    <excludedCommands>ListSettings</excludedCommands>
+    <excludedCommands>OutputList</excludedCommands>
+    <excludedCommands>Refresh</excludedCommands>
+    <excludedCommands>SetDeletionMark</excludedCommands>
     <items xsi:type="form:FormField">
       <name>Наименование</name>
       <id>4</id>
@@ -38,8 +38,10 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:DataPath">
-        <segments>СписокНастроек.Description</segments>
+      <dataPath xsi:type="form:MultiLanguageDataPath">
+        <paths xsi:type="form:DataPath">
+          <segments>СписокНастроек.Description</segments>
+        </paths>
       </dataPath>
       <extendedTooltip>
         <name>НаименованиеExtendedTooltip</name>
@@ -338,8 +340,10 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:DataPath">
-      <segments>ИмяСохраняемойНастройки</segments>
+    <dataPath xsi:type="form:MultiLanguageDataPath">
+      <paths xsi:type="form:DataPath">
+        <segments>ИмяСохраняемойНастройки</segments>
+      </paths>
     </dataPath>
     <defaultItem>true</defaultItem>
     <titleLocation>Top</titleLocation>

@@ -18,6 +18,7 @@
   <inputByString>Catalog.НастройкиТорговогоОборудования.StandardAttribute.Code</inputByString>
   <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
   <standardAttributes>
+    <dataHistory>Use</dataHistory>
     <name>PredefinedDataName</name>
     <comment></comment>
     <fillValue xsi:type="core:UndefinedValue"/>
@@ -27,6 +28,7 @@
     <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
   <standardAttributes>
+    <dataHistory>Use</dataHistory>
     <name>Predefined</name>
     <comment></comment>
     <fillValue xsi:type="core:UndefinedValue"/>
@@ -36,6 +38,7 @@
     <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
   <standardAttributes>
+    <dataHistory>Use</dataHistory>
     <name>Ref</name>
     <comment></comment>
     <fillValue xsi:type="core:UndefinedValue"/>
@@ -45,6 +48,7 @@
     <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
   <standardAttributes>
+    <dataHistory>Use</dataHistory>
     <name>DeletionMark</name>
     <comment></comment>
     <fillValue xsi:type="core:UndefinedValue"/>
@@ -54,6 +58,7 @@
     <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
   <standardAttributes>
+    <dataHistory>Use</dataHistory>
     <name>IsFolder</name>
     <comment></comment>
     <fillValue xsi:type="core:UndefinedValue"/>
@@ -63,6 +68,7 @@
     <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
   <standardAttributes>
+    <dataHistory>Use</dataHistory>
     <name>Owner</name>
     <comment></comment>
     <fillFromFillingValue>true</fillFromFillingValue>
@@ -74,6 +80,7 @@
     <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
   <standardAttributes>
+    <dataHistory>Use</dataHistory>
     <name>Parent</name>
     <comment></comment>
     <fillFromFillingValue>true</fillFromFillingValue>
@@ -84,6 +91,7 @@
     <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
   <standardAttributes>
+    <dataHistory>Use</dataHistory>
     <name>Description</name>
     <comment></comment>
     <fillValue xsi:type="core:UndefinedValue"/>
@@ -94,6 +102,7 @@
     <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
   <standardAttributes>
+    <dataHistory>Use</dataHistory>
     <name>Code</name>
     <comment></comment>
     <fillValue xsi:type="core:UndefinedValue"/>
@@ -123,6 +132,7 @@
     <key>ru</key>
     <value>Настройки торгового оборудования</value>
   </listPresentation>
+  <dataHistory>Use</dataHistory>
   <levelCount>2</levelCount>
   <foldersOnTop>true</foldersOnTop>
   <codeLength>9</codeLength>
@@ -157,6 +167,7 @@
       <value>0</value>
     </fillValue>
     <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
   </attributes>
   <attributes uuid="4a8278ad-470c-40bb-a3f2-5a50a648214b">
     <name>Скорость</name>
@@ -180,6 +191,7 @@
       <value>0</value>
     </fillValue>
     <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
   </attributes>
   <attributes uuid="df96e7f4-e187-4639-bf58-1aa1e63bee2a">
     <name>Порт</name>
@@ -201,6 +213,7 @@
       <value>COM1</value>
     </fillValue>
     <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
   </attributes>
   <forms uuid="ea502ab5-d5a0-4fe7-af8a-24fb0da9c61c">
     <name>ФормаЭлемента</name>

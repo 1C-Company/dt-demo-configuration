@@ -21,8 +21,10 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:DataPath">
-        <segments>ТаблицаОстатков.Контрагент</segments>
+      <dataPath xsi:type="form:MultiLanguageDataPath">
+        <paths xsi:type="form:DataPath">
+          <segments>ТаблицаОстатков.Контрагент</segments>
+        </paths>
       </dataPath>
       <extendedTooltip>
         <name>ТаблицаОстатковКонтрагентExtendedTooltip</name>
@@ -69,8 +71,10 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:DataPath">
-        <segments>ТаблицаОстатков.Валюта</segments>
+      <dataPath xsi:type="form:MultiLanguageDataPath">
+        <paths xsi:type="form:DataPath">
+          <segments>ТаблицаОстатков.Валюта</segments>
+        </paths>
       </dataPath>
       <extendedTooltip>
         <name>ТаблицаОстатковВалютаExtendedTooltip</name>
@@ -117,8 +121,10 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:DataPath">
-        <segments>ТаблицаОстатков.НашДолг</segments>
+      <dataPath xsi:type="form:MultiLanguageDataPath">
+        <paths xsi:type="form:DataPath">
+          <segments>ТаблицаОстатков.НашДолг</segments>
+        </paths>
       </dataPath>
       <extendedTooltip>
         <name>ТаблицаОстатковНашДолгExtendedTooltip</name>
@@ -165,8 +171,10 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:DataPath">
-        <segments>ТаблицаОстатков.ДолгНам</segments>
+      <dataPath xsi:type="form:MultiLanguageDataPath">
+        <paths xsi:type="form:DataPath">
+          <segments>ТаблицаОстатков.ДолгНам</segments>
+        </paths>
       </dataPath>
       <extendedTooltip>
         <name>ТаблицаОстатковДолгНамExtendedTooltip</name>

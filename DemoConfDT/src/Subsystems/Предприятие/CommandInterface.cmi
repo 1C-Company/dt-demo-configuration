@@ -71,6 +71,14 @@
       </visible>
     </visibilityFragments>
     <visibilityFragments>
+      <command>Catalog.Встречи.Command.ОткрытьКалендарь</command>
+      <visible/>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>Catalog.Встречи.StandardCommand.OpenList</command>
+      <visible/>
+    </visibilityFragments>
+    <visibilityFragments>
       <command>InformationRegister.Характеристики.StandardCommand.OpenList</command>
       <visible>
         <common>true</common>
@@ -253,8 +261,10 @@
       <commands>Catalog.ЗначенияХарактеристик.StandardCommand.OpenList</commands>
       <commands>Catalog.ВидыЦен.StandardCommand.OpenList</commands>
       <commands>Catalog.Регионы.StandardCommand.OpenList</commands>
-      <commands>ExchangePlan.Мобильные.StandardCommand.OpenList</commands>
       <commands>Catalog.Пользователи.StandardCommand.OpenList</commands>
+      <commands>ExchangePlan.Мобильные.StandardCommand.OpenList</commands>
+      <commands>Catalog.Встречи.Command.ОткрытьКалендарь</commands>
+      <commands>Catalog.Встречи.StandardCommand.OpenList</commands>
     </orderFragments>
     <orderFragments>
       <group>NavigationPanelSeeAlso</group>
@@ -271,18 +281,19 @@
       <commands>DataProcessor.ЖурналРегистрации.StandardCommand.Open</commands>
       <commands>CommonForm.НастройкаПочты.StandardCommand.Open</commands>
       <commands>DataProcessor.НастройкиПользователя.StandardCommand.Open</commands>
-      <commands>CommonForm.ОбщиеНастройки.StandardCommand.Open</commands>
       <commands>CommonCommand.ОбщиеНастройки</commands>
       <commands>DataProcessor.ПроведениеДокументов.StandardCommand.Open</commands>
       <commands>DataProcessor.УдалениеПомеченныхОбъектов.StandardCommand.Open</commands>
       <commands>DataProcessor.УправлениеАгрегатамиПродаж.StandardCommand.Open</commands>
       <commands>DataProcessor.УправлениеНастройкамиФорм.StandardCommand.Open</commands>
       <commands>DataProcessor.УправлениеПолнотекстовымПоиском.StandardCommand.Open</commands>
+      <commands>DataProcessor.УправлениеСистемойВзаимодействия.StandardCommand.Open</commands>
       <commands>CommonCommand.УстановитьРасширениеРаботыСФайлами</commands>
       <commands>CommonCommand.УстановитьРасширениеРаботыСКриптографией</commands>
       <commands>DataProcessor.АдминистративныйСервис.Command.АдминистративныйСервис</commands>
       <commands>CommonCommand.УстановитьВидимостьОбъектовЧерезODataAPI</commands>
       <commands>CommonForm.НастройкаPushУведомлений.StandardCommand.Open</commands>
+      <commands>DataProcessor.ЭлектроннаяПочта.StandardCommand.Open</commands>
     </orderFragments>
   </commandsOrder>
 </cmi:CommandInterface>

@@ -18,6 +18,7 @@
   <inputByString>Catalog.РасчетныеСчета.StandardAttribute.Code</inputByString>
   <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
   <standardAttributes>
+    <dataHistory>Use</dataHistory>
     <name>PredefinedDataName</name>
     <comment></comment>
     <fillValue xsi:type="core:UndefinedValue"/>
@@ -27,6 +28,7 @@
     <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
   <standardAttributes>
+    <dataHistory>Use</dataHistory>
     <name>Predefined</name>
     <comment></comment>
     <fillValue xsi:type="core:UndefinedValue"/>
@@ -36,6 +38,7 @@
     <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
   <standardAttributes>
+    <dataHistory>Use</dataHistory>
     <name>Ref</name>
     <comment></comment>
     <fillValue xsi:type="core:UndefinedValue"/>
@@ -45,6 +48,7 @@
     <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
   <standardAttributes>
+    <dataHistory>Use</dataHistory>
     <name>DeletionMark</name>
     <comment></comment>
     <fillValue xsi:type="core:UndefinedValue"/>
@@ -54,6 +58,7 @@
     <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
   <standardAttributes>
+    <dataHistory>Use</dataHistory>
     <name>IsFolder</name>
     <comment></comment>
     <fillValue xsi:type="core:UndefinedValue"/>
@@ -63,6 +68,7 @@
     <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
   <standardAttributes>
+    <dataHistory>Use</dataHistory>
     <name>Owner</name>
     <synonym>
       <key>ru</key>
@@ -80,6 +86,7 @@
     <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
   <standardAttributes>
+    <dataHistory>Use</dataHistory>
     <name>Parent</name>
     <comment></comment>
     <fillFromFillingValue>true</fillFromFillingValue>
@@ -90,6 +97,7 @@
     <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
   <standardAttributes>
+    <dataHistory>Use</dataHistory>
     <name>Description</name>
     <comment></comment>
     <fillValue xsi:type="core:UndefinedValue"/>
@@ -100,6 +108,7 @@
     <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
   <standardAttributes>
+    <dataHistory>Use</dataHistory>
     <name>Code</name>
     <comment></comment>
     <fillValue xsi:type="core:UndefinedValue"/>
@@ -132,6 +141,7 @@
     <key>ru</key>
     <value>Наши расчетные счета используемые при расчетах с контрагентами</value>
   </explanation>
+  <dataHistory>Use</dataHistory>
   <levelCount>2</levelCount>
   <foldersOnTop>true</foldersOnTop>
   <owners>Catalog.Организации</owners>
@@ -168,6 +178,7 @@
       <value></value>
     </fillValue>
     <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
   </attributes>
   <attributes uuid="aac6dd88-8347-4214-87bd-303241768b89">
     <name>Банк</name>
@@ -191,6 +202,7 @@
       <value>Catalog.Банки.EmptyRef</value>
     </fillValue>
     <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
   </attributes>
   <forms uuid="47efd4b9-035d-40d2-bbea-b2557655d37c">
     <name>ФормаВыбора</name>

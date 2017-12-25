@@ -15,9 +15,11 @@
     <value>Курсы валют</value>
   </synonym>
   <comment></comment>
+  <dataHistory>Use</dataHistory>
   <useStandardCommands>true</useStandardCommands>
   <editType>InDialog</editType>
   <standardAttributes>
+    <dataHistory>Use</dataHistory>
     <name>Active</name>
     <comment></comment>
     <fillValue xsi:type="core:UndefinedValue"/>
@@ -27,6 +29,7 @@
     <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
   <standardAttributes>
+    <dataHistory>Use</dataHistory>
     <name>LineNumber</name>
     <comment></comment>
     <fillValue xsi:type="core:UndefinedValue"/>
@@ -36,6 +39,7 @@
     <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
   <standardAttributes>
+    <dataHistory>Use</dataHistory>
     <name>Recorder</name>
     <comment></comment>
     <fillValue xsi:type="core:UndefinedValue"/>
@@ -45,6 +49,7 @@
     <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
   <standardAttributes>
+    <dataHistory>Use</dataHistory>
     <name>Period</name>
     <comment></comment>
     <fillValue xsi:type="core:UndefinedValue"/>
@@ -106,6 +111,7 @@
     <quickChoice>DontUse</quickChoice>
     <createOnInput>Use</createOnInput>
     <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
     <fillValue xsi:type="core:NumberValue">
       <value>0</value>
     </fillValue>
@@ -130,6 +136,7 @@
     <fillChecking>ShowError</fillChecking>
     <denyIncompleteValues>true</denyIncompleteValues>
     <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
     <fillFromFillingValue>true</fillFromFillingValue>
     <fillValue xsi:type="core:ReferenceValue">
       <value>Catalog.Валюты.EmptyRef</value>

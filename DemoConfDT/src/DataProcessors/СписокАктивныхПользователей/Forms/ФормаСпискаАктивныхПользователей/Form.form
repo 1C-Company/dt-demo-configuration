@@ -276,14 +276,14 @@
     </dataPath>
     <skipOnInput>false</skipOnInput>
     <titleLocation>None</titleLocation>
-    <excludedCommands>Copy</excludedCommands>
-    <excludedCommands>SortListAsc</excludedCommands>
-    <excludedCommands>MoveUp</excludedCommands>
-    <excludedCommands>SortListDesc</excludedCommands>
-    <excludedCommands>EndEdit</excludedCommands>
     <excludedCommands>Add</excludedCommands>
     <excludedCommands>Change</excludedCommands>
+    <excludedCommands>Copy</excludedCommands>
+    <excludedCommands>EndEdit</excludedCommands>
     <excludedCommands>MoveDown</excludedCommands>
+    <excludedCommands>MoveUp</excludedCommands>
+    <excludedCommands>SortListAsc</excludedCommands>
+    <excludedCommands>SortListDesc</excludedCommands>
     <items xsi:type="form:FormField">
       <name>Пользователь</name>
       <id>4</id>
@@ -292,8 +292,10 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:DataPath">
-        <segments>СписокПользователей.ИмяПользователя</segments>
+      <dataPath xsi:type="form:MultiLanguageDataPath">
+        <paths xsi:type="form:DataPath">
+          <segments>СписокПользователей.ИмяПользователя</segments>
+        </paths>
       </dataPath>
       <extendedTooltip>
         <name>ПользовательРасширеннаяПодсказка</name>
@@ -346,8 +348,10 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:DataPath">
-        <segments>СписокПользователей.Приложение</segments>
+      <dataPath xsi:type="form:MultiLanguageDataPath">
+        <paths xsi:type="form:DataPath">
+          <segments>СписокПользователей.Приложение</segments>
+        </paths>
       </dataPath>
       <extendedTooltip>
         <name>ПриложениеРасширеннаяПодсказка</name>
@@ -400,8 +404,10 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:DataPath">
-        <segments>СписокПользователей.НачалоРаботы</segments>
+      <dataPath xsi:type="form:MultiLanguageDataPath">
+        <paths xsi:type="form:DataPath">
+          <segments>СписокПользователей.НачалоРаботы</segments>
+        </paths>
       </dataPath>
       <extendedTooltip>
         <name>НачалоРаботыРасширеннаяПодсказка</name>
@@ -454,8 +460,10 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:DataPath">
-        <segments>СписокПользователей.Компьютер</segments>
+      <dataPath xsi:type="form:MultiLanguageDataPath">
+        <paths xsi:type="form:DataPath">
+          <segments>СписокПользователей.Компьютер</segments>
+        </paths>
       </dataPath>
       <extendedTooltip>
         <name>КомпьютерРасширеннаяПодсказка</name>
@@ -508,8 +516,10 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:DataPath">
-        <segments>СписокПользователей.Сеанс</segments>
+      <dataPath xsi:type="form:MultiLanguageDataPath">
+        <paths xsi:type="form:DataPath">
+          <segments>СписокПользователей.Сеанс</segments>
+        </paths>
       </dataPath>
       <extendedTooltip>
         <name>СеансРасширеннаяПодсказка</name>
@@ -904,8 +914,10 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:DataPath">
-      <segments>КоличествоАктивныхПользователей</segments>
+    <dataPath xsi:type="form:MultiLanguageDataPath">
+      <paths xsi:type="form:DataPath">
+        <segments>КоличествоАктивныхПользователей</segments>
+      </paths>
     </dataPath>
     <extendedTooltip>
       <name>КоличествоАктивныхПользователейРасширеннаяПодсказка</name>
@@ -960,13 +972,13 @@
     <event>OnCreateAtServer</event>
     <name>ПриСозданииНаСервере</name>
   </handlers>
-  <excludedCommands>No</excludedCommands>
   <excludedCommands>Abort</excludedCommands>
-  <excludedCommands>Retry</excludedCommands>
-  <excludedCommands>Yes</excludedCommands>
   <excludedCommands>Cancel</excludedCommands>
   <excludedCommands>Ignore</excludedCommands>
+  <excludedCommands>No</excludedCommands>
   <excludedCommands>OK</excludedCommands>
+  <excludedCommands>Retry</excludedCommands>
+  <excludedCommands>Yes</excludedCommands>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
   <autoFillCheck>true</autoFillCheck>

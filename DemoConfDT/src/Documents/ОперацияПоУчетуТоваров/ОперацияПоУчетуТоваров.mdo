@@ -17,6 +17,7 @@
   <inputByString>Document.ОперацияПоУчетуТоваров.StandardAttribute.Number</inputByString>
   <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
   <standardAttributes>
+    <dataHistory>Use</dataHistory>
     <name>Posted</name>
     <comment></comment>
     <fillValue xsi:type="core:UndefinedValue"/>
@@ -26,6 +27,7 @@
     <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
   <standardAttributes>
+    <dataHistory>Use</dataHistory>
     <name>Ref</name>
     <comment></comment>
     <fillValue xsi:type="core:UndefinedValue"/>
@@ -35,6 +37,7 @@
     <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
   <standardAttributes>
+    <dataHistory>Use</dataHistory>
     <name>DeletionMark</name>
     <comment></comment>
     <fillValue xsi:type="core:UndefinedValue"/>
@@ -44,6 +47,7 @@
     <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
   <standardAttributes>
+    <dataHistory>Use</dataHistory>
     <name>Date</name>
     <comment></comment>
     <fillValue xsi:type="core:UndefinedValue"/>
@@ -54,6 +58,7 @@
     <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
   <standardAttributes>
+    <dataHistory>Use</dataHistory>
     <name>Number</name>
     <comment></comment>
     <fillValue xsi:type="core:UndefinedValue"/>
@@ -91,6 +96,7 @@
     <key>ru</key>
     <value>Корректировка остатков товаров на складах, в том числе ввод начальных остатков</value>
   </explanation>
+  <dataHistory>Use</dataHistory>
   <numberType>String</numberType>
   <numberLength>9</numberLength>
   <numberAllowedLength>Variable</numberAllowedLength>
@@ -121,6 +127,7 @@
       <value></value>
     </fillValue>
     <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
   </attributes>
   <attributes uuid="0bb7fee3-f208-4f91-8392-bf82f640a246">
     <name>Организация</name>
@@ -140,6 +147,7 @@
       <value>Catalog.Организации.EmptyRef</value>
     </fillValue>
     <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
   </attributes>
   <forms uuid="57831099-84e2-4236-84cb-212e22c11fa9">
     <name>ФормаДокумента</name>

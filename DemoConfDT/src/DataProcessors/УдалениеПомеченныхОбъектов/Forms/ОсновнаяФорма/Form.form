@@ -22,8 +22,10 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:DataPath">
-          <segments>РежимУдаления</segments>
+        <dataPath xsi:type="form:MultiLanguageDataPath">
+          <paths xsi:type="form:DataPath">
+            <segments>РежимУдаления</segments>
+          </paths>
         </dataPath>
         <titleLocation>None</titleLocation>
         <handlers>
@@ -133,8 +135,10 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:DataPath">
-          <segments>СтрокаРезультатов</segments>
+        <dataPath xsi:type="form:MultiLanguageDataPath">
+          <paths xsi:type="form:DataPath">
+            <segments>СтрокаРезультатов</segments>
+          </paths>
         </dataPath>
         <titleLocation>Top</titleLocation>
         <extendedTooltip>
@@ -227,20 +231,20 @@
         </dataPath>
         <skipOnInput>false</skipOnInput>
         <titleLocation>Top</titleLocation>
-        <excludedCommands>HierarchicalList</excludedCommands>
-        <excludedCommands>Tree</excludedCommands>
+        <excludedCommands>Add</excludedCommands>
+        <excludedCommands>Change</excludedCommands>
         <excludedCommands>Copy</excludedCommands>
+        <excludedCommands>CopyToClipboard</excludedCommands>
+        <excludedCommands>EndEdit</excludedCommands>
+        <excludedCommands>HierarchicalList</excludedCommands>
         <excludedCommands>List</excludedCommands>
-        <excludedCommands>SortListAsc</excludedCommands>
+        <excludedCommands>MoveDown</excludedCommands>
         <excludedCommands>MoveUp</excludedCommands>
         <excludedCommands>OutputList</excludedCommands>
         <excludedCommands>SelectAll</excludedCommands>
+        <excludedCommands>SortListAsc</excludedCommands>
         <excludedCommands>SortListDesc</excludedCommands>
-        <excludedCommands>CopyToClipboard</excludedCommands>
-        <excludedCommands>EndEdit</excludedCommands>
-        <excludedCommands>Add</excludedCommands>
-        <excludedCommands>Change</excludedCommands>
-        <excludedCommands>MoveDown</excludedCommands>
+        <excludedCommands>Tree</excludedCommands>
         <items xsi:type="form:FormField">
           <name>Представление1</name>
           <id>43</id>
@@ -249,8 +253,10 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:DataPath">
-            <segments>ДеревоНеудаленныхОбъектов.Представление</segments>
+          <dataPath xsi:type="form:MultiLanguageDataPath">
+            <paths xsi:type="form:DataPath">
+              <segments>ДеревоНеудаленныхОбъектов.Представление</segments>
+            </paths>
           </dataPath>
           <extendedTooltip>
             <name>Представление1ExtendedTooltip</name>
@@ -548,8 +554,10 @@
             <userVisible>
               <common>true</common>
             </userVisible>
-            <dataPath xsi:type="form:DataPath">
-              <segments>СписокПомеченныхНаУдаление.Пометка</segments>
+            <dataPath xsi:type="form:MultiLanguageDataPath">
+              <paths xsi:type="form:DataPath">
+                <segments>СписокПомеченныхНаУдаление.Пометка</segments>
+              </paths>
             </dataPath>
             <handlers>
               <event>OnChange</event>
@@ -593,8 +601,10 @@
             <userVisible>
               <common>true</common>
             </userVisible>
-            <dataPath xsi:type="form:DataPath">
-              <segments>СписокПомеченныхНаУдаление.Представление</segments>
+            <dataPath xsi:type="form:MultiLanguageDataPath">
+              <paths xsi:type="form:DataPath">
+                <segments>СписокПомеченныхНаУдаление.Представление</segments>
+              </paths>
             </dataPath>
             <extendedTooltip>
               <name>ПредставлениеExtendedTooltip</name>
@@ -1241,15 +1251,15 @@
     <event>OnCreateAtServer</event>
     <name>ПриСозданииНаСервере</name>
   </handlers>
-  <excludedCommands>No</excludedCommands>
-  <excludedCommands>SaveValues</excludedCommands>
   <excludedCommands>Abort</excludedCommands>
-  <excludedCommands>Retry</excludedCommands>
-  <excludedCommands>Yes</excludedCommands>
   <excludedCommands>Cancel</excludedCommands>
-  <excludedCommands>RestoreValues</excludedCommands>
   <excludedCommands>Ignore</excludedCommands>
+  <excludedCommands>No</excludedCommands>
   <excludedCommands>OK</excludedCommands>
+  <excludedCommands>RestoreValues</excludedCommands>
+  <excludedCommands>Retry</excludedCommands>
+  <excludedCommands>SaveValues</excludedCommands>
+  <excludedCommands>Yes</excludedCommands>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
   <enabled>true</enabled>

@@ -326,8 +326,10 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:DataPath">
-          <segments>ПочтовыйЯщикIMAP</segments>
+        <dataPath xsi:type="form:MultiLanguageDataPath">
+          <paths xsi:type="form:DataPath">
+            <segments>ПочтовыйЯщикIMAP</segments>
+          </paths>
         </dataPath>
         <handlers>
           <event>OnChange</event>
@@ -590,11 +592,10 @@
           <segments>СписокВходящие</segments>
         </dataPath>
         <titleLocation>None</titleLocation>
+        <excludedCommands>Change</excludedCommands>
         <excludedCommands>Copy</excludedCommands>
         <excludedCommands>Create</excludedCommands>
-        <excludedCommands>Choose</excludedCommands>
         <excludedCommands>SetDeletionMark</excludedCommands>
-        <excludedCommands>Change</excludedCommands>
         <items xsi:type="form:FormField">
           <name>ДатаВходящие</name>
           <id>6</id>
@@ -603,8 +604,10 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:DataPath">
-            <segments>СписокВходящие.Дата</segments>
+          <dataPath xsi:type="form:MultiLanguageDataPath">
+            <paths xsi:type="form:DataPath">
+              <segments>СписокВходящие.Дата</segments>
+            </paths>
           </dataPath>
           <extendedTooltip>
             <name>ДатаВходящиеExtendedTooltip</name>
@@ -649,8 +652,10 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:DataPath">
-            <segments>СписокВходящие.Description</segments>
+          <dataPath xsi:type="form:MultiLanguageDataPath">
+            <paths xsi:type="form:DataPath">
+              <segments>СписокВходящие.Description</segments>
+            </paths>
           </dataPath>
           <defaultItem>true</defaultItem>
           <extendedTooltip>
@@ -696,8 +701,10 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:DataPath">
-            <segments>СписокВходящие.Отправитель</segments>
+          <dataPath xsi:type="form:MultiLanguageDataPath">
+            <paths xsi:type="form:DataPath">
+              <segments>СписокВходящие.Отправитель</segments>
+            </paths>
           </dataPath>
           <extendedTooltip>
             <name>СписокВходящиеОтправительExtendedTooltip</name>
@@ -742,8 +749,10 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:DataPath">
-            <segments>СписокВходящие.ПочтовыйЯщик</segments>
+          <dataPath xsi:type="form:MultiLanguageDataPath">
+            <paths xsi:type="form:DataPath">
+              <segments>СписокВходящие.ПочтовыйЯщик</segments>
+            </paths>
           </dataPath>
           <extendedTooltip>
             <name>СписокВходящиеПочтовыйЯщикExtendedTooltip</name>
@@ -1228,7 +1237,6 @@
         <titleLocation>None</titleLocation>
         <excludedCommands>Copy</excludedCommands>
         <excludedCommands>Create</excludedCommands>
-        <excludedCommands>Choose</excludedCommands>
         <excludedCommands>SetDeletionMark</excludedCommands>
         <items xsi:type="form:FormField">
           <name>ДатаИсходящие</name>
@@ -1238,8 +1246,10 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:DataPath">
-            <segments>СписокИсходящие.Дата</segments>
+          <dataPath xsi:type="form:MultiLanguageDataPath">
+            <paths xsi:type="form:DataPath">
+              <segments>СписокИсходящие.Дата</segments>
+            </paths>
           </dataPath>
           <extendedTooltip>
             <name>ДатаИсходящиеExtendedTooltip</name>
@@ -1284,8 +1294,10 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:DataPath">
-            <segments>СписокИсходящие.Description</segments>
+          <dataPath xsi:type="form:MultiLanguageDataPath">
+            <paths xsi:type="form:DataPath">
+              <segments>СписокИсходящие.Description</segments>
+            </paths>
           </dataPath>
           <extendedTooltip>
             <name>НаименованиеИсходящиеExtendedTooltip</name>
@@ -1330,8 +1342,10 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:DataPath">
-            <segments>СписокИсходящие.Получатель</segments>
+          <dataPath xsi:type="form:MultiLanguageDataPath">
+            <paths xsi:type="form:DataPath">
+              <segments>СписокИсходящие.Получатель</segments>
+            </paths>
           </dataPath>
           <extendedTooltip>
             <name>СписокИсходящиеПолучательExtendedTooltip</name>
@@ -1376,8 +1390,10 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:DataPath">
-            <segments>СписокИсходящие.Отправлено</segments>
+          <dataPath xsi:type="form:MultiLanguageDataPath">
+            <paths xsi:type="form:DataPath">
+              <segments>СписокИсходящие.Отправлено</segments>
+            </paths>
           </dataPath>
           <extendedTooltip>
             <name>СписокИсходящиеОтправленоExtendedTooltip</name>

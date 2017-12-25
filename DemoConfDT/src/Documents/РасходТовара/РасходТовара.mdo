@@ -17,6 +17,7 @@
   <inputByString>Document.РасходТовара.StandardAttribute.Number</inputByString>
   <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
   <standardAttributes>
+    <dataHistory>Use</dataHistory>
     <name>Posted</name>
     <comment></comment>
     <fillValue xsi:type="core:UndefinedValue"/>
@@ -26,6 +27,7 @@
     <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
   <standardAttributes>
+    <dataHistory>Use</dataHistory>
     <name>Ref</name>
     <comment></comment>
     <fillValue xsi:type="core:UndefinedValue"/>
@@ -35,6 +37,7 @@
     <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
   <standardAttributes>
+    <dataHistory>Use</dataHistory>
     <name>DeletionMark</name>
     <comment></comment>
     <fillValue xsi:type="core:UndefinedValue"/>
@@ -44,6 +47,7 @@
     <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
   <standardAttributes>
+    <dataHistory>Use</dataHistory>
     <name>Date</name>
     <comment></comment>
     <fillValue xsi:type="core:UndefinedValue"/>
@@ -54,6 +58,7 @@
     <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
   <standardAttributes>
+    <dataHistory>Use</dataHistory>
     <name>Number</name>
     <comment></comment>
     <fillValue xsi:type="core:UndefinedValue"/>
@@ -91,6 +96,7 @@
     <key>ru</key>
     <value>Продажи товара со склада</value>
   </explanation>
+  <dataHistory>Use</dataHistory>
   <numberType>String</numberType>
   <numberLength>9</numberLength>
   <numberAllowedLength>Variable</numberAllowedLength>
@@ -126,6 +132,7 @@
       <value>Catalog.Контрагенты.EmptyRef</value>
     </fillValue>
     <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
   </attributes>
   <attributes uuid="07a5cc8d-f7f1-42fd-adb0-da1b1098ab9f">
     <name>Склад</name>
@@ -149,6 +156,7 @@
       <value>Catalog.Склады.EmptyRef</value>
     </fillValue>
     <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
   </attributes>
   <attributes uuid="9a66487c-96bb-4dda-9545-1af0ba030ccd">
     <name>Валюта</name>
@@ -172,6 +180,7 @@
       <value>Catalog.Валюты.EmptyRef</value>
     </fillValue>
     <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
   </attributes>
   <attributes uuid="5a84a06a-888a-447b-a523-bd60ce1342be">
     <name>ВидЦен</name>
@@ -191,6 +200,7 @@
       <value>Catalog.ВидыЦен.EmptyRef</value>
     </fillValue>
     <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
   </attributes>
   <attributes uuid="3ac77c52-693e-40c0-bacf-c8b2b29b4e2e">
     <name>ОбоснованиеОтгрузки</name>
@@ -214,6 +224,7 @@
       <value></value>
     </fillValue>
     <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
   </attributes>
   <attributes uuid="7c9e7a6c-5145-4897-8a35-c311968f8281">
     <name>Организация</name>
@@ -233,6 +244,7 @@
       <value>Catalog.Организации.EmptyRef</value>
     </fillValue>
     <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
   </attributes>
   <forms uuid="7e0974fe-e2ef-4d21-a947-56185fcd8b68">
     <name>ФормаДокумента</name>
@@ -277,6 +289,7 @@
     <comment></comment>
     <fillChecking>ShowError</fillChecking>
     <standardAttributes>
+      <dataHistory>Use</dataHistory>
       <name>LineNumber</name>
       <comment></comment>
       <fillValue xsi:type="core:UndefinedValue"/>
@@ -310,6 +323,7 @@
       </choiceParameterLinks>
       <quickChoice>DontUse</quickChoice>
       <createOnInput>Use</createOnInput>
+      <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
     <attributes uuid="1b96c376-10ff-4849-a777-b7a2b0fc2cd9">
@@ -338,6 +352,7 @@
       <fillChecking>ShowError</fillChecking>
       <quickChoice>DontUse</quickChoice>
       <createOnInput>Use</createOnInput>
+      <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
     <attributes uuid="ac66ea56-0a60-42f4-a578-2e4760a250dc">
@@ -363,6 +378,7 @@
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
       <fillChecking>ShowError</fillChecking>
+      <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
     <attributes uuid="3651a812-ccbf-4cf6-a56c-cd1412046e36">
@@ -390,6 +406,7 @@
       <fillChecking>ShowError</fillChecking>
       <quickChoice>DontUse</quickChoice>
       <createOnInput>Use</createOnInput>
+      <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
   </tabularSections>

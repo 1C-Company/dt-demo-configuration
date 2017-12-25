@@ -15,9 +15,11 @@
     <value>Характеристики</value>
   </synonym>
   <comment></comment>
+  <dataHistory>Use</dataHistory>
   <useStandardCommands>true</useStandardCommands>
   <editType>BothWays</editType>
   <standardAttributes>
+    <dataHistory>Use</dataHistory>
     <name>Active</name>
     <comment></comment>
     <fillValue xsi:type="core:UndefinedValue"/>
@@ -27,6 +29,7 @@
     <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
   <standardAttributes>
+    <dataHistory>Use</dataHistory>
     <name>LineNumber</name>
     <comment></comment>
     <fillValue xsi:type="core:UndefinedValue"/>
@@ -36,6 +39,7 @@
     <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
   <standardAttributes>
+    <dataHistory>Use</dataHistory>
     <name>Recorder</name>
     <comment></comment>
     <fillValue xsi:type="core:UndefinedValue"/>
@@ -45,6 +49,7 @@
     <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
   <standardAttributes>
+    <dataHistory>Use</dataHistory>
     <name>Period</name>
     <comment></comment>
     <fillValue xsi:type="core:UndefinedValue"/>
@@ -101,6 +106,7 @@
       <field>InformationRegister.Характеристики.Dimension.ВидХарактеристики</field>
     </linkByType>
     <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
     <fillValue xsi:type="core:UndefinedValue"/>
   </resources>
   <dimensions uuid="1dad36b3-976e-42b4-9450-e55b4b633afb">
@@ -124,6 +130,7 @@
     <fillChecking>ShowError</fillChecking>
     <denyIncompleteValues>true</denyIncompleteValues>
     <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
     <fillFromFillingValue>true</fillFromFillingValue>
     <fillValue xsi:type="core:ReferenceValue">
       <value>Catalog.Товары.EmptyRef</value>
@@ -155,6 +162,7 @@
     </choiceParameterLinks>
     <denyIncompleteValues>true</denyIncompleteValues>
     <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
     <fillValue xsi:type="core:ReferenceValue">
       <value>ChartOfCharacteristicTypes.ВидыХарактеристик.EmptyRef</value>
     </fillValue>

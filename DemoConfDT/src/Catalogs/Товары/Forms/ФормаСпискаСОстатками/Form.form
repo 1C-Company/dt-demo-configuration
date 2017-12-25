@@ -61,8 +61,10 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:DataPath">
-        <segments>СправочникСписок.Description</segments>
+      <dataPath xsi:type="form:MultiLanguageDataPath">
+        <paths xsi:type="form:DataPath">
+          <segments>СправочникСписок.Description</segments>
+        </paths>
       </dataPath>
       <extendedTooltip>
         <name>НаименованиеExtendedTooltip</name>
@@ -108,8 +110,10 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:DataPath">
-        <segments>СправочникСписок.Code</segments>
+      <dataPath xsi:type="form:MultiLanguageDataPath">
+        <paths xsi:type="form:DataPath">
+          <segments>СправочникСписок.Code</segments>
+        </paths>
       </dataPath>
       <extendedTooltip>
         <name>КодExtendedTooltip</name>
@@ -155,8 +159,10 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:DataPath">
-        <segments>СправочникСписок.Артикул</segments>
+      <dataPath xsi:type="form:MultiLanguageDataPath">
+        <paths xsi:type="form:DataPath">
+          <segments>СправочникСписок.Артикул</segments>
+        </paths>
       </dataPath>
       <extendedTooltip>
         <name>АртикулExtendedTooltip</name>
@@ -202,8 +208,10 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:DataPath">
-        <segments>СправочникСписок.Количество</segments>
+      <dataPath xsi:type="form:MultiLanguageDataPath">
+        <paths xsi:type="form:DataPath">
+          <segments>СправочникСписок.Количество</segments>
+        </paths>
       </dataPath>
       <extendedTooltip>
         <name>КоличествоExtendedTooltip</name>
@@ -247,8 +255,10 @@
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible/>
-      <dataPath xsi:type="form:DataPath">
-        <segments>СправочникСписок.Ref</segments>
+      <dataPath xsi:type="form:MultiLanguageDataPath">
+        <paths xsi:type="form:DataPath">
+          <segments>СправочникСписок.Ref</segments>
+        </paths>
       </dataPath>
       <extendedTooltip>
         <name>ВсеПоляExtendedTooltip</name>
@@ -513,6 +523,9 @@
     <edit>
       <common>true</common>
     </edit>
+    <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
+      <segments>СправочникСписок.Вид</segments>
+    </notDefaultUseAlwaysAttributes>
     <main>true</main>
     <extInfo xsi:type="form:DynamicListExtInfo">
       <queryText>ВЫБРАТЬ
