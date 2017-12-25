@@ -22,6 +22,7 @@
     </pages>
   </help>
   <standardAttributes>
+    <dataHistory>Use</dataHistory>
     <name>Type</name>
     <synonym>
       <key>ru</key>
@@ -35,6 +36,7 @@
     <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
   <standardAttributes>
+    <dataHistory>Use</dataHistory>
     <name>Ref</name>
     <comment></comment>
     <fillValue xsi:type="core:UndefinedValue"/>
@@ -44,6 +46,7 @@
     <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
   <standardAttributes>
+    <dataHistory>Use</dataHistory>
     <name>Date</name>
     <comment></comment>
     <fillValue xsi:type="core:UndefinedValue"/>
@@ -53,6 +56,7 @@
     <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
   <standardAttributes>
+    <dataHistory>Use</dataHistory>
     <name>Posted</name>
     <comment></comment>
     <fillValue xsi:type="core:UndefinedValue"/>
@@ -62,6 +66,7 @@
     <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
   <standardAttributes>
+    <dataHistory>Use</dataHistory>
     <name>DeletionMark</name>
     <comment></comment>
     <fillValue xsi:type="core:UndefinedValue"/>
@@ -71,6 +76,7 @@
     <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
   <standardAttributes>
+    <dataHistory>Use</dataHistory>
     <name>Number</name>
     <comment></comment>
     <fillValue xsi:type="core:UndefinedValue"/>

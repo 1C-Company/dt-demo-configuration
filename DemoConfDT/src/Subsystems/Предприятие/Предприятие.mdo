@@ -61,4 +61,11 @@
   <content>Constant.НомерПриложенияGoogleCloud</content>
   <content>Constant.КлючCервераОтправителяGCM</content>
   <content>Constant.ЛогинСервисаПередачиPushУведомлений</content>
+  <content>Constant.ИдентификаторПриложенияWNS</content>
+  <content>Constant.КлючПриложенияWNS</content>
+  <content>Constant.МаркерДоступаWNS</content>
+  <content>Constant.ИспользоватьWNS</content>
+  <content>Catalog.Встречи</content>
+  <content>DataProcessor.УправлениеСистемойВзаимодействия</content>
+  <content>Constant.ПериодПроверкиНеотработанныхЗаказов</content>
 </mdclass:Subsystem>

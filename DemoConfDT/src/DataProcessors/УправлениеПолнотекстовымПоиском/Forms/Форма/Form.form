@@ -18,8 +18,10 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:DataPath">
-          <segments>РазрешитьПолнотекстовыйПоиск</segments>
+        <dataPath xsi:type="form:MultiLanguageDataPath">
+          <paths xsi:type="form:DataPath">
+            <segments>РазрешитьПолнотекстовыйПоиск</segments>
+          </paths>
         </dataPath>
         <handlers>
           <event>OnChange</event>
@@ -65,8 +67,10 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:DataPath">
-          <segments>СтатусИндекса</segments>
+        <dataPath xsi:type="form:MultiLanguageDataPath">
+          <paths xsi:type="form:DataPath">
+            <segments>СтатусИндекса</segments>
+          </paths>
         </dataPath>
         <titleLocation>None</titleLocation>
         <extendedTooltip>
@@ -112,8 +116,10 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:DataPath">
-          <segments>ДатаАктуальностиИндекса</segments>
+        <dataPath xsi:type="form:MultiLanguageDataPath">
+          <paths xsi:type="form:DataPath">
+            <segments>ДатаАктуальностиИндекса</segments>
+          </paths>
         </dataPath>
         <extendedTooltip>
           <name>ДатаАктуальностиИндексаExtendedTooltip</name>

@@ -17,6 +17,7 @@
   <inputByString>Document.ПоступлениеДенег.StandardAttribute.Number</inputByString>
   <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
   <standardAttributes>
+    <dataHistory>Use</dataHistory>
     <name>Posted</name>
     <comment></comment>
     <fillValue xsi:type="core:UndefinedValue"/>
@@ -26,6 +27,7 @@
     <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
   <standardAttributes>
+    <dataHistory>Use</dataHistory>
     <name>Ref</name>
     <comment></comment>
     <fillValue xsi:type="core:UndefinedValue"/>
@@ -35,6 +37,7 @@
     <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
   <standardAttributes>
+    <dataHistory>Use</dataHistory>
     <name>DeletionMark</name>
     <comment></comment>
     <fillValue xsi:type="core:UndefinedValue"/>
@@ -44,6 +47,7 @@
     <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
   <standardAttributes>
+    <dataHistory>Use</dataHistory>
     <name>Date</name>
     <comment></comment>
     <fillValue xsi:type="core:UndefinedValue"/>
@@ -54,6 +58,7 @@
     <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
   <standardAttributes>
+    <dataHistory>Use</dataHistory>
     <name>Number</name>
     <comment></comment>
     <fillValue xsi:type="core:UndefinedValue"/>
@@ -84,6 +89,7 @@
     <key>ru</key>
     <value>Поступление денег на наши расчетные счета</value>
   </explanation>
+  <dataHistory>Use</dataHistory>
   <numberType>String</numberType>
   <numberLength>9</numberLength>
   <numberAllowedLength>Variable</numberAllowedLength>
@@ -112,6 +118,7 @@
       <value>Catalog.Контрагенты.EmptyRef</value>
     </fillValue>
     <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
   </attributes>
   <attributes uuid="eee0660d-aea1-41b6-84d3-eeb0db70a9c1">
     <name>РасчетныйСчетПокупателя</name>
@@ -139,6 +146,7 @@
       <value>Catalog.РасчетныеСчетаКонтрагентов.EmptyRef</value>
     </fillValue>
     <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
   </attributes>
   <attributes uuid="1f6d6046-8499-4780-887a-7103ff0b7a91">
     <name>РасчетныйСчет</name>
@@ -166,6 +174,7 @@
       <value>Catalog.РасчетныеСчета.EmptyRef</value>
     </fillValue>
     <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
   </attributes>
   <attributes uuid="b634cc7c-d8f5-46ea-bc19-0d2313390961">
     <name>Валюта</name>
@@ -189,6 +198,7 @@
       <value>Catalog.Валюты.EmptyRef</value>
     </fillValue>
     <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
   </attributes>
   <attributes uuid="4cbc7bfd-b1ae-4101-af5b-8427df8a387c">
     <name>Сумма</name>
@@ -219,6 +229,7 @@
       <value>0</value>
     </fillValue>
     <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
   </attributes>
   <attributes uuid="527459d5-1705-4bac-878f-61648b3ff08f">
     <name>Организация</name>
@@ -238,6 +249,7 @@
       <value>Catalog.Организации.EmptyRef</value>
     </fillValue>
     <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
   </attributes>
   <forms uuid="0c5d1b45-8b7d-413e-ab11-f0192f59101c">
     <name>ФормаДокумента</name>

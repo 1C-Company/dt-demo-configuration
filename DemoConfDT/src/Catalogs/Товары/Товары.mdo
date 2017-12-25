@@ -20,6 +20,7 @@
   <searchStringModeOnInputByString>AnyPart</searchStringModeOnInputByString>
   <choiceDataGetModeOnInputByString>Background</choiceDataGetModeOnInputByString>
   <standardAttributes>
+    <dataHistory>Use</dataHistory>
     <name>PredefinedDataName</name>
     <comment></comment>
     <fillValue xsi:type="core:UndefinedValue"/>
@@ -29,6 +30,7 @@
     <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
   <standardAttributes>
+    <dataHistory>Use</dataHistory>
     <name>Predefined</name>
     <comment></comment>
     <fillValue xsi:type="core:UndefinedValue"/>
@@ -38,6 +40,7 @@
     <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
   <standardAttributes>
+    <dataHistory>Use</dataHistory>
     <name>Ref</name>
     <comment></comment>
     <fillValue xsi:type="core:UndefinedValue"/>
@@ -47,6 +50,7 @@
     <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
   <standardAttributes>
+    <dataHistory>Use</dataHistory>
     <name>DeletionMark</name>
     <comment></comment>
     <fillValue xsi:type="core:UndefinedValue"/>
@@ -56,6 +60,7 @@
     <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
   <standardAttributes>
+    <dataHistory>Use</dataHistory>
     <name>IsFolder</name>
     <comment></comment>
     <fillValue xsi:type="core:UndefinedValue"/>
@@ -65,6 +70,7 @@
     <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
   <standardAttributes>
+    <dataHistory>Use</dataHistory>
     <name>Owner</name>
     <comment></comment>
     <fillFromFillingValue>true</fillFromFillingValue>
@@ -76,6 +82,7 @@
     <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
   <standardAttributes>
+    <dataHistory>Use</dataHistory>
     <name>Parent</name>
     <synonym>
       <key>ru</key>
@@ -96,6 +103,7 @@
     <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
   <standardAttributes>
+    <dataHistory>Use</dataHistory>
     <name>Description</name>
     <comment></comment>
     <fillValue xsi:type="core:StringValue">
@@ -108,6 +116,7 @@
     <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
   <standardAttributes>
+    <dataHistory>Use</dataHistory>
     <name>Code</name>
     <comment></comment>
     <fillValue xsi:type="core:UndefinedValue"/>
@@ -144,6 +153,7 @@
     <key>ru</key>
     <value>Товары</value>
   </listPresentation>
+  <dataHistory>Use</dataHistory>
   <hierarchical>true</hierarchical>
   <levelCount>2</levelCount>
   <foldersOnTop>true</foldersOnTop>
@@ -182,6 +192,7 @@
     </fillValue>
     <indexing>Index</indexing>
     <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
   </attributes>
   <attributes uuid="b0d970e8-cee5-4479-bddb-500a7703a30a">
     <name>Поставщик</name>
@@ -200,6 +211,7 @@
       <value>Catalog.Контрагенты.EmptyRef</value>
     </fillValue>
     <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
   </attributes>
   <attributes uuid="7b2a70ac-8157-4ab5-8094-48c8c25adef1">
     <name>ФайлКартинки</name>
@@ -222,6 +234,7 @@
       <value>Catalog.ХранимыеФайлы.EmptyRef</value>
     </fillValue>
     <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
   </attributes>
   <attributes uuid="962d4fd1-45eb-4f0c-b0ae-6500d4fc598b">
     <name>Вид</name>
@@ -240,6 +253,7 @@
       <value>Enum.ВидыТоваров.EnumValue.Товар</value>
     </fillValue>
     <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
   </attributes>
   <attributes uuid="a17db136-8433-4fb3-bcd1-b249cd018146">
     <name>Штрихкод</name>
@@ -264,6 +278,7 @@
     </fillValue>
     <indexing>Index</indexing>
     <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
   </attributes>
   <attributes uuid="f6f15301-0782-4b4c-8ee1-8c244019c1cd">
     <name>Описание</name>
@@ -283,6 +298,7 @@
       <value></value>
     </fillValue>
     <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
   </attributes>
   <forms uuid="70f371c9-ca2a-41c2-b53c-a741d9555b7c">
     <name>ФормаСпискаСОстатками</name>

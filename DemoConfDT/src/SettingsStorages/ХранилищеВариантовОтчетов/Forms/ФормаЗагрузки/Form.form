@@ -17,15 +17,15 @@
     </dataPath>
     <skipOnInput>false</skipOnInput>
     <titleLocation>Top</titleLocation>
-    <excludedCommands>Copy</excludedCommands>
-    <excludedCommands>SortListAsc</excludedCommands>
-    <excludedCommands>MoveUp</excludedCommands>
-    <excludedCommands>SortListDesc</excludedCommands>
-    <excludedCommands>Pickup</excludedCommands>
-    <excludedCommands>EndEdit</excludedCommands>
     <excludedCommands>Add</excludedCommands>
     <excludedCommands>Change</excludedCommands>
+    <excludedCommands>Copy</excludedCommands>
+    <excludedCommands>EndEdit</excludedCommands>
     <excludedCommands>MoveDown</excludedCommands>
+    <excludedCommands>MoveUp</excludedCommands>
+    <excludedCommands>Pickup</excludedCommands>
+    <excludedCommands>SortListAsc</excludedCommands>
+    <excludedCommands>SortListDesc</excludedCommands>
     <items xsi:type="form:FormField">
       <name>Представление</name>
       <id>18</id>
@@ -34,8 +34,10 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:DataPath">
-        <segments>СписокНастроек.Presentation</segments>
+      <dataPath xsi:type="form:MultiLanguageDataPath">
+        <paths xsi:type="form:DataPath">
+          <segments>СписокНастроек.Presentation</segments>
+        </paths>
       </dataPath>
       <extendedTooltip>
         <name>ПредставлениеExtendedTooltip</name>

@@ -27,8 +27,10 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:DataPath">
-        <segments>Список.НазваниеВарианта</segments>
+      <dataPath xsi:type="form:MultiLanguageDataPath">
+        <paths xsi:type="form:DataPath">
+          <segments>Список.НазваниеВарианта</segments>
+        </paths>
       </dataPath>
       <extendedTooltip>
         <name>НазваниеВариантаExtendedTooltip</name>

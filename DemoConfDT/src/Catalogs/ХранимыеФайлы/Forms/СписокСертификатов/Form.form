@@ -50,8 +50,10 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:DataPath">
-        <segments>ТаблицаДляВыбора.Выбран</segments>
+      <dataPath xsi:type="form:MultiLanguageDataPath">
+        <paths xsi:type="form:DataPath">
+          <segments>ТаблицаДляВыбора.Выбран</segments>
+        </paths>
       </dataPath>
       <titleLocation>None</titleLocation>
       <extendedTooltip>
@@ -94,8 +96,10 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:DataPath">
-        <segments>ТаблицаДляВыбора.СертификатПредставление</segments>
+      <dataPath xsi:type="form:MultiLanguageDataPath">
+        <paths xsi:type="form:DataPath">
+          <segments>ТаблицаДляВыбора.СертификатПредставление</segments>
+        </paths>
       </dataPath>
       <extendedTooltip>
         <name>ТаблицаДляВыбораСертификатПредставлениеExtendedTooltip</name>
@@ -145,8 +149,10 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:DataPath">
-        <segments>ТаблицаДляВыбора.ТипХранилища</segments>
+      <dataPath xsi:type="form:MultiLanguageDataPath">
+        <paths xsi:type="form:DataPath">
+          <segments>ТаблицаДляВыбора.ТипХранилища</segments>
+        </paths>
       </dataPath>
       <extendedTooltip>
         <name>ТаблицаДляВыбораТипХранилищаExtendedTooltip</name>

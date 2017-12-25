@@ -62,8 +62,10 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:DataPath">
-        <segments>ЖурналДокументовСписок.Date</segments>
+      <dataPath xsi:type="form:MultiLanguageDataPath">
+        <paths xsi:type="form:DataPath">
+          <segments>ЖурналДокументовСписок.Date</segments>
+        </paths>
       </dataPath>
       <extendedTooltip>
         <name>ДатаExtendedTooltip</name>
@@ -108,8 +110,10 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:DataPath">
-        <segments>ЖурналДокументовСписок.Number</segments>
+      <dataPath xsi:type="form:MultiLanguageDataPath">
+        <paths xsi:type="form:DataPath">
+          <segments>ЖурналДокументовСписок.Number</segments>
+        </paths>
       </dataPath>
       <extendedTooltip>
         <name>НомерExtendedTooltip</name>
@@ -154,8 +158,10 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:DataPath">
-        <segments>ЖурналДокументовСписок.Type</segments>
+      <dataPath xsi:type="form:MultiLanguageDataPath">
+        <paths xsi:type="form:DataPath">
+          <segments>ЖурналДокументовСписок.Type</segments>
+        </paths>
       </dataPath>
       <extendedTooltip>
         <name>ТипExtendedTooltip</name>
@@ -200,8 +206,10 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:DataPath">
-        <segments>ЖурналДокументовСписок.Контрагент</segments>
+      <dataPath xsi:type="form:MultiLanguageDataPath">
+        <paths xsi:type="form:DataPath">
+          <segments>ЖурналДокументовСписок.Контрагент</segments>
+        </paths>
       </dataPath>
       <extendedTooltip>
         <name>КонтрагентExtendedTooltip</name>
@@ -246,8 +254,10 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:DataPath">
-        <segments>ЖурналДокументовСписок.РасчетныйСчет</segments>
+      <dataPath xsi:type="form:MultiLanguageDataPath">
+        <paths xsi:type="form:DataPath">
+          <segments>ЖурналДокументовСписок.РасчетныйСчет</segments>
+        </paths>
       </dataPath>
       <extendedTooltip>
         <name>РасчетныйСчетExtendedTooltip</name>
@@ -292,8 +302,10 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:DataPath">
-        <segments>ЖурналДокументовСписок.Организация</segments>
+      <dataPath xsi:type="form:MultiLanguageDataPath">
+        <paths xsi:type="form:DataPath">
+          <segments>ЖурналДокументовСписок.Организация</segments>
+        </paths>
       </dataPath>
       <extendedTooltip>
         <name>ОрганизацияExtendedTooltip</name>
@@ -341,8 +353,10 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:DataPath">
-          <segments>ЖурналДокументовСписок.Сумма</segments>
+        <dataPath xsi:type="form:MultiLanguageDataPath">
+          <paths xsi:type="form:DataPath">
+            <segments>ЖурналДокументовСписок.Сумма</segments>
+          </paths>
         </dataPath>
         <extendedTooltip>
           <name>СуммаExtendedTooltip</name>
@@ -386,8 +400,10 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:DataPath">
-          <segments>ЖурналДокументовСписок.Валюта</segments>
+        <dataPath xsi:type="form:MultiLanguageDataPath">
+          <paths xsi:type="form:DataPath">
+            <segments>ЖурналДокументовСписок.Валюта</segments>
+          </paths>
         </dataPath>
         <extendedTooltip>
           <name>ВалютаExtendedTooltip</name>

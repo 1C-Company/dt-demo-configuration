@@ -22,6 +22,7 @@
     </pages>
   </help>
   <standardAttributes>
+    <dataHistory>Use</dataHistory>
     <name>RecordType</name>
     <comment></comment>
     <fillValue xsi:type="core:UndefinedValue"/>
@@ -31,6 +32,7 @@
     <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
   <standardAttributes>
+    <dataHistory>Use</dataHistory>
     <name>Active</name>
     <comment></comment>
     <fillValue xsi:type="core:UndefinedValue"/>
@@ -40,6 +42,7 @@
     <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
   <standardAttributes>
+    <dataHistory>Use</dataHistory>
     <name>LineNumber</name>
     <comment></comment>
     <fillValue xsi:type="core:UndefinedValue"/>
@@ -49,6 +52,7 @@
     <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
   <standardAttributes>
+    <dataHistory>Use</dataHistory>
     <name>Recorder</name>
     <comment></comment>
     <fillValue xsi:type="core:UndefinedValue"/>
@@ -58,6 +62,7 @@
     <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
   <standardAttributes>
+    <dataHistory>Use</dataHistory>
     <name>Period</name>
     <comment></comment>
     <fillValue xsi:type="core:UndefinedValue"/>

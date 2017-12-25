@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="c8083a88-58ca-4299-af17-c8075800183d">
+  <producedTypes>
+    <objectType typeId="0116a12d-5957-411a-9762-65d75913169e" valueTypeId="3827f219-7c12-4451-a55a-69bd52648f6f"/>
+    <managerType typeId="66880a8b-9bd7-4a69-b860-a80aadfbaa13" valueTypeId="16b003ad-b18c-4829-a404-d7dceb1ed73f"/>
+  </producedTypes>
+  <name>Путеводитель</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DataProcessorExtension"/>
+  <useStandardCommands>true</useStandardCommands>
+  <templates uuid="a5fc22c3-13f2-4017-a175-460360880b86">
+    <name>ВТ_РасширенияКонфигурации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Расширения конфигурации</value>
+    </synonym>
+    <comment></comment>
+    <templateType>HTMLDocument</templateType>
+  </templates>
+</mdclass:DataProcessor>

@@ -1,8 +1,99 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Rights xmlns="http://v8.1c.ru/8.2/roles" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="Rights" version="2.4">
+<Rights xmlns="http://v8.1c.ru/8.2/roles" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="Rights" version="2.5">
 	<setForNewObjects>false</setForNewObjects>
 	<setForAttributesByDefault>true</setForAttributesByDefault>
 	<independentRightsOfChildObjects>true</independentRightsOfChildObjects>
+	<object>
+		<name>Catalog.Встречи</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Insert</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Update</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Delete</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>InteractiveInsert</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>InteractiveDelete</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>InteractiveSetDeletionMark</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>InteractiveClearDeletionMark</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>InteractiveDeleteMarked</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>InputByString</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>InteractiveDeletePredefinedData</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>InteractiveSetDeletionMarkPredefinedData</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>InteractiveClearDeletionMarkPredefinedData</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>InteractiveDeleteMarkedPredefinedData</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>ReadDataHistory</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>ReadDataHistoryOfMissingData</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>UpdateDataHistoryVersionComment</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>ViewDataHistory</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>EditDataHistoryVersionComment</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>SwitchToDataHistoryVersion</name>
+			<value>true</value>
+		</right>
+	</object>
 	<object>
 		<name>ExchangePlan.Мобильные</name>
 		<right>
@@ -13,9 +104,6 @@
 			<name>Update</name>
 			<value>true</value>
 		</right>
-	</object>
-	<object>
-		<name>InformationRegister.КурсыВалют.Resource.Курс</name>
 	</object>
 	<object>
 		<name>Subsystem.Финансы</name>
@@ -86,6 +174,30 @@
 			<name>InteractiveDeleteMarkedPredefinedData</name>
 			<value>true</value>
 		</right>
+		<right>
+			<name>ReadDataHistory</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>ReadDataHistoryOfMissingData</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>UpdateDataHistoryVersionComment</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>ViewDataHistory</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>EditDataHistoryVersionComment</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>SwitchToDataHistoryVersion</name>
+			<value>true</value>
+		</right>
 	</object>
 	<object>
 		<name>Document.ПриходТовара.TabularSection.Товары.Attribute.Товар</name>
@@ -93,12 +205,6 @@
 			<name>Edit</name>
 			<value>false</value>
 		</right>
-	</object>
-	<object>
-		<name>Catalog.Контрагенты.Attribute.ВидЦен</name>
-	</object>
-	<object>
-		<name>Document.РасходТовара.Attribute.Склад</name>
 	</object>
 	<object>
 		<name>Catalog.Контрагенты</name>
@@ -162,6 +268,30 @@
 			<name>InteractiveDeleteMarkedPredefinedData</name>
 			<value>true</value>
 		</right>
+		<right>
+			<name>ReadDataHistory</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>ReadDataHistoryOfMissingData</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>UpdateDataHistoryVersionComment</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>ViewDataHistory</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>EditDataHistoryVersionComment</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>SwitchToDataHistoryVersion</name>
+			<value>true</value>
+		</right>
 	</object>
 	<object>
 		<name>Document.ПриходТовара.TabularSection.Товары.Attribute.Количество</name>
@@ -195,9 +325,6 @@
 			<name>View</name>
 			<value>true</value>
 		</right>
-	</object>
-	<object>
-		<name>Catalog.Контрагенты.Attribute.Регион</name>
 	</object>
 	<object>
 		<name>DataProcessor.ЭлектроннаяПочта</name>
@@ -319,18 +446,6 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.Контрагенты.Attribute.ЭлектроннаяПочта</name>
-	</object>
-	<object>
-		<name>Document.РасходТовара.TabularSection.Товары.Attribute.Цена</name>
-	</object>
-	<object>
-		<name>InformationRegister.Характеристики.Dimension.Объект</name>
-	</object>
-	<object>
-		<name>Document.ПоступлениеДенег.Attribute.РасчетныйСчет</name>
-	</object>
-	<object>
 		<name>Constant.ИспользоватьAPNS</name>
 		<right>
 			<name>Read</name>
@@ -406,6 +521,30 @@
 			<name>InteractiveDeleteMarkedPredefinedData</name>
 			<value>true</value>
 		</right>
+		<right>
+			<name>ReadDataHistory</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>ReadDataHistoryOfMissingData</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>UpdateDataHistoryVersionComment</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>ViewDataHistory</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>EditDataHistoryVersionComment</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>SwitchToDataHistoryVersion</name>
+			<value>true</value>
+		</right>
 	</object>
 	<object>
 		<name>AccumulationRegister.Продажи</name>
@@ -431,20 +570,11 @@
 		</right>
 	</object>
 	<object>
-		<name>AccumulationRegister.Взаиморасчеты.Dimension.Контрагент</name>
-	</object>
-	<object>
 		<name>Document.Оплата.Attribute.Поставщик</name>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
 		</right>
-	</object>
-	<object>
-		<name>Catalog.Контрагенты.Attribute.Телефон</name>
-	</object>
-	<object>
-		<name>AccumulationRegister.Продажи.Dimension.Товар</name>
 	</object>
 	<object>
 		<name>Catalog.ПочтовыеВложения</name>
@@ -512,6 +642,30 @@
 			<name>InteractiveDeleteMarkedPredefinedData</name>
 			<value>true</value>
 		</right>
+		<right>
+			<name>ReadDataHistory</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>ReadDataHistoryOfMissingData</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>UpdateDataHistoryVersionComment</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>ViewDataHistory</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>EditDataHistoryVersionComment</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>SwitchToDataHistoryVersion</name>
+			<value>true</value>
+		</right>
 	</object>
 	<object>
 		<name>InformationRegister.Характеристики</name>
@@ -531,9 +685,65 @@
 			<name>Edit</name>
 			<value>true</value>
 		</right>
+		<right>
+			<name>ReadDataHistory</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>ReadDataHistoryOfMissingData</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>UpdateDataHistoryVersionComment</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>ViewDataHistory</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>EditDataHistoryVersionComment</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>SwitchToDataHistoryVersion</name>
+			<value>true</value>
+		</right>
 	</object>
 	<object>
-		<name>Document.ПоступлениеДенег.Attribute.Покупатель</name>
+		<name>Catalog.НастройкиТорговогоОборудования</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>ReadDataHistory</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>ReadDataHistoryOfMissingData</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>UpdateDataHistoryVersionComment</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>ViewDataHistory</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>EditDataHistoryVersionComment</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>SwitchToDataHistoryVersion</name>
+			<value>true</value>
+		</right>
 	</object>
 	<object>
 		<name>Catalog.Регионы</name>
@@ -597,9 +807,30 @@
 			<name>InteractiveDeleteMarkedPredefinedData</name>
 			<value>true</value>
 		</right>
-	</object>
-	<object>
-		<name>AccumulationRegister.ТоварныеЗапасы.Dimension.Товар</name>
+		<right>
+			<name>ReadDataHistory</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>ReadDataHistoryOfMissingData</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>UpdateDataHistoryVersionComment</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>ViewDataHistory</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>EditDataHistoryVersionComment</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>SwitchToDataHistoryVersion</name>
+			<value>true</value>
+		</right>
 	</object>
 	<object>
 		<name>Constant.ПортIMAP</name>
@@ -639,12 +870,6 @@
 		</right>
 	</object>
 	<object>
-		<name>InformationRegister.ЦеныТоваров.Dimension.ВидЦен</name>
-	</object>
-	<object>
-		<name>AccumulationRegister.Взаиморасчеты.Resource.Сумма</name>
-	</object>
-	<object>
 		<name>Constant.СертификатМобильногоПриложенияIOS</name>
 		<right>
 			<name>Read</name>
@@ -669,15 +894,6 @@
 			<name>View</name>
 			<value>true</value>
 		</right>
-	</object>
-	<object>
-		<name>Document.РасходТовара.TabularSection.Товары.Attribute.Сумма</name>
-	</object>
-	<object>
-		<name>AccumulationRegister.ТоварныеЗапасы.Dimension.Склад</name>
-	</object>
-	<object>
-		<name>Document.РасходТовара.Attribute.ОбоснованиеОтгрузки</name>
 	</object>
 	<object>
 		<name>AccumulationRegister.ТоварныеЗапасы</name>
@@ -747,6 +963,30 @@
 			<name>InteractiveDeleteMarkedPredefinedData</name>
 			<value>true</value>
 		</right>
+		<right>
+			<name>ReadDataHistory</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>ReadDataHistoryOfMissingData</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>UpdateDataHistoryVersionComment</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>ViewDataHistory</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>EditDataHistoryVersionComment</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>SwitchToDataHistoryVersion</name>
+			<value>true</value>
+		</right>
 	</object>
 	<object>
 		<name>DocumentJournal.ДокументыПродаж</name>
@@ -801,6 +1041,30 @@
 		</right>
 		<right>
 			<name>Edit</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>ReadDataHistory</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>ReadDataHistoryOfMissingData</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>UpdateDataHistoryVersionComment</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>ViewDataHistory</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>EditDataHistoryVersionComment</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>SwitchToDataHistoryVersion</name>
 			<value>true</value>
 		</right>
 	</object>
@@ -874,6 +1138,30 @@
 			<name>InputByString</name>
 			<value>true</value>
 		</right>
+		<right>
+			<name>ReadDataHistory</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>ReadDataHistoryOfMissingData</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>UpdateDataHistoryVersionComment</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>ViewDataHistory</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>EditDataHistoryVersionComment</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>SwitchToDataHistoryVersion</name>
+			<value>true</value>
+		</right>
 	</object>
 	<object>
 		<name>Document.ПриходТовара</name>
@@ -905,6 +1193,30 @@
 			<name>View</name>
 			<value>true</value>
 		</right>
+		<right>
+			<name>ReadDataHistory</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>ReadDataHistoryOfMissingData</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>UpdateDataHistoryVersionComment</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>ViewDataHistory</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>EditDataHistoryVersionComment</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>SwitchToDataHistoryVersion</name>
+			<value>true</value>
+		</right>
 	</object>
 	<object>
 		<name>Constant.SSLSMTP</name>
@@ -931,12 +1243,6 @@
 			<name>Edit</name>
 			<value>false</value>
 		</right>
-	</object>
-	<object>
-		<name>Catalog.РасчетныеСчетаКонтрагентов.Attribute.Банк</name>
-	</object>
-	<object>
-		<name>AccumulationRegister.Продажи.Dimension.Покупатель</name>
 	</object>
 	<object>
 		<name>Catalog.ИсходящиеПисьма</name>
@@ -1004,6 +1310,30 @@
 			<name>InteractiveDeleteMarkedPredefinedData</name>
 			<value>true</value>
 		</right>
+		<right>
+			<name>ReadDataHistory</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>ReadDataHistoryOfMissingData</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>UpdateDataHistoryVersionComment</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>ViewDataHistory</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>EditDataHistoryVersionComment</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>SwitchToDataHistoryVersion</name>
+			<value>true</value>
+		</right>
 	</object>
 	<object>
 		<name>Constant.SSLIMAP</name>
@@ -1023,9 +1353,6 @@
 			<name>Edit</name>
 			<value>true</value>
 		</right>
-	</object>
-	<object>
-		<name>Document.ПоступлениеДенег.Attribute.Сумма</name>
 	</object>
 	<object>
 		<name>Document.ПриходТовара.Attribute.Склад</name>
@@ -1094,6 +1421,30 @@
 		</right>
 		<right>
 			<name>InteractiveDeleteMarkedPredefinedData</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>ReadDataHistory</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>ReadDataHistoryOfMissingData</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>UpdateDataHistoryVersionComment</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>ViewDataHistory</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>EditDataHistoryVersionComment</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>SwitchToDataHistoryVersion</name>
 			<value>true</value>
 		</right>
 	</object>
@@ -1178,9 +1529,30 @@
 			<name>InteractiveDeleteMarkedPredefinedData</name>
 			<value>true</value>
 		</right>
-	</object>
-	<object>
-		<name>AccumulationRegister.ТоварныеЗапасы.Resource.Количество</name>
+		<right>
+			<name>ReadDataHistory</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>ReadDataHistoryOfMissingData</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>UpdateDataHistoryVersionComment</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>ViewDataHistory</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>EditDataHistoryVersionComment</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>SwitchToDataHistoryVersion</name>
+			<value>true</value>
+		</right>
 	</object>
 	<object>
 		<name>Document.РасходТовара.Command.ПечатьРасходнойНакладной</name>
@@ -1188,12 +1560,6 @@
 			<name>View</name>
 			<value>true</value>
 		</right>
-	</object>
-	<object>
-		<name>InformationRegister.Характеристики.Dimension.ВидХарактеристики</name>
-	</object>
-	<object>
-		<name>InformationRegister.ЦеныТоваров.Dimension.Товар</name>
 	</object>
 	<object>
 		<name>Constant.КодНовогоУзлаПланаОбмена</name>
@@ -1276,9 +1642,30 @@
 			<name>InteractiveDeleteMarkedPredefinedData</name>
 			<value>true</value>
 		</right>
-	</object>
-	<object>
-		<name>Document.РасходТовара.Attribute.ВидЦен</name>
+		<right>
+			<name>ReadDataHistory</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>ReadDataHistoryOfMissingData</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>UpdateDataHistoryVersionComment</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>ViewDataHistory</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>EditDataHistoryVersionComment</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>SwitchToDataHistoryVersion</name>
+			<value>true</value>
+		</right>
 	</object>
 	<object>
 		<name>Constant.SSLPOP3</name>
@@ -1305,12 +1692,6 @@
 			<name>View</name>
 			<value>true</value>
 		</right>
-	</object>
-	<object>
-		<name>AccumulationRegister.Продажи.Resource.Количество</name>
-	</object>
-	<object>
-		<name>Document.ОперацияПоУчетуТоваров.Attribute.СодержаниеОперации</name>
 	</object>
 	<object>
 		<name>Document.ПриходТовара.Attribute.Поставщик</name>
@@ -1400,6 +1781,30 @@
 			<name>InteractiveDeleteMarkedPredefinedData</name>
 			<value>true</value>
 		</right>
+		<right>
+			<name>ReadDataHistory</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>ReadDataHistoryOfMissingData</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>UpdateDataHistoryVersionComment</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>ViewDataHistory</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>EditDataHistoryVersionComment</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>SwitchToDataHistoryVersion</name>
+			<value>true</value>
+		</right>
 	</object>
 	<object>
 		<name>Constant.ИспользоватьIMAP</name>
@@ -1419,12 +1824,6 @@
 			<name>Edit</name>
 			<value>true</value>
 		</right>
-	</object>
-	<object>
-		<name>InformationRegister.ЦеныТоваров.Resource.Цена</name>
-	</object>
-	<object>
-		<name>Catalog.Контрагенты.Attribute.Индекс</name>
 	</object>
 	<object>
 		<name>Constant.АдресSMTPСервера</name>
@@ -1447,6 +1846,13 @@
 	</object>
 	<object>
 		<name>Subsystem.ТоварныеЗапасы</name>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.Встречи.Command.ОткрытьКалендарь</name>
 		<right>
 			<name>View</name>
 			<value>true</value>
@@ -1482,12 +1888,30 @@
 			<name>View</name>
 			<value>true</value>
 		</right>
-	</object>
-	<object>
-		<name>Document.РасходТовара.Attribute.Покупатель</name>
-	</object>
-	<object>
-		<name>Catalog.Товары.Attribute.Артикул</name>
+		<right>
+			<name>ReadDataHistory</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>ReadDataHistoryOfMissingData</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>UpdateDataHistoryVersionComment</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>ViewDataHistory</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>EditDataHistoryVersionComment</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>SwitchToDataHistoryVersion</name>
+			<value>true</value>
+		</right>
 	</object>
 	<object>
 		<name>Constant.УчетПоСкладам</name>
@@ -1507,9 +1931,6 @@
 			<name>Edit</name>
 			<value>true</value>
 		</right>
-	</object>
-	<object>
-		<name>Catalog.Контрагенты.Attribute.Факс</name>
 	</object>
 	<object>
 		<name>CommonForm.НастройкаПочты</name>
@@ -1568,9 +1989,6 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.Товары.Attribute.ФайлКартинки</name>
-	</object>
-	<object>
 		<name>Catalog.ХранилищеВариантовОтчетов.Command.ОткрытьОтчет</name>
 		<right>
 			<name>View</name>
@@ -1583,9 +2001,6 @@
 			<name>View</name>
 			<value>true</value>
 		</right>
-	</object>
-	<object>
-		<name>InformationRegister.Характеристики.Resource.Значение</name>
 	</object>
 	<object>
 		<name>Document.ПриходТовара.TabularSection.Товары.Attribute.Сумма</name>
@@ -1693,9 +2108,30 @@
 			<name>InteractiveDeleteMarkedPredefinedData</name>
 			<value>true</value>
 		</right>
-	</object>
-	<object>
-		<name>Catalog.Контрагенты.Attribute.Дом</name>
+		<right>
+			<name>ReadDataHistory</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>ReadDataHistoryOfMissingData</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>UpdateDataHistoryVersionComment</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>ViewDataHistory</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>EditDataHistoryVersionComment</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>SwitchToDataHistoryVersion</name>
+			<value>true</value>
+		</right>
 	</object>
 	<object>
 		<name>WebService.MAExchange.Operation.ЗаписатьДанные</name>
@@ -1766,6 +2202,30 @@
 			<name>InteractiveDeleteMarkedPredefinedData</name>
 			<value>true</value>
 		</right>
+		<right>
+			<name>ReadDataHistory</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>ReadDataHistoryOfMissingData</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>UpdateDataHistoryVersionComment</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>ViewDataHistory</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>EditDataHistoryVersionComment</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>SwitchToDataHistoryVersion</name>
+			<value>true</value>
+		</right>
 	</object>
 	<object>
 		<name>InformationRegister.МобильныеОтчеты</name>
@@ -1785,6 +2245,30 @@
 			<name>Edit</name>
 			<value>true</value>
 		</right>
+		<right>
+			<name>ReadDataHistory</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>ReadDataHistoryOfMissingData</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>UpdateDataHistoryVersionComment</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>ViewDataHistory</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>EditDataHistoryVersionComment</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>SwitchToDataHistoryVersion</name>
+			<value>true</value>
+		</right>
 	</object>
 	<object>
 		<name>SessionParameter.ТекущийПользователь</name>
@@ -1792,9 +2276,6 @@
 			<name>Get</name>
 			<value>true</value>
 		</right>
-	</object>
-	<object>
-		<name>Catalog.Товары.Attribute.Вид</name>
 	</object>
 	<object>
 		<name>DataProcessor.Путеводитель.Command.ПутеводительПоКонфигурации</name>
@@ -1821,9 +2302,6 @@
 			<name>Edit</name>
 			<value>true</value>
 		</right>
-	</object>
-	<object>
-		<name>Document.РасходТовара.Attribute.Валюта</name>
 	</object>
 	<object>
 		<name>Constant.ПарольIMAP</name>
@@ -1860,6 +2338,30 @@
 		</right>
 		<right>
 			<name>Edit</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>ReadDataHistory</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>ReadDataHistoryOfMissingData</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>UpdateDataHistoryVersionComment</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>ViewDataHistory</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>EditDataHistoryVersionComment</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>SwitchToDataHistoryVersion</name>
 			<value>true</value>
 		</right>
 	</object>
@@ -1929,6 +2431,30 @@
 			<name>InteractiveDeleteMarkedPredefinedData</name>
 			<value>true</value>
 		</right>
+		<right>
+			<name>ReadDataHistory</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>ReadDataHistoryOfMissingData</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>UpdateDataHistoryVersionComment</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>ViewDataHistory</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>EditDataHistoryVersionComment</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>SwitchToDataHistoryVersion</name>
+			<value>true</value>
+		</right>
 	</object>
 	<object>
 		<name>Document.ПриходТовара.TabularSection.Товары.Attribute.Цена</name>
@@ -1943,9 +2469,6 @@
 			<name>Use</name>
 			<value>true</value>
 		</right>
-	</object>
-	<object>
-		<name>Catalog.Товары.Attribute.Штрихкод</name>
 	</object>
 	<object>
 		<name>Configuration.ДемонстрационнаяКонфигурацияУправляемоеПриложение</name>
@@ -2022,21 +2545,6 @@
 		</right>
 	</object>
 	<object>
-		<name>Document.РасходТовара.TabularSection.Товары.Attribute.Товар</name>
-	</object>
-	<object>
-		<name>AccumulationRegister.Продажи.Resource.Сумма</name>
-	</object>
-	<object>
-		<name>Catalog.РасчетныеСчета.Attribute.Номер</name>
-	</object>
-	<object>
-		<name>Catalog.РасчетныеСчета.Attribute.Банк</name>
-	</object>
-	<object>
-		<name>Document.РасходТовара.TabularSection.Товары.Attribute.Количество</name>
-	</object>
-	<object>
 		<name>AccumulationRegister.Взаиморасчеты</name>
 		<right>
 			<name>Read</name>
@@ -2065,9 +2573,6 @@
 			<name>Edit</name>
 			<value>false</value>
 		</right>
-	</object>
-	<object>
-		<name>Document.ПоступлениеДенег.Attribute.Валюта</name>
 	</object>
 	<object>
 		<name>Document.РасходТовара</name>
@@ -2139,9 +2644,30 @@
 			<name>InputByString</name>
 			<value>true</value>
 		</right>
-	</object>
-	<object>
-		<name>Catalog.ХранимыеФайлы.Attribute.ДанныеФайла</name>
+		<right>
+			<name>ReadDataHistory</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>ReadDataHistoryOfMissingData</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>UpdateDataHistoryVersionComment</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>ViewDataHistory</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>EditDataHistoryVersionComment</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>SwitchToDataHistoryVersion</name>
+			<value>true</value>
+		</right>
 	</object>
 	<object>
 		<name>Document.ОперацияПоУчетуТоваров</name>
@@ -2213,12 +2739,30 @@
 			<name>InputByString</name>
 			<value>true</value>
 		</right>
-	</object>
-	<object>
-		<name>AccumulationRegister.Взаиморасчеты.Dimension.Валюта</name>
-	</object>
-	<object>
-		<name>Catalog.Контрагенты.Attribute.Страна</name>
+		<right>
+			<name>ReadDataHistory</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>ReadDataHistoryOfMissingData</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>UpdateDataHistoryVersionComment</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>ViewDataHistory</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>EditDataHistoryVersionComment</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>SwitchToDataHistoryVersion</name>
+			<value>true</value>
+		</right>
 	</object>
 	<object>
 		<name>Document.Оплата.Attribute.РасчетныйСчетПоставщика</name>
@@ -2315,6 +2859,30 @@
 			<name>InteractiveDeleteMarkedPredefinedData</name>
 			<value>true</value>
 		</right>
+		<right>
+			<name>ReadDataHistory</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>ReadDataHistoryOfMissingData</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>UpdateDataHistoryVersionComment</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>ViewDataHistory</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>EditDataHistoryVersionComment</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>SwitchToDataHistoryVersion</name>
+			<value>true</value>
+		</right>
 	</object>
 	<object>
 		<name>Constant.АдресIMAPСервера</name>
@@ -2363,6 +2931,13 @@
 	</object>
 	<object>
 		<name>Subsystem.Финансы.Subsystem.Банк</name>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>CommonForm.НастройкаПомощникаНеотработанныхЗаказов</name>
 		<right>
 			<name>View</name>
 			<value>true</value>
@@ -2430,9 +3005,30 @@
 			<name>InteractiveDeleteMarkedPredefinedData</name>
 			<value>true</value>
 		</right>
-	</object>
-	<object>
-		<name>Catalog.Контрагенты.Attribute.Улица</name>
+		<right>
+			<name>ReadDataHistory</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>ReadDataHistoryOfMissingData</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>UpdateDataHistoryVersionComment</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>ViewDataHistory</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>EditDataHistoryVersionComment</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>SwitchToDataHistoryVersion</name>
+			<value>true</value>
+		</right>
 	</object>
 	<object>
 		<name>Document.Оплата.Attribute.РасчетныйСчет</name>
@@ -2509,18 +3105,6 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.Контрагенты.Attribute.ВебСайт</name>
-	</object>
-	<object>
-		<name>InformationRegister.КурсыВалют.Dimension.Валюта</name>
-	</object>
-	<object>
-		<name>Catalog.Контрагенты.Attribute.ДополнительнаяИнформация</name>
-	</object>
-	<object>
-		<name>Document.ПоступлениеДенег.Attribute.РасчетныйСчетПокупателя</name>
-	</object>
-	<object>
 		<name>DataProcessor.НастройкиПользователя</name>
 		<right>
 			<name>Use</name>
@@ -2549,9 +3133,30 @@
 			<name>Edit</name>
 			<value>true</value>
 		</right>
-	</object>
-	<object>
-		<name>Catalog.Контрагенты.Attribute.Город</name>
+		<right>
+			<name>ReadDataHistory</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>ReadDataHistoryOfMissingData</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>UpdateDataHistoryVersionComment</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>ViewDataHistory</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>EditDataHistoryVersionComment</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>SwitchToDataHistoryVersion</name>
+			<value>true</value>
+		</right>
 	</object>
 	<object>
 		<name>InformationRegister.СостояниеИсходящихПисем</name>
@@ -2571,9 +3176,30 @@
 			<name>Edit</name>
 			<value>true</value>
 		</right>
-	</object>
-	<object>
-		<name>Catalog.РасчетныеСчетаКонтрагентов.Attribute.Номер</name>
+		<right>
+			<name>ReadDataHistory</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>ReadDataHistoryOfMissingData</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>UpdateDataHistoryVersionComment</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>ViewDataHistory</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>EditDataHistoryVersionComment</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>SwitchToDataHistoryVersion</name>
+			<value>true</value>
+		</right>
 	</object>
 	<object>
 		<name>Catalog.РасчетныеСчетаКонтрагентов</name>
@@ -2637,6 +3263,30 @@
 			<name>InteractiveDeleteMarkedPredefinedData</name>
 			<value>true</value>
 		</right>
+		<right>
+			<name>ReadDataHistory</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>ReadDataHistoryOfMissingData</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>UpdateDataHistoryVersionComment</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>ViewDataHistory</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>EditDataHistoryVersionComment</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>SwitchToDataHistoryVersion</name>
+			<value>true</value>
+		</right>
 	</object>
 	<object>
 		<name>WebService.MAExchange.Operation.ПолучитьОтчет</name>
@@ -2644,9 +3294,6 @@
 			<name>Use</name>
 			<value>true</value>
 		</right>
-	</object>
-	<object>
-		<name>Catalog.ХранимыеФайлы.Attribute.ИмяФайла</name>
 	</object>
 	<object>
 		<name>Document.ПоступлениеДенег</name>
@@ -2716,6 +3363,30 @@
 		</right>
 		<right>
 			<name>InputByString</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>ReadDataHistory</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>ReadDataHistoryOfMissingData</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>UpdateDataHistoryVersionComment</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>ViewDataHistory</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>EditDataHistoryVersionComment</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>SwitchToDataHistoryVersion</name>
 			<value>true</value>
 		</right>
 	</object>

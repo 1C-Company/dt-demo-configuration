@@ -195,13 +195,15 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:DataPath">
-      <segments>ТабличныйДокумент</segments>
+    <dataPath xsi:type="form:MultiLanguageDataPath">
+      <paths xsi:type="form:DataPath">
+        <segments>ТабличныйДокумент</segments>
+      </paths>
     </dataPath>
     <titleLocation>None</titleLocation>
+    <excludedCommands>CollapseAllGroups</excludedCommands>
     <excludedCommands>ExpandAllGroups</excludedCommands>
     <excludedCommands>ShowGroups</excludedCommands>
-    <excludedCommands>CollapseAllGroups</excludedCommands>
     <extendedTooltip>
       <name>ТабличныйДокументExtendedTooltip</name>
       <id>14</id>

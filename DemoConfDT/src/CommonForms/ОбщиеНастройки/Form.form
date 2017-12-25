@@ -8,8 +8,10 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:DataPath">
-      <segments>Константы.РаботаСТорговымОборудованием</segments>
+    <dataPath xsi:type="form:MultiLanguageDataPath">
+      <paths xsi:type="form:DataPath">
+        <segments>Константы.РаботаСТорговымОборудованием</segments>
+      </paths>
     </dataPath>
     <toolTip>
       <key>ru</key>
@@ -57,8 +59,10 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:DataPath">
-      <segments>Константы.УчетПоСкладам</segments>
+    <dataPath xsi:type="form:MultiLanguageDataPath">
+      <paths xsi:type="form:DataPath">
+        <segments>Константы.УчетПоСкладам</segments>
+      </paths>
     </dataPath>
     <toolTip>
       <key>ru</key>
@@ -132,13 +136,13 @@
       <common>true</common>
     </edit>
     <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
-      <segments>Константы.УчетПоСкладам</segments>
+      <segments>Константы.ИспользоватьPushУведомления.Ref</segments>
     </notDefaultUseAlwaysAttributes>
     <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
       <segments>Константы.РаботаСТорговымОборудованием</segments>
     </notDefaultUseAlwaysAttributes>
     <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
-      <segments>Константы.ИспользоватьPushУведомления.Ref</segments>
+      <segments>Константы.УчетПоСкладам</segments>
     </notDefaultUseAlwaysAttributes>
     <main>true</main>
     <savedData>true</savedData>

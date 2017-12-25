@@ -23,4 +23,5 @@
   <content>Document.Заказ</content>
   <content>Enum.СостоянияЗаказов</content>
   <content>DocumentJournal.ДокументыПродаж</content>
+  <content>Report.ВзаимосвязьПродажТоваров</content>
 </mdclass:Subsystem>

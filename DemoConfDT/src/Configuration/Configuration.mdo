@@ -13,11 +13,12 @@
   <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="2a793120-c7a1-422e-b404-b0f78b87b1b5"/>
   <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="c7b02cf7-645c-471f-a7d9-81b0d59ca319"/>
   <namePrefix></namePrefix>
+  <configurationExtensionCompatibilityMode>8.3.11</configurationExtensionCompatibilityMode>
   <defaultRunMode>ManagedApplication</defaultRunMode>
   <usePurposes>PersonalComputer</usePurposes>
   <scriptVariant>Russian</scriptVariant>
   <vendor>Фирма &quot;1С&quot;</vendor>
-  <version>1.0.24.0</version>
+  <version>1.0.25.5</version>
   <updateCatalogAddress></updateCatalogAddress>
   <includeHelpInContents>true</includeHelpInContents>
   <help>
@@ -53,7 +54,7 @@
   <modalityUseMode>DontUse</modalityUseMode>
   <synchronousExtensionAndAddInCallUseMode>DontUse</synchronousExtensionAndAddInCallUseMode>
   <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
-  <compatibilityMode>8.3.10</compatibilityMode>
+  <compatibilityMode>8.3.11</compatibilityMode>
   <defaultConstantsForm>CommonForm.ОбщиеНастройки</defaultConstantsForm>
   <languages uuid="d5fb342e-0c73-4410-8517-8ce7ee20e8bd">
     <name>Русский</name>
@@ -94,6 +95,7 @@
   <roles>Role.МенеджерПоЗакупкам</roles>
   <roles>Role.МенеджерПоПродажам</roles>
   <roles>Role.Продавец</roles>
+  <roles>Role.Помощник</roles>
   <commonTemplates>CommonTemplate.ДрайверСканераШтрихкодов</commonTemplates>
   <commonTemplates>CommonTemplate.КомпонентаПечатиШтрихкодовWindows32</commonTemplates>
   <commonTemplates>CommonTemplate.КомпонентаПечатиШтрихкодовWindows64</commonTemplates>
@@ -112,6 +114,9 @@
   <commonModules>CommonModule.Пользователи</commonModules>
   <commonModules>CommonModule.РаботаСДоставляемымиУведомлениям</commonModules>
   <commonModules>CommonModule.РаботаСПанельюЗадач</commonModules>
+  <commonModules>CommonModule.Помощник</commonModules>
+  <commonModules>CommonModule.ПомощникКлиент</commonModules>
+  <commonModules>CommonModule.РаботаСИсториейДанных</commonModules>
   <exchangePlans>ExchangePlan.Мобильные</exchangePlans>
   <xDTOPackages>XDTOPackage.ОбменСМобильнымУстройством</xDTOPackages>
   <webServices>WebService.MAExchange</webServices>
@@ -121,6 +126,8 @@
   <scheduledJobs>ScheduledJob.СлияниеИндексаППД</scheduledJobs>
   <scheduledJobs>ScheduledJob.ОбновлениеАгрегатовПродаж</scheduledJobs>
   <scheduledJobs>ScheduledJob.ПерестроениеАгрегатовПродаж</scheduledJobs>
+  <scheduledJobs>ScheduledJob.ПомощникНеотработанныеЗаказы</scheduledJobs>
+  <scheduledJobs>ScheduledJob.ОбновлениеИсторииДанных</scheduledJobs>
   <settingsStorages>SettingsStorage.ХранилищеВариантовОтчетов</settingsStorages>
   <functionalOptions>FunctionalOption.РаботаСТорговымОборудованием</functionalOptions>
   <functionalOptions>FunctionalOption.УчетПоСкладам</functionalOptions>
@@ -165,10 +172,16 @@
   <constants>Constant.НомерПриложенияGoogleCloud</constants>
   <constants>Constant.КлючCервераОтправителяGCM</constants>
   <constants>Constant.ЛогинСервисаПередачиPushУведомлений</constants>
+  <constants>Constant.ИдентификаторПриложенияWNS</constants>
+  <constants>Constant.КлючПриложенияWNS</constants>
+  <constants>Constant.МаркерДоступаWNS</constants>
+  <constants>Constant.ИспользоватьWNS</constants>
+  <constants>Constant.ПериодПроверкиНеотработанныхЗаказов</constants>
   <commonForms>CommonForm.ОбщиеНастройки</commonForms>
   <commonForms>CommonForm.НастройкаПочты</commonForms>
   <commonForms>CommonForm.ФормаПодбора</commonForms>
   <commonForms>CommonForm.НастройкаPushУведомлений</commonForms>
+  <commonForms>CommonForm.НастройкаПомощникаНеотработанныхЗаказов</commonForms>
   <catalogs>Catalog.Товары</catalogs>
   <catalogs>Catalog.Контрагенты</catalogs>
   <catalogs>Catalog.Склады</catalogs>
@@ -187,6 +200,7 @@
   <catalogs>Catalog.ИсходящиеПисьма</catalogs>
   <catalogs>Catalog.ПочтовыеВложения</catalogs>
   <catalogs>Catalog.Пользователи</catalogs>
+  <catalogs>Catalog.Встречи</catalogs>
   <documents>Document.ПриходТовара</documents>
   <documents>Document.РасходТовара</documents>
   <documents>Document.Оплата</documents>
@@ -206,6 +220,7 @@
   <reports>Report.ДинамикаПродаж</reports>
   <reports>Report.ОтчетПоВзаиморасчетам</reports>
   <reports>Report.ДокументыОплата</reports>
+  <reports>Report.ВзаимосвязьПродажТоваров</reports>
   <dataProcessors>DataProcessor.УправлениеПолнотекстовымПоиском</dataProcessors>
   <dataProcessors>DataProcessor.АдминистративныйСервис</dataProcessors>
   <dataProcessors>DataProcessor.ПроведениеДокументов</dataProcessors>
@@ -217,6 +232,7 @@
   <dataProcessors>DataProcessor.НастройкиПользователя</dataProcessors>
   <dataProcessors>DataProcessor.УправлениеАгрегатамиПродаж</dataProcessors>
   <dataProcessors>DataProcessor.ЭлектроннаяПочта</dataProcessors>
+  <dataProcessors>DataProcessor.УправлениеСистемойВзаимодействия</dataProcessors>
   <informationRegisters>InformationRegister.КурсыВалют</informationRegisters>
   <informationRegisters>InformationRegister.Характеристики</informationRegisters>
   <informationRegisters>InformationRegister.ЦеныТоваров</informationRegisters>

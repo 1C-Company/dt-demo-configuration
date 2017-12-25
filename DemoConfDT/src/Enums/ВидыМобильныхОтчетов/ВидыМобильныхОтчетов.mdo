@@ -12,6 +12,7 @@
   </synonym>
   <comment></comment>
   <standardAttributes>
+    <dataHistory>Use</dataHistory>
     <name>Order</name>
     <comment></comment>
     <fillValue xsi:type="core:UndefinedValue"/>
@@ -21,6 +22,7 @@
     <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
   <standardAttributes>
+    <dataHistory>Use</dataHistory>
     <name>Ref</name>
     <comment></comment>
     <fillValue xsi:type="core:UndefinedValue"/>
