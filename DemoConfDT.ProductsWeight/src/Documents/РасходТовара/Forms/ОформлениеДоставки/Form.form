@@ -342,6 +342,7 @@
     <use>
       <common>true</common>
     </use>
+    <currentRowUse>DontUse</currentRowUse>
   </formCommands>
   <parameters>
     <name>ДатаДокумента</name>

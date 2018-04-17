@@ -50,10 +50,10 @@
     <templateType>HTMLDocument</templateType>
   </templates>
   <templates uuid="edc10528-0567-47b8-bbe3-031fdce1cc72">
-    <name>УправляемаяФорма</name>
+    <name>Форма</name>
     <synonym>
       <key>ru</key>
-      <value>Управляемая форма</value>
+      <value>Форма</value>
     </synonym>
     <comment></comment>
     <templateType>HTMLDocument</templateType>
@@ -324,6 +324,15 @@
     <synonym>
       <key>ru</key>
       <value>Система взаимодействия</value>
+    </synonym>
+    <comment></comment>
+    <templateType>HTMLDocument</templateType>
+  </templates>
+  <templates uuid="ab362823-d2c2-4328-aed2-ccf4dc7c9a20">
+    <name>МобильныйКлиент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Мобильный клиент</value>
     </synonym>
     <comment></comment>
     <templateType>HTMLDocument</templateType>

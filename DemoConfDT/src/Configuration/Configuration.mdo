@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a3a9949e-f1f0-4b3a-821f-a85a9fb2fb3c">
-  <name>ДемонстрационнаяКонфигурацияУправляемоеПриложение</name>
+  <name>ДемонстрационноеПриложение</name>
   <synonym>
     <key>ru</key>
-    <value>Демонстрационная конфигурация &quot;Управляемое приложение&quot;</value>
+    <value>Демонстрационное приложение</value>
   </synonym>
   <comment> </comment>
   <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="71dad3e5-411e-4faa-9358-8eccdce47784"/>
@@ -13,12 +13,12 @@
   <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="2a793120-c7a1-422e-b404-b0f78b87b1b5"/>
   <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="c7b02cf7-645c-471f-a7d9-81b0d59ca319"/>
   <namePrefix></namePrefix>
-  <configurationExtensionCompatibilityMode>8.3.11</configurationExtensionCompatibilityMode>
+  <configurationExtensionCompatibilityMode>8.3.12</configurationExtensionCompatibilityMode>
   <defaultRunMode>ManagedApplication</defaultRunMode>
   <usePurposes>PersonalComputer</usePurposes>
   <scriptVariant>Russian</scriptVariant>
   <vendor>Фирма &quot;1С&quot;</vendor>
-  <version>1.0.25.5</version>
+  <version>1.0.26.1</version>
   <updateCatalogAddress></updateCatalogAddress>
   <includeHelpInContents>true</includeHelpInContents>
   <help>
@@ -27,19 +27,26 @@
     </pages>
   </help>
   <reportsVariantsStorage>SettingsStorage.ХранилищеВариантовОтчетов</reportsVariantsStorage>
+  <requiredMobileApplicationPermissions>Multimedia</requiredMobileApplicationPermissions>
+  <requiredMobileApplicationPermissions>Location</requiredMobileApplicationPermissions>
+  <requiredMobileApplicationPermissions>Contacts</requiredMobileApplicationPermissions>
+  <requiredMobileApplicationPermissions>Calendars</requiredMobileApplicationPermissions>
+  <requiredMobileApplicationPermissions>Telephony</requiredMobileApplicationPermissions>
+  <requiredMobileApplicationPermissions>PushNotification</requiredMobileApplicationPermissions>
+  <requiredMobileApplicationPermissions>LocalNotification</requiredMobileApplicationPermissions>
   <defaultLanguage>Language.Русский</defaultLanguage>
   <briefInformation>
     <key>ru</key>
-    <value>Демонстрационная конфигурация &quot;Управляемое приложение&quot;</value>
+    <value>Демонстрационное приложение</value>
   </briefInformation>
   <detailedInformation>
     <key>ru</key>
-    <value>Демонстрационная конфигурация &quot;Управляемое приложение&quot;</value>
+    <value>Демонстрационное приложение</value>
   </detailedInformation>
   <splash/>
   <copyright>
     <key>ru</key>
-    <value>Copyright © ООО &quot;1C-Софт&quot;, 2017</value>
+    <value>Copyright © ООО &quot;1C-Софт&quot;, 2018</value>
   </copyright>
   <vendorInformationAddress>
     <key>ru</key>
@@ -54,7 +61,7 @@
   <modalityUseMode>DontUse</modalityUseMode>
   <synchronousExtensionAndAddInCallUseMode>DontUse</synchronousExtensionAndAddInCallUseMode>
   <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
-  <compatibilityMode>8.3.11</compatibilityMode>
+  <compatibilityMode>8.3.12</compatibilityMode>
   <defaultConstantsForm>CommonForm.ОбщиеНастройки</defaultConstantsForm>
   <languages uuid="d5fb342e-0c73-4410-8517-8ce7ee20e8bd">
     <name>Русский</name>
@@ -89,6 +96,9 @@
   <commonPictures>CommonPicture.ВыделитьВажное</commonPictures>
   <commonPictures>CommonPicture.ПроверитьПочту</commonPictures>
   <commonPictures>CommonPicture.СписокЗаказов</commonPictures>
+  <commonPictures>CommonPicture.Позвонить</commonPictures>
+  <commonPictures>CommonPicture.ШтрихКод</commonPictures>
+  <commonPictures>CommonPicture.ОтправитьСМС</commonPictures>
   <sessionParameters>SessionParameter.ТекущийПользователь</sessionParameters>
   <sessionParameters>SessionParameter.ЯщикIMAP</sessionParameters>
   <roles>Role.Администратор</roles>
@@ -112,11 +122,14 @@
   <commonModules>CommonModule.ОбменМобильныеОбщее</commonModules>
   <commonModules>CommonModule.ОбменМобильныеПереопределяемый</commonModules>
   <commonModules>CommonModule.Пользователи</commonModules>
-  <commonModules>CommonModule.РаботаСДоставляемымиУведомлениям</commonModules>
   <commonModules>CommonModule.РаботаСПанельюЗадач</commonModules>
   <commonModules>CommonModule.Помощник</commonModules>
   <commonModules>CommonModule.ПомощникКлиент</commonModules>
   <commonModules>CommonModule.РаботаСИсториейДанных</commonModules>
+  <commonModules>CommonModule.ГеопозиционированиеКлиент</commonModules>
+  <commonModules>CommonModule.ГеопозиционированиеСервер</commonModules>
+  <commonModules>CommonModule.УведомленияКлиент</commonModules>
+  <commonModules>CommonModule.УведомленияСервер</commonModules>
   <exchangePlans>ExchangePlan.Мобильные</exchangePlans>
   <xDTOPackages>XDTOPackage.ОбменСМобильнымУстройством</xDTOPackages>
   <webServices>WebService.MAExchange</webServices>
@@ -171,17 +184,27 @@
   <constants>Constant.ИспользоватьGCM</constants>
   <constants>Constant.НомерПриложенияGoogleCloud</constants>
   <constants>Constant.КлючCервераОтправителяGCM</constants>
-  <constants>Constant.ЛогинСервисаПередачиPushУведомлений</constants>
-  <constants>Constant.ИдентификаторПриложенияWNS</constants>
+  <constants>Constant.ИспользоватьWNS</constants>
   <constants>Constant.КлючПриложенияWNS</constants>
   <constants>Constant.МаркерДоступаWNS</constants>
-  <constants>Constant.ИспользоватьWNS</constants>
+  <constants>Constant.ИдентификаторПриложенияWNS</constants>
+  <constants>Constant.ЛогинСервисаПередачиPushУведомлений</constants>
   <constants>Constant.ПериодПроверкиНеотработанныхЗаказов</constants>
+  <constants>Constant.ВоспроизводитьТекстУведомления</constants>
+  <constants>Constant.ВыборПровайдераГеопозиционирования</constants>
+  <constants>Constant.ИмяПровайдера</constants>
+  <constants>Constant.ТолькоБесплатные</constants>
+  <constants>Constant.ИспользоватьСотовуюСеть</constants>
+  <constants>Constant.ИспользоватьСетьПередачиДанных</constants>
+  <constants>Constant.ИспользоватьСпутники</constants>
   <commonForms>CommonForm.ОбщиеНастройки</commonForms>
+  <commonForms>CommonForm.НастройкиМобильногоУстройства</commonForms>
   <commonForms>CommonForm.НастройкаПочты</commonForms>
   <commonForms>CommonForm.ФормаПодбора</commonForms>
-  <commonForms>CommonForm.НастройкаPushУведомлений</commonForms>
   <commonForms>CommonForm.НастройкаПомощникаНеотработанныхЗаказов</commonForms>
+  <commonForms>CommonForm.НастройкаPushУведомлений</commonForms>
+  <commonForms>CommonForm.ФормаПодбораМобильная</commonForms>
+  <commonForms>CommonForm.Звонок</commonForms>
   <catalogs>Catalog.Товары</catalogs>
   <catalogs>Catalog.Контрагенты</catalogs>
   <catalogs>Catalog.Склады</catalogs>
@@ -201,6 +224,7 @@
   <catalogs>Catalog.ПочтовыеВложения</catalogs>
   <catalogs>Catalog.Пользователи</catalogs>
   <catalogs>Catalog.Встречи</catalogs>
+  <catalogs>Catalog.МобильныеУстройства</catalogs>
   <documents>Document.ПриходТовара</documents>
   <documents>Document.РасходТовара</documents>
   <documents>Document.Оплата</documents>
@@ -216,6 +240,7 @@
   <enums>Enum.СостоянияЗаказов</enums>
   <enums>Enum.ВидСодержимогоВходящегоПисьма</enums>
   <enums>Enum.PushУведомления</enums>
+  <enums>Enum.ИспользоватьПровайдерГеопозиционирования</enums>
   <reports>Report.ОстаткиТоваровНаСкладах</reports>
   <reports>Report.ДинамикаПродаж</reports>
   <reports>Report.ОтчетПоВзаиморасчетам</reports>

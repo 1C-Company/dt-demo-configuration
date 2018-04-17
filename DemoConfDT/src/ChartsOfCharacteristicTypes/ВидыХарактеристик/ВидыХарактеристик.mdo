@@ -187,5 +187,6 @@
     <fillValue xsi:type="core:UndefinedValue"/>
     <indexing>IndexWithAdditionalOrder</indexing>
     <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
   </attributes>
 </mdclass:ChartOfCharacteristicTypes>

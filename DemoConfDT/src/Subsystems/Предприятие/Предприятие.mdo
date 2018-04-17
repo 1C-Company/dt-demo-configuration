@@ -68,4 +68,6 @@
   <content>Catalog.Встречи</content>
   <content>DataProcessor.УправлениеСистемойВзаимодействия</content>
   <content>Constant.ПериодПроверкиНеотработанныхЗаказов</content>
+  <content>Catalog.МобильныеУстройства</content>
+  <content>CommonForm.НастройкиМобильногоУстройства</content>
 </mdclass:Subsystem>

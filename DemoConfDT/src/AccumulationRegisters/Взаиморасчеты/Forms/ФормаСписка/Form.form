@@ -618,6 +618,7 @@
         <name>ВсеВзаиморасчетыВыполнить</name>
       </handler>
     </action>
+    <associatedTableElementId>1</associatedTableElementId>
   </formCommands>
   <commandInterface>
     <navigationPanel/>

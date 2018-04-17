@@ -244,6 +244,7 @@
         <name>ОчиститьИсториюВыполнить</name>
       </handler>
     </action>
+    <currentRowUse>Auto</currentRowUse>
   </formCommands>
   <commandInterface>
     <navigationPanel/>

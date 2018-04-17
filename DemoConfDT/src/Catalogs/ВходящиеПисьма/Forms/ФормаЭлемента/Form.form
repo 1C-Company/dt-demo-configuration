@@ -370,7 +370,9 @@
       </extInfo>
     </extendedTooltip>
     <type>Pages</type>
-    <extInfo xsi:type="form:PagesGroupExtInfo"/>
+    <extInfo xsi:type="form:PagesGroupExtInfo">
+      <currentRowUse>DontUse</currentRowUse>
+    </extInfo>
   </items>
   <autoCommandBar>
     <name>ФормаКоманднаяПанель</name>
@@ -543,6 +545,7 @@
         <name>Ответить</name>
       </handler>
     </action>
+    <currentRowUse>Auto</currentRowUse>
   </formCommands>
   <parameters>
     <name>ВходящееПисьмо</name>

@@ -149,6 +149,7 @@
         <showLeftMargin>true</showLeftMargin>
         <united>true</united>
         <throughAlign>Auto</throughAlign>
+        <currentRowUse>DontUse</currentRowUse>
       </extInfo>
     </items>
     <items xsi:type="form:FormField">
@@ -261,6 +262,7 @@
       <showLeftMargin>true</showLeftMargin>
       <united>true</united>
       <throughAlign>Auto</throughAlign>
+      <currentRowUse>DontUse</currentRowUse>
     </extInfo>
   </items>
   <items xsi:type="form:FormGroup">
@@ -874,6 +876,7 @@
       <showLeftMargin>true</showLeftMargin>
       <united>true</united>
       <throughAlign>Auto</throughAlign>
+      <currentRowUse>DontUse</currentRowUse>
     </extInfo>
   </items>
   <autoCommandBar>
@@ -1133,6 +1136,7 @@
       </handler>
     </action>
     <representation>TextPicture</representation>
+    <currentRowUse>Auto</currentRowUse>
   </formCommands>
   <formCommands>
     <name>Исключить</name>
@@ -1157,6 +1161,7 @@
       </handler>
     </action>
     <representation>TextPicture</representation>
+    <associatedTableElementId>17</associatedTableElementId>
   </formCommands>
   <formCommands>
     <name>Добавить</name>
@@ -1181,6 +1186,7 @@
       </handler>
     </action>
     <representation>TextPicture</representation>
+    <associatedTableElementId>3</associatedTableElementId>
   </formCommands>
   <commandInterface>
     <navigationPanel/>

@@ -1229,6 +1229,7 @@
         <name>ОткрытьЖурналРегистрации</name>
       </handler>
     </action>
+    <associatedTableElementId>2</associatedTableElementId>
   </formCommands>
   <formCommands>
     <name>РаботаПользователя</name>
@@ -1252,6 +1253,7 @@
         <name>ОткрытьЖурналРегистрацииПоПользователю</name>
       </handler>
     </action>
+    <associatedTableElementId>2</associatedTableElementId>
   </formCommands>
   <formCommands>
     <name>Обновить</name>
@@ -1276,6 +1278,7 @@
         <name>ОбновитьВыполнить</name>
       </handler>
     </action>
+    <currentRowUse>DontUse</currentRowUse>
   </formCommands>
   <formCommands>
     <name>СортировкаПоВозрастанию</name>
@@ -1299,6 +1302,7 @@
         <name>СортироватьПоВозрастанию</name>
       </handler>
     </action>
+    <currentRowUse>DontUse</currentRowUse>
   </formCommands>
   <formCommands>
     <name>СортировкаПоУбыванию</name>
@@ -1322,6 +1326,7 @@
         <name>СортироватьПоУбыванию</name>
       </handler>
     </action>
+    <currentRowUse>DontUse</currentRowUse>
   </formCommands>
   <commandInterface>
     <navigationPanel/>
