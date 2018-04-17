@@ -357,6 +357,7 @@
           <united>true</united>
           <showTitle>true</showTitle>
           <throughAlign>Auto</throughAlign>
+          <currentRowUse>DontUse</currentRowUse>
         </extInfo>
       </items>
       <items xsi:type="form:Button">
@@ -591,7 +592,9 @@
       </extInfo>
     </extendedTooltip>
     <type>Pages</type>
-    <extInfo xsi:type="form:PagesGroupExtInfo"/>
+    <extInfo xsi:type="form:PagesGroupExtInfo">
+      <currentRowUse>DontUse</currentRowUse>
+    </extInfo>
   </items>
   <commandBarLocation>None</commandBarLocation>
   <autoCommandBar>
@@ -738,6 +741,7 @@
         <name>Зарегистрировать</name>
       </handler>
     </action>
+    <currentRowUse>DontUse</currentRowUse>
   </formCommands>
   <formCommands>
     <name>ОтменитьРегистрацию</name>
@@ -758,6 +762,7 @@
         <name>ОтменитьРегистрацию</name>
       </handler>
     </action>
+    <currentRowUse>DontUse</currentRowUse>
   </formCommands>
   <formCommands>
     <name>ПолучитьКодРегистрации</name>
@@ -778,6 +783,7 @@
         <name>ПолучитьКодРегистрации</name>
       </handler>
     </action>
+    <currentRowUse>DontUse</currentRowUse>
   </formCommands>
   <commandInterface>
     <navigationPanel/>

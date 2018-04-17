@@ -261,10 +261,10 @@
       <commands>Catalog.ЗначенияХарактеристик.StandardCommand.OpenList</commands>
       <commands>Catalog.ВидыЦен.StandardCommand.OpenList</commands>
       <commands>Catalog.Регионы.StandardCommand.OpenList</commands>
-      <commands>Catalog.Пользователи.StandardCommand.OpenList</commands>
-      <commands>ExchangePlan.Мобильные.StandardCommand.OpenList</commands>
       <commands>Catalog.Встречи.Command.ОткрытьКалендарь</commands>
       <commands>Catalog.Встречи.StandardCommand.OpenList</commands>
+      <commands>Catalog.Пользователи.StandardCommand.OpenList</commands>
+      <commands>Catalog.МобильныеУстройства.StandardCommand.OpenList</commands>
     </orderFragments>
     <orderFragments>
       <group>NavigationPanelSeeAlso</group>
@@ -294,6 +294,7 @@
       <commands>CommonCommand.УстановитьВидимостьОбъектовЧерезODataAPI</commands>
       <commands>CommonForm.НастройкаPushУведомлений.StandardCommand.Open</commands>
       <commands>DataProcessor.ЭлектроннаяПочта.StandardCommand.Open</commands>
+      <commands>CommonForm.НастройкиМобильногоУстройства.StandardCommand.Open</commands>
     </orderFragments>
   </commandsOrder>
 </cmi:CommandInterface>

@@ -537,6 +537,7 @@
           <showLeftMargin>true</showLeftMargin>
           <united>true</united>
           <throughAlign>Auto</throughAlign>
+          <currentRowUse>DontUse</currentRowUse>
         </extInfo>
       </items>
       <items xsi:type="form:FormField">
@@ -1072,7 +1073,9 @@
           </extInfo>
         </extendedTooltip>
         <type>Pages</type>
-        <extInfo xsi:type="form:PagesGroupExtInfo"/>
+        <extInfo xsi:type="form:PagesGroupExtInfo">
+          <currentRowUse>DontUse</currentRowUse>
+        </extInfo>
       </items>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -1139,6 +1142,7 @@
     <type>Pages</type>
     <extInfo xsi:type="form:PagesGroupExtInfo">
       <pagesRepresentation>TabsOnTop</pagesRepresentation>
+      <currentRowUse>DontUse</currentRowUse>
     </extInfo>
   </items>
   <autoCommandBar>
@@ -1334,6 +1338,7 @@
       </handler>
     </action>
     <modifiesStoredData>true</modifiesStoredData>
+    <currentRowUse>DontUse</currentRowUse>
   </formCommands>
   <formCommands>
     <name>УдалитьХарактеристику</name>
@@ -1355,6 +1360,7 @@
       </handler>
     </action>
     <modifiesStoredData>true</modifiesStoredData>
+    <currentRowUse>DontUse</currentRowUse>
   </formCommands>
   <formCommands>
     <name>ОбновитьКартинку</name>
@@ -1375,6 +1381,7 @@
         <name>ОбновитьКартинку</name>
       </handler>
     </action>
+    <currentRowUse>DontUse</currentRowUse>
   </formCommands>
   <formCommands>
     <name>РедактироватьОписание</name>
@@ -1395,6 +1402,7 @@
         <name>РедактироватьОписание</name>
       </handler>
     </action>
+    <currentRowUse>DontUse</currentRowUse>
   </formCommands>
   <formCommands>
     <name>ЗакончитьРедактирование</name>
@@ -1415,6 +1423,7 @@
         <name>ЗакончитьРедактирование</name>
       </handler>
     </action>
+    <currentRowUse>DontUse</currentRowUse>
   </formCommands>
   <commandInterface>
     <navigationPanel>

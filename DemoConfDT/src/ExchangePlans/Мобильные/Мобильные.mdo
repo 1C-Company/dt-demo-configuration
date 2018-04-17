@@ -13,7 +13,6 @@
     <value>Мобильные устройства</value>
   </synonym>
   <comment></comment>
-  <useStandardCommands>true</useStandardCommands>
   <inputByString>ExchangePlan.Мобильные.StandardAttribute.Description</inputByString>
   <inputByString>ExchangePlan.Мобильные.StandardAttribute.Code</inputByString>
   <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
@@ -162,50 +161,4 @@
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
-  <attributes uuid="0cad6eae-83fc-43bd-84ef-542536c68480">
-    <name>ИдентификаторПодписчикаДоставляемыхУведомлений</name>
-    <synonym>
-      <key>ru</key>
-      <value>Идентификатор подписчика доставляемых уведомлений</value>
-    </synonym>
-    <comment></comment>
-    <type>
-      <types>ValueStorage</types>
-    </type>
-    <mask></mask>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-  </attributes>
-  <attributes uuid="2b5b1b05-99ce-45bf-8265-4a5eb779d2b7">
-    <name>Пользователь</name>
-    <synonym>
-      <key>ru</key>
-      <value>Пользователь</value>
-    </synonym>
-    <comment></comment>
-    <type>
-      <types>CatalogRef.Пользователи</types>
-    </type>
-    <mask></mask>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-  </attributes>
-  <commands uuid="4b2ef3ed-eb29-4f17-a3a0-0b89fa5bc586">
-    <name>Мобильные</name>
-    <synonym>
-      <key>ru</key>
-      <value>Мобильные устройства</value>
-    </synonym>
-    <comment></comment>
-    <group>FormNavigationPanelGoTo</group>
-    <commandParameterType>
-      <types>CatalogRef.Пользователи</types>
-    </commandParameterType>
-    <representation>Auto</representation>
-    <shortcut></shortcut>
-  </commands>
 </mdclass:ExchangePlan>

@@ -21,7 +21,7 @@
   <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="b8fa4627-3ea3-41fd-9447-4acdc28770ff"/>
   <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="c39091b0-4e5d-4335-96f2-495dcd080761"/>
   <namePrefix>ВТ_</namePrefix>
-  <configurationExtensionCompatibilityMode>8.3.11</configurationExtensionCompatibilityMode>
+  <configurationExtensionCompatibilityMode>8.3.12</configurationExtensionCompatibilityMode>
   <configurationExtensionPurpose>Customization</configurationExtensionPurpose>
   <defaultRunMode>ManagedApplication</defaultRunMode>
   <usePurposes>PersonalComputer</usePurposes>
@@ -33,7 +33,7 @@
   <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
   <modalityUseMode>DontUse</modalityUseMode>
   <synchronousExtensionAndAddInCallUseMode>DontUse</synchronousExtensionAndAddInCallUseMode>
-  <compatibilityMode>8.3.11</compatibilityMode>
+  <compatibilityMode>8.3.12</compatibilityMode>
   <languages uuid="426f7459-574d-4e64-b08d-ae4be878c27c">
     <name>Русский</name>
     <objectBelonging>Adopted</objectBelonging>

@@ -6,8 +6,4 @@
     <value>Картинки для помеченных на удаление объектов</value>
   </synonym>
   <comment>коллекция картинок для обработки удаления помеченных объектов</comment>
-  <transparentPixel>
-    <x>13</x>
-    <y>3</y>
-  </transparentPixel>
 </mdclass:CommonPicture>

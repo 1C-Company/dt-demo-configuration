@@ -176,6 +176,7 @@
         <name>ОК</name>
       </handler>
     </action>
+    <currentRowUse>Auto</currentRowUse>
   </formCommands>
   <commandInterface>
     <navigationPanel/>

@@ -577,6 +577,7 @@
       <united>true</united>
       <slaveItemsWidth>LeftNarrow</slaveItemsWidth>
       <throughAlign>Auto</throughAlign>
+      <currentRowUse>DontUse</currentRowUse>
     </extInfo>
   </items>
   <items xsi:type="form:Table">
@@ -2612,6 +2613,7 @@
         <name>ПросмотрТекущегоСобытияВОтдельномОкне</name>
       </handler>
     </action>
+    <associatedTableElementId>48</associatedTableElementId>
   </formCommands>
   <formCommands>
     <name>ОткрытьДанныеДляПросмотра</name>
@@ -2635,6 +2637,7 @@
         <name>ОткрытьДанныеДляПросмотра</name>
       </handler>
     </action>
+    <associatedTableElementId>48</associatedTableElementId>
   </formCommands>
   <formCommands>
     <name>УстановитьИнтервалДатДляПросмотра</name>
@@ -2658,6 +2661,7 @@
         <name>УстановитьИнтервалДатДляПросмотра</name>
       </handler>
     </action>
+    <currentRowUse>Auto</currentRowUse>
   </formCommands>
   <formCommands>
     <name>УстановитьОтбор</name>
@@ -2681,6 +2685,7 @@
         <name>ВыполнитьУстановитьОтбор</name>
       </handler>
     </action>
+    <currentRowUse>Auto</currentRowUse>
   </formCommands>
   <formCommands>
     <name>ОтключитьОтбор</name>
@@ -2704,6 +2709,7 @@
         <name>ОтключитьОтбор</name>
       </handler>
     </action>
+    <currentRowUse>Auto</currentRowUse>
   </formCommands>
   <formCommands>
     <name>СписокАктивныхПользователей</name>
@@ -2727,6 +2733,7 @@
         <name>СписокАктивныхПользователей</name>
       </handler>
     </action>
+    <currentRowUse>Auto</currentRowUse>
   </formCommands>
   <formCommands>
     <name>ОбновитьТекущийСписок</name>
@@ -2750,6 +2757,7 @@
         <name>ОбновитьТекущийСписок</name>
       </handler>
     </action>
+    <currentRowUse>Auto</currentRowUse>
   </formCommands>
   <parameters>
     <name>Пользователь</name>

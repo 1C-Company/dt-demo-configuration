@@ -240,6 +240,7 @@
         <items xsi:type="form:FormField">
           <name>ТоварныеЗапасыНомерСтроки</name>
           <id>6</id>
+          <displayImportance>Low</displayImportance>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -540,6 +541,7 @@
           <extInfo xsi:type="form:InputFieldExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
+            <spinButton>true</spinButton>
             <chooseType>true</chooseType>
             <typeDomainEnabled>true</typeDomainEnabled>
             <textEdit>true</textEdit>
@@ -813,6 +815,7 @@
     <type>Pages</type>
     <extInfo xsi:type="form:PagesGroupExtInfo">
       <pagesRepresentation>TabsOnTop</pagesRepresentation>
+      <currentRowUse>DontUse</currentRowUse>
     </extInfo>
   </items>
   <autoCommandBar>

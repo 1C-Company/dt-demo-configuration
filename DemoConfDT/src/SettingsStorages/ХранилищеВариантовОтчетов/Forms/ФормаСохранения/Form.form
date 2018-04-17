@@ -666,6 +666,7 @@
         <name>СохранитьВыполнить</name>
       </handler>
     </action>
+    <currentRowUse>Auto</currentRowUse>
   </formCommands>
   <parameters>
     <name>КлючОбъекта</name>

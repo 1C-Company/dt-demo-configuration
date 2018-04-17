@@ -6,8 +6,4 @@
     <value>Виды событий журнала регистрации</value>
   </synonym>
   <comment>Коллекция картинок видов событий</comment>
-  <transparentPixel>
-    <x>30</x>
-    <y>2</y>
-  </transparentPixel>
 </mdclass:CommonPicture>

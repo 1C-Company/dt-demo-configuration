@@ -1036,7 +1036,9 @@
       </extInfo>
     </extendedTooltip>
     <type>Pages</type>
-    <extInfo xsi:type="form:PagesGroupExtInfo"/>
+    <extInfo xsi:type="form:PagesGroupExtInfo">
+      <currentRowUse>DontUse</currentRowUse>
+    </extInfo>
   </items>
   <items xsi:type="form:FormGroup">
     <name>КомандыФормы</name>
@@ -1516,6 +1518,7 @@
         <name>ВыполнитьДалее</name>
       </handler>
     </action>
+    <currentRowUse>DontUse</currentRowUse>
   </formCommands>
   <formCommands>
     <name>КомандаСписокПомеченныхУстановитьВсе</name>
@@ -1539,6 +1542,7 @@
         <name>КомандаСписокПомеченныхУстановитьВсе</name>
       </handler>
     </action>
+    <currentRowUse>DontUse</currentRowUse>
   </formCommands>
   <formCommands>
     <name>КомандаСписокПомеченныхСнятьВсе</name>
@@ -1562,6 +1566,7 @@
         <name>КомандаСписокПомеченныхСнятьВсе</name>
       </handler>
     </action>
+    <currentRowUse>DontUse</currentRowUse>
   </formCommands>
   <formCommands>
     <name>КомандаУдалить</name>
@@ -1585,6 +1590,7 @@
         <name>ВыполнитьУдаление</name>
       </handler>
     </action>
+    <currentRowUse>DontUse</currentRowUse>
   </formCommands>
   <commandInterface>
     <navigationPanel/>
