@@ -261,11 +261,6 @@
   </autoCommandBar>
   <handlers xsi:type="form:EventHandlerExtension">
     <event>OnCreateAtServer</event>
-    <name>ВТ_ПриСозданииНаСервереВместо</name>
-    <callType>Override</callType>
-  </handlers>
-  <handlers xsi:type="form:EventHandlerExtension">
-    <event>OnCreateAtServer</event>
     <name>ВТ_ПриСозданииНаСервереПосле</name>
     <callType>After</callType>
   </handlers>
