@@ -3,17 +3,16 @@
   <producedTypes>
     <managerType typeId="27394bac-162f-40bc-aed8-0bf4db643a3e" valueTypeId="62bbc1ef-7982-4189-81ae-413fe927a1dd"/>
     <valueManagerType typeId="02a8b40d-eefe-4fb0-ae22-00564841a5f4" valueTypeId="b4c88e3f-1177-474d-8fb0-a102cd862154"/>
+    <valueKeyType typeId="490ffdcc-d622-5d74-a9d6-353ff1b57c4d" valueTypeId="c917dcca-d048-542f-b098-04a0f2d8b78b"/>
   </producedTypes>
   <name>РаботаСТорговымОборудованием</name>
   <synonym>
     <key>ru</key>
     <value>Работа с торговым оборудованием</value>
   </synonym>
-  <comment></comment>
   <type>
     <types>Boolean</types>
   </type>
-  <mask></mask>
   <minValue xsi:type="core:UndefinedValue"/>
   <maxValue xsi:type="core:UndefinedValue"/>
   <quickChoice>DontUse</quickChoice>

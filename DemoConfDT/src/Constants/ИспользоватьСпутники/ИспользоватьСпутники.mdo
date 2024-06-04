@@ -3,17 +3,16 @@
   <producedTypes>
     <managerType typeId="e0414368-25e9-40c0-9dc3-cc198caa3507" valueTypeId="7bc52edf-d68a-48ad-99e3-f29042eb55ca"/>
     <valueManagerType typeId="0167c18f-dda9-4e42-8b33-4405edf5be2e" valueTypeId="e48a670e-3a48-4796-af8f-f321597d5766"/>
+    <valueKeyType typeId="28a2df6d-4f25-59a0-9971-21e1bfa5cf25" valueTypeId="d835729e-8ba0-5a67-bf2d-37f74359448e"/>
   </producedTypes>
   <name>ИспользоватьСпутники</name>
   <synonym>
     <key>ru</key>
     <value>Использовать спутники</value>
   </synonym>
-  <comment></comment>
   <type>
     <types>Boolean</types>
   </type>
-  <mask></mask>
   <minValue xsi:type="core:UndefinedValue"/>
   <maxValue xsi:type="core:UndefinedValue"/>
   <dataLockControlMode>Managed</dataLockControlMode>

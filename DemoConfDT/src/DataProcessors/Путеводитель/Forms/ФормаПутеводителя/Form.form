@@ -59,10 +59,8 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:MultiLanguageDataPath">
-      <paths xsi:type="form:DataPath">
-        <segments>ПолеHTML</segments>
-      </paths>
+    <dataPath xsi:type="form:DataPath">
+      <segments>ПолеHTML</segments>
     </dataPath>
     <titleLocation>None</titleLocation>
     <extendedTooltip>
@@ -130,6 +128,7 @@
   </handlers>
   <width>90</width>
   <height>30</height>
+  <saveWindowSettings>true</saveWindowSettings>
   <autoTitle>true</autoTitle>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
@@ -223,6 +222,13 @@
       </edit>
     </columns>
   </attributes>
+  <parameters>
+    <name>МобильныйВариант</name>
+    <valueType>
+      <types>Boolean</types>
+    </valueType>
+    <keyParameter>true</keyParameter>
+  </parameters>
   <commandInterface>
     <navigationPanel/>
     <commandBar/>

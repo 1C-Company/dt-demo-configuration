@@ -3,19 +3,18 @@
   <producedTypes>
     <managerType typeId="b98bf842-249d-4243-ab7e-cb313811e9e3" valueTypeId="0c8ac22f-23f6-47c5-9f35-3abd336beb2a"/>
     <valueManagerType typeId="71675261-33d0-4784-beda-676e9db7bc28" valueTypeId="6aa08879-7ccd-4aad-a647-74d66cc6141f"/>
+    <valueKeyType typeId="01c95e19-4334-56a9-ac26-b85c0f4a9c71" valueTypeId="a2abdd21-59ba-544d-be02-0906b036074c"/>
   </producedTypes>
   <name>АдресIMAPСервера</name>
   <synonym>
     <key>ru</key>
     <value>Адрес IMAP сервера</value>
   </synonym>
-  <comment></comment>
   <type>
     <types>String</types>
     <stringQualifiers/>
   </type>
   <useStandardCommands>true</useStandardCommands>
-  <mask></mask>
   <minValue xsi:type="core:UndefinedValue"/>
   <maxValue xsi:type="core:UndefinedValue"/>
   <dataLockControlMode>Managed</dataLockControlMode>

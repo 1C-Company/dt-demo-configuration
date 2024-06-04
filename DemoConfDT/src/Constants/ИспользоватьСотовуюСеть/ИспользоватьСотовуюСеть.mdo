@@ -3,17 +3,16 @@
   <producedTypes>
     <managerType typeId="a95f9ac4-dea8-4868-bb24-74e4c0854489" valueTypeId="6116425e-226a-4a83-afab-dd764b794f1d"/>
     <valueManagerType typeId="1b73f1cc-bc4a-4bc2-99c0-713b6a1b8fab" valueTypeId="e6a188dd-3fc9-4d8c-8580-638ff92566f6"/>
+    <valueKeyType typeId="4bef3c7c-58e1-556d-ab73-35bfcd0bf48e" valueTypeId="286e4602-aa6e-5f7b-acdb-3126ced1ca70"/>
   </producedTypes>
   <name>ИспользоватьСотовуюСеть</name>
   <synonym>
     <key>ru</key>
     <value>Использовать сотовую сеть</value>
   </synonym>
-  <comment></comment>
   <type>
     <types>Boolean</types>
   </type>
-  <mask></mask>
   <minValue xsi:type="core:UndefinedValue"/>
   <maxValue xsi:type="core:UndefinedValue"/>
   <dataLockControlMode>Managed</dataLockControlMode>

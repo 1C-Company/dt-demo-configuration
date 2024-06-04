@@ -9,7 +9,6 @@
     <key>ru</key>
     <value>Управление обсуждениями</value>
   </synonym>
-  <comment></comment>
   <useStandardCommands>true</useStandardCommands>
   <defaultForm>DataProcessor.УправлениеСистемойВзаимодействия.Form.Форма</defaultForm>
   <forms uuid="953113c2-ed5b-47ab-9a10-1f8d30fc7d6b">
@@ -18,7 +17,6 @@
       <key>ru</key>
       <value>Форма</value>
     </synonym>
-    <comment></comment>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>

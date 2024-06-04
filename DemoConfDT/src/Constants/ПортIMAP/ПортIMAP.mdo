@@ -3,13 +3,13 @@
   <producedTypes>
     <managerType typeId="9a9ee77e-fe43-4b1c-8149-69832c9d8405" valueTypeId="b1509185-9ebc-41bf-aaa5-37914bfd1ea5"/>
     <valueManagerType typeId="d40c71fe-3832-4011-943d-b5cb936bc25a" valueTypeId="02f8e31c-00bf-4ce7-8e7d-e88beea050ba"/>
+    <valueKeyType typeId="837bf141-7b18-543e-975b-5f39bce36eb7" valueTypeId="5a5f901f-ae5e-56ab-9fec-ba6e3ff4ca19"/>
   </producedTypes>
   <name>ПортIMAP</name>
   <synonym>
     <key>ru</key>
     <value>Порт IMAP</value>
   </synonym>
-  <comment></comment>
   <type>
     <types>Number</types>
     <numberQualifiers>
@@ -17,7 +17,6 @@
     </numberQualifiers>
   </type>
   <useStandardCommands>true</useStandardCommands>
-  <mask></mask>
   <minValue xsi:type="core:UndefinedValue"/>
   <maxValue xsi:type="core:UndefinedValue"/>
   <dataLockControlMode>Managed</dataLockControlMode>

@@ -14,10 +14,8 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>Объект.Number</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>Объект.Number</segments>
         </dataPath>
         <skipOnInput>true</skipOnInput>
         <extendedTooltip>
@@ -71,10 +69,8 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>Объект.Date</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>Объект.Date</segments>
         </dataPath>
         <defaultItem>true</defaultItem>
         <extendedTooltip>
@@ -124,10 +120,8 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>Объект.Организация</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>Объект.Организация</segments>
         </dataPath>
         <handlers>
           <event>OnChange</event>
@@ -186,10 +180,8 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:MultiLanguageDataPath">
-            <paths xsi:type="form:DataPath">
-              <segments>Объект.Покупатель</segments>
-            </paths>
+          <dataPath xsi:type="form:DataPath">
+            <segments>Объект.Покупатель</segments>
           </dataPath>
           <handlers>
             <event>OnChange</event>
@@ -272,7 +264,7 @@
           <showLeftMargin>true</showLeftMargin>
           <united>true</united>
           <throughAlign>Auto</throughAlign>
-          <currentRowUse>DontUse</currentRowUse>
+          <currentRowUse>Auto</currentRowUse>
         </extInfo>
       </items>
       <items xsi:type="form:FormField">
@@ -283,10 +275,8 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>Объект.Склад</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>Объект.Склад</segments>
         </dataPath>
         <extendedTooltip>
           <name>СкладExtendedTooltip</name>
@@ -353,7 +343,7 @@
         <showLeftMargin>true</showLeftMargin>
         <united>true</united>
         <throughAlign>Auto</throughAlign>
-        <currentRowUse>DontUse</currentRowUse>
+        <currentRowUse>Auto</currentRowUse>
       </extInfo>
     </items>
     <items xsi:type="form:FormGroup">
@@ -367,10 +357,8 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>Объект.ВидЦен</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>Объект.ВидЦен</segments>
         </dataPath>
         <skipOnInput>true</skipOnInput>
         <handlers>
@@ -424,10 +412,8 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>Объект.Валюта</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>Объект.Валюта</segments>
         </dataPath>
         <extendedTooltip>
           <name>ВалютаExtendedTooltip</name>
@@ -494,7 +480,7 @@
         <showLeftMargin>true</showLeftMargin>
         <united>true</united>
         <throughAlign>Auto</throughAlign>
-        <currentRowUse>DontUse</currentRowUse>
+        <currentRowUse>Auto</currentRowUse>
       </extInfo>
     </items>
     <visible>true</visible>
@@ -523,7 +509,7 @@
       <united>true</united>
       <slaveItemsWidth>LeftWide</slaveItemsWidth>
       <throughAlign>Auto</throughAlign>
-      <currentRowUse>DontUse</currentRowUse>
+      <currentRowUse>Auto</currentRowUse>
     </extInfo>
   </items>
   <items xsi:type="form:FormGroup">
@@ -554,10 +540,8 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:MultiLanguageDataPath">
-            <paths xsi:type="form:DataPath">
-              <segments>Объект.Товары.LineNumber</segments>
-            </paths>
+          <dataPath xsi:type="form:DataPath">
+            <segments>Объект.Товары.LineNumber</segments>
           </dataPath>
           <extendedTooltip>
             <name>ТоварыНомерСтрокиExtendedTooltip</name>
@@ -604,10 +588,8 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:MultiLanguageDataPath">
-            <paths xsi:type="form:DataPath">
-              <segments>Объект.Товары.Товар</segments>
-            </paths>
+          <dataPath xsi:type="form:DataPath">
+            <segments>Объект.Товары.Товар</segments>
           </dataPath>
           <defaultItem>true</defaultItem>
           <handlers>
@@ -666,10 +648,8 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:MultiLanguageDataPath">
-            <paths xsi:type="form:DataPath">
-              <segments>Объект.Товары.Цена</segments>
-            </paths>
+          <dataPath xsi:type="form:DataPath">
+            <segments>Объект.Товары.Цена</segments>
           </dataPath>
           <handlers>
             <event>OnChange</event>
@@ -723,10 +703,8 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:MultiLanguageDataPath">
-            <paths xsi:type="form:DataPath">
-              <segments>Объект.Товары.Количество</segments>
-            </paths>
+          <dataPath xsi:type="form:DataPath">
+            <segments>Объект.Товары.Количество</segments>
           </dataPath>
           <handlers>
             <event>OnChange</event>
@@ -781,10 +759,8 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:MultiLanguageDataPath">
-            <paths xsi:type="form:DataPath">
-              <segments>Объект.Товары.Сумма</segments>
-            </paths>
+          <dataPath xsi:type="form:DataPath">
+            <segments>Объект.Товары.Сумма</segments>
           </dataPath>
           <handlers>
             <event>OnChange</event>
@@ -871,6 +847,7 @@
             <borderColor xsi:type="core:ColorRef">
               <color>Style.BorderColor</color>
             </borderColor>
+            <representationInContextMenu>Auto</representationInContextMenu>
           </items>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -955,7 +932,6 @@
           <source>ТоварыСостояниеПросмотра</source>
           <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
-            <horizontalLocation>Left</horizontalLocation>
           </extInfo>
         </viewStatusAddition>
         <searchControlAddition>
@@ -1046,9 +1022,6 @@
         <borderColor xsi:type="core:ColorRef">
           <color>Style.BorderColor</color>
         </borderColor>
-        <searchStringLocation>None</searchStringLocation>
-        <viewStatusLocation>None</viewStatusLocation>
-        <searchControlLocation>None</searchControlLocation>
         <rowFilter xsi:type="core:UndefinedValue"/>
       </items>
       <items xsi:type="form:FormGroup">
@@ -1062,10 +1035,8 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:MultiLanguageDataPath">
-            <paths xsi:type="form:DataPath">
-              <segments>Объект.Товары.TotalКоличество</segments>
-            </paths>
+          <dataPath xsi:type="form:DataPath">
+            <segments>Объект.Товары.TotalКоличество</segments>
           </dataPath>
           <extendedTooltip>
             <name>ТоварыИтогКоличествоExtendedTooltip</name>
@@ -1119,10 +1090,8 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:MultiLanguageDataPath">
-            <paths xsi:type="form:DataPath">
-              <segments>Объект.Товары.TotalСумма</segments>
-            </paths>
+          <dataPath xsi:type="form:DataPath">
+            <segments>Объект.Товары.TotalСумма</segments>
           </dataPath>
           <extendedTooltip>
             <name>ТоварыИтогСуммаExtendedTooltip</name>
@@ -1200,7 +1169,7 @@
             <color>Web.Gainsboro</color>
           </backColor>
           <throughAlign>Auto</throughAlign>
-          <currentRowUse>DontUse</currentRowUse>
+          <currentRowUse>Auto</currentRowUse>
         </extInfo>
       </items>
       <visible>true</visible>
@@ -1247,10 +1216,8 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>Объект.ОбоснованиеОтгрузки</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>Объект.ОбоснованиеОтгрузки</segments>
         </dataPath>
         <extendedTooltip>
           <name>ОбоснованиеОтгрузкиExtendedTooltip</name>
@@ -1344,7 +1311,7 @@
     <type>Pages</type>
     <extInfo xsi:type="form:PagesGroupExtInfo">
       <pagesRepresentation>TabsOnTop</pagesRepresentation>
-      <currentRowUse>DontUse</currentRowUse>
+      <currentRowUse>Auto</currentRowUse>
     </extInfo>
   </items>
   <autoCommandBar>
@@ -1388,6 +1355,7 @@
       <borderColor xsi:type="core:ColorRef">
         <color>Style.BorderColor</color>
       </borderColor>
+      <representationInContextMenu>Auto</representationInContextMenu>
     </items>
     <items xsi:type="form:Button">
       <name>ОстаткиПоСкладу</name>
@@ -1431,6 +1399,7 @@
       <borderColor xsi:type="core:ColorRef">
         <color>Style.BorderColor</color>
       </borderColor>
+      <representationInContextMenu>Auto</representationInContextMenu>
     </items>
     <visible>true</visible>
     <enabled>true</enabled>
@@ -1445,9 +1414,18 @@
     <name>ОбработкаЗаписиНового</name>
   </handlers>
   <handlers>
+    <event>URLListGetProcessing</event>
+    <name>ОбработкаПолученияСпискаНавигационныхСсылок</name>
+  </handlers>
+  <handlers>
+    <event>URLGetProcessing</event>
+    <name>ОбработкаПолученияНавигационнойСсылки</name>
+  </handlers>
+  <handlers>
     <event>OnCreateAtServer</event>
     <name>ПриСозданииНаСервере</name>
   </handlers>
+  <saveWindowSettings>true</saveWindowSettings>
   <autoTitle>true</autoTitle>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>

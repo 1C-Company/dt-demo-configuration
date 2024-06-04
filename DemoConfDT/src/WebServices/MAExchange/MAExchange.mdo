@@ -5,7 +5,6 @@
     <key>ru</key>
     <value>MAExchange</value>
   </synonym>
-  <comment></comment>
   <namespace>http://localhost/ws1</namespace>
   <xdtoPackages xsi:type="core:ReferenceValue">
     <value>XDTOPackage.ОбменСМобильнымУстройством</value>
@@ -30,7 +29,6 @@
       <key>ru</key>
       <value>Начать обмен</value>
     </synonym>
-    <comment></comment>
     <xdtoReturningValueType>
       <name>string</name>
       <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
@@ -44,7 +42,6 @@
         <key>ru</key>
         <value>Код узла</value>
       </synonym>
-      <comment></comment>
       <xdtoValueType>
         <name>string</name>
         <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
@@ -56,7 +53,6 @@
         <key>ru</key>
         <value>Наименование мобильного компьютера</value>
       </synonym>
-      <comment></comment>
       <xdtoValueType>
         <name>string</name>
         <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
@@ -69,7 +65,6 @@
         <key>ru</key>
         <value>Номер отправленного</value>
       </synonym>
-      <comment></comment>
       <xdtoValueType>
         <name>decimal</name>
         <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
@@ -82,7 +77,6 @@
         <key>ru</key>
         <value>Номер принятого</value>
       </synonym>
-      <comment></comment>
       <xdtoValueType>
         <name>decimal</name>
         <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
@@ -95,10 +89,44 @@
         <key>ru</key>
         <value>Версия</value>
       </synonym>
-      <comment></comment>
       <xdtoValueType>
         <name>string</name>
         <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+    </parameters>
+  </operations>
+  <operations uuid="dcee55a8-82fb-44b7-bf2b-e5585f194251">
+    <name>ВыполнитьОбменДанными</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выполнить обмен данными</value>
+    </synonym>
+    <xdtoReturningValueType>
+      <name>ValueStorage</name>
+      <nsUri>http://v8.1c.ru/8.1/data/core</nsUri>
+    </xdtoReturningValueType>
+    <procedureName>ВыполнитьОбменДанными</procedureName>
+    <dataLockControlMode>Managed</dataLockControlMode>
+    <parameters uuid="ed149efa-ace9-4a4b-a420-d5a77525efff">
+      <name>КодУзла</name>
+      <synonym>
+        <key>ru</key>
+        <value>Код узла</value>
+      </synonym>
+      <xdtoValueType>
+        <name>string</name>
+        <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
+      </xdtoValueType>
+    </parameters>
+    <parameters uuid="e659dbab-3c60-4e9d-b2b7-bc97736b5984">
+      <name>ДанныеМобильногоПриложения</name>
+      <synonym>
+        <key>ru</key>
+        <value>Данные мобильного приложения</value>
+      </synonym>
+      <xdtoValueType>
+        <name>ValueStorage</name>
+        <nsUri>http://v8.1c.ru/8.1/data/core</nsUri>
       </xdtoValueType>
     </parameters>
   </operations>
@@ -108,7 +136,6 @@
       <key>ru</key>
       <value>Получить данные</value>
     </synonym>
-    <comment></comment>
     <xdtoReturningValueType>
       <name>ValueStorage</name>
       <nsUri>http://v8.1c.ru/8.1/data/core</nsUri>
@@ -121,7 +148,6 @@
         <key>ru</key>
         <value>Код узла</value>
       </synonym>
-      <comment></comment>
       <xdtoValueType>
         <name>string</name>
         <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
@@ -134,7 +160,6 @@
       <key>ru</key>
       <value>Записать данные</value>
     </synonym>
-    <comment></comment>
     <xdtoReturningValueType>
       <name>string</name>
       <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
@@ -148,7 +173,6 @@
         <key>ru</key>
         <value>Код узла</value>
       </synonym>
-      <comment></comment>
       <xdtoValueType>
         <name>string</name>
         <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
@@ -160,7 +184,6 @@
         <key>ru</key>
         <value>Данные мобильного приложения</value>
       </synonym>
-      <comment></comment>
       <xdtoValueType>
         <name>ValueStorage</name>
         <nsUri>http://v8.1c.ru/8.1/data/core</nsUri>
@@ -173,7 +196,6 @@
       <key>ru</key>
       <value>Получить отчет</value>
     </synonym>
-    <comment></comment>
     <xdtoReturningValueType>
       <name>SpreadsheetDocument</name>
       <nsUri>http://v8.1c.ru/8.2/data/spreadsheet</nsUri>
@@ -186,7 +208,6 @@
         <key>ru</key>
         <value>Настройки</value>
       </synonym>
-      <comment></comment>
       <xdtoValueType>
         <name>string</name>
         <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
@@ -198,7 +219,6 @@
         <key>ru</key>
         <value>Информация расшифровки</value>
       </synonym>
-      <comment></comment>
       <xdtoValueType>
         <name>string</name>
         <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
@@ -212,7 +232,6 @@
       <key>ru</key>
       <value>Новый идентификатор подписчика уведомлений</value>
     </synonym>
-    <comment></comment>
     <xdtoReturningValueType>
       <name>string</name>
       <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
@@ -226,7 +245,6 @@
         <key>ru</key>
         <value>Код узла</value>
       </synonym>
-      <comment></comment>
       <xdtoValueType>
         <name>string</name>
         <nsUri>http://www.w3.org/2001/XMLSchema</nsUri>
@@ -238,7 +256,6 @@
         <key>ru</key>
         <value>Идентификатор XDTO</value>
       </synonym>
-      <comment></comment>
       <xdtoValueType>
         <name>DeliverableNotificationSubscriberID</name>
         <nsUri>http://v8.1c.ru/8.3/data/ext</nsUri>

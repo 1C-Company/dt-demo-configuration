@@ -9,8 +9,7 @@
     <key>ru</key>
     <value>Остатки товаров</value>
   </synonym>
-  <comment></comment>
-  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>Report.ОстаткиТоваровНаСкладах.Form.ФормаОтчета</defaultForm>
   <mainDataCompositionSchema>Report.ОстаткиТоваровНаСкладах.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
   <includeHelpInContents>true</includeHelpInContents>
   <help>
@@ -22,13 +21,21 @@
     <key>ru</key>
     <value>Отчет по остаткам товаров на складах</value>
   </explanation>
+  <forms uuid="c7f6e962-042e-400b-a4b6-b23cc281fa5f">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
   <templates uuid="f42fc5da-bdba-4312-a64d-a0e0ef4c17bf">
     <name>ОсновнаяСхемаКомпоновкиДанных</name>
     <synonym>
       <key>ru</key>
       <value>Основная схема компоновки данных</value>
     </synonym>
-    <comment></comment>
     <templateType>DataCompositionSchema</templateType>
   </templates>
   <templates uuid="cf457afa-996f-478a-a3e2-802f146155fc">
@@ -37,7 +44,6 @@
       <key>ru</key>
       <value>Оформление для мобильного отчета</value>
     </synonym>
-    <comment></comment>
     <templateType>DataCompositionAppearanceTemplate</templateType>
   </templates>
   <commands uuid="041adb17-dd79-455e-b880-a78fd11df938">
@@ -46,13 +52,11 @@
       <key>ru</key>
       <value>Остатки по складу</value>
     </synonym>
-    <comment></comment>
     <group>FormCommandBarImportant</group>
     <commandParameterType>
       <types>CatalogRef.Склады</types>
     </commandParameterType>
     <parameterUseMode>Multiple</parameterUseMode>
     <representation>Auto</representation>
-    <shortcut></shortcut>
   </commands>
 </mdclass:Report>

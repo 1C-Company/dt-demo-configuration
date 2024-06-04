@@ -38,7 +38,7 @@
       <showLeftMargin>true</showLeftMargin>
       <united>true</united>
       <throughAlign>Auto</throughAlign>
-      <currentRowUse>DontUse</currentRowUse>
+      <currentRowUse>Auto</currentRowUse>
     </extInfo>
   </items>
   <items xsi:type="form:Table">
@@ -63,10 +63,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>ЖурналДокументовСписок.Date</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>ЖурналДокументовСписок.Date</segments>
       </dataPath>
       <extendedTooltip>
         <name>ДатаExtendedTooltip</name>
@@ -111,10 +109,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>ЖурналДокументовСписок.Number</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>ЖурналДокументовСписок.Number</segments>
       </dataPath>
       <extendedTooltip>
         <name>НомерExtendedTooltip</name>
@@ -159,10 +155,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>ЖурналДокументовСписок.Type</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>ЖурналДокументовСписок.Type</segments>
       </dataPath>
       <extendedTooltip>
         <name>ТипExtendedTooltip</name>
@@ -207,10 +201,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>ЖурналДокументовСписок.Контрагент</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>ЖурналДокументовСписок.Контрагент</segments>
       </dataPath>
       <extendedTooltip>
         <name>КонтрагентExtendedTooltip</name>
@@ -255,10 +247,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>ЖурналДокументовСписок.РасчетныйСчет</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>ЖурналДокументовСписок.РасчетныйСчет</segments>
       </dataPath>
       <extendedTooltip>
         <name>РасчетныйСчетExtendedTooltip</name>
@@ -303,10 +293,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>ЖурналДокументовСписок.Организация</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>ЖурналДокументовСписок.Организация</segments>
       </dataPath>
       <extendedTooltip>
         <name>ОрганизацияExtendedTooltip</name>
@@ -354,10 +342,8 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>ЖурналДокументовСписок.Сумма</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>ЖурналДокументовСписок.Сумма</segments>
         </dataPath>
         <extendedTooltip>
           <name>СуммаExtendedTooltip</name>
@@ -401,10 +387,8 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>ЖурналДокументовСписок.Валюта</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>ЖурналДокументовСписок.Валюта</segments>
         </dataPath>
         <extendedTooltip>
           <name>ВалютаExtendedTooltip</name>
@@ -561,7 +545,6 @@
       <source>ЖурналДокументовСписокСостояниеПросмотра</source>
       <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
-        <horizontalLocation>Left</horizontalLocation>
       </extInfo>
     </viewStatusAddition>
     <searchControlAddition>
@@ -659,6 +642,7 @@
         <endDate>0001-01-01T00:00:00</endDate>
       </period>
       <topLevelParent xsi:type="core:UndefinedValue"/>
+      <allowGettingCurrentRowURL>true</allowGettingCurrentRowURL>
       <userSettingsGroup>Настройки</userSettingsGroup>
     </extInfo>
   </items>
@@ -673,6 +657,7 @@
     <horizontalAlign>Left</horizontalAlign>
     <autoFill>true</autoFill>
   </autoCommandBar>
+  <saveWindowSettings>true</saveWindowSettings>
   <autoTitle>true</autoTitle>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>

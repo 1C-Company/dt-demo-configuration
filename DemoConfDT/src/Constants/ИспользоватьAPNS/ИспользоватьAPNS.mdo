@@ -3,17 +3,16 @@
   <producedTypes>
     <managerType typeId="d454c753-3e28-4def-b162-763b81073cc9" valueTypeId="aa2af233-9704-4ec5-bb54-b8c882d0a7e2"/>
     <valueManagerType typeId="6718759b-46c7-4d5f-909f-e8ccd8699f1f" valueTypeId="de123b4e-e833-41b1-b002-c133de7d1407"/>
+    <valueKeyType typeId="47b68c8d-022b-58ec-990a-9f562ec4e375" valueTypeId="5345abde-0d1f-50e2-9292-a8b5df20f361"/>
   </producedTypes>
   <name>ИспользоватьAPNS</name>
   <synonym>
     <key>ru</key>
     <value>Использовать APNS</value>
   </synonym>
-  <comment></comment>
   <type>
     <types>Boolean</types>
   </type>
-  <mask></mask>
   <minValue xsi:type="core:UndefinedValue"/>
   <maxValue xsi:type="core:UndefinedValue"/>
   <dataLockControlMode>Managed</dataLockControlMode>

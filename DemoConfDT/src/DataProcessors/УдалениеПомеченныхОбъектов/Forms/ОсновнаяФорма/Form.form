@@ -22,10 +22,8 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>РежимУдаления</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>РежимУдаления</segments>
         </dataPath>
         <titleLocation>None</titleLocation>
         <handlers>
@@ -135,10 +133,8 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>СтрокаРезультатов</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>СтрокаРезультатов</segments>
         </dataPath>
         <titleLocation>Top</titleLocation>
         <extendedTooltip>
@@ -253,10 +249,8 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:MultiLanguageDataPath">
-            <paths xsi:type="form:DataPath">
-              <segments>ДеревоНеудаленныхОбъектов.Представление</segments>
-            </paths>
+          <dataPath xsi:type="form:DataPath">
+            <segments>ДеревоНеудаленныхОбъектов.Представление</segments>
           </dataPath>
           <extendedTooltip>
             <name>Представление1ExtendedTooltip</name>
@@ -391,7 +385,6 @@
           <source>ДеревоНеудаленныхОбъектовСостояниеПросмотра</source>
           <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
-            <horizontalLocation>Left</horizontalLocation>
           </extInfo>
         </viewStatusAddition>
         <searchControlAddition>
@@ -554,10 +547,8 @@
             <userVisible>
               <common>true</common>
             </userVisible>
-            <dataPath xsi:type="form:MultiLanguageDataPath">
-              <paths xsi:type="form:DataPath">
-                <segments>СписокПомеченныхНаУдаление.Пометка</segments>
-              </paths>
+            <dataPath xsi:type="form:DataPath">
+              <segments>СписокПомеченныхНаУдаление.Пометка</segments>
             </dataPath>
             <handlers>
               <event>OnChange</event>
@@ -601,10 +592,8 @@
             <userVisible>
               <common>true</common>
             </userVisible>
-            <dataPath xsi:type="form:MultiLanguageDataPath">
-              <paths xsi:type="form:DataPath">
-                <segments>СписокПомеченныхНаУдаление.Представление</segments>
-              </paths>
+            <dataPath xsi:type="form:DataPath">
+              <segments>СписокПомеченныхНаУдаление.Представление</segments>
             </dataPath>
             <extendedTooltip>
               <name>ПредставлениеExtendedTooltip</name>
@@ -724,6 +713,7 @@
               <borderColor xsi:type="core:ColorRef">
                 <color>Style.BorderColor</color>
               </borderColor>
+              <representationInContextMenu>Auto</representationInContextMenu>
             </items>
             <items xsi:type="form:Button">
               <name>КомандаСписокПомеченныхСнятьВсе</name>
@@ -763,6 +753,7 @@
               <borderColor xsi:type="core:ColorRef">
                 <color>Style.BorderColor</color>
               </borderColor>
+              <representationInContextMenu>Auto</representationInContextMenu>
             </items>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -882,7 +873,6 @@
           <source>СписокПомеченныхНаУдалениеСостояниеПросмотра</source>
           <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
-            <horizontalLocation>Left</horizontalLocation>
           </extInfo>
         </viewStatusAddition>
         <searchControlAddition>
@@ -1037,7 +1027,7 @@
     </extendedTooltip>
     <type>Pages</type>
     <extInfo xsi:type="form:PagesGroupExtInfo">
-      <currentRowUse>DontUse</currentRowUse>
+      <currentRowUse>Auto</currentRowUse>
     </extInfo>
   </items>
   <items xsi:type="form:FormGroup">
@@ -1082,6 +1072,7 @@
       <borderColor xsi:type="core:ColorRef">
         <color>Style.BorderColor</color>
       </borderColor>
+      <representationInContextMenu>Auto</representationInContextMenu>
     </items>
     <items xsi:type="form:Button">
       <name>КомандаДалее</name>
@@ -1125,6 +1116,7 @@
       <borderColor xsi:type="core:ColorRef">
         <color>Style.BorderColor</color>
       </borderColor>
+      <representationInContextMenu>Auto</representationInContextMenu>
     </items>
     <items xsi:type="form:Button">
       <name>Закрыть</name>
@@ -1164,6 +1156,7 @@
       <borderColor xsi:type="core:ColorRef">
         <color>Style.BorderColor</color>
       </borderColor>
+      <representationInContextMenu>Auto</representationInContextMenu>
     </items>
     <items xsi:type="form:Button">
       <name>Справка</name>
@@ -1203,6 +1196,7 @@
       <borderColor xsi:type="core:ColorRef">
         <color>Style.BorderColor</color>
       </borderColor>
+      <representationInContextMenu>Auto</representationInContextMenu>
     </items>
     <visible>true</visible>
     <enabled>true</enabled>
@@ -1262,6 +1256,7 @@
   <excludedCommands>Retry</excludedCommands>
   <excludedCommands>SaveValues</excludedCommands>
   <excludedCommands>Yes</excludedCommands>
+  <saveWindowSettings>true</saveWindowSettings>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
   <enabled>true</enabled>

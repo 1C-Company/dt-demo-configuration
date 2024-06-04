@@ -3,13 +3,13 @@
   <producedTypes>
     <managerType typeId="928926b7-98a3-4d78-9f9f-b2ff3420402d" valueTypeId="96c6538b-d73a-49f3-96f9-b495d65de66e"/>
     <valueManagerType typeId="39a4e16f-acec-4b14-8ada-bc58d9e5f3c7" valueTypeId="3dfdfeee-1328-43b8-9a25-b796a019f45b"/>
+    <valueKeyType typeId="3c8706ae-f366-505f-9634-919654688e93" valueTypeId="7a10c4fe-a232-5430-8bee-a90cad3945aa"/>
   </producedTypes>
   <name>ПортSMTP</name>
   <synonym>
     <key>ru</key>
     <value>Порт SMTP</value>
   </synonym>
-  <comment></comment>
   <type>
     <types>Number</types>
     <numberQualifiers>
@@ -17,7 +17,6 @@
     </numberQualifiers>
   </type>
   <useStandardCommands>true</useStandardCommands>
-  <mask></mask>
   <minValue xsi:type="core:UndefinedValue"/>
   <maxValue xsi:type="core:UndefinedValue"/>
   <dataLockControlMode>Managed</dataLockControlMode>

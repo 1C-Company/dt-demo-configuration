@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Bot xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="57cc763e-e06c-4106-83ab-00cd17affe56">
+  <name>ОфисМенеджер</name>
+  <synonym>
+    <key>ru</key>
+    <value>Офис-менеджер</value>
+  </synonym>
+  <predefined>true</predefined>
+</mdclass:Bot>

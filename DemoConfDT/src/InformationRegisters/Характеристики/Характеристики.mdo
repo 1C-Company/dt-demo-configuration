@@ -14,48 +14,39 @@
     <key>ru</key>
     <value>Характеристики</value>
   </synonym>
-  <comment></comment>
   <dataHistory>Use</dataHistory>
   <useStandardCommands>true</useStandardCommands>
   <editType>BothWays</editType>
   <standardAttributes>
     <dataHistory>Use</dataHistory>
     <name>Active</name>
-    <comment></comment>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
   <standardAttributes>
     <dataHistory>Use</dataHistory>
     <name>LineNumber</name>
-    <comment></comment>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
   <standardAttributes>
     <dataHistory>Use</dataHistory>
     <name>Recorder</name>
-    <comment></comment>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
   <standardAttributes>
     <dataHistory>Use</dataHistory>
     <name>Period</name>
-    <comment></comment>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fillChecking>ShowError</fillChecking>
     <fullTextSearch>Use</fullTextSearch>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
@@ -65,6 +56,7 @@
       <lang>ru</lang>
     </pages>
   </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
   <recordPresentation>
     <key>ru</key>
     <value>Значение характеристики</value>
@@ -87,7 +79,6 @@
       <key>ru</key>
       <value>Значение</value>
     </synonym>
-    <comment></comment>
     <type>
       <types>Characteristic.ВидыХарактеристик</types>
     </type>
@@ -95,7 +86,6 @@
       <key>ru</key>
       <value>Значение характеристики товара</value>
     </toolTip>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <choiceParameterLinks>
@@ -115,7 +105,6 @@
       <key>ru</key>
       <value>Объект</value>
     </synonym>
-    <comment></comment>
     <type>
       <types>CatalogRef.Контрагенты</types>
       <types>CatalogRef.Товары</types>
@@ -124,7 +113,6 @@
       <key>ru</key>
       <value>Товар</value>
     </toolTip>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillChecking>ShowError</fillChecking>
@@ -144,7 +132,6 @@
       <key>ru</key>
       <value>Вид характеристики</value>
     </synonym>
-    <comment></comment>
     <type>
       <types>ChartOfCharacteristicTypesRef.ВидыХарактеристик</types>
     </type>
@@ -152,7 +139,6 @@
       <key>ru</key>
       <value>Характеристика товара</value>
     </toolTip>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillChecking>ShowError</fillChecking>
@@ -168,13 +154,31 @@
     </fillValue>
     <mainFilter>true</mainFilter>
   </dimensions>
+  <dimensions uuid="8fdc7b49-94c7-4e01-936a-e64870ac1b27">
+    <name>Номер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номер</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
   <forms uuid="85c529bc-cacb-46c0-a5f8-2bfbeacb62e6">
     <name>ФормаЗаписи</name>
     <synonym>
       <key>ru</key>
       <value>Форма записи</value>
     </synonym>
-    <comment></comment>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>

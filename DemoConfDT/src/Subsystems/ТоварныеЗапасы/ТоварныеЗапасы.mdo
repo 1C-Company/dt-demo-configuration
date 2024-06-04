@@ -5,7 +5,6 @@
     <key>ru</key>
     <value>Товарные запасы</value>
   </synonym>
-  <comment></comment>
   <includeHelpInContents>true</includeHelpInContents>
   <includeInCommandInterface>true</includeInCommandInterface>
   <explanation>
@@ -20,6 +19,7 @@
   <content>Document.ОперацияПоУчетуТоваров</content>
   <content>Report.ОстаткиТоваровНаСкладах</content>
   <content>AccumulationRegister.ТоварныеЗапасы</content>
+  <content>CommonCommand.ОстаткиТоваровНаСкладахКоманда</content>
   <subsystems>Цены</subsystems>
   <subsystems>Характеристики</subsystems>
 </mdclass:Subsystem>

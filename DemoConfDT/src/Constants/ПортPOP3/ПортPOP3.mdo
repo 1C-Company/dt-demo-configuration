@@ -3,13 +3,13 @@
   <producedTypes>
     <managerType typeId="b1a8d115-91df-4921-8052-ba4c8aef0b62" valueTypeId="01f40f22-592e-4e1c-b50a-49a3adbcd07d"/>
     <valueManagerType typeId="1f24f45c-73fe-4be9-bb93-b3ebe9f246b4" valueTypeId="0d39cb5b-4931-4cda-85da-a6aee2afb575"/>
+    <valueKeyType typeId="60aee573-17f8-5cef-b046-0a98c8d4a25a" valueTypeId="f9c43769-f111-53f6-98da-adb3d740297a"/>
   </producedTypes>
   <name>ПортPOP3</name>
   <synonym>
     <key>ru</key>
     <value>Порт POP3</value>
   </synonym>
-  <comment></comment>
   <type>
     <types>Number</types>
     <numberQualifiers>
@@ -17,7 +17,6 @@
     </numberQualifiers>
   </type>
   <useStandardCommands>true</useStandardCommands>
-  <mask></mask>
   <minValue xsi:type="core:UndefinedValue"/>
   <maxValue xsi:type="core:UndefinedValue"/>
   <dataLockControlMode>Managed</dataLockControlMode>

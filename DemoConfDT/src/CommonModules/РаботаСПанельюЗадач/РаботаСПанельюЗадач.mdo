@@ -5,6 +5,5 @@
     <key>ru</key>
     <value>Работа с панелью задач</value>
   </synonym>
-  <comment></comment>
   <clientManagedApplication>true</clientManagedApplication>
 </mdclass:CommonModule>

@@ -5,7 +5,6 @@
     <key>ru</key>
     <value>Установить программу работы со сканером</value>
   </synonym>
-  <comment></comment>
   <group>ActionsPanelTools</group>
   <commandParameterType/>
   <representation>Auto</representation>
@@ -13,5 +12,4 @@
     <key>ru</key>
     <value>Установить компоненту для работы со сканером штрихкодов</value>
   </toolTip>
-  <shortcut></shortcut>
 </mdclass:CommonCommand>

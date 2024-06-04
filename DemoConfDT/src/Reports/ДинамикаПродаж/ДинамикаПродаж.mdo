@@ -9,7 +9,6 @@
     <key>ru</key>
     <value>Динамика продаж</value>
   </synonym>
-  <comment></comment>
   <useStandardCommands>true</useStandardCommands>
   <mainDataCompositionSchema>Report.ДинамикаПродаж.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
   <includeHelpInContents>true</includeHelpInContents>
@@ -28,7 +27,6 @@
       <key>ru</key>
       <value>Основная схема компоновки данных</value>
     </synonym>
-    <comment></comment>
     <templateType>DataCompositionSchema</templateType>
   </templates>
 </mdclass:Report>

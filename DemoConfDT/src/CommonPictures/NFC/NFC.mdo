@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6dd185fa-1a4d-49c6-9147-80cc2f1a76b9">
+  <name>NFC</name>
+  <synonym>
+    <key>ru</key>
+    <value>NFC</value>
+  </synonym>
+</mdclass:CommonPicture>

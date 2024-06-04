@@ -8,10 +8,8 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:MultiLanguageDataPath">
-      <paths xsi:type="form:DataPath">
-        <segments>Запись.Объект</segments>
-      </paths>
+    <dataPath xsi:type="form:DataPath">
+      <segments>Запись.Объект</segments>
     </dataPath>
     <extendedTooltip>
       <name>ТоварExtendedTooltip</name>
@@ -60,10 +58,8 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:MultiLanguageDataPath">
-      <paths xsi:type="form:DataPath">
-        <segments>Запись.ВидХарактеристики</segments>
-      </paths>
+    <dataPath xsi:type="form:DataPath">
+      <segments>Запись.ВидХарактеристики</segments>
     </dataPath>
     <extendedTooltip>
       <name>ВидХарактеристикиExtendedTooltip</name>
@@ -112,10 +108,8 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:MultiLanguageDataPath">
-      <paths xsi:type="form:DataPath">
-        <segments>Запись.Значение</segments>
-      </paths>
+    <dataPath xsi:type="form:DataPath">
+      <segments>Запись.Значение</segments>
     </dataPath>
     <extendedTooltip>
       <name>ЗначениеExtendedTooltip</name>
@@ -182,6 +176,7 @@
     <autoFill>true</autoFill>
   </autoCommandBar>
   <windowOpeningMode>LockOwnerWindow</windowOpeningMode>
+  <saveWindowSettings>true</saveWindowSettings>
   <autoTitle>true</autoTitle>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
@@ -208,4 +203,5 @@
     <navigationPanel/>
     <commandBar/>
   </commandInterface>
+  <extInfo xsi:type="form:InformationRegisterManagerFormExtInfo"/>
 </form:Form>

@@ -8,7 +8,6 @@
     <key>ru</key>
     <value>Хранилище вариантов отчетов</value>
   </synonym>
-  <comment></comment>
   <defaultSaveForm>SettingsStorage.ХранилищеВариантовОтчетов.Form.ФормаСохранения</defaultSaveForm>
   <defaultLoadForm>SettingsStorage.ХранилищеВариантовОтчетов.Form.ФормаЗагрузки</defaultLoadForm>
   <forms uuid="6d68318e-646f-4633-97d6-426f2d218097">
@@ -17,7 +16,6 @@
       <key>ru</key>
       <value>Форма сохранения</value>
     </synonym>
-    <comment></comment>
     <help>
       <pages>
         <lang>ru</lang>
@@ -32,7 +30,6 @@
       <key>ru</key>
       <value>Форма загрузки</value>
     </synonym>
-    <comment></comment>
     <help>
       <pages>
         <lang>ru</lang>

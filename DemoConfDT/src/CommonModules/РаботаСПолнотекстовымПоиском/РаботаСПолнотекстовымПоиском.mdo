@@ -5,7 +5,6 @@
     <key>ru</key>
     <value>Работа с полнотекстовым поиском</value>
   </synonym>
-  <comment></comment>
   <server>true</server>
   <privileged>true</privileged>
 </mdclass:CommonModule>

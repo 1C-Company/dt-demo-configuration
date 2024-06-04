@@ -3,17 +3,16 @@
   <producedTypes>
     <managerType typeId="68195ced-91f5-4ea7-9e9d-39603ad6e3a0" valueTypeId="cad9c645-2fd3-4bac-85cd-75f211497440"/>
     <valueManagerType typeId="3c9360d3-97e1-4318-903d-11a5c078090c" valueTypeId="e2b86637-83ec-4716-abd1-821bcb5dbc5c"/>
+    <valueKeyType typeId="97b70f6f-d0ae-5f8a-9cc6-236d80293707" valueTypeId="25ab74d8-12e2-58e2-8732-affd62293876"/>
   </producedTypes>
   <name>ВоспроизводитьТекстУведомления</name>
   <synonym>
     <key>ru</key>
     <value>Воспроизводить текст уведомления</value>
   </synonym>
-  <comment></comment>
   <type>
     <types>Boolean</types>
   </type>
-  <mask></mask>
   <minValue xsi:type="core:UndefinedValue"/>
   <maxValue xsi:type="core:UndefinedValue"/>
   <dataLockControlMode>Managed</dataLockControlMode>

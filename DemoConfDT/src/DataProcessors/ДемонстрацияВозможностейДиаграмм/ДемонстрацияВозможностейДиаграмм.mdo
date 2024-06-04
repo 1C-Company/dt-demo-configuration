@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="82026b0c-aa5c-47a7-9b5f-2510d944f17c">
+  <producedTypes>
+    <objectType typeId="5ce9e04b-7844-4b3a-ae3a-0e70549667a2" valueTypeId="668c92bf-21d5-447f-822b-e7429492b026"/>
+    <managerType typeId="4f924e05-5341-41ec-a373-9a0a613bb7bd" valueTypeId="1386a48e-b258-4cef-9b52-d0fbbe61d346"/>
+  </producedTypes>
+  <name>ДемонстрацияВозможностейДиаграмм</name>
+  <synonym>
+    <key>ru</key>
+    <value>Демонстрация возможностей диаграмм</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ДемонстрацияВозможностейДиаграмм.Form.Форма</defaultForm>
+  <forms uuid="702a8c96-cf60-4cc7-b0d1-031b694dd882">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="eb43e6a2-ef01-4dfd-86e2-89dcf2eca40a">
+    <name>ДемонстрацияВозможностейДиаграмм</name>
+    <synonym>
+      <key>ru</key>
+      <value>Демонстрация возможностей диаграмм</value>
+    </synonym>
+    <templateType>HTMLDocument</templateType>
+  </templates>
+</mdclass:DataProcessor>

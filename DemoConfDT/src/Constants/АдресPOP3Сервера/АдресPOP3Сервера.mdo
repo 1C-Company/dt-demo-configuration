@@ -3,19 +3,18 @@
   <producedTypes>
     <managerType typeId="dc457a9d-7947-4573-951e-72e4a453c846" valueTypeId="aa4ca1e8-6d69-42a3-baa1-7e1b7b5676d6"/>
     <valueManagerType typeId="2f156dce-9f50-4f82-807f-0166fe1ba37f" valueTypeId="f5d9e7a5-609e-47ac-82da-97222e0dcb7d"/>
+    <valueKeyType typeId="00a542ae-5856-5131-bf04-f7949f68c7b8" valueTypeId="8dbc1e0a-69e7-5c7e-8f75-9a9faf4cf68c"/>
   </producedTypes>
   <name>АдресPOP3Сервера</name>
   <synonym>
     <key>ru</key>
     <value>Адрес POP3 сервера</value>
   </synonym>
-  <comment></comment>
   <type>
     <types>String</types>
     <stringQualifiers/>
   </type>
   <useStandardCommands>true</useStandardCommands>
-  <mask></mask>
   <minValue xsi:type="core:UndefinedValue"/>
   <maxValue xsi:type="core:UndefinedValue"/>
   <dataLockControlMode>Managed</dataLockControlMode>

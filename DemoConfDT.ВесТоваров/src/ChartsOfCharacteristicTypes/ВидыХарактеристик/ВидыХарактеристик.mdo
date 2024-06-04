@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ChartOfCharacteristicTypes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="04911604-fc1f-4a74-a1b7-6aab6f73baae">
+  <producedTypes>
+    <objectType typeId="413c1ea5-0c64-42a6-8ee1-0c2207e33f4c" valueTypeId="d67acd02-2a0d-4abb-bff2-6e925be4d0a4"/>
+    <refType typeId="9ab2059e-1a68-4e00-9049-3742cc85e12d" valueTypeId="73895a36-d025-45af-acbd-520f30b6bc52"/>
+    <selectionType typeId="277c2d91-fcc2-435b-95ac-5394b6c65163" valueTypeId="9a49c0b9-adbe-4342-96ea-3203e2129d77"/>
+    <listType typeId="07d51c6d-26c8-4f6c-b91c-e6aa853c07db" valueTypeId="99f3538e-6e41-435b-b410-d6e80f89c47c"/>
+    <managerType typeId="0e325c45-a69f-4626-ac02-c92e2cec2d99" valueTypeId="6d3191c9-b879-4a1a-bef7-b1e28fa24796"/>
+    <containerType typeId="fd96d8c6-703b-465e-9b65-f957f5a08829" valueTypeId="ebc58c08-33ee-4837-b706-9c318faba585"/>
+  </producedTypes>
+  <name>ВидыХарактеристик</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ChartOfCharacteristicTypesExtension">
+    <typeExtension/>
+  </extension>
+  <type/>
+</mdclass:ChartOfCharacteristicTypes>

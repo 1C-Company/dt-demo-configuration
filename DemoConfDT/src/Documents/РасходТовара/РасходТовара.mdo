@@ -12,62 +12,52 @@
     <key>ru</key>
     <value>Расход товара</value>
   </synonym>
-  <comment></comment>
   <useStandardCommands>true</useStandardCommands>
   <inputByString>Document.РасходТовара.StandardAttribute.Number</inputByString>
   <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
   <standardAttributes>
     <dataHistory>Use</dataHistory>
     <name>Posted</name>
-    <comment></comment>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
   <standardAttributes>
     <dataHistory>Use</dataHistory>
     <name>Ref</name>
-    <comment></comment>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
   <standardAttributes>
     <dataHistory>Use</dataHistory>
     <name>DeletionMark</name>
-    <comment></comment>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
   <standardAttributes>
     <dataHistory>Use</dataHistory>
     <name>Date</name>
-    <comment></comment>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fillChecking>ShowError</fillChecking>
     <fullTextSearch>Use</fullTextSearch>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
   <standardAttributes>
     <dataHistory>Use</dataHistory>
     <name>Number</name>
-    <comment></comment>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
   <basedOn>Catalog.Контрагенты</basedOn>
+  <basedOn>Document.Заказ</basedOn>
   <createOnInput>Use</createOnInput>
   <includeHelpInContents>true</includeHelpInContents>
   <help>
@@ -75,6 +65,7 @@
       <lang>ru</lang>
     </pages>
   </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
   <fullTextSearch>Use</fullTextSearch>
   <objectPresentation>
     <key>ru</key>
@@ -115,7 +106,6 @@
       <key>ru</key>
       <value>Покупатель</value>
     </synonym>
-    <comment></comment>
     <type>
       <types>CatalogRef.Контрагенты</types>
     </type>
@@ -123,7 +113,6 @@
       <key>ru</key>
       <value>Покупатель товара</value>
     </toolTip>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillChecking>ShowError</fillChecking>
@@ -140,7 +129,6 @@
       <key>ru</key>
       <value>Склад</value>
     </synonym>
-    <comment></comment>
     <type>
       <types>CatalogRef.Склады</types>
     </type>
@@ -148,7 +136,6 @@
       <key>ru</key>
       <value>Склад на который поступает товар</value>
     </toolTip>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillChecking>ShowError</fillChecking>
@@ -164,7 +151,6 @@
       <key>ru</key>
       <value>Валюта взиморасчетов</value>
     </synonym>
-    <comment></comment>
     <type>
       <types>CatalogRef.Валюты</types>
     </type>
@@ -172,7 +158,6 @@
       <key>ru</key>
       <value>Валюта, в которой указаны цены</value>
     </toolTip>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillChecking>ShowError</fillChecking>
@@ -188,11 +173,9 @@
       <key>ru</key>
       <value>Вид цен</value>
     </synonym>
-    <comment></comment>
     <type>
       <types>CatalogRef.ВидыЦен</types>
     </type>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillChecking>ShowError</fillChecking>
@@ -208,12 +191,10 @@
       <key>ru</key>
       <value>Обоснование отгрузки</value>
     </synonym>
-    <comment></comment>
     <type>
       <types>String</types>
       <stringQualifiers/>
     </type>
-    <mask></mask>
     <multiLine>true</multiLine>
     <extendedEdit>true</extendedEdit>
     <minValue xsi:type="core:UndefinedValue"/>
@@ -232,11 +213,9 @@
       <key>ru</key>
       <value>Организация</value>
     </synonym>
-    <comment></comment>
     <type>
       <types>CatalogRef.Организации</types>
     </type>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillChecking>ShowError</fillChecking>
@@ -252,7 +231,6 @@
       <key>ru</key>
       <value>Форма документа</value>
     </synonym>
-    <comment></comment>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
@@ -262,7 +240,6 @@
       <key>ru</key>
       <value>Форма списка</value>
     </synonym>
-    <comment></comment>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
@@ -272,7 +249,6 @@
       <key>ru</key>
       <value>Оформление доставки</value>
     </synonym>
-    <comment></comment>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
@@ -286,15 +262,12 @@
       <key>ru</key>
       <value>Товары</value>
     </synonym>
-    <comment></comment>
     <fillChecking>ShowError</fillChecking>
     <standardAttributes>
       <dataHistory>Use</dataHistory>
       <name>LineNumber</name>
-      <comment></comment>
       <fillValue xsi:type="core:UndefinedValue"/>
       <fullTextSearch>Use</fullTextSearch>
-      <mask></mask>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
     </standardAttributes>
@@ -304,7 +277,6 @@
         <key>ru</key>
         <value>Товар</value>
       </synonym>
-      <comment></comment>
       <type>
         <types>CatalogRef.Товары</types>
       </type>
@@ -312,7 +284,6 @@
         <key>ru</key>
         <value>Товар</value>
       </toolTip>
-      <mask></mask>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
       <fillChecking>ShowError</fillChecking>
@@ -332,7 +303,6 @@
         <key>ru</key>
         <value>Цена</value>
       </synonym>
-      <comment></comment>
       <type>
         <types>Number</types>
         <numberQualifiers>
@@ -346,7 +316,6 @@
         <value>Цена товара</value>
       </toolTip>
       <markNegatives>true</markNegatives>
-      <mask></mask>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
       <fillChecking>ShowError</fillChecking>
@@ -361,7 +330,6 @@
         <key>ru</key>
         <value>Количество</value>
       </synonym>
-      <comment></comment>
       <type>
         <types>Number</types>
         <numberQualifiers>
@@ -374,7 +342,6 @@
         <key>ru</key>
         <value>Количество товара</value>
       </toolTip>
-      <mask></mask>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
       <fillChecking>ShowError</fillChecking>
@@ -387,7 +354,6 @@
         <key>ru</key>
         <value>Сумма</value>
       </synonym>
-      <comment></comment>
       <type>
         <types>Number</types>
         <numberQualifiers>
@@ -400,7 +366,6 @@
         <key>ru</key>
         <value>Сумма по товару</value>
       </toolTip>
-      <mask></mask>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
       <fillChecking>ShowError</fillChecking>
@@ -416,7 +381,6 @@
       <key>ru</key>
       <value>Макет печати</value>
     </synonym>
-    <comment></comment>
   </templates>
   <templates uuid="01f97fb7-bac2-427a-a2e5-b6edefe4c0ff">
     <name>БланкДоставки</name>
@@ -424,7 +388,6 @@
       <key>ru</key>
       <value>Бланк доставки</value>
     </synonym>
-    <comment></comment>
   </templates>
   <commands uuid="542ec856-1045-4d55-a115-c8f68e567e18">
     <name>ПечатьРасходнойНакладной</name>
@@ -432,13 +395,11 @@
       <key>ru</key>
       <value>Печать расходной накладной</value>
     </synonym>
-    <comment></comment>
     <group>CommandGroup.Печать</group>
     <commandParameterType>
       <types>DocumentRef.РасходТовара</types>
     </commandParameterType>
     <parameterUseMode>Multiple</parameterUseMode>
     <representation>Auto</representation>
-    <shortcut></shortcut>
   </commands>
 </mdclass:Document>

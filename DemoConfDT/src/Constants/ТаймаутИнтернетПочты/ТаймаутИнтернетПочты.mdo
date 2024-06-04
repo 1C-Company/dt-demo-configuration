@@ -3,13 +3,13 @@
   <producedTypes>
     <managerType typeId="28fb9b38-4891-4a1a-8896-67b251c8783d" valueTypeId="784d088b-1802-40f2-b082-152ad958c667"/>
     <valueManagerType typeId="db3bedc6-9a3a-47fe-b885-94fe2af6ff9b" valueTypeId="f5467885-23b0-4cab-80d4-1fc91f406985"/>
+    <valueKeyType typeId="58df343d-b177-50d9-8496-3367af428676" valueTypeId="ec256b26-34df-5e21-accd-c0d83c959f0e"/>
   </producedTypes>
   <name>ТаймаутИнтернетПочты</name>
   <synonym>
     <key>ru</key>
     <value>Таймаут</value>
   </synonym>
-  <comment></comment>
   <type>
     <types>Number</types>
     <numberQualifiers>
@@ -17,7 +17,6 @@
     </numberQualifiers>
   </type>
   <useStandardCommands>true</useStandardCommands>
-  <mask></mask>
   <minValue xsi:type="core:UndefinedValue"/>
   <maxValue xsi:type="core:UndefinedValue"/>
   <dataLockControlMode>Managed</dataLockControlMode>

@@ -5,7 +5,6 @@
     <key>ru</key>
     <value>Предприятие</value>
   </synonym>
-  <comment></comment>
   <includeHelpInContents>true</includeHelpInContents>
   <includeInCommandInterface>true</includeInCommandInterface>
   <explanation>
@@ -57,9 +56,8 @@
   <content>Constant.ИспользоватьPushУведомления</content>
   <content>Constant.ИспользоватьAPNS</content>
   <content>Constant.СертификатМобильногоПриложенияIOS</content>
-  <content>Constant.ИспользоватьGCM</content>
-  <content>Constant.НомерПриложенияGoogleCloud</content>
-  <content>Constant.КлючCервераОтправителяGCM</content>
+  <content>Constant.ИспользоватьFCM</content>
+  <content>Constant.КлючCервераОтправителяFCM</content>
   <content>Constant.ЛогинСервисаПередачиPushУведомлений</content>
   <content>Constant.ИдентификаторПриложенияWNS</content>
   <content>Constant.КлючПриложенияWNS</content>
@@ -70,4 +68,5 @@
   <content>Constant.ПериодПроверкиНеотработанныхЗаказов</content>
   <content>Catalog.МобильныеУстройства</content>
   <content>CommonForm.НастройкиМобильногоУстройства</content>
+  <content>CommonCommand.БотОфисМенеджер</content>
 </mdclass:Subsystem>

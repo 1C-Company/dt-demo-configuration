@@ -3,17 +3,16 @@
   <producedTypes>
     <managerType typeId="30955a77-033a-4aea-aa05-f0acc81eb3b9" valueTypeId="4f324a82-92e8-45a9-86fa-260975b214ce"/>
     <valueManagerType typeId="d4010123-7f6a-43d8-add5-02724da9e642" valueTypeId="e38b5223-1255-4fe8-bd32-bc29b4db8b44"/>
+    <valueKeyType typeId="20c1a73d-c8d5-55a2-b79c-e2bb9c4f42f1" valueTypeId="e1c0bb2f-019c-59f7-b8f1-8ec8c6721ba3"/>
   </producedTypes>
   <name>ИспользоватьPushУведомления</name>
   <synonym>
     <key>ru</key>
     <value>Использовать push уведомления</value>
   </synonym>
-  <comment></comment>
   <type>
     <types>EnumRef.PushУведомления</types>
   </type>
-  <mask></mask>
   <minValue xsi:type="core:UndefinedValue"/>
   <maxValue xsi:type="core:UndefinedValue"/>
   <dataLockControlMode>Managed</dataLockControlMode>

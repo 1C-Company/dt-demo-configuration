@@ -5,7 +5,6 @@
     <key>ru</key>
     <value>Продажи</value>
   </synonym>
-  <comment></comment>
   <includeHelpInContents>true</includeHelpInContents>
   <includeInCommandInterface>true</includeInCommandInterface>
   <picture xsi:type="core:PictureRef">
@@ -24,4 +23,8 @@
   <content>Enum.СостоянияЗаказов</content>
   <content>DocumentJournal.ДокументыПродаж</content>
   <content>Report.ВзаимосвязьПродажТоваров</content>
+  <content>Report.ПрайсЛист</content>
+  <content>Report.АнализЗаказов</content>
+  <content>Report.ОстаткиТоваровНаСкладахМобильный</content>
+  <content>CommonCommand.ОстаткиТоваровНаСкладахКоманда</content>
 </mdclass:Subsystem>

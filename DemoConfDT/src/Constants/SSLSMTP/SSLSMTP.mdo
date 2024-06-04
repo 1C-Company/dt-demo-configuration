@@ -3,18 +3,17 @@
   <producedTypes>
     <managerType typeId="d2fe5c2b-5bca-4fba-a50a-fedd96e6987a" valueTypeId="a7df5c8a-e87f-4ed5-9f08-d1b18e702b64"/>
     <valueManagerType typeId="b19c5bb1-b746-4a52-9a03-0f1ba44bb12d" valueTypeId="3fc48dc3-b2d1-4613-a26d-af6c05a0d36c"/>
+    <valueKeyType typeId="77ea537b-0209-5c73-88a2-fbe6112db1d0" valueTypeId="aaeb0680-5cff-55ac-a24c-1a557d541c9c"/>
   </producedTypes>
   <name>SSLSMTP</name>
   <synonym>
     <key>ru</key>
     <value>SSLSMTP</value>
   </synonym>
-  <comment></comment>
   <type>
     <types>Boolean</types>
   </type>
   <useStandardCommands>true</useStandardCommands>
-  <mask></mask>
   <minValue xsi:type="core:UndefinedValue"/>
   <maxValue xsi:type="core:UndefinedValue"/>
   <dataLockControlMode>Managed</dataLockControlMode>

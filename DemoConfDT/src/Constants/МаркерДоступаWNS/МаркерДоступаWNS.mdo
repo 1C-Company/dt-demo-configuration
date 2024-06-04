@@ -3,18 +3,17 @@
   <producedTypes>
     <managerType typeId="8afb4154-845a-4372-a2eb-30da1079af2d" valueTypeId="b9744e7e-c5e0-43b7-8336-1769ffbe270e"/>
     <valueManagerType typeId="fcc5d68b-d0ff-44d7-afb4-53808a4e423f" valueTypeId="1a2cb869-0917-4ff2-8efb-a29362d4f6d2"/>
+    <valueKeyType typeId="91229f33-3475-5d33-97e0-62abccf1e44a" valueTypeId="b4e3f949-60ac-5418-8359-291cc065cdd6"/>
   </producedTypes>
   <name>МаркерДоступаWNS</name>
   <synonym>
     <key>ru</key>
     <value>Маркер доступа WNS</value>
   </synonym>
-  <comment></comment>
   <type>
     <types>String</types>
     <stringQualifiers/>
   </type>
-  <mask></mask>
   <minValue xsi:type="core:UndefinedValue"/>
   <maxValue xsi:type="core:UndefinedValue"/>
   <dataLockControlMode>Managed</dataLockControlMode>

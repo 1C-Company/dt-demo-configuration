@@ -5,7 +5,6 @@
     <key>ru</key>
     <value>Валютный учет</value>
   </synonym>
-  <comment></comment>
   <location>Catalog.Организации.Attribute.ВалютныйУчет</location>
   <content>Document.ПриходТовара.Attribute.Валюта</content>
   <content>Document.РасходТовара.Attribute.Валюта</content>

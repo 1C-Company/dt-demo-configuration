@@ -12,7 +12,6 @@
     <key>ru</key>
     <value>Товары</value>
   </synonym>
-  <comment></comment>
   <useStandardCommands>true</useStandardCommands>
   <inputByString>Catalog.Товары.StandardAttribute.Description</inputByString>
   <inputByString>Catalog.Товары.StandardAttribute.Code</inputByString>
@@ -22,62 +21,50 @@
   <standardAttributes>
     <dataHistory>Use</dataHistory>
     <name>PredefinedDataName</name>
-    <comment></comment>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
   <standardAttributes>
     <dataHistory>Use</dataHistory>
     <name>Predefined</name>
-    <comment></comment>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
   <standardAttributes>
     <dataHistory>Use</dataHistory>
     <name>Ref</name>
-    <comment></comment>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
   <standardAttributes>
     <dataHistory>Use</dataHistory>
     <name>DeletionMark</name>
-    <comment></comment>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
   <standardAttributes>
     <dataHistory>Use</dataHistory>
     <name>IsFolder</name>
-    <comment></comment>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
   <standardAttributes>
     <dataHistory>Use</dataHistory>
     <name>Owner</name>
-    <comment></comment>
     <fillFromFillingValue>true</fillFromFillingValue>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fillChecking>ShowError</fillChecking>
     <fullTextSearch>Use</fullTextSearch>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
@@ -88,7 +75,6 @@
       <key>ru</key>
       <value>Группа</value>
     </synonym>
-    <comment></comment>
     <toolTip>
       <key>ru</key>
       <value>Группа товаров</value>
@@ -98,30 +84,25 @@
       <value>Catalog.Товары.EmptyRef</value>
     </fillValue>
     <fullTextSearch>Use</fullTextSearch>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
   <standardAttributes>
     <dataHistory>Use</dataHistory>
     <name>Description</name>
-    <comment></comment>
     <fillValue xsi:type="core:StringValue">
       <value></value>
     </fillValue>
     <fillChecking>ShowError</fillChecking>
     <fullTextSearch>Use</fullTextSearch>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
   <standardAttributes>
     <dataHistory>Use</dataHistory>
     <name>Code</name>
-    <comment></comment>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
@@ -132,10 +113,14 @@
     <typesFilterValue xsi:type="core:ReferenceValue">
       <value>Enum.НазначениеХарактеристик.EnumValue.Товары</value>
     </typesFilterValue>
+    <dataPathField>ChartOfCharacteristicTypes.ВидыХарактеристик.StandardAttribute.Ref</dataPathField>
+    <multipleValuesUseField>ChartOfCharacteristicTypes.ВидыХарактеристик.Attribute.Множественная</multipleValuesUseField>
     <characteristicValues>InformationRegister.Характеристики</characteristicValues>
     <objectField>InformationRegister.Характеристики.Dimension.Объект</objectField>
     <typeField>InformationRegister.Характеристики.Dimension.ВидХарактеристики</typeField>
     <valueField>InformationRegister.Характеристики.Resource.Значение</valueField>
+    <multipleValuesKeyField>-1</multipleValuesKeyField>
+    <multipleValuesOrderField>-1</multipleValuesOrderField>
   </characteristics>
   <createOnInput>Use</createOnInput>
   <includeHelpInContents>true</includeHelpInContents>
@@ -144,6 +129,7 @@
       <lang>ru</lang>
     </pages>
   </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
   <fullTextSearch>Use</fullTextSearch>
   <objectPresentation>
     <key>ru</key>
@@ -175,14 +161,12 @@
       <key>ru</key>
       <value>Артикул</value>
     </synonym>
-    <comment></comment>
     <type>
       <types>String</types>
       <stringQualifiers>
         <length>15</length>
       </stringQualifiers>
     </type>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <quickChoice>DontUse</quickChoice>
@@ -200,11 +184,9 @@
       <key>ru</key>
       <value>Поставщик</value>
     </synonym>
-    <comment></comment>
     <type>
       <types>CatalogRef.Контрагенты</types>
     </type>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillValue xsi:type="core:ReferenceValue">
@@ -219,11 +201,9 @@
       <key>ru</key>
       <value>Картинка</value>
     </synonym>
-    <comment></comment>
     <type>
       <types>CatalogRef.ХранимыеФайлы</types>
     </type>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <choiceParameterLinks>
@@ -242,11 +222,9 @@
       <key>ru</key>
       <value>Вид</value>
     </synonym>
-    <comment></comment>
     <type>
       <types>EnumRef.ВидыТоваров</types>
     </type>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillValue xsi:type="core:ReferenceValue">
@@ -261,14 +239,12 @@
       <key>ru</key>
       <value>Штрихкод</value>
     </synonym>
-    <comment></comment>
     <type>
       <types>String</types>
       <stringQualifiers>
         <length>20</length>
       </stringQualifiers>
     </type>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <quickChoice>DontUse</quickChoice>
@@ -286,12 +262,10 @@
       <key>ru</key>
       <value>Описание</value>
     </synonym>
-    <comment></comment>
     <type>
       <types>String</types>
       <stringQualifiers/>
     </type>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillValue xsi:type="core:StringValue">
@@ -306,7 +280,6 @@
       <key>ru</key>
       <value>Форма списка с остатками</value>
     </synonym>
-    <comment></comment>
     <help>
       <pages>
         <lang>ru</lang>
@@ -321,7 +294,6 @@
       <key>ru</key>
       <value>Форма элемента</value>
     </synonym>
-    <comment></comment>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
@@ -331,7 +303,6 @@
       <key>ru</key>
       <value>Форма выбора</value>
     </synonym>
-    <comment></comment>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
@@ -341,7 +312,6 @@
       <key>ru</key>
       <value>Форма списка</value>
     </synonym>
-    <comment></comment>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
@@ -351,7 +321,6 @@
       <key>ru</key>
       <value>Макет печати штрихкода</value>
     </synonym>
-    <comment></comment>
   </templates>
   <templates uuid="92178bec-054f-4161-b8f6-a872635754ea">
     <name>МакетПрайсЛиста</name>
@@ -359,7 +328,6 @@
       <key>ru</key>
       <value>Макет прайс листа</value>
     </synonym>
-    <comment></comment>
   </templates>
   <commands uuid="5aef3ef2-d583-4522-a725-e888136b696a">
     <name>ПечатьШтрихкода</name>
@@ -367,14 +335,12 @@
       <key>ru</key>
       <value>Печать штрихкода</value>
     </synonym>
-    <comment></comment>
     <group>CommandGroup.Печать</group>
     <commandParameterType>
       <types>CatalogRef.Товары</types>
     </commandParameterType>
     <parameterUseMode>Multiple</parameterUseMode>
     <representation>Auto</representation>
-    <shortcut></shortcut>
   </commands>
   <commands uuid="ef736010-c6e5-42f6-84f5-1456c641a501">
     <name>ПечатьПрайсЛиста</name>
@@ -382,13 +348,23 @@
       <key>ru</key>
       <value>Печать прайс-листа</value>
     </synonym>
-    <comment></comment>
     <group>CommandGroup.Печать</group>
     <commandParameterType>
       <types>CatalogRef.Товары</types>
     </commandParameterType>
     <parameterUseMode>Multiple</parameterUseMode>
     <representation>Auto</representation>
-    <shortcut></shortcut>
+  </commands>
+  <commands uuid="033530c0-134a-4d4e-8b2d-c03852480e4b">
+    <name>ЗаписатьNFCМетку</name>
+    <synonym>
+      <key>ru</key>
+      <value>Записать NFC метку</value>
+    </synonym>
+    <group>FormCommandBarImportant</group>
+    <commandParameterType>
+      <types>CatalogRef.Товары</types>
+    </commandParameterType>
+    <representation>Auto</representation>
   </commands>
 </mdclass:Catalog>

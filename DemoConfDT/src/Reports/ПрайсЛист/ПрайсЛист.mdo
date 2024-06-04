@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c4425226-a604-4cfc-8ada-a5adc6382c21">
+  <producedTypes>
+    <objectType typeId="fac9b8e9-d4f4-445c-8530-d5f407db8f5d" valueTypeId="ef5c0827-a82f-4a8f-b046-99e744b02401"/>
+    <managerType typeId="ba90c716-ea18-45e4-97df-5017064a70e0" valueTypeId="28a09fab-45c0-4b75-90ec-ca9053086320"/>
+  </producedTypes>
+  <name>ПрайсЛист</name>
+  <synonym>
+    <key>ru</key>
+    <value>Прайс лист</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.ПрайсЛист.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="901d74ec-b7ea-4a5d-b6e1-726540b63e02">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

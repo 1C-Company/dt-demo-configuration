@@ -3,13 +3,13 @@
   <producedTypes>
     <managerType typeId="5dac7a8b-2f21-460d-bf6a-abd10598041c" valueTypeId="bc606cf4-7761-4c2d-9c08-5ee46de54618"/>
     <valueManagerType typeId="95e35b1c-af93-47e5-b793-150a6d34a580" valueTypeId="bc4b0034-c47d-4281-8f81-0478c3017a78"/>
+    <valueKeyType typeId="bcaf31a4-b769-50b1-9cd4-77e75c8969ca" valueTypeId="830757cb-00a3-59ff-a87a-4cb263e4ebf3"/>
   </producedTypes>
   <name>ЛогинСервисаПередачиPushУведомлений</name>
   <synonym>
     <key>ru</key>
     <value>Ключ доступа</value>
   </synonym>
-  <comment></comment>
   <type>
     <types>String</types>
     <stringQualifiers>
@@ -17,7 +17,6 @@
       <fixed>true</fixed>
     </stringQualifiers>
   </type>
-  <mask></mask>
   <minValue xsi:type="core:UndefinedValue"/>
   <maxValue xsi:type="core:UndefinedValue"/>
   <dataLockControlMode>Managed</dataLockControlMode>

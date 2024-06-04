@@ -5,9 +5,7 @@
     <key>ru</key>
     <value>Установить видимость объектов через OData API</value>
   </synonym>
-  <comment></comment>
   <group>ActionsPanelTools</group>
   <commandParameterType/>
   <representation>Auto</representation>
-  <shortcut></shortcut>
 </mdclass:CommonCommand>

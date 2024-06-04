@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="212fdf01-c68a-4597-9ce2-17d4758905c1">
+  <producedTypes>
+    <managerType typeId="1639ab11-8c02-4760-a988-8f3044bde96b" valueTypeId="12494e30-7e05-42f7-b79f-8d7830aa8089"/>
+    <valueManagerType typeId="bf0941e5-9053-45b5-819f-833fda167748" valueTypeId="a9bdc4b5-2cef-4a9c-9a01-5571f6b04a8c"/>
+    <valueKeyType typeId="36420bf9-a310-5d3d-9efc-1cf5be37ef81" valueTypeId="a6f56f72-4636-5f88-9625-207d9547b0f4"/>
+  </producedTypes>
+  <name>ИспользоватьFCM</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать FCM</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

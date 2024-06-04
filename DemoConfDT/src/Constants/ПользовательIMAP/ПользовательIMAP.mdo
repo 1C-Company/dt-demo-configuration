@@ -3,19 +3,18 @@
   <producedTypes>
     <managerType typeId="051ec43c-beef-4655-ab51-dfc29d9997f2" valueTypeId="9440368b-d072-4b25-837d-4d447d09d028"/>
     <valueManagerType typeId="7a9b9a4c-78db-46e0-8e91-3683bd06df67" valueTypeId="c1aea17f-37ae-413d-966c-d859a560ac6f"/>
+    <valueKeyType typeId="63712b99-3483-5a07-89f8-19e5de13eae8" valueTypeId="cbbb1e0e-03bf-5d84-a157-2e6dcaa3e93a"/>
   </producedTypes>
   <name>ПользовательIMAP</name>
   <synonym>
     <key>ru</key>
     <value>Пользователь IMAP</value>
   </synonym>
-  <comment></comment>
   <type>
     <types>String</types>
     <stringQualifiers/>
   </type>
   <useStandardCommands>true</useStandardCommands>
-  <mask></mask>
   <minValue xsi:type="core:UndefinedValue"/>
   <maxValue xsi:type="core:UndefinedValue"/>
   <dataLockControlMode>Managed</dataLockControlMode>

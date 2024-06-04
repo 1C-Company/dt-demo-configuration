@@ -5,7 +5,6 @@
     <key>ru</key>
     <value>Цвет текста существенных изменений данных</value>
   </synonym>
-  <comment></comment>
   <value xsi:type="core:ColorValue">
     <value xsi:type="core:ColorRef">
       <color>Web.DarkOrange</color>

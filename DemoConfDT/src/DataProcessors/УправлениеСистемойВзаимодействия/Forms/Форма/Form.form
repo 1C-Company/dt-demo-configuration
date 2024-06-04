@@ -18,10 +18,8 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>ПодтверждениеОтключения</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>ПодтверждениеОтключения</segments>
         </dataPath>
         <titleLocation>Right</titleLocation>
         <handlers>
@@ -97,6 +95,7 @@
           <strikeout>false</strikeout>
           <scale>120</scale>
         </font>
+        <representationInContextMenu>Auto</representationInContextMenu>
       </items>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -147,10 +146,8 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>АдресЭлектроннойПочты</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>АдресЭлектроннойПочты</segments>
         </dataPath>
         <toolTip>
           <key>ru</key>
@@ -158,6 +155,10 @@
 На этот адрес будет отправлено письмо с кодом регистрации.</value>
         </toolTip>
         <toolTipRepresentation>ShowBottom</toolTipRepresentation>
+        <handlers>
+          <event>OnChange</event>
+          <name>EMailПриИзменении</name>
+        </handlers>
         <extendedTooltip>
           <name>EMailРасширеннаяПодсказка</name>
           <id>19</id>
@@ -213,10 +214,8 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:MultiLanguageDataPath">
-            <paths xsi:type="form:DataPath">
-              <segments>АдресСервера</segments>
-            </paths>
+          <dataPath xsi:type="form:DataPath">
+            <segments>АдресСервера</segments>
           </dataPath>
           <extendedTooltip>
             <name>АдресСервераРасширеннаяПодсказка</name>
@@ -270,10 +269,8 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:MultiLanguageDataPath">
-            <paths xsi:type="form:DataPath">
-              <segments>ИмяИБ</segments>
-            </paths>
+          <dataPath xsi:type="form:DataPath">
+            <segments>ИмяИБ</segments>
           </dataPath>
           <extendedTooltip>
             <name>ИмяИБРасширеннаяПодсказка</name>
@@ -357,7 +354,7 @@
           <united>true</united>
           <showTitle>true</showTitle>
           <throughAlign>Auto</throughAlign>
-          <currentRowUse>DontUse</currentRowUse>
+          <currentRowUse>Auto</currentRowUse>
         </extInfo>
       </items>
       <items xsi:type="form:Button">
@@ -393,6 +390,7 @@
           <font>Style.NormalTextFont</font>
           <scale>120</scale>
         </font>
+        <representationInContextMenu>Auto</representationInContextMenu>
       </items>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -439,10 +437,8 @@
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:MultiLanguageDataPath">
-          <paths xsi:type="form:DataPath">
-            <segments>КодРегистрации</segments>
-          </paths>
+        <dataPath xsi:type="form:DataPath">
+          <segments>КодРегистрации</segments>
         </dataPath>
         <toolTip>
           <key>ru</key>
@@ -527,6 +523,7 @@
           <font>Style.NormalTextFont</font>
           <scale>120</scale>
         </font>
+        <representationInContextMenu>Auto</representationInContextMenu>
       </items>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -593,7 +590,7 @@
     </extendedTooltip>
     <type>Pages</type>
     <extInfo xsi:type="form:PagesGroupExtInfo">
-      <currentRowUse>DontUse</currentRowUse>
+      <currentRowUse>Auto</currentRowUse>
     </extInfo>
   </items>
   <commandBarLocation>None</commandBarLocation>
@@ -613,6 +610,7 @@
     <name>ПриСозданииНаСервере</name>
   </handlers>
   <windowOpeningMode>LockOwnerWindow</windowOpeningMode>
+  <saveWindowSettings>true</saveWindowSettings>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
   <autoFillCheck>true</autoFillCheck>

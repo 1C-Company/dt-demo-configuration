@@ -3,18 +3,17 @@
   <producedTypes>
     <managerType typeId="5d555ee1-2fad-4444-b493-0b0d79407331" valueTypeId="c7972c38-61bf-4f6f-92dc-111c6c51af94"/>
     <valueManagerType typeId="a5b87abe-dfdb-4547-8073-959dbe91f22f" valueTypeId="46cd4840-f3ff-4f29-a1ea-a819dbd22ad6"/>
+    <valueKeyType typeId="52ddd4c5-fe43-544a-aed9-4ddc1de3ddd7" valueTypeId="675868a0-6378-57e6-bab6-758d4900a10c"/>
   </producedTypes>
   <name>ИдентификаторПриложенияWNS</name>
   <synonym>
     <key>ru</key>
     <value>Идентификатор приложения WNS</value>
   </synonym>
-  <comment></comment>
   <type>
     <types>String</types>
     <stringQualifiers/>
   </type>
-  <mask></mask>
   <minValue xsi:type="core:UndefinedValue"/>
   <maxValue xsi:type="core:UndefinedValue"/>
   <dataLockControlMode>Managed</dataLockControlMode>

@@ -3,17 +3,16 @@
   <producedTypes>
     <managerType typeId="f35987a5-3ac1-4a0d-b3ff-063b1e57a675" valueTypeId="55d77ed7-06a5-41f4-ae14-db54f9fab373"/>
     <valueManagerType typeId="1daf8fa2-a734-48e6-8fbe-a636d22ad68f" valueTypeId="978cc1e4-c2d3-439f-ba57-06897c3111c1"/>
+    <valueKeyType typeId="cae56252-493c-56c1-8aee-fa677db78a92" valueTypeId="6010c41a-23ca-53ee-a7cb-9a93c1e8a9e3"/>
   </producedTypes>
   <name>СертификатМобильногоПриложенияIOS</name>
   <synonym>
     <key>ru</key>
     <value>Сертификат мобильного приложения IOS</value>
   </synonym>
-  <comment></comment>
   <type>
     <types>ValueStorage</types>
   </type>
-  <mask></mask>
   <minValue xsi:type="core:UndefinedValue"/>
   <maxValue xsi:type="core:UndefinedValue"/>
   <dataLockControlMode>Managed</dataLockControlMode>

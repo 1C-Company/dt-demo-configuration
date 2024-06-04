@@ -97,15 +97,6 @@
       </visible>
     </visibilityFragments>
     <visibilityFragments>
-      <command>Report.ОстаткиТоваровНаСкладах.StandardCommand.Open</command>
-      <visible>
-        <common>true</common>
-        <for>
-          <role>Role.Продавец</role>
-        </for>
-      </visible>
-    </visibilityFragments>
-    <visibilityFragments>
       <command>Report.ОтчетПоВзаиморасчетам.StandardCommand.Open</command>
       <visible>
         <common>true</common>

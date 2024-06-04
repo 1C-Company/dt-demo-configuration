@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="93df0d8f-0dc7-4b72-afb5-532b482d2161">
+  <producedTypes>
+    <managerType typeId="b83b9077-a98c-4aec-98ab-013adf354384" valueTypeId="92f3ba3e-d2af-4316-a1c1-454c143a58b9"/>
+    <valueManagerType typeId="9fc2fa93-9ecc-471c-ad85-9f413a513624" valueTypeId="6c9d495f-b0de-491c-b207-cfe32a5d836c"/>
+    <valueKeyType typeId="2d8546e8-77bd-40a1-b012-d8ada1c92db3" valueTypeId="c611966f-73c4-448d-8b82-e847ecc1a94f"/>
+  </producedTypes>
+  <name>ОтметкаНаФотоснимкеДата</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отметка на фотоснимке дата</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

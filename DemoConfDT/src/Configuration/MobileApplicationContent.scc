@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scc:StandaloneContent xmlns:scc="http://g5.1c.ru/v8/dt/scc">
+  <usedItem metadata="Catalog.Встречи"/>
+  <usedItem metadata="ExchangePlan.Мобильные"/>
+  <usedItem metadata="Subsystem.Финансы"/>
+  <usedItem metadata="CommonModule.ОбменМобильныеОбщее"/>
+  <usedItem metadata="CommonModule.СистемаВзаимодействияКлиент"/>
+  <usedItem metadata="Catalog.Контрагенты"/>
+  <usedItem metadata="Subsystem.Предприятие"/>
+  <usedItem metadata="CommonModule.БотКлиент"/>
+  <usedItem metadata="Report.АнализЗаказов"/>
+  <usedItem metadata="Catalog.Пользователи"/>
+  <usedItem metadata="CommonModule.ГлобальныйПоискКлиент"/>
+  <usedItem metadata="Enum.ВидыТоваров"/>
+  <usedItem metadata="Catalog.Регионы"/>
+  <usedItem metadata="CommonForm.Звонок"/>
+  <usedItem metadata="Subsystem.ТоварныеЗапасы.Subsystem.Цены"/>
+  <usedItem metadata="Role.МенеджерПоЗакупкам"/>
+  <usedItem metadata="DocumentJournal.ДокументыПродаж"/>
+  <usedItem metadata="InformationRegister.КурсыВалют"/>
+  <usedItem metadata="Document.Заказ"/>
+  <usedItem metadata="CommonModule.УведомленияКлиент"/>
+  <usedItem metadata="Catalog.ХранимыеФайлы"/>
+  <usedItem metadata="Catalog.Товары"/>
+  <usedItem metadata="Subsystem.ТоварныеЗапасы.Subsystem.Характеристики"/>
+  <usedItem metadata="FunctionalOption.ВалютныйУчет"/>
+  <usedItem metadata="Catalog.Склады"/>
+  <usedItem metadata="Role.Администратор"/>
+  <usedItem metadata="Subsystem.ТоварныеЗапасы"/>
+  <usedItem metadata="Constant.УчетПоСкладам"/>
+  <usedItem metadata="Role.Продавец"/>
+  <usedItem metadata="CommonModule.ГеопозиционированиеКлиент"/>
+  <usedItem metadata="Subsystem.Продажи"/>
+  <usedItem metadata="Catalog.Организации"/>
+  <usedItem metadata="Constant.ОтметкаНаФотоснимкеДата"/>
+  <usedItem metadata="Catalog.ВидыЦен"/>
+  <usedItem metadata="InformationRegister.МобильныеОтчеты"/>
+  <usedItem metadata="Enum.СостоянияЗаказов"/>
+  <usedItem metadata="InformationRegister.ЦеныТоваров"/>
+  <usedItem metadata="Report.ОстаткиТоваровНаСкладахМобильный"/>
+  <usedItem metadata="CommonModule.УведомленияСервер"/>
+  <usedItem metadata="Enum.ИспользоватьПровайдерГеопозиционирования"/>
+  <usedItem metadata="FunctionalOption.УчетПоСкладам"/>
+  <usedItem metadata="Role.ПользовательБот"/>
+  <usedItem metadata="Catalog.Валюты"/>
+  <usedItem metadata="Subsystem.Финансы.Subsystem.Банк"/>
+  <usedItem metadata="Constant.ОтметкаНаФотоснимкеТекст"/>
+  <usedItem metadata="CommonModule.ОбменМобильныеПереопределяемый"/>
+  <usedItem metadata="Role.МенеджерПоПродажам"/>
+  <usedItem metadata="Enum.ВидыМобильныхОтчетов"/>
+  <usedItem metadata="CommonModule.ГлобальныйПоискСервер"/>
+  <usedItem metadata="Subsystem.Закупки"/>
+  <usedItem metadata="CommonModule.ВходящийЗапросПоделитьсяКлиент"/>
+  <unusedItem metadata="Catalog.Встречи.Form.Календарь"/>
+  <priorityItem metadata="Catalog.Пользователи" priority="LocalServer"/>
+  <dataExchangeSettings exchangePlan="ExchangePlan.Мобильные" exchangeOnChangeData="true" exchangePeriod="300" transactionCount="1000"/>
+</scc:StandaloneContent>

@@ -12,10 +12,8 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:MultiLanguageDataPath">
-      <paths xsi:type="form:DataPath">
-        <segments>Объект.ИспользоватьPushУведомления</segments>
-      </paths>
+    <dataPath xsi:type="form:DataPath">
+      <segments>Объект.ИспользоватьPushУведомления</segments>
     </dataPath>
     <handlers>
       <event>OnChange</event>
@@ -88,27 +86,25 @@
       <name>Локальные</name>
       <id>36</id>
       <items xsi:type="form:FormGroup">
-        <name>GCM</name>
+        <name>FCM</name>
         <id>16</id>
         <items xsi:type="form:FormField">
-          <name>ИспользоватьGCM</name>
+          <name>ИспользоватьFCM</name>
           <id>41</id>
           <title>
             <key>ru</key>
-            <value>Использовать GCM (для Android устройств)</value>
+            <value>Использовать FCM (для Android устройств)</value>
           </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:MultiLanguageDataPath">
-            <paths xsi:type="form:DataPath">
-              <segments>Объект.ИспользоватьGCM</segments>
-            </paths>
+          <dataPath xsi:type="form:DataPath">
+            <segments>Объект.ИспользоватьFCM</segments>
           </dataPath>
           <extendedTooltip>
-            <name>ИспользоватьGCMРасширеннаяПодсказка</name>
+            <name>ИспользоватьFCMРасширеннаяПодсказка</name>
             <id>43</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -123,7 +119,7 @@
             </extInfo>
           </extendedTooltip>
           <contextMenu>
-            <name>ИспользоватьGCMКонтекстноеМеню</name>
+            <name>ИспользоватьFCMКонтекстноеМеню</name>
             <id>42</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -140,62 +136,6 @@
           <extInfo xsi:type="form:CheckBoxFieldExtInfo"/>
         </items>
         <items xsi:type="form:FormField">
-          <name>НомерПриложения</name>
-          <id>4</id>
-          <title>
-            <key>ru</key>
-            <value>Номер приложения</value>
-          </title>
-          <visible>true</visible>
-          <enabled>true</enabled>
-          <userVisible>
-            <common>true</common>
-          </userVisible>
-          <dataPath xsi:type="form:MultiLanguageDataPath">
-            <paths xsi:type="form:DataPath">
-              <segments>Объект.НомерПриложенияGoogleCloud</segments>
-            </paths>
-          </dataPath>
-          <extendedTooltip>
-            <name>НомерПриложенияРасширеннаяПодсказка</name>
-            <id>6</id>
-            <visible>true</visible>
-            <enabled>true</enabled>
-            <userVisible>
-              <common>true</common>
-            </userVisible>
-            <type>Label</type>
-            <autoMaxWidth>true</autoMaxWidth>
-            <autoMaxHeight>true</autoMaxHeight>
-            <extInfo xsi:type="form:LabelDecorationExtInfo">
-              <horizontalAlign>Left</horizontalAlign>
-            </extInfo>
-          </extendedTooltip>
-          <contextMenu>
-            <name>НомерПриложенияКонтекстноеМеню</name>
-            <id>5</id>
-            <visible>true</visible>
-            <enabled>true</enabled>
-            <userVisible>
-              <common>true</common>
-            </userVisible>
-            <autoFill>true</autoFill>
-          </contextMenu>
-          <type>InputField</type>
-          <editMode>Enter</editMode>
-          <showInHeader>true</showInHeader>
-          <headerHorizontalAlign>Left</headerHorizontalAlign>
-          <showInFooter>true</showInFooter>
-          <extInfo xsi:type="form:InputFieldExtInfo">
-            <autoMaxWidth>true</autoMaxWidth>
-            <autoMaxHeight>true</autoMaxHeight>
-            <wrap>true</wrap>
-            <chooseType>true</chooseType>
-            <typeDomainEnabled>true</typeDomainEnabled>
-            <textEdit>true</textEdit>
-          </extInfo>
-        </items>
-        <items xsi:type="form:FormField">
           <name>КлючОтправителя</name>
           <id>7</id>
           <title>
@@ -207,10 +147,8 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:MultiLanguageDataPath">
-            <paths xsi:type="form:DataPath">
-              <segments>Объект.КлючCервераОтправителяGCM</segments>
-            </paths>
+          <dataPath xsi:type="form:DataPath">
+            <segments>Объект.КлючCервераОтправителяFCM</segments>
           </dataPath>
           <extendedTooltip>
             <name>КлючОтправителяРасширеннаяПодсказка</name>
@@ -258,14 +196,14 @@
         </userVisible>
         <title>
           <key>ru</key>
-          <value>GCM</value>
+          <value>FCM</value>
         </title>
         <toolTip>
           <key>ru</key>
-          <value>GCM</value>
+          <value>FCM</value>
         </toolTip>
         <extendedTooltip>
-          <name>GCMРасширеннаяПодсказка</name>
+          <name>FCMРасширеннаяПодсказка</name>
           <id>17</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -286,7 +224,7 @@
           <showLeftMargin>true</showLeftMargin>
           <united>true</united>
           <throughAlign>Auto</throughAlign>
-          <currentRowUse>DontUse</currentRowUse>
+          <currentRowUse>Auto</currentRowUse>
         </extInfo>
       </items>
       <items xsi:type="form:FormGroup">
@@ -304,10 +242,8 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:MultiLanguageDataPath">
-            <paths xsi:type="form:DataPath">
-              <segments>Объект.ИспользоватьAPNS</segments>
-            </paths>
+          <dataPath xsi:type="form:DataPath">
+            <segments>Объект.ИспользоватьAPNS</segments>
           </dataPath>
           <extendedTooltip>
             <name>ИспользоватьAPNSРасширеннаяПодсказка</name>
@@ -373,6 +309,7 @@
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
             <placementArea>UserCmds</placementArea>
+            <representationInContextMenu>Auto</representationInContextMenu>
           </items>
           <items xsi:type="form:FormField">
             <name>СертификатЗагружен</name>
@@ -382,10 +319,8 @@
             <userVisible>
               <common>true</common>
             </userVisible>
-            <dataPath xsi:type="form:MultiLanguageDataPath">
-              <paths xsi:type="form:DataPath">
-                <segments>СертификатЗагружен</segments>
-              </paths>
+            <dataPath xsi:type="form:DataPath">
+              <segments>СертификатЗагружен</segments>
             </dataPath>
             <extendedTooltip>
               <name>СертификатЗагруженРасширеннаяПодсказка</name>
@@ -448,7 +383,7 @@
             <showLeftMargin>true</showLeftMargin>
             <united>true</united>
             <throughAlign>Auto</throughAlign>
-            <currentRowUse>DontUse</currentRowUse>
+            <currentRowUse>Auto</currentRowUse>
           </extInfo>
         </items>
         <visible>true</visible>
@@ -486,7 +421,7 @@
           <showLeftMargin>true</showLeftMargin>
           <united>true</united>
           <throughAlign>Auto</throughAlign>
-          <currentRowUse>DontUse</currentRowUse>
+          <currentRowUse>Auto</currentRowUse>
         </extInfo>
       </items>
       <items xsi:type="form:FormGroup">
@@ -504,10 +439,8 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:MultiLanguageDataPath">
-            <paths xsi:type="form:DataPath">
-              <segments>Объект.ИспользоватьWNS</segments>
-            </paths>
+          <dataPath xsi:type="form:DataPath">
+            <segments>Объект.ИспользоватьWNS</segments>
           </dataPath>
           <extendedTooltip>
             <name>ИспользоватьWNSРасширеннаяПодсказка</name>
@@ -553,10 +486,8 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:MultiLanguageDataPath">
-            <paths xsi:type="form:DataPath">
-              <segments>Объект.ИдентификаторПриложенияWNS</segments>
-            </paths>
+          <dataPath xsi:type="form:DataPath">
+            <segments>Объект.ИдентификаторПриложенияWNS</segments>
           </dataPath>
           <extendedTooltip>
             <name>ИдентификаторПриложенияWNSРасширеннаяПодсказка</name>
@@ -609,10 +540,8 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:MultiLanguageDataPath">
-            <paths xsi:type="form:DataPath">
-              <segments>Объект.КлючПриложенияWNS</segments>
-            </paths>
+          <dataPath xsi:type="form:DataPath">
+            <segments>Объект.КлючПриложенияWNS</segments>
           </dataPath>
           <extendedTooltip>
             <name>КлючПриложенияWNSРасширеннаяПодсказка</name>
@@ -688,7 +617,7 @@
           <showLeftMargin>true</showLeftMargin>
           <united>true</united>
           <throughAlign>Auto</throughAlign>
-          <currentRowUse>DontUse</currentRowUse>
+          <currentRowUse>Auto</currentRowUse>
         </extInfo>
       </items>
       <visible>true</visible>
@@ -739,10 +668,8 @@
           <userVisible>
             <common>true</common>
           </userVisible>
-          <dataPath xsi:type="form:MultiLanguageDataPath">
-            <paths xsi:type="form:DataPath">
-              <segments>Объект.ЛогинСервисаПередачиPushУведомлений</segments>
-            </paths>
+          <dataPath xsi:type="form:DataPath">
+            <segments>Объект.ЛогинСервисаПередачиPushУведомлений</segments>
           </dataPath>
           <extendedTooltip>
             <name>ЛогинСервисаРасширеннаяПодсказка</name>
@@ -812,6 +739,7 @@
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
           <placementArea>UserCmds</placementArea>
+          <representationInContextMenu>Auto</representationInContextMenu>
         </items>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -839,7 +767,7 @@
           <showLeftMargin>true</showLeftMargin>
           <united>true</united>
           <throughAlign>Auto</throughAlign>
-          <currentRowUse>DontUse</currentRowUse>
+          <currentRowUse>Auto</currentRowUse>
         </extInfo>
       </items>
       <visible>true</visible>
@@ -906,7 +834,7 @@
     </extendedTooltip>
     <type>Pages</type>
     <extInfo xsi:type="form:PagesGroupExtInfo">
-      <currentRowUse>DontUse</currentRowUse>
+      <currentRowUse>Auto</currentRowUse>
     </extInfo>
   </items>
   <autoCommandBar>
@@ -924,6 +852,7 @@
     <event>OnCreateAtServer</event>
     <name>ПриСозданииНаСервере</name>
   </handlers>
+  <saveWindowSettings>true</saveWindowSettings>
   <autoTitle>true</autoTitle>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
@@ -955,7 +884,7 @@
       <segments>Объект.ИспользоватьAPNS</segments>
     </notDefaultUseAlwaysAttributes>
     <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
-      <segments>Объект.ИспользоватьGCM</segments>
+      <segments>Объект.ИспользоватьFCM</segments>
     </notDefaultUseAlwaysAttributes>
     <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
       <segments>Объект.ИспользоватьPushУведомления</segments>
@@ -964,16 +893,13 @@
       <segments>Объект.ИспользоватьWNS</segments>
     </notDefaultUseAlwaysAttributes>
     <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
-      <segments>Объект.КлючCервераОтправителяGCM</segments>
+      <segments>Объект.КлючCервераОтправителяFCM</segments>
     </notDefaultUseAlwaysAttributes>
     <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
       <segments>Объект.КлючПриложенияWNS</segments>
     </notDefaultUseAlwaysAttributes>
     <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
       <segments>Объект.ЛогинСервисаПередачиPushУведомлений</segments>
-    </notDefaultUseAlwaysAttributes>
-    <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
-      <segments>Объект.НомерПриложенияGoogleCloud</segments>
     </notDefaultUseAlwaysAttributes>
     <main>true</main>
   </attributes>

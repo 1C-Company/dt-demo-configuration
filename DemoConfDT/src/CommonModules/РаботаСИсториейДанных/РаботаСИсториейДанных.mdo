@@ -5,6 +5,5 @@
     <key>ru</key>
     <value>Работа с историей данных</value>
   </synonym>
-  <comment></comment>
   <server>true</server>
 </mdclass:CommonModule>

@@ -5,6 +5,5 @@
     <key>ru</key>
     <value>Организация</value>
   </synonym>
-  <comment></comment>
   <use>Catalog.Организации</use>
 </mdclass:FunctionalOptionsParameter>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="1f269257-3433-4835-840a-bc1fb87cf332">
+  <producedTypes>
+    <objectType typeId="e976f080-3bf2-472b-a660-dbebf445beb3" valueTypeId="fddecb0b-6862-4064-b8b4-d0cb4b072160"/>
+    <refType typeId="3149ebf7-df33-4009-a266-7589fa0f5269" valueTypeId="3f258a6a-38f2-4526-b7d4-b084794d90f0"/>
+    <selectionType typeId="b6470bfd-0097-4e74-b23b-ed7d83643ec1" valueTypeId="c185614a-048a-4704-9b13-4d315552cf2d"/>
+    <listType typeId="850576c6-35af-4adf-ae09-be0a0673d239" valueTypeId="3d4d6266-743e-4d76-941b-663b5f22e681"/>
+    <managerType typeId="9d148cf7-3bcb-457a-a176-57966d23fb11" valueTypeId="d1776b16-caf1-4a3a-8c47-f88ac5d073fe"/>
+  </producedTypes>
+  <name>РасходТовара</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <objectModule>Extended</objectModule>
+    <managerModule>Extended</managerModule>
+  </extension>
+  <forms uuid="a5f9bcb7-cb90-4db7-8f31-c04a97800ece">
+    <name>ОформлениеДоставки</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFormExtension">
+      <form>Extended</form>
+    </extension>
+  </forms>
+  <tabularSections uuid="2c82c58a-4ebe-4945-aece-d576637cf61b">
+    <producedTypes>
+      <objectType typeId="fc470f72-7924-4f9a-bdca-9adab2d8619f" valueTypeId="a620e590-1414-4d04-81e0-442e357eec6d"/>
+      <rowType typeId="b669f287-7d5d-4889-aa10-39b222df2ac4" valueTypeId="a8f55802-f4af-494a-a9f3-da82f4605536"/>
+    </producedTypes>
+    <name>Товары</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+    <attributes uuid="bf9009b3-330a-4503-a40e-b49343226e39">
+      <name>Товар</name>
+      <objectBelonging>Adopted</objectBelonging>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+        <typeExtension>
+          <types>
+            <state>Checked</state>
+            <type>CatalogRef.Товары</type>
+          </types>
+        </typeExtension>
+      </extension>
+      <type/>
+    </attributes>
+    <attributes uuid="cac21abd-38ac-4245-97cf-1ddad14bb076">
+      <name>Количество</name>
+      <objectBelonging>Adopted</objectBelonging>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+        <typeExtension>
+          <types>
+            <state>Checked</state>
+            <type>Number</type>
+          </types>
+          <numberQualifiers>
+            <precision>10</precision>
+            <scale>2</scale>
+            <nonNegative>true</nonNegative>
+          </numberQualifiers>
+        </typeExtension>
+      </extension>
+      <type/>
+    </attributes>
+  </tabularSections>
+  <templates uuid="2a441824-7603-467a-9745-1384f076b993">
+    <name>БланкДоставки</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicTemplateExtension">
+      <template>Extended</template>
+    </extension>
+  </templates>
+  <templates uuid="7db9872a-3cca-41d7-bd63-a34865d062de">
+    <name>МакетПечати</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicTemplateExtension">
+      <template>Extended</template>
+    </extension>
+  </templates>
+</mdclass:Document>

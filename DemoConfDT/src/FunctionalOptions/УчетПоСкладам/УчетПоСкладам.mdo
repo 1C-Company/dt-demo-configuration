@@ -5,7 +5,6 @@
     <key>ru</key>
     <value>Учет по складам</value>
   </synonym>
-  <comment></comment>
   <location>Constant.УчетПоСкладам</location>
   <privilegedGetMode>true</privilegedGetMode>
   <content>Catalog.Склады</content>

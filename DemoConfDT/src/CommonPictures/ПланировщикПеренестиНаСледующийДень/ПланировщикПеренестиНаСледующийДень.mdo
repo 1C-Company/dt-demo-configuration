@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="983d292d-6efe-4ca0-8496-e87c1737b37c">
+  <name>ПланировщикПеренестиНаСледующийДень</name>
+  <synonym>
+    <key>ru</key>
+    <value>Планировщик перенести на следующий день</value>
+  </synonym>
+</mdclass:CommonPicture>

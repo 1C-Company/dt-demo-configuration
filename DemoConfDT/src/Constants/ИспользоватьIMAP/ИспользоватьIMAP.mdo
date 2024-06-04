@@ -3,18 +3,17 @@
   <producedTypes>
     <managerType typeId="6945988e-0316-40f7-8bb9-8eaaa804c509" valueTypeId="5d373664-ad90-4743-9a78-abf393eeabd6"/>
     <valueManagerType typeId="b59d000d-1855-44fb-9f75-8f790a88579b" valueTypeId="49ab2b54-3486-48c2-8c59-ebae1d771709"/>
+    <valueKeyType typeId="67395509-be25-5634-b0af-6609b4b373fe" valueTypeId="241d77fb-41c1-50c2-b178-241f963aa70f"/>
   </producedTypes>
   <name>ИспользоватьIMAP</name>
   <synonym>
     <key>ru</key>
     <value>Всегда использовать IMAP</value>
   </synonym>
-  <comment></comment>
   <type>
     <types>Boolean</types>
   </type>
   <useStandardCommands>true</useStandardCommands>
-  <mask></mask>
   <minValue xsi:type="core:UndefinedValue"/>
   <maxValue xsi:type="core:UndefinedValue"/>
   <dataLockControlMode>Managed</dataLockControlMode>

@@ -9,7 +9,6 @@
     <key>ru</key>
     <value>Настройки пользователя</value>
   </synonym>
-  <comment></comment>
   <useStandardCommands>true</useStandardCommands>
   <defaultForm>DataProcessor.НастройкиПользователя.Form.Форма</defaultForm>
   <includeHelpInContents>true</includeHelpInContents>
@@ -24,7 +23,6 @@
       <key>ru</key>
       <value>Форма</value>
     </synonym>
-    <comment></comment>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>

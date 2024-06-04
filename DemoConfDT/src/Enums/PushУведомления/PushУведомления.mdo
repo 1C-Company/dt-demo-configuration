@@ -10,7 +10,6 @@
     <key>ru</key>
     <value>Push уведомления</value>
   </synonym>
-  <comment></comment>
   <quickChoice>true</quickChoice>
   <choiceMode>BothWays</choiceMode>
   <enumValues uuid="c3652e56-be5b-4231-96c2-1f38d22a56c1">
@@ -19,7 +18,6 @@
       <key>ru</key>
       <value>Не использовать</value>
     </synonym>
-    <comment></comment>
   </enumValues>
   <enumValues uuid="7a622491-e58f-4997-80be-88fcf02c677a">
     <name>ОтправлятьНепосредственно</name>
@@ -27,7 +25,6 @@
       <key>ru</key>
       <value>Отправлять непосредственно</value>
     </synonym>
-    <comment></comment>
   </enumValues>
   <enumValues uuid="dde7c52e-5ece-40d4-9180-5b5cfb08a1bc">
     <name>ИспользоватьВспомогательныйСервис</name>
@@ -35,6 +32,5 @@
       <key>ru</key>
       <value>Использовать вспомогательный сервис</value>
     </synonym>
-    <comment></comment>
   </enumValues>
 </mdclass:Enum>

@@ -3,17 +3,16 @@
   <producedTypes>
     <managerType typeId="9718097f-7e3d-4039-98e9-d1ca0713384a" valueTypeId="d1333336-67cc-4113-9776-386750f86fa6"/>
     <valueManagerType typeId="59fb80e7-a9f9-480f-b39f-32caeae49d82" valueTypeId="cda2b93b-9179-40d6-a9a4-c20d06043199"/>
+    <valueKeyType typeId="0db190bd-b893-5501-9751-57c60e28f504" valueTypeId="24bbcd86-e493-5e81-8032-107349bbe38b"/>
   </producedTypes>
   <name>УчетПоСкладам</name>
   <synonym>
     <key>ru</key>
     <value>Учет по складам</value>
   </synonym>
-  <comment></comment>
   <type>
     <types>Boolean</types>
   </type>
-  <mask></mask>
   <minValue xsi:type="core:UndefinedValue"/>
   <maxValue xsi:type="core:UndefinedValue"/>
   <quickChoice>DontUse</quickChoice>

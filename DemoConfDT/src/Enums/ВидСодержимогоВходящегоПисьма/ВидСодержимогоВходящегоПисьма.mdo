@@ -10,7 +10,6 @@
     <key>ru</key>
     <value>Вид содержимого входящего письма</value>
   </synonym>
-  <comment></comment>
   <quickChoice>true</quickChoice>
   <choiceMode>BothWays</choiceMode>
   <enumValues uuid="c13ead4d-94a8-47a3-98df-06c62d3dbb1c">
@@ -19,7 +18,6 @@
       <key>ru</key>
       <value>Текст</value>
     </synonym>
-    <comment></comment>
   </enumValues>
   <enumValues uuid="565765e8-be8e-487c-88a8-c3ab8d801a3c">
     <name>HTML</name>
@@ -27,6 +25,5 @@
       <key>ru</key>
       <value>HTML</value>
     </synonym>
-    <comment></comment>
   </enumValues>
 </mdclass:Enum>

@@ -3,19 +3,18 @@
   <producedTypes>
     <managerType typeId="5f0cc550-f239-461a-98e7-3e51087052a5" valueTypeId="d5184c7e-23f9-4efd-b6b7-2f6f065b71f8"/>
     <valueManagerType typeId="ba1698a4-6e1c-43c6-8e05-9efe53bd6cfc" valueTypeId="694435b5-79c7-4fcc-8b5a-7c053494c520"/>
+    <valueKeyType typeId="6a2eea4b-f44c-5885-b053-66e1dec507dd" valueTypeId="130b0d45-ae58-5560-afc6-9f1d8d9b6f9e"/>
   </producedTypes>
   <name>АдресSMTPСервера</name>
   <synonym>
     <key>ru</key>
     <value>Адрес SMTPСервера</value>
   </synonym>
-  <comment></comment>
   <type>
     <types>String</types>
     <stringQualifiers/>
   </type>
   <useStandardCommands>true</useStandardCommands>
-  <mask></mask>
   <minValue xsi:type="core:UndefinedValue"/>
   <maxValue xsi:type="core:UndefinedValue"/>
   <dataLockControlMode>Managed</dataLockControlMode>

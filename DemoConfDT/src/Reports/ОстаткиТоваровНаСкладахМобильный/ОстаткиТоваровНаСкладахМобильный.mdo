@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9e373163-ec61-4142-bfcf-edb3318c2595">
+  <producedTypes>
+    <objectType typeId="7ec13c27-a5e2-476e-aad0-128566c24b4b" valueTypeId="e31833ae-f93d-4484-a6f0-8337d5f377ff"/>
+    <managerType typeId="55478241-cda6-4395-be1b-ac9d7dad90b2" valueTypeId="6607b191-8ef8-41b8-923f-a93939b52e65"/>
+  </producedTypes>
+  <name>ОстаткиТоваровНаСкладахМобильный</name>
+  <synonym>
+    <key>ru</key>
+    <value>Остатки товаров</value>
+  </synonym>
+  <defaultForm>Report.ОстаткиТоваровНаСкладахМобильный.Form.ФормаОтчета</defaultForm>
+  <forms uuid="1c0f9724-fcef-4d0e-97a5-901ee94325a1">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="0078976b-b493-46e3-9ec7-8f72a993aa17">
+    <name>ФормаНастроек</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма настроек</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Report>

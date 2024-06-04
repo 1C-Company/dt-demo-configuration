@@ -3,17 +3,16 @@
   <producedTypes>
     <managerType typeId="9d223d85-f7ab-4713-b5f0-875dd809053a" valueTypeId="cf9403f9-2f61-4101-a395-8556ffa7c2be"/>
     <valueManagerType typeId="99345230-f6c0-4c5b-8303-5054b144fcf5" valueTypeId="bd7fb5d2-b0df-44aa-90c6-2ac3008e6ade"/>
+    <valueKeyType typeId="0040b593-fd35-50e7-a73c-e2762c22b2cf" valueTypeId="ce94f199-a746-5f28-9437-a620738cdb3e"/>
   </producedTypes>
   <name>ТолькоБесплатные</name>
   <synonym>
     <key>ru</key>
     <value>Только бесплатные</value>
   </synonym>
-  <comment></comment>
   <type>
     <types>Boolean</types>
   </type>
-  <mask></mask>
   <minValue xsi:type="core:UndefinedValue"/>
   <maxValue xsi:type="core:UndefinedValue"/>
   <dataLockControlMode>Managed</dataLockControlMode>

@@ -5,6 +5,5 @@
     <key>ru</key>
     <value>Геопозиционирование клиент</value>
   </synonym>
-  <comment></comment>
   <clientManagedApplication>true</clientManagedApplication>
 </mdclass:CommonModule>

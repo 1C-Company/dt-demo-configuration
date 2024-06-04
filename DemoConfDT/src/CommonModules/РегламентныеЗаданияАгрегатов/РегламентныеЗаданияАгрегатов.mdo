@@ -5,6 +5,5 @@
     <key>ru</key>
     <value>Регламентные задания агрегатов</value>
   </synonym>
-  <comment></comment>
   <server>true</server>
 </mdclass:CommonModule>

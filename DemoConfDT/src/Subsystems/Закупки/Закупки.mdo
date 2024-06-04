@@ -5,7 +5,6 @@
     <key>ru</key>
     <value>Закупки</value>
   </synonym>
-  <comment></comment>
   <includeHelpInContents>true</includeHelpInContents>
   <includeInCommandInterface>true</includeInCommandInterface>
   <picture xsi:type="core:PictureRef">
@@ -20,4 +19,5 @@
   <content>AccumulationRegister.ТоварныеЗапасы</content>
   <content>CommonCommand.УстановитьСканерШтрихкодов</content>
   <content>CommonCommand.НастроитьСканерШтрихКодов</content>
+  <content>CommonCommand.ОстаткиТоваровНаСкладахКоманда</content>
 </mdclass:Subsystem>

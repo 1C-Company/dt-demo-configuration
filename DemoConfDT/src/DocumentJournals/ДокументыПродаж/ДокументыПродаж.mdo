@@ -10,7 +10,6 @@
     <key>ru</key>
     <value>Документы продаж</value>
   </synonym>
-  <comment></comment>
   <defaultForm>DocumentJournal.ДокументыПродаж.Form.ФормаСписка</defaultForm>
   <useStandardCommands>true</useStandardCommands>
   <registeredDocuments>Document.РасходТовара</registeredDocuments>
@@ -21,7 +20,6 @@
       <key>ru</key>
       <value>Покупатель</value>
     </synonym>
-    <comment></comment>
     <references>Document.РасходТовара.Attribute.Покупатель</references>
     <references>Document.Заказ.Attribute.Покупатель</references>
   </columns>
@@ -31,7 +29,6 @@
       <key>ru</key>
       <value>Склад</value>
     </synonym>
-    <comment></comment>
     <references>Document.РасходТовара.Attribute.Склад</references>
     <references>Document.Заказ.Attribute.Склад</references>
   </columns>
@@ -41,7 +38,6 @@
       <key>ru</key>
       <value>Валюта</value>
     </synonym>
-    <comment></comment>
     <references>Document.РасходТовара.Attribute.Валюта</references>
     <references>Document.Заказ.Attribute.Валюта</references>
   </columns>
@@ -51,7 +47,6 @@
       <key>ru</key>
       <value>Вид цен</value>
     </synonym>
-    <comment></comment>
     <references>Document.РасходТовара.Attribute.ВидЦен</references>
     <references>Document.Заказ.Attribute.ВидЦен</references>
   </columns>
@@ -61,7 +56,6 @@
       <key>ru</key>
       <value>Организация</value>
     </synonym>
-    <comment></comment>
     <references>Document.РасходТовара.Attribute.Организация</references>
     <references>Document.Заказ.Attribute.Организация</references>
   </columns>
@@ -71,7 +65,6 @@
       <key>ru</key>
       <value>Состояние заказа</value>
     </synonym>
-    <comment></comment>
     <references>Document.Заказ.Attribute.СостояниеЗаказа</references>
   </columns>
   <forms uuid="78a11540-6179-4d24-ac8e-6e9b08750b3c">
@@ -80,7 +73,6 @@
       <key>ru</key>
       <value>Форма списка</value>
     </synonym>
-    <comment></comment>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>

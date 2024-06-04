@@ -9,7 +9,6 @@
     <key>ru</key>
     <value>Документы контрагента</value>
   </synonym>
-  <comment></comment>
   <type>
     <types>CatalogRef.Контрагенты</types>
   </type>

@@ -5,7 +5,6 @@
     <key>ru</key>
     <value>Характеристики</value>
   </synonym>
-  <comment></comment>
   <includeHelpInContents>true</includeHelpInContents>
   <includeInCommandInterface>true</includeInCommandInterface>
   <content>Catalog.ЗначенияХарактеристик</content>

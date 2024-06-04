@@ -10,7 +10,6 @@
     <key>ru</key>
     <value>Финансовые документы</value>
   </synonym>
-  <comment></comment>
   <defaultForm>DocumentJournal.ФинансовыеДокументы.Form.ФормаСписка</defaultForm>
   <useStandardCommands>true</useStandardCommands>
   <registeredDocuments>Document.Оплата</registeredDocuments>
@@ -28,60 +27,48 @@
       <key>ru</key>
       <value>Вид документа</value>
     </synonym>
-    <comment></comment>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
   <standardAttributes>
     <dataHistory>Use</dataHistory>
     <name>Ref</name>
-    <comment></comment>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
   <standardAttributes>
     <dataHistory>Use</dataHistory>
     <name>Date</name>
-    <comment></comment>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
   <standardAttributes>
     <dataHistory>Use</dataHistory>
     <name>Posted</name>
-    <comment></comment>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
   <standardAttributes>
     <dataHistory>Use</dataHistory>
     <name>DeletionMark</name>
-    <comment></comment>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
   <standardAttributes>
     <dataHistory>Use</dataHistory>
     <name>Number</name>
-    <comment></comment>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
@@ -95,7 +82,6 @@
       <key>ru</key>
       <value>Контрагент</value>
     </synonym>
-    <comment></comment>
     <references>Document.Оплата.Attribute.Поставщик</references>
     <references>Document.ПоступлениеДенег.Attribute.Покупатель</references>
   </columns>
@@ -105,7 +91,6 @@
       <key>ru</key>
       <value>Сумма</value>
     </synonym>
-    <comment></comment>
     <references>Document.Оплата.Attribute.Сумма</references>
     <references>Document.ПоступлениеДенег.Attribute.Сумма</references>
   </columns>
@@ -115,7 +100,6 @@
       <key>ru</key>
       <value>Валюта</value>
     </synonym>
-    <comment></comment>
     <references>Document.Оплата.Attribute.Валюта</references>
     <references>Document.ПоступлениеДенег.Attribute.Валюта</references>
   </columns>
@@ -125,7 +109,6 @@
       <key>ru</key>
       <value>Расчетный счет</value>
     </synonym>
-    <comment></comment>
     <references>Document.Оплата.Attribute.РасчетныйСчет</references>
     <references>Document.ПоступлениеДенег.Attribute.РасчетныйСчет</references>
   </columns>
@@ -135,7 +118,6 @@
       <key>ru</key>
       <value>Организация</value>
     </synonym>
-    <comment></comment>
     <references>Document.Оплата.Attribute.Организация</references>
     <references>Document.ПоступлениеДенег.Attribute.Организация</references>
   </columns>
@@ -145,7 +127,6 @@
       <key>ru</key>
       <value>Форма списка</value>
     </synonym>
-    <comment></comment>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>

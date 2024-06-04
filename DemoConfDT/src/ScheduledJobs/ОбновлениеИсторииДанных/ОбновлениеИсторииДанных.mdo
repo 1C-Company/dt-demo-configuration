@@ -5,10 +5,8 @@
     <key>ru</key>
     <value>Обновление истории данных</value>
   </synonym>
-  <comment></comment>
   <methodName>CommonModule.РаботаСИсториейДанных.ОбновлениеИсторииДанных</methodName>
-  <description></description>
-  <key></key>
+  <key>1</key>
   <use>true</use>
   <predefined>true</predefined>
   <restartCountOnFailure>3</restartCountOnFailure>

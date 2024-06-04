@@ -5,6 +5,5 @@
     <key>ru</key>
     <value>Обмен с мобильным устройством</value>
   </synonym>
-  <comment></comment>
   <namespace>http://localhost/ws1</namespace>
 </mdclass:XDTOPackage>

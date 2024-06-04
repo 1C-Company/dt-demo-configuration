@@ -38,6 +38,12 @@
       </visible>
     </visibilityFragments>
     <visibilityFragments>
+      <command>CommonCommand.БотОфисМенеджер</command>
+      <visible>
+        <common>true</common>
+      </visible>
+    </visibilityFragments>
+    <visibilityFragments>
       <command>DataProcessor.Путеводитель.Command.ПутеводительПоКонфигурации</command>
       <visible>
         <common>true</common>
@@ -53,6 +59,7 @@
       <commands>Catalog.Товары.StandardCommand.OpenList</commands>
       <commands>Catalog.Контрагенты.StandardCommand.OpenList</commands>
       <commands>Catalog.Встречи.Command.ОткрытьКалендарь</commands>
+      <commands>CommonCommand.БотОфисМенеджер</commands>
     </placementFragments>
     <placementFragments>
       <group>CommandGroup.Информация</group>
@@ -68,6 +75,7 @@
       <commands>Catalog.Товары.StandardCommand.OpenList</commands>
       <commands>Catalog.Контрагенты.StandardCommand.OpenList</commands>
       <commands>Catalog.Встречи.Command.ОткрытьКалендарь</commands>
+      <commands>CommonCommand.БотОфисМенеджер</commands>
     </orderFragments>
   </commandsOrder>
 </cmi:CommandInterface>

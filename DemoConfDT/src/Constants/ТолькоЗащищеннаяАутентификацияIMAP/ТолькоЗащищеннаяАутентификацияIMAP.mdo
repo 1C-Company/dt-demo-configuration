@@ -3,18 +3,17 @@
   <producedTypes>
     <managerType typeId="ffb33801-7e4b-4ffd-87be-f1f53b9c0e22" valueTypeId="83b08ad6-618c-4577-a204-438708f2b261"/>
     <valueManagerType typeId="84f41884-a0a7-4ff8-abe9-48faaf429c7f" valueTypeId="45134359-34e8-4e46-9302-f5f649735c2e"/>
+    <valueKeyType typeId="8b150723-3b46-598f-a2d3-c8d5e30916d4" valueTypeId="f9668b42-36ca-5d5f-b2d3-6dedc4f36166"/>
   </producedTypes>
   <name>ТолькоЗащищеннаяАутентификацияIMAP</name>
   <synonym>
     <key>ru</key>
     <value>Только защищенная аутентификация IMAP</value>
   </synonym>
-  <comment></comment>
   <type>
     <types>Boolean</types>
   </type>
   <useStandardCommands>true</useStandardCommands>
-  <mask></mask>
   <minValue xsi:type="core:UndefinedValue"/>
   <maxValue xsi:type="core:UndefinedValue"/>
   <dataLockControlMode>Managed</dataLockControlMode>

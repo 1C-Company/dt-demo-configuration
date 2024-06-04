@@ -5,7 +5,6 @@
     <key>ru</key>
     <value>Описания товаров</value>
   </synonym>
-  <comment></comment>
   <rootURL>ProductDescriptions</rootURL>
   <sessionMaxAge>20</sessionMaxAge>
   <urlTemplates uuid="ef44555a-bb40-44ec-824f-20b29ee71bd4">
@@ -14,7 +13,6 @@
       <key>ru</key>
       <value>V1 вызов метода</value>
     </synonym>
-    <comment></comment>
     <template>/v1/{ИмяМетода}</template>
     <methods uuid="f4f58bd5-cec0-4561-a233-f9ab46d2a074">
       <name>POST</name>
@@ -22,7 +20,6 @@
         <key>ru</key>
         <value>POST</value>
       </synonym>
-      <comment></comment>
       <httpMethod>POST</httpMethod>
       <handler>ВызовМетодаPOST</handler>
     </methods>

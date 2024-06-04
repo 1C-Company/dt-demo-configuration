@@ -14,7 +14,6 @@
     <key>ru</key>
     <value>Состояние входящих писем</value>
   </synonym>
-  <comment></comment>
   <dataHistory>Use</dataHistory>
   <editType>InDialog</editType>
   <dataLockControlMode>Managed</dataLockControlMode>
@@ -24,11 +23,9 @@
       <key>ru</key>
       <value>Прочитано</value>
     </synonym>
-    <comment></comment>
     <type>
       <types>Boolean</types>
     </type>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
@@ -41,11 +38,9 @@
       <key>ru</key>
       <value>Письмо</value>
     </synonym>
-    <comment></comment>
     <type>
       <types>CatalogRef.ВходящиеПисьма</types>
     </type>
-    <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillChecking>ShowError</fillChecking>

@@ -3,19 +3,18 @@
   <producedTypes>
     <managerType typeId="21dc4784-2f3c-4b78-b8d6-71c3906464d1" valueTypeId="8a3a6a6c-5ab9-4e20-ba64-4e1b58efa4bc"/>
     <valueManagerType typeId="4c0de928-0660-4f47-ac1c-45b0f2dda86c" valueTypeId="1d696ea3-02b1-4057-8e1d-cd04adff9b5d"/>
+    <valueKeyType typeId="643a7758-686f-58c3-b90b-7591caea8f0e" valueTypeId="5b1913b5-a0fb-5b3c-b30a-60ccbffa688c"/>
   </producedTypes>
   <name>ПользовательPOP3</name>
   <synonym>
     <key>ru</key>
     <value>Пользователь POP3</value>
   </synonym>
-  <comment></comment>
   <type>
     <types>String</types>
     <stringQualifiers/>
   </type>
   <useStandardCommands>true</useStandardCommands>
-  <mask></mask>
   <minValue xsi:type="core:UndefinedValue"/>
   <maxValue xsi:type="core:UndefinedValue"/>
   <dataLockControlMode>Managed</dataLockControlMode>

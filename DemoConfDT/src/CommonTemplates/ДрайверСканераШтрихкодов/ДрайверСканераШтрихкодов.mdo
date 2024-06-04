@@ -5,6 +5,5 @@
     <key>ru</key>
     <value>Драйвер сканера штрихкодов</value>
   </synonym>
-  <comment></comment>
   <templateType>BinaryData</templateType>
 </mdclass:CommonTemplate>

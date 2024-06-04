@@ -5,10 +5,10 @@
     <key>ru</key>
     <value>Цены</value>
   </synonym>
-  <comment></comment>
   <includeHelpInContents>true</includeHelpInContents>
   <includeInCommandInterface>true</includeInCommandInterface>
   <content>Catalog.ВидыЦен</content>
   <content>InformationRegister.ЦеныТоваров</content>
+  <content>Report.ПрайсЛист</content>
   <parentSubsystem>Subsystem.ТоварныеЗапасы</parentSubsystem>
 </mdclass:Subsystem>

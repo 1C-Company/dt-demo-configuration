@@ -3,17 +3,16 @@
   <producedTypes>
     <managerType typeId="c9ad2429-7c14-4b53-8f60-92ca95ecb63c" valueTypeId="0b577238-f85e-4c9d-81de-17d1045e188a"/>
     <valueManagerType typeId="2b622b88-8f06-471d-b161-d9f5b8402431" valueTypeId="1d07b2b7-71f6-4f66-9d59-e9e79afcd18c"/>
+    <valueKeyType typeId="87886c7d-c563-5059-ae01-f068bb419199" valueTypeId="c77badb9-67ce-5953-8857-908aa4b4301b"/>
   </producedTypes>
   <name>ВыборПровайдераГеопозиционирования</name>
   <synonym>
     <key>ru</key>
     <value>Выбор провайдера геопозиционирования</value>
   </synonym>
-  <comment></comment>
   <type>
     <types>EnumRef.ИспользоватьПровайдерГеопозиционирования</types>
   </type>
-  <mask></mask>
   <minValue xsi:type="core:UndefinedValue"/>
   <maxValue xsi:type="core:UndefinedValue"/>
   <dataLockControlMode>Managed</dataLockControlMode>

@@ -3,20 +3,19 @@
   <producedTypes>
     <managerType typeId="3539e8f3-e0a3-4db0-a997-84e0f1f1b815" valueTypeId="e079242e-5fee-4465-93ce-c44e3fcfc2d5"/>
     <valueManagerType typeId="a6626c3b-63bc-44e0-a541-a07d77ba41af" valueTypeId="ceaf7ecb-e803-479a-b539-f402c4c6efaf"/>
+    <valueKeyType typeId="9e099386-2a0b-5303-b6e3-54b88cf73f22" valueTypeId="0ee4071d-8b6a-5196-a628-987878d6e2af"/>
   </producedTypes>
   <name>ИмяПровайдера</name>
   <synonym>
     <key>ru</key>
     <value>Имя провайдера</value>
   </synonym>
-  <comment></comment>
   <type>
     <types>String</types>
     <stringQualifiers>
       <length>40</length>
     </stringQualifiers>
   </type>
-  <mask></mask>
   <minValue xsi:type="core:UndefinedValue"/>
   <maxValue xsi:type="core:UndefinedValue"/>
   <dataLockControlMode>Managed</dataLockControlMode>

@@ -96,15 +96,6 @@
       </visible>
     </visibilityFragments>
     <visibilityFragments>
-      <command>Report.ОстаткиТоваровНаСкладах.StandardCommand.Open</command>
-      <visible>
-        <common>true</common>
-        <for>
-          <role>Role.Продавец</role>
-        </for>
-      </visible>
-    </visibilityFragments>
-    <visibilityFragments>
       <command>Report.ОтчетПоВзаиморасчетам.StandardCommand.Open</command>
       <visible>
         <common>true</common>
@@ -152,7 +143,6 @@
     <orderFragments>
       <group>ActionsPanelReports</group>
       <commands>Report.ДинамикаПродаж.StandardCommand.Open</commands>
-      <commands>Report.ОстаткиТоваровНаСкладах.StandardCommand.Open</commands>
       <commands>Report.ОтчетПоВзаиморасчетам.StandardCommand.Open</commands>
       <commands>Report.ВзаимосвязьПродажТоваров.StandardCommand.Open</commands>
     </orderFragments>

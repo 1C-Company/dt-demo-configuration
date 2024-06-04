@@ -5,7 +5,6 @@
     <key>ru</key>
     <value>Печать</value>
   </synonym>
-  <comment></comment>
   <representation>Auto</representation>
   <category>FormCommandBar</category>
 </mdclass:CommandGroup>

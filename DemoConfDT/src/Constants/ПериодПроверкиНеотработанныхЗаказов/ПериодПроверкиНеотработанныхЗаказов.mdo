@@ -3,13 +3,13 @@
   <producedTypes>
     <managerType typeId="2d199257-cf67-4767-9d0b-145dd2746fa4" valueTypeId="f2dee074-76dc-416b-8165-6e23cdde8faa"/>
     <valueManagerType typeId="113882af-68f7-4b14-a119-cf65ad4d5f22" valueTypeId="700eb218-b669-4e52-b5ea-5bf95ca5cc6a"/>
+    <valueKeyType typeId="88197aa3-f0f6-58fd-9d84-2e4f0100ee78" valueTypeId="ddcaf21d-5ea8-5b77-b2fd-8927e7f39a2c"/>
   </producedTypes>
   <name>ПериодПроверкиНеотработанныхЗаказов</name>
   <synonym>
     <key>ru</key>
     <value>Период проверки неотработанных заказов</value>
   </synonym>
-  <comment></comment>
   <type>
     <types>Number</types>
     <numberQualifiers>
@@ -17,7 +17,6 @@
       <nonNegative>true</nonNegative>
     </numberQualifiers>
   </type>
-  <mask></mask>
   <minValue xsi:type="core:UndefinedValue"/>
   <maxValue xsi:type="core:UndefinedValue"/>
   <dataLockControlMode>Managed</dataLockControlMode>
