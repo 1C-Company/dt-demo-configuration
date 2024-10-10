@@ -119,8 +119,8 @@
     <objectField>InformationRegister.Характеристики.Dimension.Объект</objectField>
     <typeField>InformationRegister.Характеристики.Dimension.ВидХарактеристики</typeField>
     <valueField>InformationRegister.Характеристики.Resource.Значение</valueField>
-    <multipleValuesKeyField>-1</multipleValuesKeyField>
-    <multipleValuesOrderField>-1</multipleValuesOrderField>
+    <multipleValuesKeyField>InformationRegister.Характеристики.Dimension.Номер</multipleValuesKeyField>
+    <multipleValuesOrderField>InformationRegister.Характеристики.Dimension.Номер</multipleValuesOrderField>
   </characteristics>
   <createOnInput>Use</createOnInput>
   <includeHelpInContents>true</includeHelpInContents>

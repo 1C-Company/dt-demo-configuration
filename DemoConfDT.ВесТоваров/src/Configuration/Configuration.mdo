@@ -18,7 +18,7 @@
   <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="83cad6da-3034-4bfa-8a07-b2fb91ea9aef"/>
   <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="b8fa4627-3ea3-41fd-9447-4acdc28770ff"/>
   <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="c39091b0-4e5d-4335-96f2-495dcd080761"/>
-  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="538b994a-766d-47f6-a573-f55dfbc5bb06"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="3e63ffe3-39f6-491d-adaf-4fde6c297ec2"/>
   <keepMappingToExtendedConfigurationObjectsByIDs>true</keepMappingToExtendedConfigurationObjectsByIDs>
   <namePrefix>ВТ_</namePrefix>
   <configurationExtensionCompatibilityMode>8.3.11</configurationExtensionCompatibilityMode>
@@ -27,7 +27,7 @@
   <usePurposes>PersonalComputer</usePurposes>
   <scriptVariant>Russian</scriptVariant>
   <defaultLanguage>Language.Русский</defaultLanguage>
-  <compatibilityMode>8.3.24</compatibilityMode>
+  <compatibilityMode>8.3.25</compatibilityMode>
   <languages uuid="426f7459-574d-4e64-b08d-ae4be878c27c">
     <name>Русский</name>
     <objectBelonging>Adopted</objectBelonging>

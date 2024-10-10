@@ -343,7 +343,7 @@
             </userVisible>
             <autoFill>true</autoFill>
           </contextMenu>
-          <source>ДеревоНеудаленныхОбъектовСтрокаПоиска</source>
+          <source>ДеревоНеудаленныхОбъектов</source>
           <extInfo xsi:type="form:SearchStringAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -382,7 +382,7 @@
             <autoFill>true</autoFill>
           </contextMenu>
           <type>ViewStatusAddition</type>
-          <source>ДеревоНеудаленныхОбъектовСостояниеПросмотра</source>
+          <source>ДеревоНеудаленныхОбъектов</source>
           <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -421,7 +421,7 @@
             <autoFill>true</autoFill>
           </contextMenu>
           <type>SearchControlAddition</type>
-          <source>ДеревоНеудаленныхОбъектовУправлениеПоиском</source>
+          <source>ДеревоНеудаленныхОбъектов</source>
           <extInfo xsi:type="form:SearchControlAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -831,7 +831,7 @@
             </userVisible>
             <autoFill>true</autoFill>
           </contextMenu>
-          <source>СписокПомеченныхНаУдалениеСтрокаПоиска</source>
+          <source>СписокПомеченныхНаУдаление</source>
           <extInfo xsi:type="form:SearchStringAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -870,7 +870,7 @@
             <autoFill>true</autoFill>
           </contextMenu>
           <type>ViewStatusAddition</type>
-          <source>СписокПомеченныхНаУдалениеСостояниеПросмотра</source>
+          <source>СписокПомеченныхНаУдаление</source>
           <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>
@@ -909,7 +909,7 @@
             <autoFill>true</autoFill>
           </contextMenu>
           <type>SearchControlAddition</type>
-          <source>СписокПомеченныхНаУдалениеУправлениеПоиском</source>
+          <source>СписокПомеченныхНаУдаление</source>
           <extInfo xsi:type="form:SearchControlAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
           </extInfo>

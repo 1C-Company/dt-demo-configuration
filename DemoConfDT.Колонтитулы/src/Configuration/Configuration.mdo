@@ -19,7 +19,7 @@
   <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="2302ab83-63c2-4ee5-aef7-4618b8c27358"/>
   <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="f22c855f-89ce-4c29-a59e-dfbc71716e0d"/>
   <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="775673d3-1db7-4f77-9867-1b60d0ec076e"/>
-  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="23b0f5e3-c050-4582-a946-436ac9c33bb0"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="42c8f441-5e74-4a05-989b-ec7efc70769f"/>
   <keepMappingToExtendedConfigurationObjectsByIDs>true</keepMappingToExtendedConfigurationObjectsByIDs>
   <namePrefix>КОЛ_</namePrefix>
   <configurationExtensionCompatibilityMode>8.3.15</configurationExtensionCompatibilityMode>
@@ -29,7 +29,7 @@
   <scriptVariant>Russian</scriptVariant>
   <defaultRoles>Role.КОЛ_ОсновнаяРоль</defaultRoles>
   <defaultLanguage>Language.Русский</defaultLanguage>
-  <compatibilityMode>8.3.24</compatibilityMode>
+  <compatibilityMode>8.3.25</compatibilityMode>
   <languages uuid="7db6d545-5484-4cee-aa2c-dc4d633d6047" extendedConfigurationObject="d5fb342e-0c73-4410-8517-8ce7ee20e8bd">
     <name>Русский</name>
     <objectBelonging>Adopted</objectBelonging>

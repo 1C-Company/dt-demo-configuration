@@ -11,10 +11,10 @@
   <objectBelonging>Adopted</objectBelonging>
   <extension xsi:type="mdclassExtension:CatalogExtension">
     <hierarchical>Checked</hierarchical>
-    <codeLength>Extended</codeLength>
+    <codeLength>Checked</codeLength>
     <codeAllowedLength>Checked</codeAllowedLength>
-    <descriptionLength>Extended</descriptionLength>
-    <codeType>Extended</codeType>
+    <descriptionLength>Checked</descriptionLength>
+    <codeType>Checked</codeType>
   </extension>
   <hierarchical>true</hierarchical>
   <codeLength>9</codeLength>
@@ -114,6 +114,7 @@
     </synonym>
     <extension xsi:type="mdclassExtension:BasicFeatureExtension">
       <synonym>Extended</synonym>
+      <choiceForm>Extended</choiceForm>
     </extension>
     <type>
       <types>Number</types>

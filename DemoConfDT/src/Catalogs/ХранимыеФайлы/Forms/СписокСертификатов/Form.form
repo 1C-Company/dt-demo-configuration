@@ -236,7 +236,7 @@
         </userVisible>
         <autoFill>true</autoFill>
       </contextMenu>
-      <source>ТаблицаДляВыбораSearchString</source>
+      <source>ТаблицаДляВыбора</source>
       <extInfo xsi:type="form:SearchStringAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>
@@ -275,7 +275,7 @@
         <autoFill>true</autoFill>
       </contextMenu>
       <type>ViewStatusAddition</type>
-      <source>ТаблицаДляВыбораViewStatus</source>
+      <source>ТаблицаДляВыбора</source>
       <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>
@@ -314,7 +314,7 @@
         <autoFill>true</autoFill>
       </contextMenu>
       <type>SearchControlAddition</type>
-      <source>ТаблицаДляВыбораSearchControl</source>
+      <source>ТаблицаДляВыбора</source>
       <extInfo xsi:type="form:SearchControlAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>
